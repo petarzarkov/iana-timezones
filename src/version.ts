@@ -40,8 +40,7 @@ const genVersion = async () => {
 
   logger.info(`[${packageName}] Starting versioning process.`, { currentVersion, newVersion });
   try {
-    packageJson.version = newVersion;
-    // execSync(`npm version ${newVersion} --no-git-tag-version`).toString();
+    execSync(`npm version ${newVersion} --no-git-tag-version`).toString();
     logger.info(`[${packageName}] Bumped package.json version.`);
   } catch (error) {
     logger.error(`[${packageName}] Error during version update.`, {

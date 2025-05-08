@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 /* eslint-disable no-useless-escape */
 import { writeFileSync } from 'node:fs';
-// Ensure ParsedData and ParsedZone types are correctly imported
-import { ParsedData, ParsedZone } from './helpers/parseData'; // Or wherever you define them
+import { ParsedData, ParsedZone } from './helpers/parseData';
+import { version } from '../package.json';
 
 export function generateReadme(parsedData: ParsedData): void {
   const header = `# iana-timezones
@@ -11,6 +11,7 @@ Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.or
 
 Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
+- **Package version**: ${version}
 - **IANA DB Version**: ${parsedData.version}
 - **Generated**: ${parsedData.date}
 - **Zones**: ${parsedData.numberOfZones}
