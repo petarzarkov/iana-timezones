@@ -1,0 +1,31 @@
+{
+  "extends": ["@tsconfig/node22/tsconfig", "@tsconfig/strictest"],
+  "compilerOptions": {
+    "strictPropertyInitialization": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "module": "ES6",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false,
+    "declaration": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": false,
+    "checkJs": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "incremental": false
+  },
+  "include": ["src/**/*"]
+}
