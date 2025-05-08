@@ -2,10 +2,10 @@
 /* eslint-disable no-useless-escape */
 import { writeFileSync } from 'node:fs';
 import { ParsedData, ParsedZone } from './helpers/parseData';
-import { version } from '../package.json';
+import { version, name } from '../package.json';
 
 export function generateReadme(parsedData: ParsedData): void {
-  const header = `# iana-timezones
+  const header = `# ${name}
 
 Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
 
