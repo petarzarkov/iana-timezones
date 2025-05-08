@@ -5,7 +5,7 @@ import { getData } from './helpers/getData.js';
 import { parseData } from './helpers/parseData.js';
 import { generateReadme } from './generateReadme.js';
 
-async function generateTimezones() {
+export async function generateTimezones() {
   const startTs = Date.now();
   try {
     const latestData = await getData({
@@ -19,7 +19,8 @@ async function generateTimezones() {
     logger.info('tz data successfully generated', { elapsed: Date.now() - startTs });
   } catch (error) {
     logger.error('an error has occurred on processing tz data', { elapsed: Date.now() - startTs, error });
+    throw error;
   }
 }
 
-generateTimezones();
+await generateTimezones();

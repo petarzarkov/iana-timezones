@@ -9,7 +9,7 @@
     "url": "https://github.com/petarzarkov"
   },
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "engines": {
     "node": ">= 22.15.0",
     "pnpm": ">= 10.9.0"
@@ -25,7 +25,7 @@
     "test": "echo TODO",
     "lint": "eslint --cache src/**",
     "pretty": "prettier --cache --ignore-unknown --write .",
-    "version": "echo TODO"
+    "version": "tsx --env-file=.env src/version.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",

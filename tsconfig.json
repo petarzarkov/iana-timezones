@@ -3,7 +3,7 @@
   "compilerOptions": {
     "strictPropertyInitialization": false,
     "noPropertyAccessFromIndexSignature": false,
-    "module": "ES6",
+    "module": "ESNext",
     "target": "ESNext",
     "lib": ["ESNext"],
     "moduleResolution": "node",
