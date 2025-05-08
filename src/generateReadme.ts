@@ -6,8 +6,12 @@ export function generateReadme(parsedData: ParsedData): void {
 
 Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
 
-Version: ${parsedData.version}
-Generated: ${new Date(parsedData.date).toISOString()}
+Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+
+- **IANA DB Version**: ${parsedData.version}
+- **Generated**: ${parsedData.date}
+- **Zones**: ${parsedData.numberOfZones}
+- **Files used**: \`${parsedData.filesUsed.join(', ')}\`
 
 ---
 
@@ -16,7 +20,7 @@ Generated: ${new Date(parsedData.date).toISOString()}
   // Group zones by geographicArea
   const zonesByArea = new Map<string, ParsedZone[]>();
   for (const zone of Object.values(parsedData.zones)) {
-    const area = zone.geographicAreaDisplayName ?? zone.geographicArea ?? 'Other';
+    const area = zone.geographicAreaDisplayName ?? zone.geographicArea ?? 'Etc';
     if (!zonesByArea.has(area)) {
       zonesByArea.set(area, []);
     }

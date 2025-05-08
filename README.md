@@ -2,8 +2,12 @@
 
 Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
 
-Version: 2025b
-Generated: 2025-05-08T13:01:19.000Z
+Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+
+- **IANA DB Version**: 2025b
+- **Generated**: Thu, 08 May 2025 13:31:04 GMT
+- **Zones**: 597
+- **Files used**: `zone.tab, zone1970.tab, etcetera, backward`
 
 ---
 
@@ -493,13 +497,42 @@ Generated: 2025-05-08T13:01:19.000Z
 
 | Location | Timezone | Type | Link |
 |----------|----------|------|------|
+| null | `Etc/GMT` | Canonical | Children: Etc/GMT-0, Etc/GMT+0, Etc/GMT0, Etc/Greenwich, GMT, GMT-0, GMT+0, GMT0, Greenwich |
 | GMT-0 | `Etc/GMT-0` | Link | Parent: Etc/GMT |
+| null | `Etc/GMT-1` | Canonical | - |
+| null | `Etc/GMT-10` | Canonical | - |
+| null | `Etc/GMT-11` | Canonical | - |
+| null | `Etc/GMT-12` | Canonical | - |
+| null | `Etc/GMT-13` | Canonical | - |
+| null | `Etc/GMT-14` | Canonical | - |
+| null | `Etc/GMT-2` | Canonical | - |
+| null | `Etc/GMT-3` | Canonical | - |
+| null | `Etc/GMT-4` | Canonical | - |
+| null | `Etc/GMT-5` | Canonical | - |
+| null | `Etc/GMT-6` | Canonical | - |
+| null | `Etc/GMT-7` | Canonical | - |
+| null | `Etc/GMT-8` | Canonical | - |
+| null | `Etc/GMT-9` | Canonical | - |
 | GMT+0 | `Etc/GMT+0` | Link | Parent: Etc/GMT |
+| null | `Etc/GMT+1` | Canonical | - |
+| null | `Etc/GMT+10` | Canonical | - |
+| null | `Etc/GMT+11` | Canonical | - |
+| null | `Etc/GMT+12` | Canonical | - |
+| null | `Etc/GMT+2` | Canonical | - |
+| null | `Etc/GMT+3` | Canonical | - |
+| null | `Etc/GMT+4` | Canonical | - |
+| null | `Etc/GMT+5` | Canonical | - |
+| null | `Etc/GMT+6` | Canonical | - |
+| null | `Etc/GMT+7` | Canonical | - |
+| null | `Etc/GMT+8` | Canonical | - |
+| null | `Etc/GMT+9` | Canonical | - |
 | GMT0 | `Etc/GMT0` | Link | Parent: Etc/GMT |
 | Greenwich | `Etc/Greenwich` | Link | Parent: Etc/GMT |
 | UCT | `Etc/UCT` | Link | Parent: Etc/UTC |
 | Universal | `Etc/Universal` | Link | Parent: Etc/UTC |
+| null | `Etc/UTC` | Canonical | Children: Etc/UCT, Etc/Universal, Etc/Zulu, UCT, Universal, UTC, Zulu |
 | Zulu | `Etc/Zulu` | Link | Parent: Etc/UTC |
+| null | `GMT` | Link | Parent: Etc/GMT |
 
 ## Europe
 
@@ -719,40 +752,6 @@ Generated: 2025-05-08T13:01:19.000Z
 | Location | Timezone | Type | Link |
 |----------|----------|------|------|
 | NZ-CHAT | `NZ-CHAT` | Link | Parent: Pacific/Chatham |
-
-## Other
-
-| Location | Timezone | Type | Link |
-|----------|----------|------|------|
-| null | `Etc/GMT` | Canonical | Children: Etc/GMT-0, Etc/GMT+0, Etc/GMT0, Etc/Greenwich, GMT, GMT-0, GMT+0, GMT0, Greenwich |
-| null | `Etc/GMT-1` | Canonical | - |
-| null | `Etc/GMT-10` | Canonical | - |
-| null | `Etc/GMT-11` | Canonical | - |
-| null | `Etc/GMT-12` | Canonical | - |
-| null | `Etc/GMT-13` | Canonical | - |
-| null | `Etc/GMT-14` | Canonical | - |
-| null | `Etc/GMT-2` | Canonical | - |
-| null | `Etc/GMT-3` | Canonical | - |
-| null | `Etc/GMT-4` | Canonical | - |
-| null | `Etc/GMT-5` | Canonical | - |
-| null | `Etc/GMT-6` | Canonical | - |
-| null | `Etc/GMT-7` | Canonical | - |
-| null | `Etc/GMT-8` | Canonical | - |
-| null | `Etc/GMT-9` | Canonical | - |
-| null | `Etc/GMT+1` | Canonical | - |
-| null | `Etc/GMT+10` | Canonical | - |
-| null | `Etc/GMT+11` | Canonical | - |
-| null | `Etc/GMT+12` | Canonical | - |
-| null | `Etc/GMT+2` | Canonical | - |
-| null | `Etc/GMT+3` | Canonical | - |
-| null | `Etc/GMT+4` | Canonical | - |
-| null | `Etc/GMT+5` | Canonical | - |
-| null | `Etc/GMT+6` | Canonical | - |
-| null | `Etc/GMT+7` | Canonical | - |
-| null | `Etc/GMT+8` | Canonical | - |
-| null | `Etc/GMT+9` | Canonical | - |
-| null | `Etc/UTC` | Canonical | Children: Etc/UCT, Etc/Universal, Etc/Zulu, UCT, Universal, UTC, Zulu |
-| null | `GMT` | Link | Parent: Etc/GMT |
 
 ## Pacific
 
