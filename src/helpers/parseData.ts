@@ -1,6 +1,6 @@
 import { deepSort } from '../utils/deepSort.js';
 import { logger } from '../utils/logger.js';
-import type { CanonicalTimezone, IANATzDataFiles, LinkTimezone, ZoneFileRow } from './types.js';
+import type { CanonicalTimezone, IANATzDataFiles, LinkTimezone, ZoneFileRow } from '../types.js';
 import { extractGeographicAreaAndLocation, formatLocation } from './utils.js';
 
 import { parse as parseCsv } from 'csv-parse/sync';
@@ -168,8 +168,12 @@ export async function parseData(data: IANATzDataFiles) {
 
   return {
     version: data.version,
+    date: new Date().toUTCString(),
     numberOfZones: Object.keys(zones).length,
     filesUsed: [legacyZoneFileName, zone1970FileName, etcFileName, backwardFileName],
     zones: orderedZones,
   };
 }
+
+export type ParsedData = Awaited<ReturnType<typeof parseData>>;
+export type ParsedZone = ParsedData['zones'][string];

@@ -1,6 +1,6 @@
 import { Readable } from 'node:stream';
 import { decompressTarGz } from '../utils/decompressTarGz.js';
-import { IANATzDataFiles, IANATzDataParams } from './types.js';
+import { IANATzDataFiles, IANATzDataParams } from '../types.js';
 import { removeLineBreaks } from './utils.js';
 
 export async function getData(params?: IANATzDataParams): Promise<IANATzDataFiles> {
