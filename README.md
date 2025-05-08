@@ -4,8 +4,9 @@ Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.or
 
 Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
+- **Package version**: 0.0.2
 - **IANA DB Version**: 2025b
-- **Generated**: Thu, 08 May 2025 15:04:17 GMT
+- **Generated**: Thu, 08 May 2025 15:41:54 GMT
 - **Zones**: 597
 - **Files used**: `zone.tab, zone1970.tab, etcetera, backward`
 
