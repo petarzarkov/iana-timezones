@@ -3,17 +3,17 @@ import { logger } from '../utils/logger.js';
 import type { CanonicalTimezone, IANATzDataFiles, LinkTimezone, ZoneFileRow } from '../types.js';
 import { extractGeographicAreaAndLocation, formatLocation } from './utils.js';
 
-import { parse as parseCsv } from 'csv-parse/sync';
+import { parse as parseCsv, Options } from 'csv-parse/sync';
+import { getCurrentOffset } from './getCurrentOffset.js';
 
 export async function parseData(data: IANATzDataFiles) {
-  const parseOptions = { delimiter: '\t', comment: '#', relax_column_count: true, skip_empty_lines: true };
-
   const legacyZoneFileName = 'zone.tab';
   const zone1970FileName = 'zone1970.tab';
   const etcFileName = 'etcetera';
   const backwardFileName = 'backward';
 
-  const zoneFileOptions = {
+  const parseOptions: Options = { delimiter: '\t', comment: '#', relax_column_count: true, skip_empty_lines: true };
+  const zoneFileOptions: Options = {
     bom: true,
     ...parseOptions,
     columns: ['countryCodes', 'coordinates', 'timezoneName', 'comments'],
@@ -44,18 +44,24 @@ export async function parseData(data: IANATzDataFiles) {
 
   for (const row of zoneFileRows) {
     const countryCodes = row.countryCodes.split(',');
-    const { geographicArea, location } = extractGeographicAreaAndLocation(row.timezoneName);
+    const timezoneName = row.timezoneName.trim(); // Trim to be safe
+    if (!timezoneName) {
+      logger.warn('Empty timezoneName in zone1970.tab row', { row });
+      continue;
+    }
 
-    canonicalTimezones[row.timezoneName] = {
+    const { geographicArea, location } = extractGeographicAreaAndLocation(timezoneName);
+    canonicalTimezones[timezoneName] = {
       children: [],
       type: 'Canonical',
-      timezoneName: row.timezoneName,
+      timezoneName,
       countryCodes,
       geographicArea,
       geographicAreaDisplayName: geographicArea,
       location,
       locationDisplayName: formatLocation(location),
       comments: row.comments || null,
+      currentOffset: getCurrentOffset(timezoneName),
     };
   }
 
@@ -84,6 +90,7 @@ export async function parseData(data: IANATzDataFiles) {
         comments: null,
         children: [],
         type: 'Canonical',
+        currentOffset: getCurrentOffset(timezoneName),
       };
     }
 
@@ -114,6 +121,7 @@ export async function parseData(data: IANATzDataFiles) {
         comments: null,
         type: 'Link',
         parent: canonicalTimezoneName,
+        currentOffset: getCurrentOffset(linkName),
       };
 
       parent.children.push(linkName);
@@ -156,6 +164,7 @@ export async function parseData(data: IANATzDataFiles) {
       comments: legacyRow?.comments || null,
       type: 'Link',
       parent: canonicalZoneName,
+      currentOffset: getCurrentOffset(linkName),
     };
   }
 

@@ -21,7 +21,6 @@
   "homepage": "https://github.com/petarzarkov/iana-timezones",
   "scripts": {
     "prepare": "node -e \"process.env.CI || process.env.DOCKER || process.exit(1)\" || husky",
-    "format": "prettier --write --cache .",
     "generate": "tsx --env-file=.env src/generateTimezones.ts",
     "test": "echo TODO",
     "lint": "eslint --cache src/**",

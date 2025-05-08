@@ -17,6 +17,7 @@ export interface BaseTimezone {
   location: string | null;
   locationDisplayName: string | null;
   comments: string | null;
+  currentOffset: string;
 }
 
 export interface CanonicalTimezone extends BaseTimezone {

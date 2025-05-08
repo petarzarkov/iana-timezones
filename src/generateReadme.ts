@@ -1,5 +1,8 @@
+/* eslint-disable max-len */
+/* eslint-disable no-useless-escape */
 import { writeFileSync } from 'node:fs';
-import { ParsedData, ParsedZone } from './helpers/parseData';
+// Ensure ParsedData and ParsedZone types are correctly imported
+import { ParsedData, ParsedZone } from './helpers/parseData'; // Or wherever you define them
 
 export function generateReadme(parsedData: ParsedData): void {
   const header = `# iana-timezones
@@ -17,7 +20,6 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 
 `;
 
-  // Group zones by geographicArea
   const zonesByArea = new Map<string, ParsedZone[]>();
   for (const zone of Object.values(parsedData.zones)) {
     const area = zone.geographicAreaDisplayName ?? zone.geographicArea ?? 'Etc';
@@ -27,22 +29,40 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
     zonesByArea.get(area)!.push(zone);
   }
 
+  function createMarkdownLink(timezoneName: string): string {
+    const anchor = timezoneName
+      .toLowerCase()
+      .replace(/[\/_]/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
+    return `[\`${timezoneName}\`]\(#${anchor}\)`;
+  }
+
   const areaSections = Array.from(zonesByArea.entries())
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([area, zones]) => {
-      const tableHeader = `## ${area}\n\n| Location | Timezone | Type | Link |\n|----------|----------|------|------|\n`;
+      const tableHeader = `## ${area}\n\n| Location | Timezone | Type | Country Codes | Offset | Link |\n|----------|----------|------|---------------|--------|------|\n`;
+
       const tableRows = zones
         .sort((a, b) => a.timezoneName.localeCompare(b.timezoneName))
         .map((zone) => {
-          const link =
-            'children' in zone && zone.children && zone.children.length
-              ? `Children: ${zone.children.join(', ')}`
-              : 'parent' in zone && zone.parent
-                ? `Parent: ${zone.parent}`
-                : '-';
-          return `| ${zone.locationDisplayName} | \`${zone.timezoneName}\` | ${zone.type} | ${link} |`;
+          const rowAnchor = zone.timezoneName
+            .toLowerCase()
+            .replace(/[\/_]/g, '-')
+            .replace(/[^a-z0-9-]/g, '');
+          const countryCodes = zone.countryCodes.length > 0 ? zone.countryCodes.join(', ') : '-';
+          const offset = zone.currentOffset;
+
+          let linkText = '-';
+          if ('children' in zone && zone.children && zone.children.length > 0) {
+            linkText = `Children: ${zone.children.map(createMarkdownLink).join(', ')}`;
+          } else if ('parent' in zone && zone.parent) {
+            linkText = `Parent: ${createMarkdownLink(zone.parent)}`;
+          }
+
+          return `| <a name="${rowAnchor}"></a>${zone.locationDisplayName ?? '-'} | \`${zone.timezoneName}\` | ${zone.type} | ${countryCodes} | ${offset} | ${linkText} |`;
         })
         .join('\n');
+
       return `${tableHeader}${tableRows}\n`;
     })
     .join('\n');
