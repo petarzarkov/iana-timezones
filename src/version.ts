@@ -2,31 +2,25 @@ import { execSync } from 'child_process';
 import { logger } from './utils/logger.js';
 import packageJson from '../package.json';
 
-export const getNewVersion = (version: string) => {
-  let [major, minor, patch] = version.split('.').map((v) => parseInt(v));
+export const getNewVersion = (currentVersion: string): `${string}.${string}.${string}` => {
+  const parts = currentVersion.split('.').map(Number);
+  if (parts.length !== 3 || parts.some(isNaN) || parts.some((part) => part < 0)) {
+    throw new Error(
+      `Invalid version string format: "${currentVersion}". Expected X.Y.Z where X, Y, Z are non-negative integers.`,
+    );
+  }
+  let [major, minor, patch] = parts;
 
-  let patched = false;
-  let minored = false;
-
-  if (patch === 9) {
-    if (minor! <= 8) {
-      minor! += 1;
-      minored = true;
-    }
+  patch! += 1;
+  if (patch! >= 10) {
     patch = 0;
-    patched = true;
+    minor! += 1;
+    if (minor! >= 10) {
+      minor = 0;
+      major! += 1;
+    }
   }
-
-  if (minor === 9 && !minored) {
-    major! += 1;
-    minor = 0;
-  }
-
-  if (patch! <= 8 && !patched) {
-    patch! += 1;
-  }
-
-  return [major, minor, patch].join('.');
+  return `${major}.${minor}.${patch}`;
 };
 
 const genVersion = async () => {

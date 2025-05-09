@@ -2,12 +2,13 @@
 
 Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
 
-Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
 - **Package version**: 0.0.2
 - **IANA DB Version**: 2025b
-- **Generated**: Thu, 08 May 2025 15:41:54 GMT
+- **Generated**: Fri, 09 May 2025 07:25:29 GMT
 - **Zones**: 597
+- **JSON data**: [timezones](./timezones.json)
 - **Files used**: `zone.tab, zone1970.tab, etcetera, backward`
 
 ---
@@ -16,29 +17,29 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 
 | Location | Timezone | Type | Country Codes | Offset | Link |
 |----------|----------|------|---------------|--------|------|
-| <a name="africa-abidjan"></a>Abidjan | `Africa/Abidjan` | Canonical | BF, CI, GH, GM, GN, IS, ML, MR, SH, SL, SN, TG |  | Children: [`Africa/Accra`](#africa-accra), [`Africa/Bamako`](#africa-bamako), [`Africa/Banjul`](#africa-banjul), [`Africa/Conakry`](#africa-conakry), [`Africa/Dakar`](#africa-dakar), [`Africa/Freetown`](#africa-freetown), [`Africa/Lome`](#africa-lome), [`Africa/Nouakchott`](#africa-nouakchott), [`Africa/Ouagadougou`](#africa-ouagadougou), [`Africa/Timbuktu`](#africa-timbuktu), [`Atlantic/Reykjavik`](#atlantic-reykjavik), [`Atlantic/St_Helena`](#atlantic-st-helena), [`Iceland`](#iceland) |
-| <a name="africa-accra"></a>Accra | `Africa/Accra` | Link | GH |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-abidjan"></a>Abidjan | `Africa/Abidjan` | Canonical | BF, CI, GH, GM, GN, IS, ML, MR, SH, SL, SN, TG | +00:00 | Children: [`Africa/Accra`](#africa-accra), [`Africa/Bamako`](#africa-bamako), [`Africa/Banjul`](#africa-banjul), [`Africa/Conakry`](#africa-conakry), [`Africa/Dakar`](#africa-dakar), [`Africa/Freetown`](#africa-freetown), [`Africa/Lome`](#africa-lome), [`Africa/Nouakchott`](#africa-nouakchott), [`Africa/Ouagadougou`](#africa-ouagadougou), [`Africa/Timbuktu`](#africa-timbuktu), [`Atlantic/Reykjavik`](#atlantic-reykjavik), [`Atlantic/St_Helena`](#atlantic-st-helena), [`Iceland`](#iceland) |
+| <a name="africa-accra"></a>Accra | `Africa/Accra` | Link | GH | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="africa-addis-ababa"></a>Addis Ababa | `Africa/Addis_Ababa` | Link | ET | +03:00 | Parent: [`Africa/Nairobi`](#africa-nairobi) |
 | <a name="africa-algiers"></a>Algiers | `Africa/Algiers` | Canonical | DZ | +01:00 | - |
 | <a name="africa-asmara"></a>Asmara | `Africa/Asmara` | Link | ER | +03:00 | Parent: [`Africa/Nairobi`](#africa-nairobi) |
 | <a name="africa-asmera"></a>Asmera | `Africa/Asmera` | Link | - | +03:00 | Parent: [`Africa/Nairobi`](#africa-nairobi) |
-| <a name="africa-bamako"></a>Bamako | `Africa/Bamako` | Link | ML |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-bamako"></a>Bamako | `Africa/Bamako` | Link | ML | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="africa-bangui"></a>Bangui | `Africa/Bangui` | Link | CF | +01:00 | Parent: [`Africa/Lagos`](#africa-lagos) |
-| <a name="africa-banjul"></a>Banjul | `Africa/Banjul` | Link | GM |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
-| <a name="africa-bissau"></a>Bissau | `Africa/Bissau` | Canonical | GW |  | - |
+| <a name="africa-banjul"></a>Banjul | `Africa/Banjul` | Link | GM | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-bissau"></a>Bissau | `Africa/Bissau` | Canonical | GW | +00:00 | - |
 | <a name="africa-blantyre"></a>Blantyre | `Africa/Blantyre` | Link | MW | +02:00 | Parent: [`Africa/Maputo`](#africa-maputo) |
 | <a name="africa-brazzaville"></a>Brazzaville | `Africa/Brazzaville` | Link | CG | +01:00 | Parent: [`Africa/Lagos`](#africa-lagos) |
 | <a name="africa-bujumbura"></a>Bujumbura | `Africa/Bujumbura` | Link | BI | +02:00 | Parent: [`Africa/Maputo`](#africa-maputo) |
 | <a name="africa-cairo"></a>Cairo | `Africa/Cairo` | Canonical | EG | +03:00 | Children: [`Egypt`](#egypt) |
 | <a name="africa-casablanca"></a>Casablanca | `Africa/Casablanca` | Canonical | MA | +01:00 | - |
 | <a name="africa-ceuta"></a>Ceuta | `Africa/Ceuta` | Canonical | ES | +02:00 | - |
-| <a name="africa-conakry"></a>Conakry | `Africa/Conakry` | Link | GN |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
-| <a name="africa-dakar"></a>Dakar | `Africa/Dakar` | Link | SN |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-conakry"></a>Conakry | `Africa/Conakry` | Link | GN | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-dakar"></a>Dakar | `Africa/Dakar` | Link | SN | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="africa-dar-es-salaam"></a>Dar es_Salaam | `Africa/Dar_es_Salaam` | Link | TZ | +03:00 | Parent: [`Africa/Nairobi`](#africa-nairobi) |
 | <a name="africa-djibouti"></a>Djibouti | `Africa/Djibouti` | Link | DJ | +03:00 | Parent: [`Africa/Nairobi`](#africa-nairobi) |
 | <a name="africa-douala"></a>Douala | `Africa/Douala` | Link | CM | +01:00 | Parent: [`Africa/Lagos`](#africa-lagos) |
 | <a name="africa-el-aaiun"></a>El Aaiun | `Africa/El_Aaiun` | Canonical | EH | +01:00 | - |
-| <a name="africa-freetown"></a>Freetown | `Africa/Freetown` | Link | SL |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-freetown"></a>Freetown | `Africa/Freetown` | Link | SL | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="africa-gaborone"></a>Gaborone | `Africa/Gaborone` | Link | BW | +02:00 | Parent: [`Africa/Maputo`](#africa-maputo) |
 | <a name="africa-harare"></a>Harare | `Africa/Harare` | Link | ZW | +02:00 | Parent: [`Africa/Maputo`](#africa-maputo) |
 | <a name="africa-johannesburg"></a>Johannesburg | `Africa/Johannesburg` | Canonical | LS, SZ, ZA | +02:00 | Children: [`Africa/Maseru`](#africa-maseru), [`Africa/Mbabane`](#africa-mbabane) |
@@ -49,7 +50,7 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="africa-kinshasa"></a>Kinshasa | `Africa/Kinshasa` | Link | CD | +01:00 | Parent: [`Africa/Lagos`](#africa-lagos) |
 | <a name="africa-lagos"></a>Lagos | `Africa/Lagos` | Canonical | AO, BJ, CD, CF, CG, CM, GA, GQ, NE, NG | +01:00 | Children: [`Africa/Bangui`](#africa-bangui), [`Africa/Brazzaville`](#africa-brazzaville), [`Africa/Douala`](#africa-douala), [`Africa/Kinshasa`](#africa-kinshasa), [`Africa/Libreville`](#africa-libreville), [`Africa/Luanda`](#africa-luanda), [`Africa/Malabo`](#africa-malabo), [`Africa/Niamey`](#africa-niamey), [`Africa/Porto-Novo`](#africa-porto-novo) |
 | <a name="africa-libreville"></a>Libreville | `Africa/Libreville` | Link | GA | +01:00 | Parent: [`Africa/Lagos`](#africa-lagos) |
-| <a name="africa-lome"></a>Lome | `Africa/Lome` | Link | TG |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-lome"></a>Lome | `Africa/Lome` | Link | TG | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="africa-luanda"></a>Luanda | `Africa/Luanda` | Link | AO | +01:00 | Parent: [`Africa/Lagos`](#africa-lagos) |
 | <a name="africa-lubumbashi"></a>Lubumbashi | `Africa/Lubumbashi` | Link | CD | +02:00 | Parent: [`Africa/Maputo`](#africa-maputo) |
 | <a name="africa-lusaka"></a>Lusaka | `Africa/Lusaka` | Link | ZM | +02:00 | Parent: [`Africa/Maputo`](#africa-maputo) |
@@ -58,18 +59,21 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="africa-maseru"></a>Maseru | `Africa/Maseru` | Link | LS | +02:00 | Parent: [`Africa/Johannesburg`](#africa-johannesburg) |
 | <a name="africa-mbabane"></a>Mbabane | `Africa/Mbabane` | Link | SZ | +02:00 | Parent: [`Africa/Johannesburg`](#africa-johannesburg) |
 | <a name="africa-mogadishu"></a>Mogadishu | `Africa/Mogadishu` | Link | SO | +03:00 | Parent: [`Africa/Nairobi`](#africa-nairobi) |
-| <a name="africa-monrovia"></a>Monrovia | `Africa/Monrovia` | Canonical | LR |  | - |
+| <a name="africa-monrovia"></a>Monrovia | `Africa/Monrovia` | Canonical | LR | +00:00 | - |
 | <a name="africa-nairobi"></a>Nairobi | `Africa/Nairobi` | Canonical | DJ, ER, ET, KE, KM, MG, SO, TZ, UG, YT | +03:00 | Children: [`Africa/Addis_Ababa`](#africa-addis-ababa), [`Africa/Asmara`](#africa-asmara), [`Africa/Asmera`](#africa-asmera), [`Africa/Dar_es_Salaam`](#africa-dar-es-salaam), [`Africa/Djibouti`](#africa-djibouti), [`Africa/Kampala`](#africa-kampala), [`Africa/Mogadishu`](#africa-mogadishu), [`Indian/Antananarivo`](#indian-antananarivo), [`Indian/Comoro`](#indian-comoro), [`Indian/Mayotte`](#indian-mayotte) |
 | <a name="africa-ndjamena"></a>Ndjamena | `Africa/Ndjamena` | Canonical | TD | +01:00 | - |
 | <a name="africa-niamey"></a>Niamey | `Africa/Niamey` | Link | NE | +01:00 | Parent: [`Africa/Lagos`](#africa-lagos) |
-| <a name="africa-nouakchott"></a>Nouakchott | `Africa/Nouakchott` | Link | MR |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
-| <a name="africa-ouagadougou"></a>Ouagadougou | `Africa/Ouagadougou` | Link | BF |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-nouakchott"></a>Nouakchott | `Africa/Nouakchott` | Link | MR | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-ouagadougou"></a>Ouagadougou | `Africa/Ouagadougou` | Link | BF | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="africa-porto-novo"></a>Porto-Novo | `Africa/Porto-Novo` | Link | BJ | +01:00 | Parent: [`Africa/Lagos`](#africa-lagos) |
-| <a name="africa-sao-tome"></a>Sao Tome | `Africa/Sao_Tome` | Canonical | ST |  | - |
-| <a name="africa-timbuktu"></a>Timbuktu | `Africa/Timbuktu` | Link | - |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="africa-sao-tome"></a>Sao Tome | `Africa/Sao_Tome` | Canonical | ST | +00:00 | - |
+| <a name="africa-timbuktu"></a>Timbuktu | `Africa/Timbuktu` | Link | - | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="africa-tripoli"></a>Tripoli | `Africa/Tripoli` | Canonical | LY | +02:00 | Children: [`Libya`](#libya) |
 | <a name="africa-tunis"></a>Tunis | `Africa/Tunis` | Canonical | TN | +01:00 | - |
 | <a name="africa-windhoek"></a>Windhoek | `Africa/Windhoek` | Canonical | NA | +02:00 | - |
+| <a name="egypt"></a>Egypt | `Egypt` | Link | - | +03:00 | Parent: [`Africa/Cairo`](#africa-cairo) |
+| <a name="iceland"></a>Iceland | `Iceland` | Link | - | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="libya"></a>Libya | `Libya` | Link | - | +02:00 | Parent: [`Africa/Tripoli`](#africa-tripoli) |
 
 ## America
 
@@ -124,7 +128,7 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="america-creston"></a>Creston | `America/Creston` | Link | CA | -07:00 | Parent: [`America/Phoenix`](#america-phoenix) |
 | <a name="america-cuiaba"></a>Cuiaba | `America/Cuiaba` | Canonical | BR | -04:00 | - |
 | <a name="america-curacao"></a>Curacao | `America/Curacao` | Link | CW | -04:00 | Parent: [`America/Puerto_Rico`](#america-puerto-rico) |
-| <a name="america-danmarkshavn"></a>Danmarkshavn | `America/Danmarkshavn` | Canonical | GL |  | - |
+| <a name="america-danmarkshavn"></a>Danmarkshavn | `America/Danmarkshavn` | Canonical | GL | +00:00 | - |
 | <a name="america-dawson"></a>Dawson | `America/Dawson` | Canonical | CA | -07:00 | - |
 | <a name="america-dawson-creek"></a>Dawson Creek | `America/Dawson_Creek` | Canonical | CA | -07:00 | - |
 | <a name="america-denver"></a>Denver | `America/Denver` | Canonical | US | -06:00 | Children: [`America/Shiprock`](#america-shiprock), [`MST7MDT`](#mst7mdt), [`Navajo`](#navajo), [`US/Mountain`](#us-mountain) |
@@ -244,6 +248,15 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="america-winnipeg"></a>Winnipeg | `America/Winnipeg` | Canonical | CA | -05:00 | Children: [`America/Rainy_River`](#america-rainy-river), [`Canada/Central`](#canada-central) |
 | <a name="america-yakutat"></a>Yakutat | `America/Yakutat` | Canonical | US | -08:00 | - |
 | <a name="america-yellowknife"></a>Yellowknife | `America/Yellowknife` | Link | - | -06:00 | Parent: [`America/Edmonton`](#america-edmonton) |
+| <a name="cst6cdt"></a>CST6CDT | `CST6CDT` | Link | - | -05:00 | Parent: [`America/Chicago`](#america-chicago) |
+| <a name="cuba"></a>Cuba | `Cuba` | Link | - | -04:00 | Parent: [`America/Havana`](#america-havana) |
+| <a name="est"></a>EST | `EST` | Link | - | -05:00 | Parent: [`America/Panama`](#america-panama) |
+| <a name="est5edt"></a>EST5EDT | `EST5EDT` | Link | - | -04:00 | Parent: [`America/New_York`](#america-new-york) |
+| <a name="jamaica"></a>Jamaica | `Jamaica` | Link | - | -05:00 | Parent: [`America/Jamaica`](#america-jamaica) |
+| <a name="mst"></a>MST | `MST` | Link | - | -07:00 | Parent: [`America/Phoenix`](#america-phoenix) |
+| <a name="mst7mdt"></a>MST7MDT | `MST7MDT` | Link | - | -06:00 | Parent: [`America/Denver`](#america-denver) |
+| <a name="navajo"></a>Navajo | `Navajo` | Link | - | -06:00 | Parent: [`America/Denver`](#america-denver) |
+| <a name="pst8pdt"></a>PST8PDT | `PST8PDT` | Link | - | -07:00 | Parent: [`America/Los_Angeles`](#america-los-angeles) |
 
 ## Antarctica
 
@@ -371,12 +384,20 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="asia-yangon"></a>Yangon | `Asia/Yangon` | Canonical | CC, MM | +06:30 | Children: [`Asia/Rangoon`](#asia-rangoon), [`Indian/Cocos`](#indian-cocos) |
 | <a name="asia-yekaterinburg"></a>Yekaterinburg | `Asia/Yekaterinburg` | Canonical | RU | +05:00 | - |
 | <a name="asia-yerevan"></a>Yerevan | `Asia/Yerevan` | Canonical | AM | +04:00 | - |
+| <a name="hongkong"></a>Hongkong | `Hongkong` | Link | - | +08:00 | Parent: [`Asia/Hong_Kong`](#asia-hong-kong) |
+| <a name="iran"></a>Iran | `Iran` | Link | - | +03:30 | Parent: [`Asia/Tehran`](#asia-tehran) |
+| <a name="israel"></a>Israel | `Israel` | Link | - | +03:00 | Parent: [`Asia/Jerusalem`](#asia-jerusalem) |
+| <a name="japan"></a>Japan | `Japan` | Link | - | +09:00 | Parent: [`Asia/Tokyo`](#asia-tokyo) |
+| <a name="prc"></a>PRC | `PRC` | Link | - | +08:00 | Parent: [`Asia/Shanghai`](#asia-shanghai) |
+| <a name="roc"></a>ROC | `ROC` | Link | - | +08:00 | Parent: [`Asia/Taipei`](#asia-taipei) |
+| <a name="rok"></a>ROK | `ROK` | Link | - | +09:00 | Parent: [`Asia/Seoul`](#asia-seoul) |
+| <a name="singapore"></a>Singapore | `Singapore` | Link | - | +08:00 | Parent: [`Asia/Singapore`](#asia-singapore) |
 
 ## Atlantic
 
 | Location | Timezone | Type | Country Codes | Offset | Link |
 |----------|----------|------|---------------|--------|------|
-| <a name="atlantic-azores"></a>Azores | `Atlantic/Azores` | Canonical | PT |  | - |
+| <a name="atlantic-azores"></a>Azores | `Atlantic/Azores` | Canonical | PT | +00:00 | - |
 | <a name="atlantic-bermuda"></a>Bermuda | `Atlantic/Bermuda` | Canonical | BM | -03:00 | - |
 | <a name="atlantic-canary"></a>Canary | `Atlantic/Canary` | Canonical | ES | +01:00 | - |
 | <a name="atlantic-cape-verde"></a>Cape Verde | `Atlantic/Cape_Verde` | Canonical | CV | -01:00 | - |
@@ -384,9 +405,9 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="atlantic-faroe"></a>Faroe | `Atlantic/Faroe` | Canonical | FO | +01:00 | Children: [`Atlantic/Faeroe`](#atlantic-faeroe) |
 | <a name="atlantic-jan-mayen"></a>Jan Mayen | `Atlantic/Jan_Mayen` | Link | - | +02:00 | Parent: [`Europe/Berlin`](#europe-berlin) |
 | <a name="atlantic-madeira"></a>Madeira | `Atlantic/Madeira` | Canonical | PT | +01:00 | - |
-| <a name="atlantic-reykjavik"></a>Reykjavik | `Atlantic/Reykjavik` | Link | IS |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="atlantic-reykjavik"></a>Reykjavik | `Atlantic/Reykjavik` | Link | IS | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="atlantic-south-georgia"></a>South Georgia | `Atlantic/South_Georgia` | Canonical | GS | -02:00 | - |
-| <a name="atlantic-st-helena"></a>St Helena | `Atlantic/St_Helena` | Link | SH |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="atlantic-st-helena"></a>St Helena | `Atlantic/St_Helena` | Link | SH | +00:00 | Parent: [`Africa/Abidjan`](#africa-abidjan) |
 | <a name="atlantic-stanley"></a>Stanley | `Atlantic/Stanley` | Canonical | FK | -03:00 | - |
 
 ## Australia
@@ -439,12 +460,6 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="canada-saskatchewan"></a>Saskatchewan | `Canada/Saskatchewan` | Link | - | -06:00 | Parent: [`America/Regina`](#america-regina) |
 | <a name="canada-yukon"></a>Yukon | `Canada/Yukon` | Link | - | -07:00 | Parent: [`America/Whitehorse`](#america-whitehorse) |
 
-## CE
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="cet"></a>CET | `CET` | Link | - | +02:00 | Parent: [`Europe/Brussels`](#europe-brussels) |
-
 ## Chile
 
 | Location | Timezone | Type | Country Codes | Offset | Link |
@@ -452,54 +467,12 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="chile-continental"></a>Continental | `Chile/Continental` | Link | - | -04:00 | Parent: [`America/Santiago`](#america-santiago) |
 | <a name="chile-easterisland"></a>EasterIsland | `Chile/EasterIsland` | Link | - | -06:00 | Parent: [`Pacific/Easter`](#pacific-easter) |
 
-## CST6CD
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="cst6cdt"></a>CST6CDT | `CST6CDT` | Link | - | -05:00 | Parent: [`America/Chicago`](#america-chicago) |
-
-## Cub
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="cuba"></a>Cuba | `Cuba` | Link | - | -04:00 | Parent: [`America/Havana`](#america-havana) |
-
-## EE
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="eet"></a>EET | `EET` | Link | - | +03:00 | Parent: [`Europe/Athens`](#europe-athens) |
-
-## Egyp
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="egypt"></a>Egypt | `Egypt` | Link | - | +03:00 | Parent: [`Africa/Cairo`](#africa-cairo) |
-
-## Eir
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="eire"></a>Eire | `Eire` | Link | - | +01:00 | Parent: [`Europe/Dublin`](#europe-dublin) |
-
-## ES
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="est"></a>EST | `EST` | Link | - | -05:00 | Parent: [`America/Panama`](#america-panama) |
-
-## EST5ED
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="est5edt"></a>EST5EDT | `EST5EDT` | Link | - | -04:00 | Parent: [`America/New_York`](#america-new-york) |
-
 ## Etc
 
 | Location | Timezone | Type | Country Codes | Offset | Link |
 |----------|----------|------|---------------|--------|------|
-| <a name="etc-gmt"></a>- | `Etc/GMT` | Canonical | - |  | Children: [`Etc/GMT-0`](#etc-gmt-0), [`Etc/GMT+0`](#etc-gmt0), [`Etc/GMT0`](#etc-gmt0), [`Etc/Greenwich`](#etc-greenwich), [`GMT`](#gmt), [`GMT-0`](#gmt-0), [`GMT+0`](#gmt0), [`GMT0`](#gmt0), [`Greenwich`](#greenwich) |
-| <a name="etc-gmt-0"></a>GMT-0 | `Etc/GMT-0` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="etc-gmt"></a>- | `Etc/GMT` | Canonical | - | +00:00 | Children: [`Etc/GMT-0`](#etc-gmt-0), [`Etc/GMT+0`](#etc-gmt0), [`Etc/GMT0`](#etc-gmt0), [`Etc/Greenwich`](#etc-greenwich), [`GMT`](#gmt), [`GMT-0`](#gmt-0), [`GMT+0`](#gmt0), [`GMT0`](#gmt0), [`Greenwich`](#greenwich) |
+| <a name="etc-gmt-0"></a>GMT-0 | `Etc/GMT-0` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
 | <a name="etc-gmt-1"></a>- | `Etc/GMT-1` | Canonical | - | +01:00 | - |
 | <a name="etc-gmt-10"></a>- | `Etc/GMT-10` | Canonical | - | +10:00 | - |
 | <a name="etc-gmt-11"></a>- | `Etc/GMT-11` | Canonical | - | +11:00 | - |
@@ -514,7 +487,7 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="etc-gmt-7"></a>- | `Etc/GMT-7` | Canonical | - | +07:00 | - |
 | <a name="etc-gmt-8"></a>- | `Etc/GMT-8` | Canonical | - | +08:00 | - |
 | <a name="etc-gmt-9"></a>- | `Etc/GMT-9` | Canonical | - | +09:00 | - |
-| <a name="etc-gmt0"></a>GMT+0 | `Etc/GMT+0` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="etc-gmt0"></a>GMT+0 | `Etc/GMT+0` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
 | <a name="etc-gmt1"></a>- | `Etc/GMT+1` | Canonical | - | -01:00 | - |
 | <a name="etc-gmt10"></a>- | `Etc/GMT+10` | Canonical | - | -10:00 | - |
 | <a name="etc-gmt11"></a>- | `Etc/GMT+11` | Canonical | - | -11:00 | - |
@@ -527,18 +500,29 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="etc-gmt7"></a>- | `Etc/GMT+7` | Canonical | - | -07:00 | - |
 | <a name="etc-gmt8"></a>- | `Etc/GMT+8` | Canonical | - | -08:00 | - |
 | <a name="etc-gmt9"></a>- | `Etc/GMT+9` | Canonical | - | -09:00 | - |
-| <a name="etc-gmt0"></a>GMT0 | `Etc/GMT0` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
-| <a name="etc-greenwich"></a>Greenwich | `Etc/Greenwich` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
-| <a name="etc-uct"></a>UCT | `Etc/UCT` | Link | - |  | Parent: [`Etc/UTC`](#etc-utc) |
-| <a name="etc-universal"></a>Universal | `Etc/Universal` | Link | - |  | Parent: [`Etc/UTC`](#etc-utc) |
-| <a name="etc-utc"></a>- | `Etc/UTC` | Canonical | - |  | Children: [`Etc/UCT`](#etc-uct), [`Etc/Universal`](#etc-universal), [`Etc/Zulu`](#etc-zulu), [`UCT`](#uct), [`Universal`](#universal), [`UTC`](#utc), [`Zulu`](#zulu) |
-| <a name="etc-zulu"></a>Zulu | `Etc/Zulu` | Link | - |  | Parent: [`Etc/UTC`](#etc-utc) |
-| <a name="gmt"></a>- | `GMT` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="etc-gmt0"></a>GMT0 | `Etc/GMT0` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="etc-greenwich"></a>Greenwich | `Etc/Greenwich` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="etc-uct"></a>UCT | `Etc/UCT` | Link | - | +00:00 | Parent: [`Etc/UTC`](#etc-utc) |
+| <a name="etc-universal"></a>Universal | `Etc/Universal` | Link | - | +00:00 | Parent: [`Etc/UTC`](#etc-utc) |
+| <a name="etc-utc"></a>- | `Etc/UTC` | Canonical | - | +00:00 | Children: [`Etc/UCT`](#etc-uct), [`Etc/Universal`](#etc-universal), [`Etc/Zulu`](#etc-zulu), [`UCT`](#uct), [`Universal`](#universal), [`UTC`](#utc), [`Zulu`](#zulu) |
+| <a name="etc-zulu"></a>Zulu | `Etc/Zulu` | Link | - | +00:00 | Parent: [`Etc/UTC`](#etc-utc) |
+| <a name="gmt"></a>- | `GMT` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="gmt-0"></a>GMT-0 | `GMT-0` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="gmt0"></a>GMT+0 | `GMT+0` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="gmt0"></a>GMT0 | `GMT0` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="greenwich"></a>Greenwich | `Greenwich` | Link | - | +00:00 | Parent: [`Etc/GMT`](#etc-gmt) |
+| <a name="uct"></a>UCT | `UCT` | Link | - | +00:00 | Parent: [`Etc/UTC`](#etc-utc) |
+| <a name="universal"></a>Universal | `Universal` | Link | - | +00:00 | Parent: [`Etc/UTC`](#etc-utc) |
+| <a name="utc"></a>UTC | `UTC` | Link | - | +00:00 | Parent: [`Etc/UTC`](#etc-utc) |
+| <a name="zulu"></a>Zulu | `Zulu` | Link | - | +00:00 | Parent: [`Etc/UTC`](#etc-utc) |
 
 ## Europe
 
 | Location | Timezone | Type | Country Codes | Offset | Link |
 |----------|----------|------|---------------|--------|------|
+| <a name="cet"></a>CET | `CET` | Link | - | +02:00 | Parent: [`Europe/Brussels`](#europe-brussels) |
+| <a name="eet"></a>EET | `EET` | Link | - | +03:00 | Parent: [`Europe/Athens`](#europe-athens) |
+| <a name="eire"></a>Eire | `Eire` | Link | - | +01:00 | Parent: [`Europe/Dublin`](#europe-dublin) |
 | <a name="europe-amsterdam"></a>Amsterdam | `Europe/Amsterdam` | Link | NL | +02:00 | Parent: [`Europe/Brussels`](#europe-brussels) |
 | <a name="europe-andorra"></a>Andorra | `Europe/Andorra` | Canonical | AD | +02:00 | - |
 | <a name="europe-astrakhan"></a>Astrakhan | `Europe/Astrakhan` | Canonical | RU | +04:00 | - |
@@ -603,60 +587,14 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="europe-zagreb"></a>Zagreb | `Europe/Zagreb` | Link | HR | +02:00 | Parent: [`Europe/Belgrade`](#europe-belgrade) |
 | <a name="europe-zaporozhye"></a>Zaporozhye | `Europe/Zaporozhye` | Link | - | +03:00 | Parent: [`Europe/Kyiv`](#europe-kyiv) |
 | <a name="europe-zurich"></a>Zurich | `Europe/Zurich` | Canonical | CH, DE, LI | +02:00 | Children: [`Europe/Busingen`](#europe-busingen), [`Europe/Vaduz`](#europe-vaduz) |
-
-## G
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
 | <a name="gb"></a>GB | `GB` | Link | - | +01:00 | Parent: [`Europe/London`](#europe-london) |
-
-## GB-Eir
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
 | <a name="gb-eire"></a>GB-Eire | `GB-Eire` | Link | - | +01:00 | Parent: [`Europe/London`](#europe-london) |
-
-## GMT
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="gmt0"></a>GMT0 | `GMT0` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
-
-## GMT-
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="gmt-0"></a>GMT-0 | `GMT-0` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
-
-## GMT+
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="gmt0"></a>GMT+0 | `GMT+0` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
-
-## Greenwic
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="greenwich"></a>Greenwich | `Greenwich` | Link | - |  | Parent: [`Etc/GMT`](#etc-gmt) |
-
-## Hongkon
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="hongkong"></a>Hongkong | `Hongkong` | Link | - | +08:00 | Parent: [`Asia/Hong_Kong`](#asia-hong-kong) |
-
-## HS
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="hst"></a>HST | `HST` | Link | - | -10:00 | Parent: [`Pacific/Honolulu`](#pacific-honolulu) |
-
-## Icelan
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="iceland"></a>Iceland | `Iceland` | Link | - |  | Parent: [`Africa/Abidjan`](#africa-abidjan) |
+| <a name="met"></a>MET | `MET` | Link | - | +02:00 | Parent: [`Europe/Brussels`](#europe-brussels) |
+| <a name="poland"></a>Poland | `Poland` | Link | - | +02:00 | Parent: [`Europe/Warsaw`](#europe-warsaw) |
+| <a name="portugal"></a>Portugal | `Portugal` | Link | - | +01:00 | Parent: [`Europe/Lisbon`](#europe-lisbon) |
+| <a name="turkey"></a>Turkey | `Turkey` | Link | - | +03:00 | Parent: [`Europe/Istanbul`](#europe-istanbul) |
+| <a name="w-su"></a>W-SU | `W-SU` | Link | - | +03:00 | Parent: [`Europe/Moscow`](#europe-moscow) |
+| <a name="wet"></a>WET | `WET` | Link | - | +01:00 | Parent: [`Europe/Lisbon`](#europe-lisbon) |
 
 ## Indian
 
@@ -674,48 +612,6 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="indian-mayotte"></a>Mayotte | `Indian/Mayotte` | Link | YT | +03:00 | Parent: [`Africa/Nairobi`](#africa-nairobi) |
 | <a name="indian-reunion"></a>Reunion | `Indian/Reunion` | Link | RE | +04:00 | Parent: [`Asia/Dubai`](#asia-dubai) |
 
-## Ira
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="iran"></a>Iran | `Iran` | Link | - | +03:30 | Parent: [`Asia/Tehran`](#asia-tehran) |
-
-## Israe
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="israel"></a>Israel | `Israel` | Link | - | +03:00 | Parent: [`Asia/Jerusalem`](#asia-jerusalem) |
-
-## Jamaic
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="jamaica"></a>Jamaica | `Jamaica` | Link | - | -05:00 | Parent: [`America/Jamaica`](#america-jamaica) |
-
-## Japa
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="japan"></a>Japan | `Japan` | Link | - | +09:00 | Parent: [`Asia/Tokyo`](#asia-tokyo) |
-
-## Kwajalei
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="kwajalein"></a>Kwajalein | `Kwajalein` | Link | - | +12:00 | Parent: [`Pacific/Kwajalein`](#pacific-kwajalein) |
-
-## Liby
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="libya"></a>Libya | `Libya` | Link | - | +02:00 | Parent: [`Africa/Tripoli`](#africa-tripoli) |
-
-## ME
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="met"></a>MET | `MET` | Link | - | +02:00 | Parent: [`Europe/Brussels`](#europe-brussels) |
-
 ## Mexico
 
 | Location | Timezone | Type | Country Codes | Offset | Link |
@@ -724,40 +620,14 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="mexico-bajasur"></a>BajaSur | `Mexico/BajaSur` | Link | - | -07:00 | Parent: [`America/Mazatlan`](#america-mazatlan) |
 | <a name="mexico-general"></a>General | `Mexico/General` | Link | - | -06:00 | Parent: [`America/Mexico_City`](#america-mexico-city) |
 
-## MS
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="mst"></a>MST | `MST` | Link | - | -07:00 | Parent: [`America/Phoenix`](#america-phoenix) |
-
-## MST7MD
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="mst7mdt"></a>MST7MDT | `MST7MDT` | Link | - | -06:00 | Parent: [`America/Denver`](#america-denver) |
-
-## N
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="nz"></a>NZ | `NZ` | Link | - | +12:00 | Parent: [`Pacific/Auckland`](#pacific-auckland) |
-
-## Navaj
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="navajo"></a>Navajo | `Navajo` | Link | - | -06:00 | Parent: [`America/Denver`](#america-denver) |
-
-## NZ-CHA
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="nz-chat"></a>NZ-CHAT | `NZ-CHAT` | Link | - | +12:45 | Parent: [`Pacific/Chatham`](#pacific-chatham) |
-
 ## Pacific
 
 | Location | Timezone | Type | Country Codes | Offset | Link |
 |----------|----------|------|---------------|--------|------|
+| <a name="hst"></a>HST | `HST` | Link | - | -10:00 | Parent: [`Pacific/Honolulu`](#pacific-honolulu) |
+| <a name="kwajalein"></a>Kwajalein | `Kwajalein` | Link | - | +12:00 | Parent: [`Pacific/Kwajalein`](#pacific-kwajalein) |
+| <a name="nz"></a>NZ | `NZ` | Link | - | +12:00 | Parent: [`Pacific/Auckland`](#pacific-auckland) |
+| <a name="nz-chat"></a>NZ-CHAT | `NZ-CHAT` | Link | - | +12:45 | Parent: [`Pacific/Chatham`](#pacific-chatham) |
 | <a name="pacific-apia"></a>Apia | `Pacific/Apia` | Canonical | WS | +13:00 | - |
 | <a name="pacific-auckland"></a>Auckland | `Pacific/Auckland` | Canonical | AQ, NZ | +12:00 | Children: [`Antarctica/McMurdo`](#antarctica-mcmurdo), [`Antarctica/South_Pole`](#antarctica-south-pole), [`NZ`](#nz) |
 | <a name="pacific-bougainville"></a>Bougainville | `Pacific/Bougainville` | Canonical | PG | +11:00 | - |
@@ -803,61 +673,6 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="pacific-wallis"></a>Wallis | `Pacific/Wallis` | Link | WF | +12:00 | Parent: [`Pacific/Tarawa`](#pacific-tarawa) |
 | <a name="pacific-yap"></a>Yap | `Pacific/Yap` | Link | - | +10:00 | Parent: [`Pacific/Port_Moresby`](#pacific-port-moresby) |
 
-## Polan
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="poland"></a>Poland | `Poland` | Link | - | +02:00 | Parent: [`Europe/Warsaw`](#europe-warsaw) |
-
-## Portuga
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="portugal"></a>Portugal | `Portugal` | Link | - | +01:00 | Parent: [`Europe/Lisbon`](#europe-lisbon) |
-
-## PR
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="prc"></a>PRC | `PRC` | Link | - | +08:00 | Parent: [`Asia/Shanghai`](#asia-shanghai) |
-
-## PST8PD
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="pst8pdt"></a>PST8PDT | `PST8PDT` | Link | - | -07:00 | Parent: [`America/Los_Angeles`](#america-los-angeles) |
-
-## RO
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="roc"></a>ROC | `ROC` | Link | - | +08:00 | Parent: [`Asia/Taipei`](#asia-taipei) |
-| <a name="rok"></a>ROK | `ROK` | Link | - | +09:00 | Parent: [`Asia/Seoul`](#asia-seoul) |
-
-## Singapor
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="singapore"></a>Singapore | `Singapore` | Link | - | +08:00 | Parent: [`Asia/Singapore`](#asia-singapore) |
-
-## Turke
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="turkey"></a>Turkey | `Turkey` | Link | - | +03:00 | Parent: [`Europe/Istanbul`](#europe-istanbul) |
-
-## UC
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="uct"></a>UCT | `UCT` | Link | - |  | Parent: [`Etc/UTC`](#etc-utc) |
-
-## Universa
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="universal"></a>Universal | `Universal` | Link | - |  | Parent: [`Etc/UTC`](#etc-utc) |
-
 ## US
 
 | Location | Timezone | Type | Country Codes | Offset | Link |
@@ -874,27 +689,3 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 | <a name="us-mountain"></a>Mountain | `US/Mountain` | Link | - | -06:00 | Parent: [`America/Denver`](#america-denver) |
 | <a name="us-pacific"></a>Pacific | `US/Pacific` | Link | - | -07:00 | Parent: [`America/Los_Angeles`](#america-los-angeles) |
 | <a name="us-samoa"></a>Samoa | `US/Samoa` | Link | - | -11:00 | Parent: [`Pacific/Pago_Pago`](#pacific-pago-pago) |
-
-## UT
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="utc"></a>UTC | `UTC` | Link | - |  | Parent: [`Etc/UTC`](#etc-utc) |
-
-## W-S
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="w-su"></a>W-SU | `W-SU` | Link | - | +03:00 | Parent: [`Europe/Moscow`](#europe-moscow) |
-
-## WE
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="wet"></a>WET | `WET` | Link | - | +01:00 | Parent: [`Europe/Lisbon`](#europe-lisbon) |
-
-## Zul
-
-| Location | Timezone | Type | Country Codes | Offset | Link |
-|----------|----------|------|---------------|--------|------|
-| <a name="zulu"></a>Zulu | `Zulu` | Link | - |  | Parent: [`Etc/UTC`](#etc-utc) |

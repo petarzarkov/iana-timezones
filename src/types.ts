@@ -13,11 +13,10 @@ export interface BaseTimezone {
   timezoneName: string;
   countryCodes: string[];
   geographicArea: string | null;
-  geographicAreaDisplayName: string | null;
   location: string | null;
   locationDisplayName: string | null;
   comments: string | null;
-  currentOffset: string;
+  currentOffset: string | null;
 }
 
 export interface CanonicalTimezone extends BaseTimezone {

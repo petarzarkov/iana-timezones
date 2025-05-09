@@ -57,7 +57,6 @@ export async function parseData(data: IANATzDataFiles) {
       timezoneName,
       countryCodes,
       geographicArea,
-      geographicAreaDisplayName: geographicArea,
       location,
       locationDisplayName: formatLocation(location),
       comments: row.comments || null,
@@ -85,7 +84,6 @@ export async function parseData(data: IANATzDataFiles) {
         locationDisplayName: null,
         countryCodes: [],
         geographicArea: null,
-        geographicAreaDisplayName: null,
         location: null,
         comments: null,
         children: [],
@@ -107,17 +105,16 @@ export async function parseData(data: IANATzDataFiles) {
 
       const parent = canonicalTimezones[canonicalTimezoneName];
       if (!parent) {
-        logger.warn(`File etcetera. No parent found for: ${canonicalTimezoneName}`, { etcZone });
+        logger.warn(`File etcetera. No parent found for: ${linkName}`, { etcZone });
         continue;
       }
 
       linkTimezones[linkName] = {
         timezoneName: linkName,
-        locationDisplayName: null,
         countryCodes: [],
-        geographicArea: null,
-        geographicAreaDisplayName: null,
-        location: null,
+        geographicArea: parent.geographicArea,
+        location: parent.location,
+        locationDisplayName: parent.locationDisplayName,
         comments: null,
         type: 'Link',
         parent: canonicalTimezoneName,
@@ -156,15 +153,14 @@ export async function parseData(data: IANATzDataFiles) {
 
     linkTimezones[linkName] = {
       timezoneName: linkName,
-      locationDisplayName: formatLocation(location),
       countryCodes: legacyRow ? [legacyRow.countryCodes] : [],
-      geographicArea: geographicArea,
-      geographicAreaDisplayName: geographicArea,
+      geographicArea: geographicArea || canonicalZoneRecord.geographicArea,
       location,
+      locationDisplayName: formatLocation(location),
       comments: legacyRow?.comments || null,
       type: 'Link',
       parent: canonicalZoneName,
-      currentOffset: getCurrentOffset(linkName),
+      currentOffset: getCurrentOffset(linkName) || canonicalZoneRecord.currentOffset,
     };
   }
 

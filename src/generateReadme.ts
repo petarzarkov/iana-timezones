@@ -9,12 +9,13 @@ export function generateReadme(parsedData: ParsedData): void {
 
 Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
 
-Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
 - **Package version**: ${version}
 - **IANA DB Version**: ${parsedData.version}
 - **Generated**: ${parsedData.date}
 - **Zones**: ${parsedData.numberOfZones}
+- **JSON data**: [timezones](./timezones.json)
 - **Files used**: \`${parsedData.filesUsed.join(', ')}\`
 
 ---
@@ -23,7 +24,7 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
 
   const zonesByArea = new Map<string, ParsedZone[]>();
   for (const zone of Object.values(parsedData.zones)) {
-    const area = zone.geographicAreaDisplayName ?? zone.geographicArea ?? 'Etc';
+    const area = zone.geographicArea ?? 'Etc';
     if (!zonesByArea.has(area)) {
       zonesByArea.set(area, []);
     }
@@ -51,7 +52,7 @@ Inspired by: [list of tz database time zones in wikipedia](https://en.wikipedia.
             .replace(/[\/_]/g, '-')
             .replace(/[^a-z0-9-]/g, '');
           const countryCodes = zone.countryCodes.length > 0 ? zone.countryCodes.join(', ') : '-';
-          const offset = zone.currentOffset;
+          const offset = zone.currentOffset || 'N/A';
 
           let linkText = '-';
           if ('children' in zone && zone.children && zone.children.length > 0) {

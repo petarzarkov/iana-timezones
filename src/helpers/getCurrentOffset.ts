@@ -1,6 +1,6 @@
 import { logger } from '../utils/logger.js';
 
-export function getCurrentOffset(timezoneName: string): string {
+export function getCurrentOffset(timezoneName: string): string | null {
   try {
     const formatter = new Intl.DateTimeFormat('en-US', {
       timeZone: timezoneName,
@@ -19,15 +19,21 @@ export function getCurrentOffset(timezoneName: string): string {
       const isoParts = isoFormatter.formatToParts(new Date());
       const isoOffsetPart = isoParts.find((part) => part.type === 'timeZoneName');
       if (isoOffsetPart && isoOffsetPart.value.startsWith('GMT')) {
-        return isoOffsetPart.value.substring(3); // Remove "GMT"
+        const formattedPart = isoOffsetPart.value.substring(3); // Remove "GMT"
+        return formattedPart !== '' ? formattedPart : '+00:00';
       }
     } catch (isoErr) {
       logger.warn(`Failed to get longOffset for ${timezoneName}:`, isoErr);
+      return null;
     }
 
-    return offsetString || 'N/A';
+    if (offsetString === '') {
+      return null;
+    }
+
+    return offsetString || null;
   } catch (error) {
-    logger.error(`Could not get offset for timezone "${timezoneName}":`, error);
-    return 'N/A';
+    logger.warn(`Could not get offset for timezone "${timezoneName}":`, error);
+    return null;
   }
 }
