@@ -1,7 +1,7 @@
 {
   "version": "2025b",
   "lastModified": "Sat, 22 Mar 2025 21:45:31 GMT",
-  "updatedAt": "Fri, 09 May 2025 07:53:27 GMT",
+  "updatedAt": "Fri, 09 May 2025 11:46:58 GMT",
   "numberOfZones": 597,
   "filesUsed": [
     "zone.tab",
@@ -26,7 +26,6 @@
         "Atlantic/St_Helena",
         "Iceland"
       ],
-      "comments": null,
       "countryCodes": [
         "BF",
         "CI",
@@ -49,7 +48,6 @@
       "type": "Canonical"
     },
     "Africa/Accra": {
-      "comments": null,
       "countryCodes": [
         "GH"
       ],
@@ -62,7 +60,6 @@
       "type": "Link"
     },
     "Africa/Addis_Ababa": {
-      "comments": null,
       "countryCodes": [
         "ET"
       ],
@@ -76,7 +73,6 @@
     },
     "Africa/Algiers": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "DZ"
       ],
@@ -88,7 +84,6 @@
       "type": "Canonical"
     },
     "Africa/Asmara": {
-      "comments": null,
       "countryCodes": [
         "ER"
       ],
@@ -101,7 +96,6 @@
       "type": "Link"
     },
     "Africa/Asmera": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Africa",
@@ -112,7 +106,6 @@
       "type": "Link"
     },
     "Africa/Bamako": {
-      "comments": null,
       "countryCodes": [
         "ML"
       ],
@@ -125,7 +118,6 @@
       "type": "Link"
     },
     "Africa/Bangui": {
-      "comments": null,
       "countryCodes": [
         "CF"
       ],
@@ -138,7 +130,6 @@
       "type": "Link"
     },
     "Africa/Banjul": {
-      "comments": null,
       "countryCodes": [
         "GM"
       ],
@@ -152,7 +143,6 @@
     },
     "Africa/Bissau": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "GW"
       ],
@@ -164,7 +154,6 @@
       "type": "Canonical"
     },
     "Africa/Blantyre": {
-      "comments": null,
       "countryCodes": [
         "MW"
       ],
@@ -177,7 +166,6 @@
       "type": "Link"
     },
     "Africa/Brazzaville": {
-      "comments": null,
       "countryCodes": [
         "CG"
       ],
@@ -190,7 +178,6 @@
       "type": "Link"
     },
     "Africa/Bujumbura": {
-      "comments": null,
       "countryCodes": [
         "BI"
       ],
@@ -206,7 +193,6 @@
       "children": [
         "Egypt"
       ],
-      "comments": null,
       "countryCodes": [
         "EG"
       ],
@@ -219,7 +205,6 @@
     },
     "Africa/Casablanca": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "MA"
       ],
@@ -244,7 +229,6 @@
       "type": "Canonical"
     },
     "Africa/Conakry": {
-      "comments": null,
       "countryCodes": [
         "GN"
       ],
@@ -257,7 +241,6 @@
       "type": "Link"
     },
     "Africa/Dakar": {
-      "comments": null,
       "countryCodes": [
         "SN"
       ],
@@ -270,7 +253,6 @@
       "type": "Link"
     },
     "Africa/Dar_es_Salaam": {
-      "comments": null,
       "countryCodes": [
         "TZ"
       ],
@@ -283,7 +265,6 @@
       "type": "Link"
     },
     "Africa/Djibouti": {
-      "comments": null,
       "countryCodes": [
         "DJ"
       ],
@@ -296,7 +277,6 @@
       "type": "Link"
     },
     "Africa/Douala": {
-      "comments": null,
       "countryCodes": [
         "CM"
       ],
@@ -310,7 +290,6 @@
     },
     "Africa/El_Aaiun": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "EH"
       ],
@@ -322,7 +301,6 @@
       "type": "Canonical"
     },
     "Africa/Freetown": {
-      "comments": null,
       "countryCodes": [
         "SL"
       ],
@@ -335,7 +313,6 @@
       "type": "Link"
     },
     "Africa/Gaborone": {
-      "comments": null,
       "countryCodes": [
         "BW"
       ],
@@ -348,7 +325,6 @@
       "type": "Link"
     },
     "Africa/Harare": {
-      "comments": null,
       "countryCodes": [
         "ZW"
       ],
@@ -365,7 +341,6 @@
         "Africa/Maseru",
         "Africa/Mbabane"
       ],
-      "comments": null,
       "countryCodes": [
         "LS",
         "SZ",
@@ -380,7 +355,6 @@
     },
     "Africa/Juba": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "SS"
       ],
@@ -392,7 +366,6 @@
       "type": "Canonical"
     },
     "Africa/Kampala": {
-      "comments": null,
       "countryCodes": [
         "UG"
       ],
@@ -406,7 +379,6 @@
     },
     "Africa/Khartoum": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "SD"
       ],
@@ -418,7 +390,6 @@
       "type": "Canonical"
     },
     "Africa/Kigali": {
-      "comments": null,
       "countryCodes": [
         "RW"
       ],
@@ -476,7 +447,6 @@
       "type": "Canonical"
     },
     "Africa/Libreville": {
-      "comments": null,
       "countryCodes": [
         "GA"
       ],
@@ -489,7 +459,6 @@
       "type": "Link"
     },
     "Africa/Lome": {
-      "comments": null,
       "countryCodes": [
         "TG"
       ],
@@ -502,7 +471,6 @@
       "type": "Link"
     },
     "Africa/Luanda": {
-      "comments": null,
       "countryCodes": [
         "AO"
       ],
@@ -528,7 +496,6 @@
       "type": "Link"
     },
     "Africa/Lusaka": {
-      "comments": null,
       "countryCodes": [
         "ZM"
       ],
@@ -541,7 +508,6 @@
       "type": "Link"
     },
     "Africa/Malabo": {
-      "comments": null,
       "countryCodes": [
         "GQ"
       ],
@@ -582,7 +548,6 @@
       "type": "Canonical"
     },
     "Africa/Maseru": {
-      "comments": null,
       "countryCodes": [
         "LS"
       ],
@@ -595,7 +560,6 @@
       "type": "Link"
     },
     "Africa/Mbabane": {
-      "comments": null,
       "countryCodes": [
         "SZ"
       ],
@@ -608,7 +572,6 @@
       "type": "Link"
     },
     "Africa/Mogadishu": {
-      "comments": null,
       "countryCodes": [
         "SO"
       ],
@@ -622,7 +585,6 @@
     },
     "Africa/Monrovia": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "LR"
       ],
@@ -646,7 +608,6 @@
         "Indian/Comoro",
         "Indian/Mayotte"
       ],
-      "comments": null,
       "countryCodes": [
         "DJ",
         "ER",
@@ -668,7 +629,6 @@
     },
     "Africa/Ndjamena": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "TD"
       ],
@@ -680,7 +640,6 @@
       "type": "Canonical"
     },
     "Africa/Niamey": {
-      "comments": null,
       "countryCodes": [
         "NE"
       ],
@@ -693,7 +652,6 @@
       "type": "Link"
     },
     "Africa/Nouakchott": {
-      "comments": null,
       "countryCodes": [
         "MR"
       ],
@@ -706,7 +664,6 @@
       "type": "Link"
     },
     "Africa/Ouagadougou": {
-      "comments": null,
       "countryCodes": [
         "BF"
       ],
@@ -719,7 +676,6 @@
       "type": "Link"
     },
     "Africa/Porto-Novo": {
-      "comments": null,
       "countryCodes": [
         "BJ"
       ],
@@ -733,7 +689,6 @@
     },
     "Africa/Sao_Tome": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "ST"
       ],
@@ -745,7 +700,6 @@
       "type": "Canonical"
     },
     "Africa/Timbuktu": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Africa",
@@ -759,7 +713,6 @@
       "children": [
         "Libya"
       ],
-      "comments": null,
       "countryCodes": [
         "LY"
       ],
@@ -772,7 +725,6 @@
     },
     "Africa/Tunis": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "TN"
       ],
@@ -785,7 +737,6 @@
     },
     "Africa/Windhoek": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "NA"
       ],
@@ -828,7 +779,6 @@
       "type": "Canonical"
     },
     "America/Anguilla": {
-      "comments": null,
       "countryCodes": [
         "AI"
       ],
@@ -841,7 +791,6 @@
       "type": "Link"
     },
     "America/Antigua": {
-      "comments": null,
       "countryCodes": [
         "AG"
       ],
@@ -898,7 +847,6 @@
       "type": "Canonical"
     },
     "America/Argentina/ComodRivadavia": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "America",
@@ -1046,7 +994,6 @@
       "type": "Canonical"
     },
     "America/Aruba": {
-      "comments": null,
       "countryCodes": [
         "AW"
       ],
@@ -1060,7 +1007,6 @@
     },
     "America/Asuncion": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "PY"
       ],
@@ -1085,7 +1031,6 @@
       "type": "Link"
     },
     "America/Atka": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-09:00",
       "geographicArea": "America",
@@ -1123,7 +1068,6 @@
     },
     "America/Barbados": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "BB"
       ],
@@ -1149,7 +1093,6 @@
     },
     "America/Belize": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "BZ"
       ],
@@ -1188,7 +1131,6 @@
     },
     "America/Bogota": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "CO"
       ],
@@ -1213,7 +1155,6 @@
       "type": "Canonical"
     },
     "America/Buenos_Aires": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "America",
@@ -1264,7 +1205,6 @@
     },
     "America/Caracas": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "VE"
       ],
@@ -1276,7 +1216,6 @@
       "type": "Canonical"
     },
     "America/Catamarca": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "America",
@@ -1288,7 +1227,6 @@
     },
     "America/Cayenne": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "GF"
       ],
@@ -1300,7 +1238,6 @@
       "type": "Canonical"
     },
     "America/Cayman": {
-      "comments": null,
       "countryCodes": [
         "KY"
       ],
@@ -1355,7 +1292,6 @@
       "type": "Canonical"
     },
     "America/Coral_Harbour": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "America",
@@ -1366,7 +1302,6 @@
       "type": "Link"
     },
     "America/Cordoba": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "America",
@@ -1378,7 +1313,6 @@
     },
     "America/Costa_Rica": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "CR"
       ],
@@ -1429,7 +1363,6 @@
       "type": "Canonical"
     },
     "America/Curacao": {
-      "comments": null,
       "countryCodes": [
         "CW"
       ],
@@ -1514,7 +1447,6 @@
       "type": "Canonical"
     },
     "America/Dominica": {
-      "comments": null,
       "countryCodes": [
         "DM"
       ],
@@ -1557,7 +1489,6 @@
     },
     "America/El_Salvador": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "SV"
       ],
@@ -1569,7 +1500,6 @@
       "type": "Canonical"
     },
     "America/Ensenada": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "America",
@@ -1593,7 +1523,6 @@
       "type": "Canonical"
     },
     "America/Fort_Wayne": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -1630,7 +1559,6 @@
       "type": "Canonical"
     },
     "America/Godthab": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-01:00",
       "geographicArea": "America",
@@ -1655,7 +1583,6 @@
     },
     "America/Grand_Turk": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "TC"
       ],
@@ -1667,7 +1594,6 @@
       "type": "Canonical"
     },
     "America/Grenada": {
-      "comments": null,
       "countryCodes": [
         "GD"
       ],
@@ -1680,7 +1606,6 @@
       "type": "Link"
     },
     "America/Guadeloupe": {
-      "comments": null,
       "countryCodes": [
         "GP"
       ],
@@ -1694,7 +1619,6 @@
     },
     "America/Guatemala": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "GT"
       ],
@@ -1720,7 +1644,6 @@
     },
     "America/Guyana": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "GY"
       ],
@@ -1750,7 +1673,6 @@
       "children": [
         "Cuba"
       ],
-      "comments": null,
       "countryCodes": [
         "CU"
       ],
@@ -1886,7 +1808,6 @@
       "type": "Canonical"
     },
     "America/Indianapolis": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -1928,7 +1849,6 @@
       "children": [
         "Jamaica"
       ],
-      "comments": null,
       "countryCodes": [
         "JM"
       ],
@@ -1940,7 +1860,6 @@
       "type": "Canonical"
     },
     "America/Jujuy": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "America",
@@ -1992,7 +1911,6 @@
       "type": "Canonical"
     },
     "America/Knox_IN": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "America",
@@ -2003,7 +1921,6 @@
       "type": "Link"
     },
     "America/Kralendijk": {
-      "comments": null,
       "countryCodes": [
         "BQ"
       ],
@@ -2017,7 +1934,6 @@
     },
     "America/La_Paz": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "BO"
       ],
@@ -2030,7 +1946,6 @@
     },
     "America/Lima": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "PE"
       ],
@@ -2058,7 +1973,6 @@
       "type": "Canonical"
     },
     "America/Louisville": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -2069,7 +1983,6 @@
       "type": "Link"
     },
     "America/Lower_Princes": {
-      "comments": null,
       "countryCodes": [
         "SX"
       ],
@@ -2096,7 +2009,6 @@
     },
     "America/Managua": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "NI"
       ],
@@ -2123,7 +2035,6 @@
       "type": "Canonical"
     },
     "America/Marigot": {
-      "comments": null,
       "countryCodes": [
         "MF"
       ],
@@ -2137,7 +2048,6 @@
     },
     "America/Martinique": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "MQ"
       ],
@@ -2177,7 +2087,6 @@
       "type": "Canonical"
     },
     "America/Mendoza": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "America",
@@ -2243,7 +2152,6 @@
     },
     "America/Miquelon": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "PM"
       ],
@@ -2282,7 +2190,6 @@
     },
     "America/Montevideo": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "UY"
       ],
@@ -2294,7 +2201,6 @@
       "type": "Canonical"
     },
     "America/Montreal": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -2305,7 +2211,6 @@
       "type": "Link"
     },
     "America/Montserrat": {
-      "comments": null,
       "countryCodes": [
         "MS"
       ],
@@ -2318,7 +2223,6 @@
       "type": "Link"
     },
     "America/Nassau": {
-      "comments": null,
       "countryCodes": [
         "BS"
       ],
@@ -2347,7 +2251,6 @@
       "type": "Canonical"
     },
     "America/Nipigon": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -2473,7 +2376,6 @@
       "type": "Canonical"
     },
     "America/Pangnirtung": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -2485,7 +2387,6 @@
     },
     "America/Paramaribo": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "SR"
       ],
@@ -2516,7 +2417,6 @@
     },
     "America/Port-au-Prince": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "HT"
       ],
@@ -2528,7 +2428,6 @@
       "type": "Canonical"
     },
     "America/Port_of_Spain": {
-      "comments": null,
       "countryCodes": [
         "TT"
       ],
@@ -2541,7 +2440,6 @@
       "type": "Link"
     },
     "America/Porto_Acre": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "America",
@@ -2631,7 +2529,6 @@
       "type": "Canonical"
     },
     "America/Rainy_River": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "America",
@@ -2712,7 +2609,6 @@
       "type": "Canonical"
     },
     "America/Rosario": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "America",
@@ -2723,7 +2619,6 @@
       "type": "Link"
     },
     "America/Santa_Isabel": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "America",
@@ -2763,7 +2658,6 @@
     },
     "America/Santo_Domingo": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "DO"
       ],
@@ -2803,7 +2697,6 @@
       "type": "Canonical"
     },
     "America/Shiprock": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "America",
@@ -2827,7 +2720,6 @@
       "type": "Canonical"
     },
     "America/St_Barthelemy": {
-      "comments": null,
       "countryCodes": [
         "BL"
       ],
@@ -2855,7 +2747,6 @@
       "type": "Canonical"
     },
     "America/St_Kitts": {
-      "comments": null,
       "countryCodes": [
         "KN"
       ],
@@ -2868,7 +2759,6 @@
       "type": "Link"
     },
     "America/St_Lucia": {
-      "comments": null,
       "countryCodes": [
         "LC"
       ],
@@ -2881,7 +2771,6 @@
       "type": "Link"
     },
     "America/St_Thomas": {
-      "comments": null,
       "countryCodes": [
         "VI"
       ],
@@ -2894,7 +2783,6 @@
       "type": "Link"
     },
     "America/St_Vincent": {
-      "comments": null,
       "countryCodes": [
         "VC"
       ],
@@ -2921,7 +2809,6 @@
     },
     "America/Tegucigalpa": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "HN"
       ],
@@ -2946,7 +2833,6 @@
       "type": "Canonical"
     },
     "America/Thunder_Bay": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -2994,7 +2880,6 @@
       "type": "Canonical"
     },
     "America/Tortola": {
-      "comments": null,
       "countryCodes": [
         "VG"
       ],
@@ -3022,7 +2907,6 @@
       "type": "Canonical"
     },
     "America/Virgin": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -3077,7 +2961,6 @@
       "type": "Canonical"
     },
     "America/Yellowknife": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "America",
@@ -3192,7 +3075,6 @@
       "type": "Canonical"
     },
     "Antarctica/South_Pole": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+12:00",
       "geographicArea": "Antarctica",
@@ -3242,7 +3124,6 @@
       "type": "Canonical"
     },
     "Arctic/Longyearbyen": {
-      "comments": null,
       "countryCodes": [
         "SJ"
       ],
@@ -3255,7 +3136,6 @@
       "type": "Link"
     },
     "Asia/Aden": {
-      "comments": null,
       "countryCodes": [
         "YE"
       ],
@@ -3282,7 +3162,6 @@
     },
     "Asia/Amman": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "JO"
       ],
@@ -3336,7 +3215,6 @@
       "children": [
         "Asia/Ashkhabad"
       ],
-      "comments": null,
       "countryCodes": [
         "TM"
       ],
@@ -3348,7 +3226,6 @@
       "type": "Canonical"
     },
     "Asia/Ashkhabad": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+05:00",
       "geographicArea": "Asia",
@@ -3373,7 +3250,6 @@
     },
     "Asia/Baghdad": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "IQ"
       ],
@@ -3385,7 +3261,6 @@
       "type": "Canonical"
     },
     "Asia/Bahrain": {
-      "comments": null,
       "countryCodes": [
         "BH"
       ],
@@ -3399,7 +3274,6 @@
     },
     "Asia/Baku": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "AZ"
       ],
@@ -3446,7 +3320,6 @@
     },
     "Asia/Beirut": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "LB"
       ],
@@ -3459,7 +3332,6 @@
     },
     "Asia/Bishkek": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "KG"
       ],
@@ -3471,7 +3343,6 @@
       "type": "Canonical"
     },
     "Asia/Brunei": {
-      "comments": null,
       "countryCodes": [
         "BN"
       ],
@@ -3484,7 +3355,6 @@
       "type": "Link"
     },
     "Asia/Calcutta": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+05:30",
       "geographicArea": "Asia",
@@ -3508,7 +3378,6 @@
       "type": "Canonical"
     },
     "Asia/Choibalsan": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -3519,7 +3388,6 @@
       "type": "Link"
     },
     "Asia/Chongqing": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -3530,7 +3398,6 @@
       "type": "Link"
     },
     "Asia/Chungking": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -3542,7 +3409,6 @@
     },
     "Asia/Colombo": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "LK"
       ],
@@ -3554,7 +3420,6 @@
       "type": "Canonical"
     },
     "Asia/Dacca": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+06:00",
       "geographicArea": "Asia",
@@ -3566,7 +3431,6 @@
     },
     "Asia/Damascus": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "SY"
       ],
@@ -3581,7 +3445,6 @@
       "children": [
         "Asia/Dacca"
       ],
-      "comments": null,
       "countryCodes": [
         "BD"
       ],
@@ -3594,7 +3457,6 @@
     },
     "Asia/Dili": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "TL"
       ],
@@ -3628,7 +3490,6 @@
     },
     "Asia/Dushanbe": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "TJ"
       ],
@@ -3666,7 +3527,6 @@
       "type": "Canonical"
     },
     "Asia/Harbin": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -3708,7 +3568,6 @@
       "children": [
         "Hongkong"
       ],
-      "comments": null,
       "countryCodes": [
         "HK"
       ],
@@ -3746,7 +3605,6 @@
       "type": "Canonical"
     },
     "Asia/Istanbul": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Asia",
@@ -3787,7 +3645,6 @@
         "Asia/Tel_Aviv",
         "Israel"
       ],
-      "comments": null,
       "countryCodes": [
         "IL"
       ],
@@ -3800,7 +3657,6 @@
     },
     "Asia/Kabul": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "AF"
       ],
@@ -3826,7 +3682,6 @@
     },
     "Asia/Karachi": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "PK"
       ],
@@ -3838,7 +3693,6 @@
       "type": "Canonical"
     },
     "Asia/Kashgar": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+06:00",
       "geographicArea": "Asia",
@@ -3852,7 +3706,6 @@
       "children": [
         "Asia/Katmandu"
       ],
-      "comments": null,
       "countryCodes": [
         "NP"
       ],
@@ -3864,7 +3717,6 @@
       "type": "Canonical"
     },
     "Asia/Katmandu": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+05:45",
       "geographicArea": "Asia",
@@ -3891,7 +3743,6 @@
       "children": [
         "Asia/Calcutta"
       ],
-      "comments": null,
       "countryCodes": [
         "IN"
       ],
@@ -3945,7 +3796,6 @@
       "type": "Canonical"
     },
     "Asia/Kuwait": {
-      "comments": null,
       "countryCodes": [
         "KW"
       ],
@@ -3958,7 +3808,6 @@
       "type": "Link"
     },
     "Asia/Macao": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -3972,7 +3821,6 @@
       "children": [
         "Asia/Macao"
       ],
-      "comments": null,
       "countryCodes": [
         "MO"
       ],
@@ -4013,7 +3861,6 @@
     },
     "Asia/Manila": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "PH"
       ],
@@ -4025,7 +3872,6 @@
       "type": "Canonical"
     },
     "Asia/Muscat": {
-      "comments": null,
       "countryCodes": [
         "OM"
       ],
@@ -4105,7 +3951,6 @@
       "type": "Canonical"
     },
     "Asia/Phnom_Penh": {
-      "comments": null,
       "countryCodes": [
         "KH"
       ],
@@ -4132,7 +3977,6 @@
     },
     "Asia/Pyongyang": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "KP"
       ],
@@ -4147,7 +3991,6 @@
       "children": [
         "Asia/Bahrain"
       ],
-      "comments": null,
       "countryCodes": [
         "BH",
         "QA"
@@ -4186,7 +4029,6 @@
       "type": "Canonical"
     },
     "Asia/Rangoon": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+06:30",
       "geographicArea": "Asia",
@@ -4217,7 +4059,6 @@
       "type": "Canonical"
     },
     "Asia/Saigon": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+07:00",
       "geographicArea": "Asia",
@@ -4257,7 +4098,6 @@
       "children": [
         "ROK"
       ],
-      "comments": null,
       "countryCodes": [
         "KR"
       ],
@@ -4321,7 +4161,6 @@
       "children": [
         "ROC"
       ],
-      "comments": null,
       "countryCodes": [
         "TW"
       ],
@@ -4347,7 +4186,6 @@
     },
     "Asia/Tbilisi": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "GE"
       ],
@@ -4362,7 +4200,6 @@
       "children": [
         "Iran"
       ],
-      "comments": null,
       "countryCodes": [
         "IR"
       ],
@@ -4374,7 +4211,6 @@
       "type": "Canonical"
     },
     "Asia/Tel_Aviv": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Asia",
@@ -4385,7 +4221,6 @@
       "type": "Link"
     },
     "Asia/Thimbu": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+06:00",
       "geographicArea": "Asia",
@@ -4399,7 +4234,6 @@
       "children": [
         "Asia/Thimbu"
       ],
-      "comments": null,
       "countryCodes": [
         "BT"
       ],
@@ -4440,7 +4274,6 @@
       "type": "Canonical"
     },
     "Asia/Ujung_Pandang": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -4467,7 +4300,6 @@
       "type": "Canonical"
     },
     "Asia/Ulan_Bator": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -4506,7 +4338,6 @@
       "type": "Canonical"
     },
     "Asia/Vientiane": {
-      "comments": null,
       "countryCodes": [
         "LA"
       ],
@@ -4549,7 +4380,6 @@
         "Asia/Rangoon",
         "Indian/Cocos"
       ],
-      "comments": null,
       "countryCodes": [
         "CC",
         "MM"
@@ -4576,7 +4406,6 @@
     },
     "Asia/Yerevan": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "AM"
       ],
@@ -4602,7 +4431,6 @@
     },
     "Atlantic/Bermuda": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "BM"
       ],
@@ -4628,7 +4456,6 @@
     },
     "Atlantic/Cape_Verde": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "CV"
       ],
@@ -4640,7 +4467,6 @@
       "type": "Canonical"
     },
     "Atlantic/Faeroe": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+01:00",
       "geographicArea": "Atlantic",
@@ -4654,7 +4480,6 @@
       "children": [
         "Atlantic/Faeroe"
       ],
-      "comments": null,
       "countryCodes": [
         "FO"
       ],
@@ -4666,7 +4491,6 @@
       "type": "Canonical"
     },
     "Atlantic/Jan_Mayen": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+02:00",
       "geographicArea": "Atlantic",
@@ -4690,7 +4514,6 @@
       "type": "Canonical"
     },
     "Atlantic/Reykjavik": {
-      "comments": null,
       "countryCodes": [
         "IS"
       ],
@@ -4704,7 +4527,6 @@
     },
     "Atlantic/South_Georgia": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "GS"
       ],
@@ -4716,7 +4538,6 @@
       "type": "Canonical"
     },
     "Atlantic/St_Helena": {
-      "comments": null,
       "countryCodes": [
         "SH"
       ],
@@ -4730,7 +4551,6 @@
     },
     "Atlantic/Stanley": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "FK"
       ],
@@ -4742,7 +4562,6 @@
       "type": "Canonical"
     },
     "Australia/ACT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Australia",
@@ -4798,7 +4617,6 @@
       "type": "Canonical"
     },
     "Australia/Canberra": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Australia",
@@ -4809,7 +4627,6 @@
       "type": "Link"
     },
     "Australia/Currie": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Australia",
@@ -4864,7 +4681,6 @@
       "type": "Canonical"
     },
     "Australia/LHI": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:30",
       "geographicArea": "Australia",
@@ -4918,7 +4734,6 @@
       "type": "Canonical"
     },
     "Australia/NSW": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Australia",
@@ -4929,7 +4744,6 @@
       "type": "Link"
     },
     "Australia/North": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+09:30",
       "geographicArea": "Australia",
@@ -4955,7 +4769,6 @@
       "type": "Canonical"
     },
     "Australia/Queensland": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Australia",
@@ -4966,7 +4779,6 @@
       "type": "Link"
     },
     "Australia/South": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+09:30",
       "geographicArea": "Australia",
@@ -4994,7 +4806,6 @@
       "type": "Canonical"
     },
     "Australia/Tasmania": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Australia",
@@ -5005,7 +4816,6 @@
       "type": "Link"
     },
     "Australia/Victoria": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Australia",
@@ -5016,7 +4826,6 @@
       "type": "Link"
     },
     "Australia/West": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Australia",
@@ -5027,7 +4836,6 @@
       "type": "Link"
     },
     "Australia/Yancowinna": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+09:30",
       "geographicArea": "Australia",
@@ -5038,7 +4846,6 @@
       "type": "Link"
     },
     "Brazil/Acre": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "Brazil",
@@ -5049,7 +4856,6 @@
       "type": "Link"
     },
     "Brazil/DeNoronha": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-02:00",
       "geographicArea": "Brazil",
@@ -5060,7 +4866,6 @@
       "type": "Link"
     },
     "Brazil/East": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "Brazil",
@@ -5071,7 +4876,6 @@
       "type": "Link"
     },
     "Brazil/West": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "Brazil",
@@ -5082,7 +4886,6 @@
       "type": "Link"
     },
     "CET": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+02:00",
       "geographicArea": "Europe",
@@ -5093,7 +4896,6 @@
       "type": "Link"
     },
     "CST6CDT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "America",
@@ -5104,7 +4906,6 @@
       "type": "Link"
     },
     "Canada/Atlantic": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": "Canada",
@@ -5115,7 +4916,6 @@
       "type": "Link"
     },
     "Canada/Central": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "Canada",
@@ -5126,7 +4926,6 @@
       "type": "Link"
     },
     "Canada/Eastern": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "Canada",
@@ -5137,7 +4936,6 @@
       "type": "Link"
     },
     "Canada/Mountain": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "Canada",
@@ -5148,7 +4946,6 @@
       "type": "Link"
     },
     "Canada/Newfoundland": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-02:30",
       "geographicArea": "Canada",
@@ -5159,7 +4956,6 @@
       "type": "Link"
     },
     "Canada/Pacific": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "Canada",
@@ -5170,7 +4966,6 @@
       "type": "Link"
     },
     "Canada/Saskatchewan": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "Canada",
@@ -5181,7 +4976,6 @@
       "type": "Link"
     },
     "Canada/Yukon": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "Canada",
@@ -5192,7 +4986,6 @@
       "type": "Link"
     },
     "Chile/Continental": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "Chile",
@@ -5203,7 +4996,6 @@
       "type": "Link"
     },
     "Chile/EasterIsland": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "Chile",
@@ -5214,7 +5006,6 @@
       "type": "Link"
     },
     "Cuba": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -5225,7 +5016,6 @@
       "type": "Link"
     },
     "EET": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Europe",
@@ -5236,7 +5026,6 @@
       "type": "Link"
     },
     "EST": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "America",
@@ -5247,7 +5036,6 @@
       "type": "Link"
     },
     "EST5EDT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "America",
@@ -5258,7 +5046,6 @@
       "type": "Link"
     },
     "Egypt": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Africa",
@@ -5269,7 +5056,6 @@
       "type": "Link"
     },
     "Eire": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+01:00",
       "geographicArea": "Europe",
@@ -5291,7 +5077,6 @@
         "GMT0",
         "Greenwich"
       ],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -5301,7 +5086,6 @@
       "type": "Canonical"
     },
     "Etc/GMT+0": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Etc",
@@ -5313,7 +5097,6 @@
     },
     "Etc/GMT+1": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-01:00",
       "geographicArea": null,
@@ -5324,7 +5107,6 @@
     },
     "Etc/GMT+10": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-10:00",
       "geographicArea": null,
@@ -5335,7 +5117,6 @@
     },
     "Etc/GMT+11": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-11:00",
       "geographicArea": null,
@@ -5346,7 +5127,6 @@
     },
     "Etc/GMT+12": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-12:00",
       "geographicArea": null,
@@ -5357,7 +5137,6 @@
     },
     "Etc/GMT+2": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-02:00",
       "geographicArea": null,
@@ -5368,7 +5147,6 @@
     },
     "Etc/GMT+3": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-03:00",
       "geographicArea": null,
@@ -5379,7 +5157,6 @@
     },
     "Etc/GMT+4": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": null,
@@ -5390,7 +5167,6 @@
     },
     "Etc/GMT+5": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": null,
@@ -5401,7 +5177,6 @@
     },
     "Etc/GMT+6": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": null,
@@ -5412,7 +5187,6 @@
     },
     "Etc/GMT+7": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": null,
@@ -5423,7 +5197,6 @@
     },
     "Etc/GMT+8": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-08:00",
       "geographicArea": null,
@@ -5434,7 +5207,6 @@
     },
     "Etc/GMT+9": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-09:00",
       "geographicArea": null,
@@ -5444,7 +5216,6 @@
       "type": "Canonical"
     },
     "Etc/GMT-0": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Etc",
@@ -5456,7 +5227,6 @@
     },
     "Etc/GMT-1": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+01:00",
       "geographicArea": null,
@@ -5467,7 +5237,6 @@
     },
     "Etc/GMT-10": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": null,
@@ -5478,7 +5247,6 @@
     },
     "Etc/GMT-11": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+11:00",
       "geographicArea": null,
@@ -5489,7 +5257,6 @@
     },
     "Etc/GMT-12": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+12:00",
       "geographicArea": null,
@@ -5500,7 +5267,6 @@
     },
     "Etc/GMT-13": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+13:00",
       "geographicArea": null,
@@ -5511,7 +5277,6 @@
     },
     "Etc/GMT-14": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+14:00",
       "geographicArea": null,
@@ -5522,7 +5287,6 @@
     },
     "Etc/GMT-2": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+02:00",
       "geographicArea": null,
@@ -5533,7 +5297,6 @@
     },
     "Etc/GMT-3": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": null,
@@ -5544,7 +5307,6 @@
     },
     "Etc/GMT-4": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+04:00",
       "geographicArea": null,
@@ -5555,7 +5317,6 @@
     },
     "Etc/GMT-5": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+05:00",
       "geographicArea": null,
@@ -5566,7 +5327,6 @@
     },
     "Etc/GMT-6": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+06:00",
       "geographicArea": null,
@@ -5577,7 +5337,6 @@
     },
     "Etc/GMT-7": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+07:00",
       "geographicArea": null,
@@ -5588,7 +5347,6 @@
     },
     "Etc/GMT-8": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": null,
@@ -5599,7 +5357,6 @@
     },
     "Etc/GMT-9": {
       "children": [],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+09:00",
       "geographicArea": null,
@@ -5609,7 +5366,6 @@
       "type": "Canonical"
     },
     "Etc/GMT0": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Etc",
@@ -5620,7 +5376,6 @@
       "type": "Link"
     },
     "Etc/Greenwich": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Etc",
@@ -5631,7 +5386,6 @@
       "type": "Link"
     },
     "Etc/UCT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Etc",
@@ -5651,7 +5405,6 @@
         "UTC",
         "Zulu"
       ],
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -5661,7 +5414,6 @@
       "type": "Canonical"
     },
     "Etc/Universal": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Etc",
@@ -5672,7 +5424,6 @@
       "type": "Link"
     },
     "Etc/Zulu": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Etc",
@@ -5683,7 +5434,6 @@
       "type": "Link"
     },
     "Europe/Amsterdam": {
-      "comments": null,
       "countryCodes": [
         "NL"
       ],
@@ -5697,7 +5447,6 @@
     },
     "Europe/Andorra": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "AD"
       ],
@@ -5725,7 +5474,6 @@
       "children": [
         "EET"
       ],
-      "comments": null,
       "countryCodes": [
         "GR"
       ],
@@ -5737,7 +5485,6 @@
       "type": "Canonical"
     },
     "Europe/Belfast": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+01:00",
       "geographicArea": "Europe",
@@ -5755,7 +5502,6 @@
         "Europe/Skopje",
         "Europe/Zagreb"
       ],
-      "comments": null,
       "countryCodes": [
         "BA",
         "HR",
@@ -5795,7 +5541,6 @@
       "type": "Canonical"
     },
     "Europe/Bratislava": {
-      "comments": null,
       "countryCodes": [
         "SK"
       ],
@@ -5814,7 +5559,6 @@
         "Europe/Luxembourg",
         "MET"
       ],
-      "comments": null,
       "countryCodes": [
         "BE",
         "LU",
@@ -5829,7 +5573,6 @@
     },
     "Europe/Bucharest": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "RO"
       ],
@@ -5842,7 +5585,6 @@
     },
     "Europe/Budapest": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "HU"
       ],
@@ -5870,7 +5612,6 @@
       "children": [
         "Europe/Tiraspol"
       ],
-      "comments": null,
       "countryCodes": [
         "MD"
       ],
@@ -5882,7 +5623,6 @@
       "type": "Canonical"
     },
     "Europe/Copenhagen": {
-      "comments": null,
       "countryCodes": [
         "DK"
       ],
@@ -5898,7 +5638,6 @@
       "children": [
         "Eire"
       ],
-      "comments": null,
       "countryCodes": [
         "IE"
       ],
@@ -5911,7 +5650,6 @@
     },
     "Europe/Gibraltar": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "GI"
       ],
@@ -5923,7 +5661,6 @@
       "type": "Canonical"
     },
     "Europe/Guernsey": {
-      "comments": null,
       "countryCodes": [
         "GG"
       ],
@@ -5939,7 +5676,6 @@
       "children": [
         "Europe/Mariehamn"
       ],
-      "comments": null,
       "countryCodes": [
         "AX",
         "FI"
@@ -5952,7 +5688,6 @@
       "type": "Canonical"
     },
     "Europe/Isle_of_Man": {
-      "comments": null,
       "countryCodes": [
         "IM"
       ],
@@ -5969,7 +5704,6 @@
         "Asia/Istanbul",
         "Turkey"
       ],
-      "comments": null,
       "countryCodes": [
         "TR"
       ],
@@ -5981,7 +5715,6 @@
       "type": "Canonical"
     },
     "Europe/Jersey": {
-      "comments": null,
       "countryCodes": [
         "JE"
       ],
@@ -6007,7 +5740,6 @@
       "type": "Canonical"
     },
     "Europe/Kiev": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Europe",
@@ -6064,7 +5796,6 @@
       "type": "Canonical"
     },
     "Europe/Ljubljana": {
-      "comments": null,
       "countryCodes": [
         "SI"
       ],
@@ -6085,7 +5816,6 @@
         "GB",
         "GB-Eire"
       ],
-      "comments": null,
       "countryCodes": [
         "GB",
         "GG",
@@ -6100,7 +5830,6 @@
       "type": "Canonical"
     },
     "Europe/Luxembourg": {
-      "comments": null,
       "countryCodes": [
         "LU"
       ],
@@ -6127,7 +5856,6 @@
     },
     "Europe/Malta": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "MT"
       ],
@@ -6139,7 +5867,6 @@
       "type": "Canonical"
     },
     "Europe/Mariehamn": {
-      "comments": null,
       "countryCodes": [
         "AX"
       ],
@@ -6153,7 +5880,6 @@
     },
     "Europe/Minsk": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "BY"
       ],
@@ -6165,7 +5891,6 @@
       "type": "Canonical"
     },
     "Europe/Monaco": {
-      "comments": null,
       "countryCodes": [
         "MC"
       ],
@@ -6193,7 +5918,6 @@
       "type": "Canonical"
     },
     "Europe/Nicosia": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Europe",
@@ -6204,7 +5928,6 @@
       "type": "Link"
     },
     "Europe/Oslo": {
-      "comments": null,
       "countryCodes": [
         "NO"
       ],
@@ -6220,7 +5943,6 @@
       "children": [
         "Europe/Monaco"
       ],
-      "comments": null,
       "countryCodes": [
         "FR",
         "MC"
@@ -6233,7 +5955,6 @@
       "type": "Canonical"
     },
     "Europe/Podgorica": {
-      "comments": null,
       "countryCodes": [
         "ME"
       ],
@@ -6249,7 +5970,6 @@
       "children": [
         "Europe/Bratislava"
       ],
-      "comments": null,
       "countryCodes": [
         "CZ",
         "SK"
@@ -6263,7 +5983,6 @@
     },
     "Europe/Riga": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "LV"
       ],
@@ -6279,7 +5998,6 @@
         "Europe/San_Marino",
         "Europe/Vatican"
       ],
-      "comments": null,
       "countryCodes": [
         "IT",
         "SM",
@@ -6306,7 +6024,6 @@
       "type": "Canonical"
     },
     "Europe/San_Marino": {
-      "comments": null,
       "countryCodes": [
         "SM"
       ],
@@ -6319,7 +6036,6 @@
       "type": "Link"
     },
     "Europe/Sarajevo": {
-      "comments": null,
       "countryCodes": [
         "BA"
       ],
@@ -6359,7 +6075,6 @@
       "type": "Canonical"
     },
     "Europe/Skopje": {
-      "comments": null,
       "countryCodes": [
         "MK"
       ],
@@ -6373,7 +6088,6 @@
     },
     "Europe/Sofia": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "BG"
       ],
@@ -6385,7 +6099,6 @@
       "type": "Canonical"
     },
     "Europe/Stockholm": {
-      "comments": null,
       "countryCodes": [
         "SE"
       ],
@@ -6399,7 +6112,6 @@
     },
     "Europe/Tallinn": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "EE"
       ],
@@ -6412,7 +6124,6 @@
     },
     "Europe/Tirane": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "AL"
       ],
@@ -6424,7 +6135,6 @@
       "type": "Canonical"
     },
     "Europe/Tiraspol": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Europe",
@@ -6448,7 +6158,6 @@
       "type": "Canonical"
     },
     "Europe/Uzhgorod": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Europe",
@@ -6459,7 +6168,6 @@
       "type": "Link"
     },
     "Europe/Vaduz": {
-      "comments": null,
       "countryCodes": [
         "LI"
       ],
@@ -6472,7 +6180,6 @@
       "type": "Link"
     },
     "Europe/Vatican": {
-      "comments": null,
       "countryCodes": [
         "VA"
       ],
@@ -6486,7 +6193,6 @@
     },
     "Europe/Vienna": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "AT"
       ],
@@ -6499,7 +6205,6 @@
     },
     "Europe/Vilnius": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "LT"
       ],
@@ -6527,7 +6232,6 @@
       "children": [
         "Poland"
       ],
-      "comments": null,
       "countryCodes": [
         "PL"
       ],
@@ -6539,7 +6243,6 @@
       "type": "Canonical"
     },
     "Europe/Zagreb": {
-      "comments": null,
       "countryCodes": [
         "HR"
       ],
@@ -6552,7 +6255,6 @@
       "type": "Link"
     },
     "Europe/Zaporozhye": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Europe",
@@ -6581,7 +6283,6 @@
       "type": "Canonical"
     },
     "GB": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+01:00",
       "geographicArea": "Europe",
@@ -6592,7 +6293,6 @@
       "type": "Link"
     },
     "GB-Eire": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+01:00",
       "geographicArea": "Europe",
@@ -6603,7 +6303,6 @@
       "type": "Link"
     },
     "GMT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -6614,7 +6313,6 @@
       "type": "Link"
     },
     "GMT+0": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -6625,7 +6323,6 @@
       "type": "Link"
     },
     "GMT-0": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -6636,7 +6333,6 @@
       "type": "Link"
     },
     "GMT0": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -6647,7 +6343,6 @@
       "type": "Link"
     },
     "Greenwich": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -6658,7 +6353,6 @@
       "type": "Link"
     },
     "HST": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-10:00",
       "geographicArea": "Pacific",
@@ -6669,7 +6363,6 @@
       "type": "Link"
     },
     "Hongkong": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -6680,7 +6373,6 @@
       "type": "Link"
     },
     "Iceland": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": "Africa",
@@ -6691,7 +6383,6 @@
       "type": "Link"
     },
     "Indian/Antananarivo": {
-      "comments": null,
       "countryCodes": [
         "MG"
       ],
@@ -6705,7 +6396,6 @@
     },
     "Indian/Chagos": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "IO"
       ],
@@ -6717,7 +6407,6 @@
       "type": "Canonical"
     },
     "Indian/Christmas": {
-      "comments": null,
       "countryCodes": [
         "CX"
       ],
@@ -6730,7 +6419,6 @@
       "type": "Link"
     },
     "Indian/Cocos": {
-      "comments": null,
       "countryCodes": [
         "CC"
       ],
@@ -6743,7 +6431,6 @@
       "type": "Link"
     },
     "Indian/Comoro": {
-      "comments": null,
       "countryCodes": [
         "KM"
       ],
@@ -6756,7 +6443,6 @@
       "type": "Link"
     },
     "Indian/Kerguelen": {
-      "comments": null,
       "countryCodes": [
         "TF"
       ],
@@ -6769,7 +6455,6 @@
       "type": "Link"
     },
     "Indian/Mahe": {
-      "comments": null,
       "countryCodes": [
         "SC"
       ],
@@ -6799,7 +6484,6 @@
     },
     "Indian/Mauritius": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "MU"
       ],
@@ -6811,7 +6495,6 @@
       "type": "Canonical"
     },
     "Indian/Mayotte": {
-      "comments": null,
       "countryCodes": [
         "YT"
       ],
@@ -6824,7 +6507,6 @@
       "type": "Link"
     },
     "Indian/Reunion": {
-      "comments": null,
       "countryCodes": [
         "RE"
       ],
@@ -6837,7 +6519,6 @@
       "type": "Link"
     },
     "Iran": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:30",
       "geographicArea": "Asia",
@@ -6848,7 +6529,6 @@
       "type": "Link"
     },
     "Israel": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Asia",
@@ -6859,7 +6539,6 @@
       "type": "Link"
     },
     "Jamaica": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "America",
@@ -6870,7 +6549,6 @@
       "type": "Link"
     },
     "Japan": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+09:00",
       "geographicArea": "Asia",
@@ -6881,7 +6559,6 @@
       "type": "Link"
     },
     "Kwajalein": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+12:00",
       "geographicArea": "Pacific",
@@ -6892,7 +6569,6 @@
       "type": "Link"
     },
     "Libya": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+02:00",
       "geographicArea": "Africa",
@@ -6903,7 +6579,6 @@
       "type": "Link"
     },
     "MET": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+02:00",
       "geographicArea": "Europe",
@@ -6914,7 +6589,6 @@
       "type": "Link"
     },
     "MST": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "America",
@@ -6925,7 +6599,6 @@
       "type": "Link"
     },
     "MST7MDT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "America",
@@ -6936,7 +6609,6 @@
       "type": "Link"
     },
     "Mexico/BajaNorte": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "Mexico",
@@ -6947,7 +6619,6 @@
       "type": "Link"
     },
     "Mexico/BajaSur": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "Mexico",
@@ -6958,7 +6629,6 @@
       "type": "Link"
     },
     "Mexico/General": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "Mexico",
@@ -6969,7 +6639,6 @@
       "type": "Link"
     },
     "NZ": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+12:00",
       "geographicArea": "Pacific",
@@ -6980,7 +6649,6 @@
       "type": "Link"
     },
     "NZ-CHAT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+12:45",
       "geographicArea": "Pacific",
@@ -6991,7 +6659,6 @@
       "type": "Link"
     },
     "Navajo": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "America",
@@ -7002,7 +6669,6 @@
       "type": "Link"
     },
     "PRC": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -7013,7 +6679,6 @@
       "type": "Link"
     },
     "PST8PDT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "America",
@@ -7025,7 +6690,6 @@
     },
     "Pacific/Apia": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "WS"
       ],
@@ -7112,7 +6776,6 @@
     },
     "Pacific/Efate": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "VU"
       ],
@@ -7124,7 +6787,6 @@
       "type": "Canonical"
     },
     "Pacific/Enderbury": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+13:00",
       "geographicArea": "Pacific",
@@ -7136,7 +6798,6 @@
     },
     "Pacific/Fakaofo": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "TK"
       ],
@@ -7149,7 +6810,6 @@
     },
     "Pacific/Fiji": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "FJ"
       ],
@@ -7161,7 +6821,6 @@
       "type": "Canonical"
     },
     "Pacific/Funafuti": {
-      "comments": null,
       "countryCodes": [
         "TV"
       ],
@@ -7220,7 +6879,6 @@
       "children": [
         "Pacific/Saipan"
       ],
-      "comments": null,
       "countryCodes": [
         "GU",
         "MP"
@@ -7250,7 +6908,6 @@
       "type": "Canonical"
     },
     "Pacific/Johnston": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-10:00",
       "geographicArea": "Pacific",
@@ -7357,7 +7014,6 @@
     },
     "Pacific/Nauru": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "NR"
       ],
@@ -7370,7 +7026,6 @@
     },
     "Pacific/Niue": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "NU"
       ],
@@ -7383,7 +7038,6 @@
     },
     "Pacific/Norfolk": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "NF"
       ],
@@ -7396,7 +7050,6 @@
     },
     "Pacific/Noumea": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "NC"
       ],
@@ -7427,7 +7080,6 @@
     },
     "Pacific/Palau": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "PW"
       ],
@@ -7440,7 +7092,6 @@
     },
     "Pacific/Pitcairn": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "PN"
       ],
@@ -7465,7 +7116,6 @@
       "type": "Link"
     },
     "Pacific/Ponape": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+11:00",
       "geographicArea": "Pacific",
@@ -7497,7 +7147,6 @@
     },
     "Pacific/Rarotonga": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "CK"
       ],
@@ -7509,7 +7158,6 @@
       "type": "Canonical"
     },
     "Pacific/Saipan": {
-      "comments": null,
       "countryCodes": [
         "MP"
       ],
@@ -7522,7 +7170,6 @@
       "type": "Link"
     },
     "Pacific/Samoa": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-11:00",
       "geographicArea": "Pacific",
@@ -7569,7 +7216,6 @@
     },
     "Pacific/Tongatapu": {
       "children": [],
-      "comments": null,
       "countryCodes": [
         "TO"
       ],
@@ -7581,7 +7227,6 @@
       "type": "Canonical"
     },
     "Pacific/Truk": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Pacific",
@@ -7605,7 +7250,6 @@
       "type": "Link"
     },
     "Pacific/Wallis": {
-      "comments": null,
       "countryCodes": [
         "WF"
       ],
@@ -7618,7 +7262,6 @@
       "type": "Link"
     },
     "Pacific/Yap": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+10:00",
       "geographicArea": "Pacific",
@@ -7629,7 +7272,6 @@
       "type": "Link"
     },
     "Poland": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+02:00",
       "geographicArea": "Europe",
@@ -7640,7 +7282,6 @@
       "type": "Link"
     },
     "Portugal": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+01:00",
       "geographicArea": "Europe",
@@ -7651,7 +7292,6 @@
       "type": "Link"
     },
     "ROC": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -7662,7 +7302,6 @@
       "type": "Link"
     },
     "ROK": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+09:00",
       "geographicArea": "Asia",
@@ -7673,7 +7312,6 @@
       "type": "Link"
     },
     "Singapore": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+08:00",
       "geographicArea": "Asia",
@@ -7684,7 +7322,6 @@
       "type": "Link"
     },
     "Turkey": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Europe",
@@ -7695,7 +7332,6 @@
       "type": "Link"
     },
     "UCT": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -7706,7 +7342,6 @@
       "type": "Link"
     },
     "US/Alaska": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-08:00",
       "geographicArea": "US",
@@ -7717,7 +7352,6 @@
       "type": "Link"
     },
     "US/Aleutian": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-09:00",
       "geographicArea": "US",
@@ -7728,7 +7362,6 @@
       "type": "Link"
     },
     "US/Arizona": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "US",
@@ -7739,7 +7372,6 @@
       "type": "Link"
     },
     "US/Central": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "US",
@@ -7750,7 +7382,6 @@
       "type": "Link"
     },
     "US/East-Indiana": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "US",
@@ -7761,7 +7392,6 @@
       "type": "Link"
     },
     "US/Eastern": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "US",
@@ -7772,7 +7402,6 @@
       "type": "Link"
     },
     "US/Hawaii": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-10:00",
       "geographicArea": "US",
@@ -7783,7 +7412,6 @@
       "type": "Link"
     },
     "US/Indiana-Starke": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-05:00",
       "geographicArea": "US",
@@ -7794,7 +7422,6 @@
       "type": "Link"
     },
     "US/Michigan": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-04:00",
       "geographicArea": "US",
@@ -7805,7 +7432,6 @@
       "type": "Link"
     },
     "US/Mountain": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-06:00",
       "geographicArea": "US",
@@ -7816,7 +7442,6 @@
       "type": "Link"
     },
     "US/Pacific": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-07:00",
       "geographicArea": "US",
@@ -7827,7 +7452,6 @@
       "type": "Link"
     },
     "US/Samoa": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "-11:00",
       "geographicArea": "US",
@@ -7838,7 +7462,6 @@
       "type": "Link"
     },
     "UTC": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -7849,7 +7472,6 @@
       "type": "Link"
     },
     "Universal": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,
@@ -7860,7 +7482,6 @@
       "type": "Link"
     },
     "W-SU": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+03:00",
       "geographicArea": "Europe",
@@ -7871,7 +7492,6 @@
       "type": "Link"
     },
     "WET": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+01:00",
       "geographicArea": "Europe",
@@ -7882,7 +7502,6 @@
       "type": "Link"
     },
     "Zulu": {
-      "comments": null,
       "countryCodes": [],
       "currentOffset": "+00:00",
       "geographicArea": null,

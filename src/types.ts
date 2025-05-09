@@ -16,7 +16,7 @@ export interface BaseTimezone {
   geographicArea: string | null;
   location: string | null;
   locationDisplayName: string | null;
-  comments: string | null;
+  comments?: string | null;
   currentOffset: string | null;
 }
 

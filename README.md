@@ -6,7 +6,7 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 
 - **Package version**: 0.0.4
 - **IANA DB Version**: 2025b
-- **Updated**: Fri, 09 May 2025 07:53:27 GMT
+- **Updated**: Fri, 09 May 2025 11:46:58 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Zones**: 597
 - **JSON data**: [timezones](./timezones.json)

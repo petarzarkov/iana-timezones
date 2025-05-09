@@ -21,10 +21,14 @@ export async function fetchData(params?: IANATzDataParams): Promise<IANATzDataFi
     redirect: 'follow',
   };
 
+  if (process.env.FORCE_REVALIDATE === 'true') {
+    logger.debug('FORCE_REVALIDATE enabled, fetching clean slate data from iana db');
+  }
+
   try {
     const { lastModified } = await import('../../previous.json');
     const lastModifiedDate = new Date(lastModified).toUTCString();
-    if (lastModifiedDate) {
+    if (lastModifiedDate && !process.env.FORCE_REVALIDATE) {
       init.headers = {
         'If-Modified-Since': lastModifiedDate,
       };

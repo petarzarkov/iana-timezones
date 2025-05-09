@@ -59,7 +59,9 @@ export async function parseData(data: IANATzDataFiles) {
       geographicArea,
       location,
       locationDisplayName: formatLocation(location),
-      comments: row.comments || null,
+      ...(row.comments && {
+        comments: row.comments,
+      }),
       currentOffset: getCurrentOffset(timezoneName),
     };
   }
@@ -85,7 +87,6 @@ export async function parseData(data: IANATzDataFiles) {
         countryCodes: [],
         geographicArea: null,
         location: null,
-        comments: null,
         children: [],
         type: 'Canonical',
         currentOffset: getCurrentOffset(timezoneName),
@@ -115,7 +116,6 @@ export async function parseData(data: IANATzDataFiles) {
         geographicArea: parent.geographicArea,
         location: parent.location,
         locationDisplayName: parent.locationDisplayName,
-        comments: null,
         type: 'Link',
         parent: canonicalTimezoneName,
         currentOffset: getCurrentOffset(linkName),
@@ -157,7 +157,9 @@ export async function parseData(data: IANATzDataFiles) {
       geographicArea: geographicArea || canonicalZoneRecord.geographicArea,
       location,
       locationDisplayName: formatLocation(location),
-      comments: legacyRow?.comments || null,
+      ...(legacyRow?.comments && {
+        comments: legacyRow.comments,
+      }),
       type: 'Link',
       parent: canonicalZoneName,
       currentOffset: getCurrentOffset(linkName) || canonicalZoneRecord.currentOffset,
