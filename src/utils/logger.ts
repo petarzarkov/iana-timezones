@@ -30,7 +30,7 @@ export const logger = {
     step(message, 'cyan', ctx);
   },
   info: (message: string, ctx?: unknown) => {
-    step(message, 'green', ctx);
+    step(message, 'magenta', ctx);
   },
   warn: (message: string, ctx?: unknown) => {
     step(message, 'yellow', ctx);

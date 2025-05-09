@@ -35,7 +35,7 @@ export async function fetchData(params?: IANATzDataParams): Promise<IANATzDataFi
 
   const response = await fetch(url, init);
   if (response.status === 304) {
-    logger.info('No IANA db timezone changes since last check, skipping data fetch');
+    logger.info('No IANA db timezone changes since last check, skipping data processing', { init });
     return null;
   }
 
