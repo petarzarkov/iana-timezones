@@ -12,17 +12,17 @@ export interface IANATzDataFiles {
 
 export interface BaseTimezone {
   timezoneName: string;
-  countryCodes: string[];
+  countryCodes?: string[];
   geographicArea: string | null;
   location: string | null;
   locationDisplayName: string | null;
-  comments?: string | null;
+  comments?: string;
   currentOffset: string | null;
 }
 
 export interface CanonicalTimezone extends BaseTimezone {
   type: 'Canonical';
-  children: string[];
+  children?: string[];
 }
 
 export interface LinkTimezone extends BaseTimezone {

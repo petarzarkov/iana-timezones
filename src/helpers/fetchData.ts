@@ -28,7 +28,7 @@ export async function fetchData(params?: IANATzDataParams): Promise<IANATzDataFi
   try {
     const { lastModified } = await import('../../previous.json');
     const lastModifiedDate = new Date(lastModified).toUTCString();
-    if (lastModifiedDate && !process.env.FORCE_REVALIDATE) {
+    if (lastModifiedDate && process.env.FORCE_REVALIDATE !== 'true') {
       init.headers = {
         'If-Modified-Since': lastModifiedDate,
       };

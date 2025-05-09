@@ -52,7 +52,7 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
             .toLowerCase()
             .replace(/[\/_]/g, '-')
             .replace(/[^a-z0-9-]/g, '');
-          const countryCodes = zone.countryCodes.length > 0 ? zone.countryCodes.join(', ') : '-';
+          const countryCodes = zone.countryCodes && zone.countryCodes.length > 0 ? zone.countryCodes.join(', ') : '-';
           const offset = zone.currentOffset || 'N/A';
 
           let linkText = '-';

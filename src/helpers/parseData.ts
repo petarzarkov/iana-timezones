@@ -52,7 +52,6 @@ export async function parseData(data: IANATzDataFiles) {
 
     const { geographicArea, location } = extractGeographicAreaAndLocation(timezoneName);
     canonicalTimezones[timezoneName] = {
-      children: [],
       type: 'Canonical',
       timezoneName,
       countryCodes,
@@ -84,7 +83,6 @@ export async function parseData(data: IANATzDataFiles) {
       canonicalTimezones[timezoneName] = {
         timezoneName,
         locationDisplayName: null,
-        countryCodes: [],
         geographicArea: null,
         location: null,
         children: [],
@@ -112,7 +110,6 @@ export async function parseData(data: IANATzDataFiles) {
 
       linkTimezones[linkName] = {
         timezoneName: linkName,
-        countryCodes: [],
         geographicArea: parent.geographicArea,
         location: parent.location,
         locationDisplayName: parent.locationDisplayName,
@@ -121,7 +118,12 @@ export async function parseData(data: IANATzDataFiles) {
         currentOffset: getCurrentOffset(linkName),
       };
 
-      parent.children.push(linkName);
+      if (!parent.children && linkName) {
+        parent.children = [];
+      }
+      if (parent.children) {
+        parent.children.push(linkName);
+      }
     }
   }
 
@@ -145,7 +147,12 @@ export async function parseData(data: IANATzDataFiles) {
       continue;
     }
 
-    canonicalZoneRecord.children.push(linkName);
+    if (!canonicalZoneRecord.children && linkName) {
+      canonicalZoneRecord.children = [];
+    }
+    if (canonicalZoneRecord.children) {
+      canonicalZoneRecord.children.push(linkName);
+    }
 
     const { geographicArea, location } = extractGeographicAreaAndLocation(linkName);
 
@@ -153,7 +160,10 @@ export async function parseData(data: IANATzDataFiles) {
 
     linkTimezones[linkName] = {
       timezoneName: linkName,
-      countryCodes: legacyRow ? [legacyRow.countryCodes] : [],
+      ...(legacyRow &&
+        legacyRow.countryCodes && {
+          countryCodes: [legacyRow.countryCodes],
+        }),
       geographicArea: geographicArea || canonicalZoneRecord.geographicArea,
       location,
       locationDisplayName: formatLocation(location),
