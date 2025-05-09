@@ -15,7 +15,8 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 - **IANA DB Version**: ${parsedData.version}
 - **Updated**: ${parsedData.updatedAt}
 - **Last Modified**: ${parsedData.lastModified}
-- **Zones**: ${parsedData.numberOfZones}
+- **Number of zones**: ${parsedData.numberOfZones}
+- **Zones**: [timezones.ts](./timezones.ts)
 - **Files used**: \`${parsedData.filesUsed.join(', ')}\`
 
 ---
