@@ -6,3 +6,4 @@ coverage
 .idea
 .env*
 README.md
+timezones.json

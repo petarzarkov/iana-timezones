@@ -20,6 +20,7 @@ export const getNewVersion = (currentVersion: string): `${string}.${string}.${st
       major! += 1;
     }
   }
+
   return `${major}.${minor}.${patch}`;
 };
 
@@ -56,6 +57,16 @@ const genVersion = async () => {
       errorDetails: error instanceof Error ? error.message : error,
     });
     throw error;
+  }
+
+  const checkDiffCmd = 'git diff --quiet HEAD -- timezones.json';
+  logger.info(`[${packageName}] Checking for timezones.json changes.`, { command: checkDiffCmd });
+  try {
+    execSync(checkDiffCmd, { stdio: 'pipe' });
+    logger.info(`[${packageName}] timezones.json has no changes since HEAD. Skipping versioning.`);
+    return;
+  } catch (error) {
+    logger.info(`[${packageName}] timezones.json has changes since HEAD.`, { error });
   }
 
   if (process.env.CI) {

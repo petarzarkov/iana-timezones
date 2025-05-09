@@ -1,18 +1,24 @@
 import { writeFileSync } from 'node:fs';
 
 import { logger } from './utils/logger.js';
-import { getData } from './helpers/getData.js';
+import { fetchData } from './helpers/fetchData.js';
 import { parseData } from './helpers/parseData.js';
 import { generateReadme } from './generateReadme.js';
 
 export async function generateTimezones() {
   const startTs = Date.now();
   try {
-    const latestData = await getData({
+    const latestData = await fetchData({
       filesToExtract: ['zone.tab', 'zone1970.tab', 'etcetera', 'backward'],
     });
+
+    if (!latestData) {
+      return;
+    }
+
     const parsedData = await parseData(latestData);
 
+    writeFileSync('previous.json', JSON.stringify({ lastModified: parsedData.lastModified }, null, 2));
     writeFileSync('timezones.json', JSON.stringify(parsedData, null, 2));
     generateReadme(parsedData);
 

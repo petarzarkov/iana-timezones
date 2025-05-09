@@ -6,6 +6,7 @@ export interface IANATzDataParams {
 
 export interface IANATzDataFiles {
   version: string;
+  lastModified: string;
   [key: string]: string;
 }
 

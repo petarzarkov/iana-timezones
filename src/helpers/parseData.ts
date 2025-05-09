@@ -173,7 +173,8 @@ export async function parseData(data: IANATzDataFiles) {
 
   return {
     version: data.version,
-    date: new Date().toUTCString(),
+    lastModified: data.lastModified,
+    updatedAt: new Date().toUTCString(),
     numberOfZones: Object.keys(zones).length,
     filesUsed: [legacyZoneFileName, zone1970FileName, etcFileName, backwardFileName],
     zones: orderedZones,
