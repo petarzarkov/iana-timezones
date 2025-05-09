@@ -3,6 +3,8 @@ name: Build CI
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 0 */7 * *'
 
 env:
   CI: true
