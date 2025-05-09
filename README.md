@@ -4,12 +4,11 @@ Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.or
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
-- **Package version**: 0.0.5
+- **Package version**: 0.0.6
 - **IANA DB Version**: 2025b
-- **Updated**: Fri, 09 May 2025 12:23:36 GMT
+- **Updated**: Fri, 09 May 2025 15:00:28 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Zones**: 597
-- **JSON data**: [timezones](./timezones.json)
 - **Files used**: `zone.tab, zone1970.tab, etcetera, backward`
 
 ---

@@ -6,5 +6,5 @@ coverage
 .idea
 .env*
 README.md
-timezones.json
+timezones.ts
 previous.json

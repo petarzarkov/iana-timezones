@@ -27,5 +27,5 @@
     "noUnusedLocals": true,
     "incremental": false
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "index.ts"]
 }

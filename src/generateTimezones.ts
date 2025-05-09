@@ -19,15 +19,15 @@ export async function generateTimezones() {
     const parsedData = await parseData(latestData);
 
     writeFileSync('previous.json', JSON.stringify({ lastModified: parsedData.lastModified }, null, 2));
-    writeFileSync('timezones.json', JSON.stringify(parsedData, null, 2));
+    writeFileSync('timezones.ts', `export default ${JSON.stringify(parsedData, null, 1)};`);
     generateReadme(parsedData);
 
-    stat('timezones.json', (err, stats) => {
+    stat('timezones.ts', (err, stats) => {
       if (err) {
         logger.warn('Error on stat timezones.json', { err });
       }
 
-      logger.debug('Size in kb for timezones.json', { kb: stats.size / 1024 });
+      logger.debug('Size in kb for timezones.ts', { kb: stats.size / 1024 });
     });
 
     logger.info('tz data successfully generated', { elapsed: Date.now() - startTs });

@@ -16,7 +16,6 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 - **Updated**: ${parsedData.updatedAt}
 - **Last Modified**: ${parsedData.lastModified}
 - **Zones**: ${parsedData.numberOfZones}
-- **JSON data**: [timezones](./timezones.json)
 - **Files used**: \`${parsedData.filesUsed.join(', ')}\`
 
 ---

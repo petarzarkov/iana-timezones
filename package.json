@@ -1,7 +1,22 @@
 {
   "name": "iana-timezones",
   "type": "module",
-  "private": true,
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist",
+    "timezones.json"
+  ],
   "description": "Auto generated timezones from iana db https://www.iana.org/time-zones",
   "author": {
     "name": "Petar Zarkov",
@@ -23,6 +38,11 @@
     "prepare": "node -e \"process.env.CI || process.env.DOCKER || process.exit(1)\" || husky",
     "generate": "tsx --env-file=.env src/generateTimezones.ts",
     "typecheck": "tsc --noEmit",
+    "prebuild": "rm -rf dist",
+    "build": "npm run build:cjs && npm run build:esm && npm run build:types",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:types": "tsc -p tsconfig.types.json",
     "test": "echo TODO",
     "lint": "eslint --cache src/**",
     "pretty": "prettier --cache --ignore-unknown --write .",
