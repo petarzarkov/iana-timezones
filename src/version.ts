@@ -37,15 +37,15 @@ const genVersion = async () => {
   logger.info(`[${packageName}] Starting versioning process.`, { currentVersion, newVersion });
 
   const commitsToCompare = `HEAD~1 HEAD`;
-  const checkDiffCmd = `git diff ${commitsToCompare} -- timezones.json`;
-  logger.debug(`[${packageName}] Checking for timezones.json changes.`, { command: checkDiffCmd });
+  const checkDiffCmd = `git diff ${commitsToCompare} -- timezones.ts`;
+  logger.debug(`[${packageName}] Checking for timezones.ts changes.`, { command: checkDiffCmd });
   const diffOutput = execSync(checkDiffCmd, { stdio: 'pipe' }).toString().trim() || null;
   if (!diffOutput) {
-    logger.info(`[${packageName}] timezones.json has no changes between ${commitsToCompare}. Skipping versioning.`);
+    logger.info(`[${packageName}] timezones.ts has no changes between ${commitsToCompare}. Skipping versioning.`);
     return;
   }
 
-  logger.info(`[${packageName}] timezones.json has changes between ${commitsToCompare}. Proceeding with versioning.`, {
+  logger.info(`[${packageName}] timezones.ts has changes between ${commitsToCompare}. Proceeding with versioning.`, {
     diffOutput,
   });
 

@@ -6,7 +6,7 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 
 - **Package version**: 0.0.7
 - **IANA DB Version**: 2025b
-- **Updated**: Fri, 09 May 2025 15:12:25 GMT
+- **Updated**: Sat, 10 May 2025 08:30:32 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Number of zones**: 597
 - **Zones**: [timezones.ts](./timezones.ts)
