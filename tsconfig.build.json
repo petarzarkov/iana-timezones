@@ -1,7 +1,8 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "declaration": true
+    "declaration": true,
+    "removeComments": false
   },
   "include": ["index.ts"],
   "exclude": ["node_modules"]

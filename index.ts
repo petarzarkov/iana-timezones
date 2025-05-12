@@ -7,37 +7,8 @@ export type TimezoneName = keyof typeof timezones.zones;
 
 const es6map = new Map<TimezoneName, Timezone>(Object.entries(timezones.zones) as [TimezoneName, Timezone][]);
 
-/**
- * Returns zone by zone name
- * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
- * @example
- * ```js
- * getZone('Europe/Sofia')
- * // => {
- * //   countryCodes: ['BG'],
- * //   utc: '+03:00',
- * //   geographicArea: 'Europe',
- * //   location: 'Sofia',
- * //   locationLabel: 'Sofia',
- * //   name: 'Europe/Sofia',
- * //   type: 'Canonical'
- * // }
- * ```
- */
 const getZone = (zone: TimezoneName) => es6map.get(zone) ?? null;
-
-/**
- * Returns the current offset for a timezone
- * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
- * @example getZoneUTC('Europe/Sofia') //=> '+03:00'
- */
 const getZoneUTC = (zone: TimezoneName) => es6map.get(zone)?.utc ?? null;
-
-/**
- * Returns the current ISO date-time adjusted to the timezone offset.
- * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
- * @example getZoneISODate('Europe/Sofia') //=> '2025-05-12T08:25:49.322+03:00'
- */
 const getZoneISODate = (zone: TimezoneName): string | null => {
   const offset = getZoneUTC(zone);
   if (!offset) return null;
@@ -57,7 +28,34 @@ const getZoneISODate = (zone: TimezoneName): string | null => {
 export default {
   zones: timezones.zones,
   map: es6map,
+  /**
+   * Returns zone by zone name
+   * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
+   * @example
+   * ```js
+   * getZone('Europe/Sofia')
+   * // => {
+   * //   countryCodes: ['BG'],
+   * //   utc: '+03:00',
+   * //   geographicArea: 'Europe',
+   * //   location: 'Sofia',
+   * //   locationLabel: 'Sofia',
+   * //   name: 'Europe/Sofia',
+   * //   type: 'Canonical'
+   * // }
+   * ```
+   */
   getZone,
+  /**
+   * Returns the current offset for a timezone
+   * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
+   * @example getZoneUTC('Europe/Sofia') //=> '+03:00'
+   */
   getZoneUTC,
+  /**
+   * Returns the current ISO date-time adjusted to the timezone offset.
+   * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
+   * @example getZoneISODate('Europe/Sofia') //=> '2025-05-12T08:25:49.322+03:00'
+   */
   getZoneISODate,
 };

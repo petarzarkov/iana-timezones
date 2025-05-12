@@ -15,24 +15,24 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 
 The fields for each timezone object in the timezones-db are as follows:
 
-- `name`: The standard IANA Time Zone Database identifier (e.g., `Pacific/Funafuti`, `Europe/London`).
-- `label`: A display string containing the name followed by the current UTC offset (e.g., `Pacific/Funafuti (GMT+12:00)`).
-- `utc`: The current static UTC offset from Coordinated Universal Time (UTC) in `+HH:MM` or `-HH:MM` format (e.g., `+12:00`).
+- `name`: The standard IANA Time Zone Database identifier (e.g., `Etc/GMT-0`, `Europe/London`).
+- `label`: A display string containing the name followed by the current UTC offset (e.g., `Etc/GMT-0 (GMT+00:00)`).
+- `utc`: The current static UTC offset from Coordinated Universal Time (UTC) in `+HH:MM` or `-HH:MM` format (e.g., `+00:00`).
 This offset reflects the current state (including Daylight Saving Time if applicable).
-- `locationLabel`: A human-readable name for the primary city or location associated with the timezone (e.g., `Funafuti`, `London`).
+- `locationLabel`: A human-readable name for the primary city or location associated with the timezone (e.g., `GMT-0`, `London`).
 - `countryCodes`: An array of `ISO 3166-1 alpha-2` country codes associated with this timezone (e.g. `['KI','MH','TV','UM','WF'`)
-- `geographicArea`: The continent or ocean region the timezone is located in (e.g., `Pacific`, `Europe`, `Pacific`).
+- `geographicArea`: The continent or ocean region the timezone is located in (e.g., `Etc`, `Europe`, `Pacific`).
 - `type`: Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.
 - `parent`: (Present for Link types) The name of the canonical timezone that this link points to.
 - `comments`: (Optional) Additional notes about the zone.
 - `children`: (Present for Canonical types) An array of name values for the zones that are links pointing to this canonical zone.
-- `location`: The raw location name used in the IANA database (e.g. `Funafuti`).
+- `location`: The raw location name used in the IANA database (e.g. `GMT-0`).
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
-- **Package version**: 0.1.3
+- **Package version**: 0.1.4
 - **IANA DB Version**: 2025b
-- **Updated**: Mon, 12 May 2025 13:54:42 GMT
+- **Updated**: Mon, 12 May 2025 14:11:19 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Number of zones**: 597
 - **Zones Data File**: [timezones.ts](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.ts)

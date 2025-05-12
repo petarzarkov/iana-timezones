@@ -42,7 +42,6 @@
     "typecheck": "tsc --noEmit",
     "prebuild": "rm -rf dist",
     "build": "rollup -c",
-    "postbuild": "sh scripts/fix-types.sh && rm -rf dist/types/timezones.d.ts",
     "test": "vitest run",
     "test:cov": "vitest run --coverage",
     "test:dev": "vitest dev",
