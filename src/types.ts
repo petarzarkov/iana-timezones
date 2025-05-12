@@ -11,6 +11,7 @@ export interface IANATzDataFiles {
 }
 
 export interface BaseTimezone {
+  type: 'Canonical' | 'Link';
   timezoneName: string;
   countryCodes?: string[];
   geographicArea: string | null;

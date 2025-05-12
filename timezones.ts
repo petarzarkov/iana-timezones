@@ -1,7 +1,7 @@
 export default {
   version: '2025b',
   lastModified: 'Sat, 22 Mar 2025 21:45:31 GMT',
-  updatedAt: 'Sat, 10 May 2025 08:30:32 GMT',
+  updatedAt: 'Mon, 12 May 2025 06:51:02 GMT',
   numberOfZones: 597,
   filesUsed: [
     'zone.tab',
@@ -4852,7 +4852,6 @@ export default {
       type: 'Link'
     },
     'Etc/GMT+1': {
-      children: [],
       currentOffset: '-01:00',
       geographicArea: null,
       location: null,
@@ -4861,7 +4860,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+10': {
-      children: [],
       currentOffset: '-10:00',
       geographicArea: null,
       location: null,
@@ -4870,7 +4868,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+11': {
-      children: [],
       currentOffset: '-11:00',
       geographicArea: null,
       location: null,
@@ -4879,7 +4876,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+12': {
-      children: [],
       currentOffset: '-12:00',
       geographicArea: null,
       location: null,
@@ -4888,7 +4884,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+2': {
-      children: [],
       currentOffset: '-02:00',
       geographicArea: null,
       location: null,
@@ -4897,7 +4892,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+3': {
-      children: [],
       currentOffset: '-03:00',
       geographicArea: null,
       location: null,
@@ -4906,7 +4900,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+4': {
-      children: [],
       currentOffset: '-04:00',
       geographicArea: null,
       location: null,
@@ -4915,7 +4908,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+5': {
-      children: [],
       currentOffset: '-05:00',
       geographicArea: null,
       location: null,
@@ -4924,7 +4916,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+6': {
-      children: [],
       currentOffset: '-06:00',
       geographicArea: null,
       location: null,
@@ -4933,7 +4924,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+7': {
-      children: [],
       currentOffset: '-07:00',
       geographicArea: null,
       location: null,
@@ -4942,7 +4932,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+8': {
-      children: [],
       currentOffset: '-08:00',
       geographicArea: null,
       location: null,
@@ -4951,7 +4940,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT+9': {
-      children: [],
       currentOffset: '-09:00',
       geographicArea: null,
       location: null,
@@ -4969,7 +4957,6 @@ export default {
       type: 'Link'
     },
     'Etc/GMT-1': {
-      children: [],
       currentOffset: '+01:00',
       geographicArea: null,
       location: null,
@@ -4978,7 +4965,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-10': {
-      children: [],
       currentOffset: '+10:00',
       geographicArea: null,
       location: null,
@@ -4987,7 +4973,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-11': {
-      children: [],
       currentOffset: '+11:00',
       geographicArea: null,
       location: null,
@@ -4996,7 +4981,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-12': {
-      children: [],
       currentOffset: '+12:00',
       geographicArea: null,
       location: null,
@@ -5005,7 +4989,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-13': {
-      children: [],
       currentOffset: '+13:00',
       geographicArea: null,
       location: null,
@@ -5014,7 +4997,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-14': {
-      children: [],
       currentOffset: '+14:00',
       geographicArea: null,
       location: null,
@@ -5023,7 +5005,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-2': {
-      children: [],
       currentOffset: '+02:00',
       geographicArea: null,
       location: null,
@@ -5032,7 +5013,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-3': {
-      children: [],
       currentOffset: '+03:00',
       geographicArea: null,
       location: null,
@@ -5041,7 +5021,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-4': {
-      children: [],
       currentOffset: '+04:00',
       geographicArea: null,
       location: null,
@@ -5050,7 +5029,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-5': {
-      children: [],
       currentOffset: '+05:00',
       geographicArea: null,
       location: null,
@@ -5059,7 +5037,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-6': {
-      children: [],
       currentOffset: '+06:00',
       geographicArea: null,
       location: null,
@@ -5068,7 +5045,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-7': {
-      children: [],
       currentOffset: '+07:00',
       geographicArea: null,
       location: null,
@@ -5077,7 +5053,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-8': {
-      children: [],
       currentOffset: '+08:00',
       geographicArea: null,
       location: null,
@@ -5086,7 +5061,6 @@ export default {
       type: 'Canonical'
     },
     'Etc/GMT-9': {
-      children: [],
       currentOffset: '+09:00',
       geographicArea: null,
       location: null,

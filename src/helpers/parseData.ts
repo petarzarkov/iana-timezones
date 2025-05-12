@@ -85,7 +85,6 @@ export async function parseData(data: IANATzDataFiles) {
         locationDisplayName: null,
         geographicArea: null,
         location: null,
-        children: [],
         type: 'Canonical',
         currentOffset: getCurrentOffset(timezoneName),
       };

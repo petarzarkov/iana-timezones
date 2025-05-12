@@ -35,8 +35,11 @@ jobs:
         run: pnpm run typecheck
       - name: Lint
         run: pnpm run lint
-      - name: Test
-        run: pnpm run test
+      - name: Test Coverage
+        run: pnpm run test:cov
+      - name: 'Report Coverage'
+        if: always()
+        uses: davelosert/vitest-coverage-report-action@v2.8.2
       - name: Version and generate timezones
         env:
           ORIGINAL_COMMIT_SHA: ${{ github.sha }}
