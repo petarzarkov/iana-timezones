@@ -26,8 +26,8 @@ const getZoneISODate = (zone: TimezoneName): string | null => {
 };
 
 export default {
-  zones: timezones.zones,
-  map: es6map,
+  zones: timezones.zones as Record<TimezoneName, Timezone>, // using the ts cast to reduce the final bundled d.ts file size
+  map: es6map as Map<TimezoneName, Timezone>, // using the ts cast to reduce the final bundled d.ts file size
   /**
    * Returns zone by zone name
    * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
