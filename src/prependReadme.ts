@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { ParsedData } from './helpers/parseData';
 import { version } from '../package.json';
@@ -6,7 +7,24 @@ export function prependReadme(parsedData: ParsedData): void {
   const zoneValues = Object.values(parsedData.zones);
   const rz = zoneValues[Math.floor(Math.random() * zoneValues.length)]!;
 
-  const separator = '---';
+  const separator = '📜';
+  const fieldsTable = `The fields for each timezone object are as follows:
+
+  | Field Name     | Description                                                                                                | Example Value             |
+  |----------------|------------------------------------------------------------------------------------------------------------|---------------------------|
+  | \`name\`         | The standard IANA Time Zone Database identifier (tz code).                                                 | \`${rz.name}\`            |
+  | \`label\`        | A display string combining the \`name\` and the current UTC offset.                                        | \`${rz.label}\`           |
+  | \`utc\`          | The current static UTC offset from UTC in \`+HH:MM\` or \`-HH:MM\` format. Reflects current DST.         | \`${rz.utc}\`             |
+  | \`locationLabel\`| A human-readable name for the primary city or location associated with the timezone.                         | \`${rz.locationLabel}\`   |
+  | \`countryCodes\` | An array of \`ISO 3166-1 alpha-2\` country codes associated with this timezone.                            | \`['US']\` or \`['KI', ...]\` |
+  | \`geographicArea\`| The continent or ocean region the timezone is located in.                                                  | \`${rz.geographicArea}\`  |
+  | \`type\`         | Indicates if the entry is a \`Canonical\` timezone or a \`Link\` (an alias) to another timezone.             | \`Canonical\` or \`Link\` |
+  | \`parent\`       | (Present for \`Link\` types) The \`name\` of the canonical timezone that this link points to.              | \`Europe/London\`         |
+  | \`comments\`     | (Optional) Additional notes from the IANA database.                                                      | \`'Mountain (most areas)'\`         |
+  | \`children\`     | (Present for \`Canonical\` types) An array of \`name\` values for the zones that are links pointing to this. | \`['EST5EDT', ...]\`      |
+  | \`location\`     | The raw location name used in the IANA database (e.g., the last part of the \`name\` before underscores).    | \`${rz.location}\`        |
+  
+  `;
   const dynamicHeader = `${separator}
 
 Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
@@ -16,20 +34,7 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 - Can be used both in both Node.js and Browser
 - If you just need the json data - [timezones.json](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.json)
 
-The fields for each timezone object in the timezones-db are as follows:
-
-- \`name\`: The standard IANA Time Zone Database identifier (e.g., \`${rz.name}\`, \`Europe/London\`).
-- \`label\`: A display string containing the name followed by the current UTC offset (e.g., \`${rz.label}\`).
-- \`utc\`: The current static UTC offset from Coordinated Universal Time (UTC) in \`+HH:MM\` or \`-HH:MM\` format (e.g., \`${rz.utc}\`).
-This offset reflects the current state (including Daylight Saving Time if applicable).
-- \`locationLabel\`: A human-readable name for the primary city or location associated with the timezone (e.g., \`${rz.locationLabel}\`, \`London\`).
-- \`countryCodes\`: An array of \`ISO 3166-1 alpha-2\` country codes associated with this timezone (e.g. \`['KI','MH','TV','UM','WF'\`)
-- \`geographicArea\`: The continent or ocean region the timezone is located in (e.g., \`${rz.geographicArea}\`, \`Europe\`, \`Pacific\`).
-- \`type\`: Indicates if the entry is a \`Canonical\` timezone or a \`Link\` (an alias) to another timezone.
-- \`parent\`: (Present for Link types) The name of the canonical timezone that this link points to.
-- \`comments\`: (Optional) Additional notes about the zone.
-- \`children\`: (Present for Canonical types) An array of name values for the zones that are links pointing to this canonical zone.
-- \`location\`: The raw location name used in the IANA database (e.g. \`${rz.location}\`).
+${fieldsTable}
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 

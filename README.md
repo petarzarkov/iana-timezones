@@ -4,7 +4,7 @@
 [![build](https://github.com/petarzarkov/iana-timezones/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/petarzarkov/iana-timezones/actions)
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
----
+📜
 
 Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
 
@@ -13,33 +13,36 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 - Can be used both in both Node.js and Browser
 - If you just need the json data - [timezones.json](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.json)
 
-The fields for each timezone object in the timezones-db are as follows:
+The fields for each timezone object are as follows:
 
-- `name`: The standard IANA Time Zone Database identifier (e.g., `Eire`, `Europe/London`).
-- `label`: A display string containing the name followed by the current UTC offset (e.g., `Eire (GMT+01:00)`).
-- `utc`: The current static UTC offset from Coordinated Universal Time (UTC) in `+HH:MM` or `-HH:MM` format (e.g., `+01:00`).
-This offset reflects the current state (including Daylight Saving Time if applicable).
-- `locationLabel`: A human-readable name for the primary city or location associated with the timezone (e.g., `Eire`, `London`).
-- `countryCodes`: An array of `ISO 3166-1 alpha-2` country codes associated with this timezone (e.g. `['KI','MH','TV','UM','WF'`)
-- `geographicArea`: The continent or ocean region the timezone is located in (e.g., `Europe`, `Europe`, `Pacific`).
-- `type`: Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.
-- `parent`: (Present for Link types) The name of the canonical timezone that this link points to.
-- `comments`: (Optional) Additional notes about the zone.
-- `children`: (Present for Canonical types) An array of name values for the zones that are links pointing to this canonical zone.
-- `location`: The raw location name used in the IANA database (e.g. `Eire`).
+  | Field Name     | Description                                                                                                | Example Value             |
+  |----------------|------------------------------------------------------------------------------------------------------------|---------------------------|
+  | `name`         | The standard IANA Time Zone Database identifier (tz code).                                                 | `Asia/Chita`            |
+  | `label`        | A display string combining the `name` and the current UTC offset.                                        | `Asia/Chita (GMT+09:00)`           |
+  | `utc`          | The current static UTC offset from UTC in `+HH:MM` or `-HH:MM` format. Reflects current DST.         | `+09:00`             |
+  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `Chita`   |
+  | `countryCodes` | An array of `ISO 3166-1 alpha-2` country codes associated with this timezone.                            | `['US']` or `['KI', ...]` |
+  | `geographicArea`| The continent or ocean region the timezone is located in.                                                  | `Asia`  |
+  | `type`         | Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.             | `Canonical` or `Link` |
+  | `parent`       | (Present for `Link` types) The `name` of the canonical timezone that this link points to.              | `Europe/London`         |
+  | `comments`     | (Optional) Additional notes from the IANA database.                                                      | `'Mountain (most areas)'`         |
+  | `children`     | (Present for `Canonical` types) An array of `name` values for the zones that are links pointing to this. | `['EST5EDT', ...]`      |
+  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `name` before underscores).    | `Chita`        |
+  
+  
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
-- **Package version**: 0.1.5
+- **Package version**: 0.1.6
 - **IANA DB Version**: 2025b
-- **Updated**: Mon, 12 May 2025 14:30:42 GMT
+- **Updated**: Mon, 12 May 2025 14:43:40 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Number of zones**: 597
 - **Zones Data File**: [timezones.ts](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.ts)
 - **Zones MD**: [timezones](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
 - **Files used from IANA DB**: `zone.tab, zone1970.tab, etcetera, backward`
 
----
+📜
 
 ## Overview
 
