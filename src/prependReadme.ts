@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { ParsedData } from './helpers/parseData';
-import { version } from '../package.json';
 
 export function prependReadme(parsedData: ParsedData): void {
   const zoneValues = Object.values(parsedData.zones);
@@ -38,7 +37,6 @@ ${fieldsTable}
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
-- **Package version**: ${version}
 - **IANA DB Version**: ${parsedData.version}
 - **Updated**: ${parsedData.updatedAt}
 - **Last Modified**: ${parsedData.lastModified}

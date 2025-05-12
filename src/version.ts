@@ -2,7 +2,6 @@ import { execSync } from 'child_process';
 import { logger } from './utils/logger.js';
 import packageJson from '../package.json';
 import { generateTimezones } from './generateTimezones.js';
-import { readFileSync, writeFileSync } from 'node:fs';
 
 export const getNewVersion = (currentVersion: string): `${string}.${string}.${string}` => {
   const parts = currentVersion.split('.').map(Number);
@@ -61,9 +60,6 @@ const genVersion = async () => {
   }
 
   try {
-    const readme = readFileSync('README.md', 'utf8');
-    readme.replace(/- \*\*Package version\*\*: \d{1,}.\d.\d/, newVersion);
-    writeFileSync('README.md', readme);
     const addCmd = 'git add .';
     logger.debug(`[${packageName}] Staging changes.`, { command: addCmd });
     execSync(addCmd);
