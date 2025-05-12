@@ -15,11 +15,11 @@ const es6map = new Map<TimezoneName, Timezone>(Object.entries(timezones.zones) a
  * getZone('Europe/Sofia')
  * // => {
  * //   countryCodes: ['BG'],
- * //   currentOffset: '+03:00',
+ * //   utc: '+03:00',
  * //   geographicArea: 'Europe',
  * //   location: 'Sofia',
- * //   locationDisplayName: 'Sofia',
- * //   timezoneName: 'Europe/Sofia',
+ * //   locationLabel: 'Sofia',
+ * //   name: 'Europe/Sofia',
  * //   type: 'Canonical'
  * // }
  * ```
@@ -29,9 +29,9 @@ const getZone = (zone: TimezoneName) => es6map.get(zone) ?? null;
 /**
  * Returns the current offset for a timezone
  * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
- * @example getZoneCurrentOffset('Europe/Sofia') //=> '+03:00'
+ * @example getZoneUTC('Europe/Sofia') //=> '+03:00'
  */
-const getZoneCurrentOffset = (zone: TimezoneName) => es6map.get(zone)?.currentOffset ?? null;
+const getZoneUTC = (zone: TimezoneName) => es6map.get(zone)?.utc ?? null;
 
 /**
  * Returns the current ISO date-time adjusted to the timezone offset.
@@ -39,7 +39,7 @@ const getZoneCurrentOffset = (zone: TimezoneName) => es6map.get(zone)?.currentOf
  * @example getZoneISODate('Europe/Sofia') //=> '2025-05-12T08:25:49.322+03:00'
  */
 const getZoneISODate = (zone: TimezoneName): string | null => {
-  const offset = getZoneCurrentOffset(zone);
+  const offset = getZoneUTC(zone);
   if (!offset) return null;
 
   const match = offset.match(/^([+-])(\d{2}):(\d{2})$/);
@@ -58,6 +58,6 @@ export default {
   zones: timezones.zones,
   map: es6map,
   getZone,
-  getZoneCurrentOffset,
+  getZoneUTC,
   getZoneISODate,
 };

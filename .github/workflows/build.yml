@@ -37,6 +37,34 @@ jobs:
         run: pnpm run lint
       - name: Test Coverage
         run: pnpm run test:cov
+      - name: Install badgen-cli and Generate Coverage Badge
+        run: |
+          # Install badgen-cli globally for ease of use in the next command
+          npm install -g badgen-cli
+
+          # Calculate coverage percentage from the summary report
+          COV=$(node -p 't=require(`./coverage/coverage-summary.json`).total,Math.min(...`lines|statements|functions|branches`.split(`|`).map(k=>t[k].pct))')
+
+          if [ "$COV" -ge 95 ]; then
+            COLOR="green"
+          else
+            COLOR="orange"
+          fi
+
+          # Generate the badge and save it in the coverage directory
+          badgen -j coverage -s $COV% -c $COLOR > coverage/coverage.svg
+      - name: Deploy Coverage Report and Badge to gh-pages
+        # Only run this on the default branch (e.g., 'main')
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && success()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./coverage
+          publish_branch: gh-pages
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Deploy coverage report [skip ci]'
       - name: Version and generate timezones
         env:
           ORIGINAL_COMMIT_SHA: ${{ github.sha }}
@@ -46,6 +74,9 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           pnpm run versioning
-      - name: Update Coverage Badge
-        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
-        uses: we-cli/coverage-badge-action@main
+      - name: Build
+        run: pnpm build
+      - name: Publish
+        env:
+          npm-auth-token: ${{ secrets.NPM_TOKEN }}
+        run: pnpm publish --access public

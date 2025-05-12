@@ -1,7 +1,7 @@
 export default {
   version: '2025b',
   lastModified: 'Sat, 22 Mar 2025 21:45:31 GMT',
-  updatedAt: 'Mon, 12 May 2025 08:03:50 GMT',
+  updatedAt: 'Mon, 12 May 2025 12:37:55 GMT',
   numberOfZones: 597,
   filesUsed: [
     'zone.tab',
@@ -40,151 +40,164 @@ export default {
         'SN',
         'TG'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Abidjan (GMT+00:00)',
       location: 'Abidjan',
-      locationDisplayName: 'Abidjan',
-      timezoneName: 'Africa/Abidjan',
-      type: 'Canonical'
+      locationLabel: 'Abidjan',
+      name: 'Africa/Abidjan',
+      type: 'Canonical',
+      utc: '+00:00'
     },
     'Africa/Accra': {
       countryCodes: [
         'GH'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Accra (GMT+00:00)',
       location: 'Accra',
-      locationDisplayName: 'Accra',
+      locationLabel: 'Accra',
+      name: 'Africa/Accra',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Accra',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Addis_Ababa': {
       countryCodes: [
         'ET'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Addis_Ababa (GMT+03:00)',
       location: 'Addis_Ababa',
-      locationDisplayName: 'Addis Ababa',
+      locationLabel: 'Addis Ababa',
+      name: 'Africa/Addis_Ababa',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Africa/Addis_Ababa',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Africa/Algiers': {
       countryCodes: [
         'DZ'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Algiers (GMT+01:00)',
       location: 'Algiers',
-      locationDisplayName: 'Algiers',
-      timezoneName: 'Africa/Algiers',
-      type: 'Canonical'
+      locationLabel: 'Algiers',
+      name: 'Africa/Algiers',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Africa/Asmara': {
       countryCodes: [
         'ER'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Asmara (GMT+03:00)',
       location: 'Asmara',
-      locationDisplayName: 'Asmara',
+      locationLabel: 'Asmara',
+      name: 'Africa/Asmara',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Africa/Asmara',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Africa/Asmera': {
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Asmera (GMT+03:00)',
       location: 'Asmera',
-      locationDisplayName: 'Asmera',
+      locationLabel: 'Asmera',
+      name: 'Africa/Asmera',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Africa/Asmera',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Africa/Bamako': {
       countryCodes: [
         'ML'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Bamako (GMT+00:00)',
       location: 'Bamako',
-      locationDisplayName: 'Bamako',
+      locationLabel: 'Bamako',
+      name: 'Africa/Bamako',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Bamako',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Bangui': {
       countryCodes: [
         'CF'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Bangui (GMT+01:00)',
       location: 'Bangui',
-      locationDisplayName: 'Bangui',
+      locationLabel: 'Bangui',
+      name: 'Africa/Bangui',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Bangui',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/Banjul': {
       countryCodes: [
         'GM'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Banjul (GMT+00:00)',
       location: 'Banjul',
-      locationDisplayName: 'Banjul',
+      locationLabel: 'Banjul',
+      name: 'Africa/Banjul',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Banjul',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Bissau': {
       countryCodes: [
         'GW'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Bissau (GMT+00:00)',
       location: 'Bissau',
-      locationDisplayName: 'Bissau',
-      timezoneName: 'Africa/Bissau',
-      type: 'Canonical'
+      locationLabel: 'Bissau',
+      name: 'Africa/Bissau',
+      type: 'Canonical',
+      utc: '+00:00'
     },
     'Africa/Blantyre': {
       countryCodes: [
         'MW'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Blantyre (GMT+02:00)',
       location: 'Blantyre',
-      locationDisplayName: 'Blantyre',
+      locationLabel: 'Blantyre',
+      name: 'Africa/Blantyre',
       parent: 'Africa/Maputo',
-      timezoneName: 'Africa/Blantyre',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Brazzaville': {
       countryCodes: [
         'CG'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Brazzaville (GMT+01:00)',
       location: 'Brazzaville',
-      locationDisplayName: 'Brazzaville',
+      locationLabel: 'Brazzaville',
+      name: 'Africa/Brazzaville',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Brazzaville',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/Bujumbura': {
       countryCodes: [
         'BI'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Bujumbura (GMT+02:00)',
       location: 'Bujumbura',
-      locationDisplayName: 'Bujumbura',
+      locationLabel: 'Bujumbura',
+      name: 'Africa/Bujumbura',
       parent: 'Africa/Maputo',
-      timezoneName: 'Africa/Bujumbura',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Cairo': {
       children: [
@@ -193,142 +206,154 @@ export default {
       countryCodes: [
         'EG'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Cairo (GMT+03:00)',
       location: 'Cairo',
-      locationDisplayName: 'Cairo',
-      timezoneName: 'Africa/Cairo',
-      type: 'Canonical'
+      locationLabel: 'Cairo',
+      name: 'Africa/Cairo',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Africa/Casablanca': {
       countryCodes: [
         'MA'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Casablanca (GMT+01:00)',
       location: 'Casablanca',
-      locationDisplayName: 'Casablanca',
-      timezoneName: 'Africa/Casablanca',
-      type: 'Canonical'
+      locationLabel: 'Casablanca',
+      name: 'Africa/Casablanca',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Africa/Ceuta': {
       comments: 'Ceuta, Melilla',
       countryCodes: [
         'ES'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Ceuta (GMT+02:00)',
       location: 'Ceuta',
-      locationDisplayName: 'Ceuta',
-      timezoneName: 'Africa/Ceuta',
-      type: 'Canonical'
+      locationLabel: 'Ceuta',
+      name: 'Africa/Ceuta',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Africa/Conakry': {
       countryCodes: [
         'GN'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Conakry (GMT+00:00)',
       location: 'Conakry',
-      locationDisplayName: 'Conakry',
+      locationLabel: 'Conakry',
+      name: 'Africa/Conakry',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Conakry',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Dakar': {
       countryCodes: [
         'SN'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Dakar (GMT+00:00)',
       location: 'Dakar',
-      locationDisplayName: 'Dakar',
+      locationLabel: 'Dakar',
+      name: 'Africa/Dakar',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Dakar',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Dar_es_Salaam': {
       countryCodes: [
         'TZ'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Dar_es_Salaam (GMT+03:00)',
       location: 'Dar_es_Salaam',
-      locationDisplayName: 'Dar es_Salaam',
+      locationLabel: 'Dar es_Salaam',
+      name: 'Africa/Dar_es_Salaam',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Africa/Dar_es_Salaam',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Africa/Djibouti': {
       countryCodes: [
         'DJ'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Djibouti (GMT+03:00)',
       location: 'Djibouti',
-      locationDisplayName: 'Djibouti',
+      locationLabel: 'Djibouti',
+      name: 'Africa/Djibouti',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Africa/Djibouti',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Africa/Douala': {
       countryCodes: [
         'CM'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Douala (GMT+01:00)',
       location: 'Douala',
-      locationDisplayName: 'Douala',
+      locationLabel: 'Douala',
+      name: 'Africa/Douala',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Douala',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/El_Aaiun': {
       countryCodes: [
         'EH'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/El_Aaiun (GMT+01:00)',
       location: 'El_Aaiun',
-      locationDisplayName: 'El Aaiun',
-      timezoneName: 'Africa/El_Aaiun',
-      type: 'Canonical'
+      locationLabel: 'El Aaiun',
+      name: 'Africa/El_Aaiun',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Africa/Freetown': {
       countryCodes: [
         'SL'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Freetown (GMT+00:00)',
       location: 'Freetown',
-      locationDisplayName: 'Freetown',
+      locationLabel: 'Freetown',
+      name: 'Africa/Freetown',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Freetown',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Gaborone': {
       countryCodes: [
         'BW'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Gaborone (GMT+02:00)',
       location: 'Gaborone',
-      locationDisplayName: 'Gaborone',
+      locationLabel: 'Gaborone',
+      name: 'Africa/Gaborone',
       parent: 'Africa/Maputo',
-      timezoneName: 'Africa/Gaborone',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Harare': {
       countryCodes: [
         'ZW'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Harare (GMT+02:00)',
       location: 'Harare',
-      locationDisplayName: 'Harare',
+      locationLabel: 'Harare',
+      name: 'Africa/Harare',
       parent: 'Africa/Maputo',
-      timezoneName: 'Africa/Harare',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Johannesburg': {
       children: [
@@ -340,71 +365,77 @@ export default {
         'SZ',
         'ZA'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Johannesburg (GMT+02:00)',
       location: 'Johannesburg',
-      locationDisplayName: 'Johannesburg',
-      timezoneName: 'Africa/Johannesburg',
-      type: 'Canonical'
+      locationLabel: 'Johannesburg',
+      name: 'Africa/Johannesburg',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Africa/Juba': {
       countryCodes: [
         'SS'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Juba (GMT+02:00)',
       location: 'Juba',
-      locationDisplayName: 'Juba',
-      timezoneName: 'Africa/Juba',
-      type: 'Canonical'
+      locationLabel: 'Juba',
+      name: 'Africa/Juba',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Africa/Kampala': {
       countryCodes: [
         'UG'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Kampala (GMT+03:00)',
       location: 'Kampala',
-      locationDisplayName: 'Kampala',
+      locationLabel: 'Kampala',
+      name: 'Africa/Kampala',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Africa/Kampala',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Africa/Khartoum': {
       countryCodes: [
         'SD'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Khartoum (GMT+02:00)',
       location: 'Khartoum',
-      locationDisplayName: 'Khartoum',
-      timezoneName: 'Africa/Khartoum',
-      type: 'Canonical'
+      locationLabel: 'Khartoum',
+      name: 'Africa/Khartoum',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Africa/Kigali': {
       countryCodes: [
         'RW'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Kigali (GMT+02:00)',
       location: 'Kigali',
-      locationDisplayName: 'Kigali',
+      locationLabel: 'Kigali',
+      name: 'Africa/Kigali',
       parent: 'Africa/Maputo',
-      timezoneName: 'Africa/Kigali',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Kinshasa': {
       comments: 'Dem. Rep. of Congo (west)',
       countryCodes: [
         'CD'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Kinshasa (GMT+01:00)',
       location: 'Kinshasa',
-      locationDisplayName: 'Kinshasa',
+      locationLabel: 'Kinshasa',
+      name: 'Africa/Kinshasa',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Kinshasa',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/Lagos': {
       children: [
@@ -431,85 +462,92 @@ export default {
         'NE',
         'NG'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Lagos (GMT+01:00)',
       location: 'Lagos',
-      locationDisplayName: 'Lagos',
-      timezoneName: 'Africa/Lagos',
-      type: 'Canonical'
+      locationLabel: 'Lagos',
+      name: 'Africa/Lagos',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Africa/Libreville': {
       countryCodes: [
         'GA'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Libreville (GMT+01:00)',
       location: 'Libreville',
-      locationDisplayName: 'Libreville',
+      locationLabel: 'Libreville',
+      name: 'Africa/Libreville',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Libreville',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/Lome': {
       countryCodes: [
         'TG'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Lome (GMT+00:00)',
       location: 'Lome',
-      locationDisplayName: 'Lome',
+      locationLabel: 'Lome',
+      name: 'Africa/Lome',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Lome',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Luanda': {
       countryCodes: [
         'AO'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Luanda (GMT+01:00)',
       location: 'Luanda',
-      locationDisplayName: 'Luanda',
+      locationLabel: 'Luanda',
+      name: 'Africa/Luanda',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Luanda',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/Lubumbashi': {
       comments: 'Dem. Rep. of Congo (east)',
       countryCodes: [
         'CD'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Lubumbashi (GMT+02:00)',
       location: 'Lubumbashi',
-      locationDisplayName: 'Lubumbashi',
+      locationLabel: 'Lubumbashi',
+      name: 'Africa/Lubumbashi',
       parent: 'Africa/Maputo',
-      timezoneName: 'Africa/Lubumbashi',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Lusaka': {
       countryCodes: [
         'ZM'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Lusaka (GMT+02:00)',
       location: 'Lusaka',
-      locationDisplayName: 'Lusaka',
+      locationLabel: 'Lusaka',
+      name: 'Africa/Lusaka',
       parent: 'Africa/Maputo',
-      timezoneName: 'Africa/Lusaka',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Malabo': {
       countryCodes: [
         'GQ'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Malabo (GMT+01:00)',
       location: 'Malabo',
-      locationDisplayName: 'Malabo',
+      locationLabel: 'Malabo',
+      name: 'Africa/Malabo',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Malabo',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/Maputo': {
       children: [
@@ -532,59 +570,64 @@ export default {
         'ZM',
         'ZW'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Maputo (GMT+02:00)',
       location: 'Maputo',
-      locationDisplayName: 'Maputo',
-      timezoneName: 'Africa/Maputo',
-      type: 'Canonical'
+      locationLabel: 'Maputo',
+      name: 'Africa/Maputo',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Africa/Maseru': {
       countryCodes: [
         'LS'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Maseru (GMT+02:00)',
       location: 'Maseru',
-      locationDisplayName: 'Maseru',
+      locationLabel: 'Maseru',
+      name: 'Africa/Maseru',
       parent: 'Africa/Johannesburg',
-      timezoneName: 'Africa/Maseru',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Mbabane': {
       countryCodes: [
         'SZ'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Mbabane (GMT+02:00)',
       location: 'Mbabane',
-      locationDisplayName: 'Mbabane',
+      locationLabel: 'Mbabane',
+      name: 'Africa/Mbabane',
       parent: 'Africa/Johannesburg',
-      timezoneName: 'Africa/Mbabane',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Africa/Mogadishu': {
       countryCodes: [
         'SO'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Mogadishu (GMT+03:00)',
       location: 'Mogadishu',
-      locationDisplayName: 'Mogadishu',
+      locationLabel: 'Mogadishu',
+      name: 'Africa/Mogadishu',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Africa/Mogadishu',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Africa/Monrovia': {
       countryCodes: [
         'LR'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Monrovia (GMT+00:00)',
       location: 'Monrovia',
-      locationDisplayName: 'Monrovia',
-      timezoneName: 'Africa/Monrovia',
-      type: 'Canonical'
+      locationLabel: 'Monrovia',
+      name: 'Africa/Monrovia',
+      type: 'Canonical',
+      utc: '+00:00'
     },
     'Africa/Nairobi': {
       children: [
@@ -611,91 +654,99 @@ export default {
         'UG',
         'YT'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Africa/Nairobi (GMT+03:00)',
       location: 'Nairobi',
-      locationDisplayName: 'Nairobi',
-      timezoneName: 'Africa/Nairobi',
-      type: 'Canonical'
+      locationLabel: 'Nairobi',
+      name: 'Africa/Nairobi',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Africa/Ndjamena': {
       countryCodes: [
         'TD'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Ndjamena (GMT+01:00)',
       location: 'Ndjamena',
-      locationDisplayName: 'Ndjamena',
-      timezoneName: 'Africa/Ndjamena',
-      type: 'Canonical'
+      locationLabel: 'Ndjamena',
+      name: 'Africa/Ndjamena',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Africa/Niamey': {
       countryCodes: [
         'NE'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Niamey (GMT+01:00)',
       location: 'Niamey',
-      locationDisplayName: 'Niamey',
+      locationLabel: 'Niamey',
+      name: 'Africa/Niamey',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Niamey',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/Nouakchott': {
       countryCodes: [
         'MR'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Nouakchott (GMT+00:00)',
       location: 'Nouakchott',
-      locationDisplayName: 'Nouakchott',
+      locationLabel: 'Nouakchott',
+      name: 'Africa/Nouakchott',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Nouakchott',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Ouagadougou': {
       countryCodes: [
         'BF'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Ouagadougou (GMT+00:00)',
       location: 'Ouagadougou',
-      locationDisplayName: 'Ouagadougou',
+      locationLabel: 'Ouagadougou',
+      name: 'Africa/Ouagadougou',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Ouagadougou',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Porto-Novo': {
       countryCodes: [
         'BJ'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Porto-Novo (GMT+01:00)',
       location: 'Porto-Novo',
-      locationDisplayName: 'Porto-Novo',
+      locationLabel: 'Porto-Novo',
+      name: 'Africa/Porto-Novo',
       parent: 'Africa/Lagos',
-      timezoneName: 'Africa/Porto-Novo',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Africa/Sao_Tome': {
       countryCodes: [
         'ST'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Sao_Tome (GMT+00:00)',
       location: 'Sao_Tome',
-      locationDisplayName: 'Sao Tome',
-      timezoneName: 'Africa/Sao_Tome',
-      type: 'Canonical'
+      locationLabel: 'Sao Tome',
+      name: 'Africa/Sao_Tome',
+      type: 'Canonical',
+      utc: '+00:00'
     },
     'Africa/Timbuktu': {
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Africa/Timbuktu (GMT+00:00)',
       location: 'Timbuktu',
-      locationDisplayName: 'Timbuktu',
+      locationLabel: 'Timbuktu',
+      name: 'Africa/Timbuktu',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Africa/Timbuktu',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Africa/Tripoli': {
       children: [
@@ -704,34 +755,37 @@ export default {
       countryCodes: [
         'LY'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Tripoli (GMT+02:00)',
       location: 'Tripoli',
-      locationDisplayName: 'Tripoli',
-      timezoneName: 'Africa/Tripoli',
-      type: 'Canonical'
+      locationLabel: 'Tripoli',
+      name: 'Africa/Tripoli',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Africa/Tunis': {
       countryCodes: [
         'TN'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Africa',
+      label: 'Africa/Tunis (GMT+01:00)',
       location: 'Tunis',
-      locationDisplayName: 'Tunis',
-      timezoneName: 'Africa/Tunis',
-      type: 'Canonical'
+      locationLabel: 'Tunis',
+      name: 'Africa/Tunis',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Africa/Windhoek': {
       countryCodes: [
         'NA'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Africa/Windhoek (GMT+02:00)',
       location: 'Windhoek',
-      locationDisplayName: 'Windhoek',
-      timezoneName: 'Africa/Windhoek',
-      type: 'Canonical'
+      locationLabel: 'Windhoek',
+      name: 'Africa/Windhoek',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'America/Adak': {
       children: [
@@ -742,12 +796,13 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-09:00',
       geographicArea: 'America',
+      label: 'America/Adak (GMT-09:00)',
       location: 'Adak',
-      locationDisplayName: 'Adak',
-      timezoneName: 'America/Adak',
-      type: 'Canonical'
+      locationLabel: 'Adak',
+      name: 'America/Adak',
+      type: 'Canonical',
+      utc: '-09:00'
     },
     'America/Anchorage': {
       children: [
@@ -757,48 +812,52 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-08:00',
       geographicArea: 'America',
+      label: 'America/Anchorage (GMT-08:00)',
       location: 'Anchorage',
-      locationDisplayName: 'Anchorage',
-      timezoneName: 'America/Anchorage',
-      type: 'Canonical'
+      locationLabel: 'Anchorage',
+      name: 'America/Anchorage',
+      type: 'Canonical',
+      utc: '-08:00'
     },
     'America/Anguilla': {
       countryCodes: [
         'AI'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Anguilla (GMT-04:00)',
       location: 'Anguilla',
-      locationDisplayName: 'Anguilla',
+      locationLabel: 'Anguilla',
+      name: 'America/Anguilla',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Anguilla',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Antigua': {
       countryCodes: [
         'AG'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Antigua (GMT-04:00)',
       location: 'Antigua',
-      locationDisplayName: 'Antigua',
+      locationLabel: 'Antigua',
+      name: 'America/Antigua',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Antigua',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Araguaina': {
       comments: 'Tocantins',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Araguaina (GMT-03:00)',
       location: 'Araguaina',
-      locationDisplayName: 'Araguaina',
-      timezoneName: 'America/Araguaina',
-      type: 'Canonical'
+      locationLabel: 'Araguaina',
+      name: 'America/Araguaina',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/Buenos_Aires': {
       children: [
@@ -808,12 +867,13 @@ export default {
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Buenos_Aires (GMT-03:00)',
       location: 'Argentina/Buenos_Aires',
-      locationDisplayName: 'Argentina - Buenos Aires',
-      timezoneName: 'America/Argentina/Buenos_Aires',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Buenos Aires',
+      name: 'America/Argentina/Buenos_Aires',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/Catamarca': {
       children: [
@@ -824,21 +884,23 @@ export default {
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Catamarca (GMT-03:00)',
       location: 'Argentina/Catamarca',
-      locationDisplayName: 'Argentina - Catamarca',
-      timezoneName: 'America/Argentina/Catamarca',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Catamarca',
+      name: 'America/Argentina/Catamarca',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/ComodRivadavia': {
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/ComodRivadavia (GMT-03:00)',
       location: 'Argentina/ComodRivadavia',
-      locationDisplayName: 'Argentina - ComodRivadavia',
+      locationLabel: 'Argentina - ComodRivadavia',
+      name: 'America/Argentina/ComodRivadavia',
       parent: 'America/Argentina/Catamarca',
-      timezoneName: 'America/Argentina/ComodRivadavia',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'America/Argentina/Cordoba': {
       children: [
@@ -849,12 +911,13 @@ export default {
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Cordoba (GMT-03:00)',
       location: 'Argentina/Cordoba',
-      locationDisplayName: 'Argentina - Cordoba',
-      timezoneName: 'America/Argentina/Cordoba',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Cordoba',
+      name: 'America/Argentina/Cordoba',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/Jujuy': {
       children: [
@@ -864,24 +927,26 @@ export default {
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Jujuy (GMT-03:00)',
       location: 'Argentina/Jujuy',
-      locationDisplayName: 'Argentina - Jujuy',
-      timezoneName: 'America/Argentina/Jujuy',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Jujuy',
+      name: 'America/Argentina/Jujuy',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/La_Rioja': {
       comments: 'La Rioja (LR)',
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/La_Rioja (GMT-03:00)',
       location: 'Argentina/La_Rioja',
-      locationDisplayName: 'Argentina - La Rioja',
-      timezoneName: 'America/Argentina/La_Rioja',
-      type: 'Canonical'
+      locationLabel: 'Argentina - La Rioja',
+      name: 'America/Argentina/La_Rioja',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/Mendoza': {
       children: [
@@ -891,323 +956,351 @@ export default {
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Mendoza (GMT-03:00)',
       location: 'Argentina/Mendoza',
-      locationDisplayName: 'Argentina - Mendoza',
-      timezoneName: 'America/Argentina/Mendoza',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Mendoza',
+      name: 'America/Argentina/Mendoza',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/Rio_Gallegos': {
       comments: 'Santa Cruz (SC)',
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Rio_Gallegos (GMT-03:00)',
       location: 'Argentina/Rio_Gallegos',
-      locationDisplayName: 'Argentina - Rio Gallegos',
-      timezoneName: 'America/Argentina/Rio_Gallegos',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Rio Gallegos',
+      name: 'America/Argentina/Rio_Gallegos',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/Salta': {
       comments: 'Salta (SA, LP, NQ, RN)',
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Salta (GMT-03:00)',
       location: 'Argentina/Salta',
-      locationDisplayName: 'Argentina - Salta',
-      timezoneName: 'America/Argentina/Salta',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Salta',
+      name: 'America/Argentina/Salta',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/San_Juan': {
       comments: 'San Juan (SJ)',
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/San_Juan (GMT-03:00)',
       location: 'Argentina/San_Juan',
-      locationDisplayName: 'Argentina - San Juan',
-      timezoneName: 'America/Argentina/San_Juan',
-      type: 'Canonical'
+      locationLabel: 'Argentina - San Juan',
+      name: 'America/Argentina/San_Juan',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/San_Luis': {
       comments: 'San Luis (SL)',
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/San_Luis (GMT-03:00)',
       location: 'Argentina/San_Luis',
-      locationDisplayName: 'Argentina - San Luis',
-      timezoneName: 'America/Argentina/San_Luis',
-      type: 'Canonical'
+      locationLabel: 'Argentina - San Luis',
+      name: 'America/Argentina/San_Luis',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/Tucuman': {
       comments: 'Tucumán (TM)',
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Tucuman (GMT-03:00)',
       location: 'Argentina/Tucuman',
-      locationDisplayName: 'Argentina - Tucuman',
-      timezoneName: 'America/Argentina/Tucuman',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Tucuman',
+      name: 'America/Argentina/Tucuman',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Argentina/Ushuaia': {
       comments: 'Tierra del Fuego (TF)',
       countryCodes: [
         'AR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Argentina/Ushuaia (GMT-03:00)',
       location: 'Argentina/Ushuaia',
-      locationDisplayName: 'Argentina - Ushuaia',
-      timezoneName: 'America/Argentina/Ushuaia',
-      type: 'Canonical'
+      locationLabel: 'Argentina - Ushuaia',
+      name: 'America/Argentina/Ushuaia',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Aruba': {
       countryCodes: [
         'AW'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Aruba (GMT-04:00)',
       location: 'Aruba',
-      locationDisplayName: 'Aruba',
+      locationLabel: 'Aruba',
+      name: 'America/Aruba',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Aruba',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Asuncion': {
       countryCodes: [
         'PY'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Asuncion (GMT-03:00)',
       location: 'Asuncion',
-      locationDisplayName: 'Asuncion',
-      timezoneName: 'America/Asuncion',
-      type: 'Canonical'
+      locationLabel: 'Asuncion',
+      name: 'America/Asuncion',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Atikokan': {
       comments: 'EST - ON (Atikokan), NU (Coral H)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Atikokan (GMT-05:00)',
       location: 'Atikokan',
-      locationDisplayName: 'Atikokan',
+      locationLabel: 'Atikokan',
+      name: 'America/Atikokan',
       parent: 'America/Panama',
-      timezoneName: 'America/Atikokan',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'America/Atka': {
-      currentOffset: '-09:00',
       geographicArea: 'America',
+      label: 'America/Atka (GMT-09:00)',
       location: 'Atka',
-      locationDisplayName: 'Atka',
+      locationLabel: 'Atka',
+      name: 'America/Atka',
       parent: 'America/Adak',
-      timezoneName: 'America/Atka',
-      type: 'Link'
+      type: 'Link',
+      utc: '-09:00'
     },
     'America/Bahia': {
       comments: 'Bahia',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Bahia (GMT-03:00)',
       location: 'Bahia',
-      locationDisplayName: 'Bahia',
-      timezoneName: 'America/Bahia',
-      type: 'Canonical'
+      locationLabel: 'Bahia',
+      name: 'America/Bahia',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Bahia_Banderas': {
       comments: 'Bahía de Banderas',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Bahia_Banderas (GMT-06:00)',
       location: 'Bahia_Banderas',
-      locationDisplayName: 'Bahia Banderas',
-      timezoneName: 'America/Bahia_Banderas',
-      type: 'Canonical'
+      locationLabel: 'Bahia Banderas',
+      name: 'America/Bahia_Banderas',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Barbados': {
       countryCodes: [
         'BB'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Barbados (GMT-04:00)',
       location: 'Barbados',
-      locationDisplayName: 'Barbados',
-      timezoneName: 'America/Barbados',
-      type: 'Canonical'
+      locationLabel: 'Barbados',
+      name: 'America/Barbados',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Belem': {
       comments: 'Pará (east), Amapá',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Belem (GMT-03:00)',
       location: 'Belem',
-      locationDisplayName: 'Belem',
-      timezoneName: 'America/Belem',
-      type: 'Canonical'
+      locationLabel: 'Belem',
+      name: 'America/Belem',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Belize': {
       countryCodes: [
         'BZ'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Belize (GMT-06:00)',
       location: 'Belize',
-      locationDisplayName: 'Belize',
-      timezoneName: 'America/Belize',
-      type: 'Canonical'
+      locationLabel: 'Belize',
+      name: 'America/Belize',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Blanc-Sablon': {
       comments: 'AST - QC (Lower North Shore)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Blanc-Sablon (GMT-04:00)',
       location: 'Blanc-Sablon',
-      locationDisplayName: 'Blanc-Sablon',
+      locationLabel: 'Blanc-Sablon',
+      name: 'America/Blanc-Sablon',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Blanc-Sablon',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Boa_Vista': {
       comments: 'Roraima',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Boa_Vista (GMT-04:00)',
       location: 'Boa_Vista',
-      locationDisplayName: 'Boa Vista',
-      timezoneName: 'America/Boa_Vista',
-      type: 'Canonical'
+      locationLabel: 'Boa Vista',
+      name: 'America/Boa_Vista',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Bogota': {
       countryCodes: [
         'CO'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Bogota (GMT-05:00)',
       location: 'Bogota',
-      locationDisplayName: 'Bogota',
-      timezoneName: 'America/Bogota',
-      type: 'Canonical'
+      locationLabel: 'Bogota',
+      name: 'America/Bogota',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Boise': {
       comments: 'Mountain - ID (south), OR (east)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Boise (GMT-06:00)',
       location: 'Boise',
-      locationDisplayName: 'Boise',
-      timezoneName: 'America/Boise',
-      type: 'Canonical'
+      locationLabel: 'Boise',
+      name: 'America/Boise',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Buenos_Aires': {
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Buenos_Aires (GMT-03:00)',
       location: 'Buenos_Aires',
-      locationDisplayName: 'Buenos Aires',
+      locationLabel: 'Buenos Aires',
+      name: 'America/Buenos_Aires',
       parent: 'America/Argentina/Buenos_Aires',
-      timezoneName: 'America/Buenos_Aires',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'America/Cambridge_Bay': {
       comments: 'Mountain - NU (west)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Cambridge_Bay (GMT-06:00)',
       location: 'Cambridge_Bay',
-      locationDisplayName: 'Cambridge Bay',
-      timezoneName: 'America/Cambridge_Bay',
-      type: 'Canonical'
+      locationLabel: 'Cambridge Bay',
+      name: 'America/Cambridge_Bay',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Campo_Grande': {
       comments: 'Mato Grosso do Sul',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Campo_Grande (GMT-04:00)',
       location: 'Campo_Grande',
-      locationDisplayName: 'Campo Grande',
-      timezoneName: 'America/Campo_Grande',
-      type: 'Canonical'
+      locationLabel: 'Campo Grande',
+      name: 'America/Campo_Grande',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Cancun': {
       comments: 'Quintana Roo',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Cancun (GMT-05:00)',
       location: 'Cancun',
-      locationDisplayName: 'Cancun',
-      timezoneName: 'America/Cancun',
-      type: 'Canonical'
+      locationLabel: 'Cancun',
+      name: 'America/Cancun',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Caracas': {
       countryCodes: [
         'VE'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Caracas (GMT-04:00)',
       location: 'Caracas',
-      locationDisplayName: 'Caracas',
-      timezoneName: 'America/Caracas',
-      type: 'Canonical'
+      locationLabel: 'Caracas',
+      name: 'America/Caracas',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Catamarca': {
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Catamarca (GMT-03:00)',
       location: 'Catamarca',
-      locationDisplayName: 'Catamarca',
+      locationLabel: 'Catamarca',
+      name: 'America/Catamarca',
       parent: 'America/Argentina/Catamarca',
-      timezoneName: 'America/Catamarca',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'America/Cayenne': {
       countryCodes: [
         'GF'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Cayenne (GMT-03:00)',
       location: 'Cayenne',
-      locationDisplayName: 'Cayenne',
-      timezoneName: 'America/Cayenne',
-      type: 'Canonical'
+      locationLabel: 'Cayenne',
+      name: 'America/Cayenne',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Cayman': {
       countryCodes: [
         'KY'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Cayman (GMT-05:00)',
       location: 'Cayman',
-      locationDisplayName: 'Cayman',
+      locationLabel: 'Cayman',
+      name: 'America/Cayman',
       parent: 'America/Panama',
-      timezoneName: 'America/Cayman',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'America/Chicago': {
       children: [
@@ -1218,150 +1311,163 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Chicago (GMT-05:00)',
       location: 'Chicago',
-      locationDisplayName: 'Chicago',
-      timezoneName: 'America/Chicago',
-      type: 'Canonical'
+      locationLabel: 'Chicago',
+      name: 'America/Chicago',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Chihuahua': {
       comments: 'Chihuahua (most areas)',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Chihuahua (GMT-06:00)',
       location: 'Chihuahua',
-      locationDisplayName: 'Chihuahua',
-      timezoneName: 'America/Chihuahua',
-      type: 'Canonical'
+      locationLabel: 'Chihuahua',
+      name: 'America/Chihuahua',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Ciudad_Juarez': {
       comments: 'Chihuahua (US border - west)',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Ciudad_Juarez (GMT-06:00)',
       location: 'Ciudad_Juarez',
-      locationDisplayName: 'Ciudad Juarez',
-      timezoneName: 'America/Ciudad_Juarez',
-      type: 'Canonical'
+      locationLabel: 'Ciudad Juarez',
+      name: 'America/Ciudad_Juarez',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Coral_Harbour': {
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Coral_Harbour (GMT-05:00)',
       location: 'Coral_Harbour',
-      locationDisplayName: 'Coral Harbour',
+      locationLabel: 'Coral Harbour',
+      name: 'America/Coral_Harbour',
       parent: 'America/Panama',
-      timezoneName: 'America/Coral_Harbour',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'America/Cordoba': {
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Cordoba (GMT-03:00)',
       location: 'Cordoba',
-      locationDisplayName: 'Cordoba',
+      locationLabel: 'Cordoba',
+      name: 'America/Cordoba',
       parent: 'America/Argentina/Cordoba',
-      timezoneName: 'America/Cordoba',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'America/Costa_Rica': {
       countryCodes: [
         'CR'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Costa_Rica (GMT-06:00)',
       location: 'Costa_Rica',
-      locationDisplayName: 'Costa Rica',
-      timezoneName: 'America/Costa_Rica',
-      type: 'Canonical'
+      locationLabel: 'Costa Rica',
+      name: 'America/Costa_Rica',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Coyhaique': {
       comments: 'Aysén Region',
       countryCodes: [
         'CL'
       ],
-      currentOffset: null,
       geographicArea: 'America',
+      label: 'America/Coyhaique (GMT-03:00)',
       location: 'Coyhaique',
-      locationDisplayName: 'Coyhaique',
-      timezoneName: 'America/Coyhaique',
-      type: 'Canonical'
+      locationLabel: 'Coyhaique',
+      name: 'America/Coyhaique',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Creston': {
       comments: 'MST - BC (Creston)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Creston (GMT-07:00)',
       location: 'Creston',
-      locationDisplayName: 'Creston',
+      locationLabel: 'Creston',
+      name: 'America/Creston',
       parent: 'America/Phoenix',
-      timezoneName: 'America/Creston',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'America/Cuiaba': {
       comments: 'Mato Grosso',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Cuiaba (GMT-04:00)',
       location: 'Cuiaba',
-      locationDisplayName: 'Cuiaba',
-      timezoneName: 'America/Cuiaba',
-      type: 'Canonical'
+      locationLabel: 'Cuiaba',
+      name: 'America/Cuiaba',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Curacao': {
       countryCodes: [
         'CW'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Curacao (GMT-04:00)',
       location: 'Curacao',
-      locationDisplayName: 'Curacao',
+      locationLabel: 'Curacao',
+      name: 'America/Curacao',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Curacao',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Danmarkshavn': {
       comments: 'National Park (east coast)',
       countryCodes: [
         'GL'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'America',
+      label: 'America/Danmarkshavn (GMT+00:00)',
       location: 'Danmarkshavn',
-      locationDisplayName: 'Danmarkshavn',
-      timezoneName: 'America/Danmarkshavn',
-      type: 'Canonical'
+      locationLabel: 'Danmarkshavn',
+      name: 'America/Danmarkshavn',
+      type: 'Canonical',
+      utc: '+00:00'
     },
     'America/Dawson': {
       comments: 'MST - Yukon (west)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Dawson (GMT-07:00)',
       location: 'Dawson',
-      locationDisplayName: 'Dawson',
-      timezoneName: 'America/Dawson',
-      type: 'Canonical'
+      locationLabel: 'Dawson',
+      name: 'America/Dawson',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Dawson_Creek': {
       comments: 'MST - BC (Dawson Cr, Ft St John)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Dawson_Creek (GMT-07:00)',
       location: 'Dawson_Creek',
-      locationDisplayName: 'Dawson Creek',
-      timezoneName: 'America/Dawson_Creek',
-      type: 'Canonical'
+      locationLabel: 'Dawson Creek',
+      name: 'America/Dawson_Creek',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Denver': {
       children: [
@@ -1374,12 +1480,13 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Denver (GMT-06:00)',
       location: 'Denver',
-      locationDisplayName: 'Denver',
-      timezoneName: 'America/Denver',
-      type: 'Canonical'
+      locationLabel: 'Denver',
+      name: 'America/Denver',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Detroit': {
       children: [
@@ -1389,24 +1496,26 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Detroit (GMT-04:00)',
       location: 'Detroit',
-      locationDisplayName: 'Detroit',
-      timezoneName: 'America/Detroit',
-      type: 'Canonical'
+      locationLabel: 'Detroit',
+      name: 'America/Detroit',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Dominica': {
       countryCodes: [
         'DM'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Dominica (GMT-04:00)',
       location: 'Dominica',
-      locationDisplayName: 'Dominica',
+      locationLabel: 'Dominica',
+      name: 'America/Dominica',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Dominica',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Edmonton': {
       children: [
@@ -1417,179 +1526,195 @@ export default {
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Edmonton (GMT-06:00)',
       location: 'Edmonton',
-      locationDisplayName: 'Edmonton',
-      timezoneName: 'America/Edmonton',
-      type: 'Canonical'
+      locationLabel: 'Edmonton',
+      name: 'America/Edmonton',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Eirunepe': {
       comments: 'Amazonas (west)',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Eirunepe (GMT-05:00)',
       location: 'Eirunepe',
-      locationDisplayName: 'Eirunepe',
-      timezoneName: 'America/Eirunepe',
-      type: 'Canonical'
+      locationLabel: 'Eirunepe',
+      name: 'America/Eirunepe',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/El_Salvador': {
       countryCodes: [
         'SV'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/El_Salvador (GMT-06:00)',
       location: 'El_Salvador',
-      locationDisplayName: 'El Salvador',
-      timezoneName: 'America/El_Salvador',
-      type: 'Canonical'
+      locationLabel: 'El Salvador',
+      name: 'America/El_Salvador',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Ensenada': {
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Ensenada (GMT-07:00)',
       location: 'Ensenada',
-      locationDisplayName: 'Ensenada',
+      locationLabel: 'Ensenada',
+      name: 'America/Ensenada',
       parent: 'America/Tijuana',
-      timezoneName: 'America/Ensenada',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'America/Fort_Nelson': {
       comments: 'MST - BC (Ft Nelson)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Fort_Nelson (GMT-07:00)',
       location: 'Fort_Nelson',
-      locationDisplayName: 'Fort Nelson',
-      timezoneName: 'America/Fort_Nelson',
-      type: 'Canonical'
+      locationLabel: 'Fort Nelson',
+      name: 'America/Fort_Nelson',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Fort_Wayne': {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Fort_Wayne (GMT-04:00)',
       location: 'Fort_Wayne',
-      locationDisplayName: 'Fort Wayne',
+      locationLabel: 'Fort Wayne',
+      name: 'America/Fort_Wayne',
       parent: 'America/Indiana/Indianapolis',
-      timezoneName: 'America/Fort_Wayne',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Fortaleza': {
       comments: 'Brazil (northeast: MA, PI, CE, RN, PB)',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Fortaleza (GMT-03:00)',
       location: 'Fortaleza',
-      locationDisplayName: 'Fortaleza',
-      timezoneName: 'America/Fortaleza',
-      type: 'Canonical'
+      locationLabel: 'Fortaleza',
+      name: 'America/Fortaleza',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Glace_Bay': {
       comments: 'Atlantic - NS (Cape Breton)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Glace_Bay (GMT-03:00)',
       location: 'Glace_Bay',
-      locationDisplayName: 'Glace Bay',
-      timezoneName: 'America/Glace_Bay',
-      type: 'Canonical'
+      locationLabel: 'Glace Bay',
+      name: 'America/Glace_Bay',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Godthab': {
-      currentOffset: '-01:00',
       geographicArea: 'America',
+      label: 'America/Godthab (GMT-01:00)',
       location: 'Godthab',
-      locationDisplayName: 'Godthab',
+      locationLabel: 'Godthab',
+      name: 'America/Godthab',
       parent: 'America/Nuuk',
-      timezoneName: 'America/Godthab',
-      type: 'Link'
+      type: 'Link',
+      utc: '-01:00'
     },
     'America/Goose_Bay': {
       comments: 'Atlantic - Labrador (most areas)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Goose_Bay (GMT-03:00)',
       location: 'Goose_Bay',
-      locationDisplayName: 'Goose Bay',
-      timezoneName: 'America/Goose_Bay',
-      type: 'Canonical'
+      locationLabel: 'Goose Bay',
+      name: 'America/Goose_Bay',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Grand_Turk': {
       countryCodes: [
         'TC'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Grand_Turk (GMT-04:00)',
       location: 'Grand_Turk',
-      locationDisplayName: 'Grand Turk',
-      timezoneName: 'America/Grand_Turk',
-      type: 'Canonical'
+      locationLabel: 'Grand Turk',
+      name: 'America/Grand_Turk',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Grenada': {
       countryCodes: [
         'GD'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Grenada (GMT-04:00)',
       location: 'Grenada',
-      locationDisplayName: 'Grenada',
+      locationLabel: 'Grenada',
+      name: 'America/Grenada',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Grenada',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Guadeloupe': {
       countryCodes: [
         'GP'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Guadeloupe (GMT-04:00)',
       location: 'Guadeloupe',
-      locationDisplayName: 'Guadeloupe',
+      locationLabel: 'Guadeloupe',
+      name: 'America/Guadeloupe',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Guadeloupe',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Guatemala': {
       countryCodes: [
         'GT'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Guatemala (GMT-06:00)',
       location: 'Guatemala',
-      locationDisplayName: 'Guatemala',
-      timezoneName: 'America/Guatemala',
-      type: 'Canonical'
+      locationLabel: 'Guatemala',
+      name: 'America/Guatemala',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Guayaquil': {
       comments: 'Ecuador (mainland)',
       countryCodes: [
         'EC'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Guayaquil (GMT-05:00)',
       location: 'Guayaquil',
-      locationDisplayName: 'Guayaquil',
-      timezoneName: 'America/Guayaquil',
-      type: 'Canonical'
+      locationLabel: 'Guayaquil',
+      name: 'America/Guayaquil',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Guyana': {
       countryCodes: [
         'GY'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Guyana (GMT-04:00)',
       location: 'Guyana',
-      locationDisplayName: 'Guyana',
-      timezoneName: 'America/Guyana',
-      type: 'Canonical'
+      locationLabel: 'Guyana',
+      name: 'America/Guyana',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Halifax': {
       children: [
@@ -1599,12 +1724,13 @@ export default {
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Halifax (GMT-03:00)',
       location: 'Halifax',
-      locationDisplayName: 'Halifax',
-      timezoneName: 'America/Halifax',
-      type: 'Canonical'
+      locationLabel: 'Halifax',
+      name: 'America/Halifax',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Havana': {
       children: [
@@ -1613,24 +1739,26 @@ export default {
       countryCodes: [
         'CU'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Havana (GMT-04:00)',
       location: 'Havana',
-      locationDisplayName: 'Havana',
-      timezoneName: 'America/Havana',
-      type: 'Canonical'
+      locationLabel: 'Havana',
+      name: 'America/Havana',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Hermosillo': {
       comments: 'Sonora',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Hermosillo (GMT-07:00)',
       location: 'Hermosillo',
-      locationDisplayName: 'Hermosillo',
-      timezoneName: 'America/Hermosillo',
-      type: 'Canonical'
+      locationLabel: 'Hermosillo',
+      name: 'America/Hermosillo',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Indiana/Indianapolis': {
       children: [
@@ -1642,12 +1770,13 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Indiana/Indianapolis (GMT-04:00)',
       location: 'Indiana/Indianapolis',
-      locationDisplayName: 'Indiana - Indianapolis',
-      timezoneName: 'America/Indiana/Indianapolis',
-      type: 'Canonical'
+      locationLabel: 'Indiana - Indianapolis',
+      name: 'America/Indiana/Indianapolis',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Indiana/Knox': {
       children: [
@@ -1658,105 +1787,114 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Indiana/Knox (GMT-05:00)',
       location: 'Indiana/Knox',
-      locationDisplayName: 'Indiana - Knox',
-      timezoneName: 'America/Indiana/Knox',
-      type: 'Canonical'
+      locationLabel: 'Indiana - Knox',
+      name: 'America/Indiana/Knox',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Indiana/Marengo': {
       comments: 'Eastern - IN (Crawford)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Indiana/Marengo (GMT-04:00)',
       location: 'Indiana/Marengo',
-      locationDisplayName: 'Indiana - Marengo',
-      timezoneName: 'America/Indiana/Marengo',
-      type: 'Canonical'
+      locationLabel: 'Indiana - Marengo',
+      name: 'America/Indiana/Marengo',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Indiana/Petersburg': {
       comments: 'Eastern - IN (Pike)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Indiana/Petersburg (GMT-04:00)',
       location: 'Indiana/Petersburg',
-      locationDisplayName: 'Indiana - Petersburg',
-      timezoneName: 'America/Indiana/Petersburg',
-      type: 'Canonical'
+      locationLabel: 'Indiana - Petersburg',
+      name: 'America/Indiana/Petersburg',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Indiana/Tell_City': {
       comments: 'Central - IN (Perry)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Indiana/Tell_City (GMT-05:00)',
       location: 'Indiana/Tell_City',
-      locationDisplayName: 'Indiana - Tell City',
-      timezoneName: 'America/Indiana/Tell_City',
-      type: 'Canonical'
+      locationLabel: 'Indiana - Tell City',
+      name: 'America/Indiana/Tell_City',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Indiana/Vevay': {
       comments: 'Eastern - IN (Switzerland)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Indiana/Vevay (GMT-04:00)',
       location: 'Indiana/Vevay',
-      locationDisplayName: 'Indiana - Vevay',
-      timezoneName: 'America/Indiana/Vevay',
-      type: 'Canonical'
+      locationLabel: 'Indiana - Vevay',
+      name: 'America/Indiana/Vevay',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Indiana/Vincennes': {
       comments: 'Eastern - IN (Da, Du, K, Mn)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Indiana/Vincennes (GMT-04:00)',
       location: 'Indiana/Vincennes',
-      locationDisplayName: 'Indiana - Vincennes',
-      timezoneName: 'America/Indiana/Vincennes',
-      type: 'Canonical'
+      locationLabel: 'Indiana - Vincennes',
+      name: 'America/Indiana/Vincennes',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Indiana/Winamac': {
       comments: 'Eastern - IN (Pulaski)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Indiana/Winamac (GMT-04:00)',
       location: 'Indiana/Winamac',
-      locationDisplayName: 'Indiana - Winamac',
-      timezoneName: 'America/Indiana/Winamac',
-      type: 'Canonical'
+      locationLabel: 'Indiana - Winamac',
+      name: 'America/Indiana/Winamac',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Indianapolis': {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Indianapolis (GMT-04:00)',
       location: 'Indianapolis',
-      locationDisplayName: 'Indianapolis',
+      locationLabel: 'Indianapolis',
+      name: 'America/Indianapolis',
       parent: 'America/Indiana/Indianapolis',
-      timezoneName: 'America/Indianapolis',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Inuvik': {
       comments: 'Mountain - NT (west)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Inuvik (GMT-06:00)',
       location: 'Inuvik',
-      locationDisplayName: 'Inuvik',
-      timezoneName: 'America/Inuvik',
-      type: 'Canonical'
+      locationLabel: 'Inuvik',
+      name: 'America/Inuvik',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Iqaluit': {
       children: [
@@ -1766,12 +1904,13 @@ export default {
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Iqaluit (GMT-04:00)',
       location: 'Iqaluit',
-      locationDisplayName: 'Iqaluit',
-      timezoneName: 'America/Iqaluit',
-      type: 'Canonical'
+      locationLabel: 'Iqaluit',
+      name: 'America/Iqaluit',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Jamaica': {
       children: [
@@ -1780,33 +1919,36 @@ export default {
       countryCodes: [
         'JM'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Jamaica (GMT-05:00)',
       location: 'Jamaica',
-      locationDisplayName: 'Jamaica',
-      timezoneName: 'America/Jamaica',
-      type: 'Canonical'
+      locationLabel: 'Jamaica',
+      name: 'America/Jamaica',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Jujuy': {
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Jujuy (GMT-03:00)',
       location: 'Jujuy',
-      locationDisplayName: 'Jujuy',
+      locationLabel: 'Jujuy',
+      name: 'America/Jujuy',
       parent: 'America/Argentina/Jujuy',
-      timezoneName: 'America/Jujuy',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'America/Juneau': {
       comments: 'Alaska - Juneau area',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-08:00',
       geographicArea: 'America',
+      label: 'America/Juneau (GMT-08:00)',
       location: 'Juneau',
-      locationDisplayName: 'Juneau',
-      timezoneName: 'America/Juneau',
-      type: 'Canonical'
+      locationLabel: 'Juneau',
+      name: 'America/Juneau',
+      type: 'Canonical',
+      utc: '-08:00'
     },
     'America/Kentucky/Louisville': {
       children: [
@@ -1816,67 +1958,73 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Kentucky/Louisville (GMT-04:00)',
       location: 'Kentucky/Louisville',
-      locationDisplayName: 'Kentucky - Louisville',
-      timezoneName: 'America/Kentucky/Louisville',
-      type: 'Canonical'
+      locationLabel: 'Kentucky - Louisville',
+      name: 'America/Kentucky/Louisville',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Kentucky/Monticello': {
       comments: 'Eastern - KY (Wayne)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Kentucky/Monticello (GMT-04:00)',
       location: 'Kentucky/Monticello',
-      locationDisplayName: 'Kentucky - Monticello',
-      timezoneName: 'America/Kentucky/Monticello',
-      type: 'Canonical'
+      locationLabel: 'Kentucky - Monticello',
+      name: 'America/Kentucky/Monticello',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Knox_IN': {
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Knox_IN (GMT-05:00)',
       location: 'Knox_IN',
-      locationDisplayName: 'Knox IN',
+      locationLabel: 'Knox IN',
+      name: 'America/Knox_IN',
       parent: 'America/Indiana/Knox',
-      timezoneName: 'America/Knox_IN',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'America/Kralendijk': {
       countryCodes: [
         'BQ'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Kralendijk (GMT-04:00)',
       location: 'Kralendijk',
-      locationDisplayName: 'Kralendijk',
+      locationLabel: 'Kralendijk',
+      name: 'America/Kralendijk',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Kralendijk',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/La_Paz': {
       countryCodes: [
         'BO'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/La_Paz (GMT-04:00)',
       location: 'La_Paz',
-      locationDisplayName: 'La Paz',
-      timezoneName: 'America/La_Paz',
-      type: 'Canonical'
+      locationLabel: 'La Paz',
+      name: 'America/La_Paz',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Lima': {
       countryCodes: [
         'PE'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Lima (GMT-05:00)',
       location: 'Lima',
-      locationDisplayName: 'Lima',
-      timezoneName: 'America/Lima',
-      type: 'Canonical'
+      locationLabel: 'Lima',
+      name: 'America/Lima',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Los_Angeles': {
       children: [
@@ -1887,56 +2035,61 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Los_Angeles (GMT-07:00)',
       location: 'Los_Angeles',
-      locationDisplayName: 'Los Angeles',
-      timezoneName: 'America/Los_Angeles',
-      type: 'Canonical'
+      locationLabel: 'Los Angeles',
+      name: 'America/Los_Angeles',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Louisville': {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Louisville (GMT-04:00)',
       location: 'Louisville',
-      locationDisplayName: 'Louisville',
+      locationLabel: 'Louisville',
+      name: 'America/Louisville',
       parent: 'America/Kentucky/Louisville',
-      timezoneName: 'America/Louisville',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Lower_Princes': {
       countryCodes: [
         'SX'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Lower_Princes (GMT-04:00)',
       location: 'Lower_Princes',
-      locationDisplayName: 'Lower Princes',
+      locationLabel: 'Lower Princes',
+      name: 'America/Lower_Princes',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Lower_Princes',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Maceio': {
       comments: 'Alagoas, Sergipe',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Maceio (GMT-03:00)',
       location: 'Maceio',
-      locationDisplayName: 'Maceio',
-      timezoneName: 'America/Maceio',
-      type: 'Canonical'
+      locationLabel: 'Maceio',
+      name: 'America/Maceio',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Managua': {
       countryCodes: [
         'NI'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Managua (GMT-06:00)',
       location: 'Managua',
-      locationDisplayName: 'Managua',
-      timezoneName: 'America/Managua',
-      type: 'Canonical'
+      locationLabel: 'Managua',
+      name: 'America/Managua',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Manaus': {
       children: [
@@ -1946,47 +2099,51 @@ export default {
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Manaus (GMT-04:00)',
       location: 'Manaus',
-      locationDisplayName: 'Manaus',
-      timezoneName: 'America/Manaus',
-      type: 'Canonical'
+      locationLabel: 'Manaus',
+      name: 'America/Manaus',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Marigot': {
       countryCodes: [
         'MF'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Marigot (GMT-04:00)',
       location: 'Marigot',
-      locationDisplayName: 'Marigot',
+      locationLabel: 'Marigot',
+      name: 'America/Marigot',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Marigot',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Martinique': {
       countryCodes: [
         'MQ'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Martinique (GMT-04:00)',
       location: 'Martinique',
-      locationDisplayName: 'Martinique',
-      timezoneName: 'America/Martinique',
-      type: 'Canonical'
+      locationLabel: 'Martinique',
+      name: 'America/Martinique',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Matamoros': {
       comments: 'Coahuila, Nuevo León, Tamaulipas (US border)',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Matamoros (GMT-05:00)',
       location: 'Matamoros',
-      locationDisplayName: 'Matamoros',
-      timezoneName: 'America/Matamoros',
-      type: 'Canonical'
+      locationLabel: 'Matamoros',
+      name: 'America/Matamoros',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Mazatlan': {
       children: [
@@ -1996,57 +2153,62 @@ export default {
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Mazatlan (GMT-07:00)',
       location: 'Mazatlan',
-      locationDisplayName: 'Mazatlan',
-      timezoneName: 'America/Mazatlan',
-      type: 'Canonical'
+      locationLabel: 'Mazatlan',
+      name: 'America/Mazatlan',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Mendoza': {
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Mendoza (GMT-03:00)',
       location: 'Mendoza',
-      locationDisplayName: 'Mendoza',
+      locationLabel: 'Mendoza',
+      name: 'America/Mendoza',
       parent: 'America/Argentina/Mendoza',
-      timezoneName: 'America/Mendoza',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'America/Menominee': {
       comments: 'Central - MI (Wisconsin border)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Menominee (GMT-05:00)',
       location: 'Menominee',
-      locationDisplayName: 'Menominee',
-      timezoneName: 'America/Menominee',
-      type: 'Canonical'
+      locationLabel: 'Menominee',
+      name: 'America/Menominee',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Merida': {
       comments: 'Campeche, Yucatán',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Merida (GMT-06:00)',
       location: 'Merida',
-      locationDisplayName: 'Merida',
-      timezoneName: 'America/Merida',
-      type: 'Canonical'
+      locationLabel: 'Merida',
+      name: 'America/Merida',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Metlakatla': {
       comments: 'Alaska - Annette Island',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-08:00',
       geographicArea: 'America',
+      label: 'America/Metlakatla (GMT-08:00)',
       location: 'Metlakatla',
-      locationDisplayName: 'Metlakatla',
-      timezoneName: 'America/Metlakatla',
-      type: 'Canonical'
+      locationLabel: 'Metlakatla',
+      name: 'America/Metlakatla',
+      type: 'Canonical',
+      utc: '-08:00'
     },
     'America/Mexico_City': {
       children: [
@@ -2056,91 +2218,99 @@ export default {
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Mexico_City (GMT-06:00)',
       location: 'Mexico_City',
-      locationDisplayName: 'Mexico City',
-      timezoneName: 'America/Mexico_City',
-      type: 'Canonical'
+      locationLabel: 'Mexico City',
+      name: 'America/Mexico_City',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Miquelon': {
       countryCodes: [
         'PM'
       ],
-      currentOffset: '-02:00',
       geographicArea: 'America',
+      label: 'America/Miquelon (GMT-02:00)',
       location: 'Miquelon',
-      locationDisplayName: 'Miquelon',
-      timezoneName: 'America/Miquelon',
-      type: 'Canonical'
+      locationLabel: 'Miquelon',
+      name: 'America/Miquelon',
+      type: 'Canonical',
+      utc: '-02:00'
     },
     'America/Moncton': {
       comments: 'Atlantic - New Brunswick',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Moncton (GMT-03:00)',
       location: 'Moncton',
-      locationDisplayName: 'Moncton',
-      timezoneName: 'America/Moncton',
-      type: 'Canonical'
+      locationLabel: 'Moncton',
+      name: 'America/Moncton',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Monterrey': {
       comments: 'Durango; Coahuila, Nuevo León, Tamaulipas (most areas)',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Monterrey (GMT-06:00)',
       location: 'Monterrey',
-      locationDisplayName: 'Monterrey',
-      timezoneName: 'America/Monterrey',
-      type: 'Canonical'
+      locationLabel: 'Monterrey',
+      name: 'America/Monterrey',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Montevideo': {
       countryCodes: [
         'UY'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Montevideo (GMT-03:00)',
       location: 'Montevideo',
-      locationDisplayName: 'Montevideo',
-      timezoneName: 'America/Montevideo',
-      type: 'Canonical'
+      locationLabel: 'Montevideo',
+      name: 'America/Montevideo',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Montreal': {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Montreal (GMT-04:00)',
       location: 'Montreal',
-      locationDisplayName: 'Montreal',
+      locationLabel: 'Montreal',
+      name: 'America/Montreal',
       parent: 'America/Toronto',
-      timezoneName: 'America/Montreal',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Montserrat': {
       countryCodes: [
         'MS'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Montserrat (GMT-04:00)',
       location: 'Montserrat',
-      locationDisplayName: 'Montserrat',
+      locationLabel: 'Montserrat',
+      name: 'America/Montserrat',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Montserrat',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Nassau': {
       countryCodes: [
         'BS'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Nassau (GMT-04:00)',
       location: 'Nassau',
-      locationDisplayName: 'Nassau',
+      locationLabel: 'Nassau',
+      name: 'America/Nassau',
       parent: 'America/Toronto',
-      timezoneName: 'America/Nassau',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/New_York': {
       children: [
@@ -2151,33 +2321,36 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/New_York (GMT-04:00)',
       location: 'New_York',
-      locationDisplayName: 'New York',
-      timezoneName: 'America/New_York',
-      type: 'Canonical'
+      locationLabel: 'New York',
+      name: 'America/New_York',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Nipigon': {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Nipigon (GMT-04:00)',
       location: 'Nipigon',
-      locationDisplayName: 'Nipigon',
+      locationLabel: 'Nipigon',
+      name: 'America/Nipigon',
       parent: 'America/Toronto',
-      timezoneName: 'America/Nipigon',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Nome': {
       comments: 'Alaska (west)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-08:00',
       geographicArea: 'America',
+      label: 'America/Nome (GMT-08:00)',
       location: 'Nome',
-      locationDisplayName: 'Nome',
-      timezoneName: 'America/Nome',
-      type: 'Canonical'
+      locationLabel: 'Nome',
+      name: 'America/Nome',
+      type: 'Canonical',
+      utc: '-08:00'
     },
     'America/Noronha': {
       children: [
@@ -2187,48 +2360,52 @@ export default {
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-02:00',
       geographicArea: 'America',
+      label: 'America/Noronha (GMT-02:00)',
       location: 'Noronha',
-      locationDisplayName: 'Noronha',
-      timezoneName: 'America/Noronha',
-      type: 'Canonical'
+      locationLabel: 'Noronha',
+      name: 'America/Noronha',
+      type: 'Canonical',
+      utc: '-02:00'
     },
     'America/North_Dakota/Beulah': {
       comments: 'Central - ND (Mercer)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/North_Dakota/Beulah (GMT-05:00)',
       location: 'North_Dakota/Beulah',
-      locationDisplayName: 'North Dakota - Beulah',
-      timezoneName: 'America/North_Dakota/Beulah',
-      type: 'Canonical'
+      locationLabel: 'North Dakota - Beulah',
+      name: 'America/North_Dakota/Beulah',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/North_Dakota/Center': {
       comments: 'Central - ND (Oliver)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/North_Dakota/Center (GMT-05:00)',
       location: 'North_Dakota/Center',
-      locationDisplayName: 'North Dakota - Center',
-      timezoneName: 'America/North_Dakota/Center',
-      type: 'Canonical'
+      locationLabel: 'North Dakota - Center',
+      name: 'America/North_Dakota/Center',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/North_Dakota/New_Salem': {
       comments: 'Central - ND (Morton rural)',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/North_Dakota/New_Salem (GMT-05:00)',
       location: 'North_Dakota/New_Salem',
-      locationDisplayName: 'North Dakota - New_Salem',
-      timezoneName: 'America/North_Dakota/New_Salem',
-      type: 'Canonical'
+      locationLabel: 'North Dakota - New_Salem',
+      name: 'America/North_Dakota/New_Salem',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Nuuk': {
       children: [
@@ -2238,24 +2415,26 @@ export default {
       countryCodes: [
         'GL'
       ],
-      currentOffset: '-01:00',
       geographicArea: 'America',
+      label: 'America/Nuuk (GMT-01:00)',
       location: 'Nuuk',
-      locationDisplayName: 'Nuuk',
-      timezoneName: 'America/Nuuk',
-      type: 'Canonical'
+      locationLabel: 'Nuuk',
+      name: 'America/Nuuk',
+      type: 'Canonical',
+      utc: '-01:00'
     },
     'America/Ojinaga': {
       comments: 'Chihuahua (US border - east)',
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Ojinaga (GMT-05:00)',
       location: 'Ojinaga',
-      locationDisplayName: 'Ojinaga',
-      timezoneName: 'America/Ojinaga',
-      type: 'Canonical'
+      locationLabel: 'Ojinaga',
+      name: 'America/Ojinaga',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Panama': {
       children: [
@@ -2270,32 +2449,35 @@ export default {
         'KY',
         'PA'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Panama (GMT-05:00)',
       location: 'Panama',
-      locationDisplayName: 'Panama',
-      timezoneName: 'America/Panama',
-      type: 'Canonical'
+      locationLabel: 'Panama',
+      name: 'America/Panama',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Pangnirtung': {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Pangnirtung (GMT-04:00)',
       location: 'Pangnirtung',
-      locationDisplayName: 'Pangnirtung',
+      locationLabel: 'Pangnirtung',
+      name: 'America/Pangnirtung',
       parent: 'America/Iqaluit',
-      timezoneName: 'America/Pangnirtung',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Paramaribo': {
       countryCodes: [
         'SR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Paramaribo (GMT-03:00)',
       location: 'Paramaribo',
-      locationDisplayName: 'Paramaribo',
-      timezoneName: 'America/Paramaribo',
-      type: 'Canonical'
+      locationLabel: 'Paramaribo',
+      name: 'America/Paramaribo',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Phoenix': {
       children: [
@@ -2308,56 +2490,61 @@ export default {
         'CA',
         'US'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Phoenix (GMT-07:00)',
       location: 'Phoenix',
-      locationDisplayName: 'Phoenix',
-      timezoneName: 'America/Phoenix',
-      type: 'Canonical'
+      locationLabel: 'Phoenix',
+      name: 'America/Phoenix',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Port-au-Prince': {
       countryCodes: [
         'HT'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Port-au-Prince (GMT-04:00)',
       location: 'Port-au-Prince',
-      locationDisplayName: 'Port-au-Prince',
-      timezoneName: 'America/Port-au-Prince',
-      type: 'Canonical'
+      locationLabel: 'Port-au-Prince',
+      name: 'America/Port-au-Prince',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Port_of_Spain': {
       countryCodes: [
         'TT'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Port_of_Spain (GMT-04:00)',
       location: 'Port_of_Spain',
-      locationDisplayName: 'Port of_Spain',
+      locationLabel: 'Port of_Spain',
+      name: 'America/Port_of_Spain',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Port_of_Spain',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Porto_Acre': {
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Porto_Acre (GMT-05:00)',
       location: 'Porto_Acre',
-      locationDisplayName: 'Porto Acre',
+      locationLabel: 'Porto Acre',
+      name: 'America/Porto_Acre',
       parent: 'America/Rio_Branco',
-      timezoneName: 'America/Porto_Acre',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'America/Porto_Velho': {
       comments: 'Rondônia',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Porto_Velho (GMT-04:00)',
       location: 'Porto_Velho',
-      locationDisplayName: 'Porto Velho',
-      timezoneName: 'America/Porto_Velho',
-      type: 'Canonical'
+      locationLabel: 'Porto Velho',
+      name: 'America/Porto_Velho',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Puerto_Rico': {
       children: [
@@ -2405,57 +2592,62 @@ export default {
         'VG',
         'VI'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Puerto_Rico (GMT-04:00)',
       location: 'Puerto_Rico',
-      locationDisplayName: 'Puerto Rico',
-      timezoneName: 'America/Puerto_Rico',
-      type: 'Canonical'
+      locationLabel: 'Puerto Rico',
+      name: 'America/Puerto_Rico',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Punta_Arenas': {
       comments: 'Magallanes Region',
       countryCodes: [
         'CL'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Punta_Arenas (GMT-03:00)',
       location: 'Punta_Arenas',
-      locationDisplayName: 'Punta Arenas',
-      timezoneName: 'America/Punta_Arenas',
-      type: 'Canonical'
+      locationLabel: 'Punta Arenas',
+      name: 'America/Punta_Arenas',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Rainy_River': {
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Rainy_River (GMT-05:00)',
       location: 'Rainy_River',
-      locationDisplayName: 'Rainy River',
+      locationLabel: 'Rainy River',
+      name: 'America/Rainy_River',
       parent: 'America/Winnipeg',
-      timezoneName: 'America/Rainy_River',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'America/Rankin_Inlet': {
       comments: 'Central - NU (central)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Rankin_Inlet (GMT-05:00)',
       location: 'Rankin_Inlet',
-      locationDisplayName: 'Rankin Inlet',
-      timezoneName: 'America/Rankin_Inlet',
-      type: 'Canonical'
+      locationLabel: 'Rankin Inlet',
+      name: 'America/Rankin_Inlet',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Recife': {
       comments: 'Pernambuco',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Recife (GMT-03:00)',
       location: 'Recife',
-      locationDisplayName: 'Recife',
-      timezoneName: 'America/Recife',
-      type: 'Canonical'
+      locationLabel: 'Recife',
+      name: 'America/Recife',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Regina': {
       children: [
@@ -2465,24 +2657,26 @@ export default {
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Regina (GMT-06:00)',
       location: 'Regina',
-      locationDisplayName: 'Regina',
-      timezoneName: 'America/Regina',
-      type: 'Canonical'
+      locationLabel: 'Regina',
+      name: 'America/Regina',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Resolute': {
       comments: 'Central - NU (Resolute)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Resolute (GMT-05:00)',
       location: 'Resolute',
-      locationDisplayName: 'Resolute',
-      timezoneName: 'America/Resolute',
-      type: 'Canonical'
+      locationLabel: 'Resolute',
+      name: 'America/Resolute',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Rio_Branco': {
       children: [
@@ -2493,42 +2687,46 @@ export default {
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Rio_Branco (GMT-05:00)',
       location: 'Rio_Branco',
-      locationDisplayName: 'Rio Branco',
-      timezoneName: 'America/Rio_Branco',
-      type: 'Canonical'
+      locationLabel: 'Rio Branco',
+      name: 'America/Rio_Branco',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Rosario': {
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Rosario (GMT-03:00)',
       location: 'Rosario',
-      locationDisplayName: 'Rosario',
+      locationLabel: 'Rosario',
+      name: 'America/Rosario',
       parent: 'America/Argentina/Cordoba',
-      timezoneName: 'America/Rosario',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'America/Santa_Isabel': {
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Santa_Isabel (GMT-07:00)',
       location: 'Santa_Isabel',
-      locationDisplayName: 'Santa Isabel',
+      locationLabel: 'Santa Isabel',
+      name: 'America/Santa_Isabel',
       parent: 'America/Tijuana',
-      timezoneName: 'America/Santa_Isabel',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'America/Santarem': {
       comments: 'Pará (west)',
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Santarem (GMT-03:00)',
       location: 'Santarem',
-      locationDisplayName: 'Santarem',
-      timezoneName: 'America/Santarem',
-      type: 'Canonical'
+      locationLabel: 'Santarem',
+      name: 'America/Santarem',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Santiago': {
       children: [
@@ -2538,23 +2736,25 @@ export default {
       countryCodes: [
         'CL'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Santiago (GMT-04:00)',
       location: 'Santiago',
-      locationDisplayName: 'Santiago',
-      timezoneName: 'America/Santiago',
-      type: 'Canonical'
+      locationLabel: 'Santiago',
+      name: 'America/Santiago',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Santo_Domingo': {
       countryCodes: [
         'DO'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Santo_Domingo (GMT-04:00)',
       location: 'Santo_Domingo',
-      locationDisplayName: 'Santo Domingo',
-      timezoneName: 'America/Santo_Domingo',
-      type: 'Canonical'
+      locationLabel: 'Santo Domingo',
+      name: 'America/Santo_Domingo',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Sao_Paulo': {
       children: [
@@ -2564,57 +2764,62 @@ export default {
       countryCodes: [
         'BR'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Sao_Paulo (GMT-03:00)',
       location: 'Sao_Paulo',
-      locationDisplayName: 'Sao Paulo',
-      timezoneName: 'America/Sao_Paulo',
-      type: 'Canonical'
+      locationLabel: 'Sao Paulo',
+      name: 'America/Sao_Paulo',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Scoresbysund': {
       comments: 'Scoresbysund/Ittoqqortoormiit',
       countryCodes: [
         'GL'
       ],
-      currentOffset: '-01:00',
       geographicArea: 'America',
+      label: 'America/Scoresbysund (GMT-01:00)',
       location: 'Scoresbysund',
-      locationDisplayName: 'Scoresbysund',
-      timezoneName: 'America/Scoresbysund',
-      type: 'Canonical'
+      locationLabel: 'Scoresbysund',
+      name: 'America/Scoresbysund',
+      type: 'Canonical',
+      utc: '-01:00'
     },
     'America/Shiprock': {
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Shiprock (GMT-06:00)',
       location: 'Shiprock',
-      locationDisplayName: 'Shiprock',
+      locationLabel: 'Shiprock',
+      name: 'America/Shiprock',
       parent: 'America/Denver',
-      timezoneName: 'America/Shiprock',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     'America/Sitka': {
       comments: 'Alaska - Sitka area',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-08:00',
       geographicArea: 'America',
+      label: 'America/Sitka (GMT-08:00)',
       location: 'Sitka',
-      locationDisplayName: 'Sitka',
-      timezoneName: 'America/Sitka',
-      type: 'Canonical'
+      locationLabel: 'Sitka',
+      name: 'America/Sitka',
+      type: 'Canonical',
+      utc: '-08:00'
     },
     'America/St_Barthelemy': {
       countryCodes: [
         'BL'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/St_Barthelemy (GMT-04:00)',
       location: 'St_Barthelemy',
-      locationDisplayName: 'St Barthelemy',
+      locationLabel: 'St Barthelemy',
+      name: 'America/St_Barthelemy',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/St_Barthelemy',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/St_Johns': {
       children: [
@@ -2624,104 +2829,113 @@ export default {
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-02:30',
       geographicArea: 'America',
+      label: 'America/St_Johns (GMT-02:30)',
       location: 'St_Johns',
-      locationDisplayName: 'St Johns',
-      timezoneName: 'America/St_Johns',
-      type: 'Canonical'
+      locationLabel: 'St Johns',
+      name: 'America/St_Johns',
+      type: 'Canonical',
+      utc: '-02:30'
     },
     'America/St_Kitts': {
       countryCodes: [
         'KN'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/St_Kitts (GMT-04:00)',
       location: 'St_Kitts',
-      locationDisplayName: 'St Kitts',
+      locationLabel: 'St Kitts',
+      name: 'America/St_Kitts',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/St_Kitts',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/St_Lucia': {
       countryCodes: [
         'LC'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/St_Lucia (GMT-04:00)',
       location: 'St_Lucia',
-      locationDisplayName: 'St Lucia',
+      locationLabel: 'St Lucia',
+      name: 'America/St_Lucia',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/St_Lucia',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/St_Thomas': {
       countryCodes: [
         'VI'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/St_Thomas (GMT-04:00)',
       location: 'St_Thomas',
-      locationDisplayName: 'St Thomas',
+      locationLabel: 'St Thomas',
+      name: 'America/St_Thomas',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/St_Thomas',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/St_Vincent': {
       countryCodes: [
         'VC'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/St_Vincent (GMT-04:00)',
       location: 'St_Vincent',
-      locationDisplayName: 'St Vincent',
+      locationLabel: 'St Vincent',
+      name: 'America/St_Vincent',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/St_Vincent',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Swift_Current': {
       comments: 'CST - SK (midwest)',
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Swift_Current (GMT-06:00)',
       location: 'Swift_Current',
-      locationDisplayName: 'Swift Current',
-      timezoneName: 'America/Swift_Current',
-      type: 'Canonical'
+      locationLabel: 'Swift Current',
+      name: 'America/Swift_Current',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Tegucigalpa': {
       countryCodes: [
         'HN'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Tegucigalpa (GMT-06:00)',
       location: 'Tegucigalpa',
-      locationDisplayName: 'Tegucigalpa',
-      timezoneName: 'America/Tegucigalpa',
-      type: 'Canonical'
+      locationLabel: 'Tegucigalpa',
+      name: 'America/Tegucigalpa',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'America/Thule': {
       comments: 'Thule/Pituffik',
       countryCodes: [
         'GL'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'America',
+      label: 'America/Thule (GMT-03:00)',
       location: 'Thule',
-      locationDisplayName: 'Thule',
-      timezoneName: 'America/Thule',
-      type: 'Canonical'
+      locationLabel: 'Thule',
+      name: 'America/Thule',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'America/Thunder_Bay': {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Thunder_Bay (GMT-04:00)',
       location: 'Thunder_Bay',
-      locationDisplayName: 'Thunder Bay',
+      locationLabel: 'Thunder Bay',
+      name: 'America/Thunder_Bay',
       parent: 'America/Toronto',
-      timezoneName: 'America/Thunder_Bay',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Tijuana': {
       children: [
@@ -2733,12 +2947,13 @@ export default {
       countryCodes: [
         'MX'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Tijuana (GMT-07:00)',
       location: 'Tijuana',
-      locationDisplayName: 'Tijuana',
-      timezoneName: 'America/Tijuana',
-      type: 'Canonical'
+      locationLabel: 'Tijuana',
+      name: 'America/Tijuana',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Toronto': {
       children: [
@@ -2753,24 +2968,26 @@ export default {
         'BS',
         'CA'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Toronto (GMT-04:00)',
       location: 'Toronto',
-      locationDisplayName: 'Toronto',
-      timezoneName: 'America/Toronto',
-      type: 'Canonical'
+      locationLabel: 'Toronto',
+      name: 'America/Toronto',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'America/Tortola': {
       countryCodes: [
         'VG'
       ],
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Tortola (GMT-04:00)',
       location: 'Tortola',
-      locationDisplayName: 'Tortola',
+      locationLabel: 'Tortola',
+      name: 'America/Tortola',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Tortola',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Vancouver': {
       children: [
@@ -2780,21 +2997,23 @@ export default {
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Vancouver (GMT-07:00)',
       location: 'Vancouver',
-      locationDisplayName: 'Vancouver',
-      timezoneName: 'America/Vancouver',
-      type: 'Canonical'
+      locationLabel: 'Vancouver',
+      name: 'America/Vancouver',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Virgin': {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'America/Virgin (GMT-04:00)',
       location: 'Virgin',
-      locationDisplayName: 'Virgin',
+      locationLabel: 'Virgin',
+      name: 'America/Virgin',
       parent: 'America/Puerto_Rico',
-      timezoneName: 'America/Virgin',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'America/Whitehorse': {
       children: [
@@ -2804,12 +3023,13 @@ export default {
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'America/Whitehorse (GMT-07:00)',
       location: 'Whitehorse',
-      locationDisplayName: 'Whitehorse',
-      timezoneName: 'America/Whitehorse',
-      type: 'Canonical'
+      locationLabel: 'Whitehorse',
+      name: 'America/Whitehorse',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'America/Winnipeg': {
       children: [
@@ -2820,260 +3040,282 @@ export default {
       countryCodes: [
         'CA'
       ],
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'America/Winnipeg (GMT-05:00)',
       location: 'Winnipeg',
-      locationDisplayName: 'Winnipeg',
-      timezoneName: 'America/Winnipeg',
-      type: 'Canonical'
+      locationLabel: 'Winnipeg',
+      name: 'America/Winnipeg',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'America/Yakutat': {
       comments: 'Alaska - Yakutat',
       countryCodes: [
         'US'
       ],
-      currentOffset: '-08:00',
       geographicArea: 'America',
+      label: 'America/Yakutat (GMT-08:00)',
       location: 'Yakutat',
-      locationDisplayName: 'Yakutat',
-      timezoneName: 'America/Yakutat',
-      type: 'Canonical'
+      locationLabel: 'Yakutat',
+      name: 'America/Yakutat',
+      type: 'Canonical',
+      utc: '-08:00'
     },
     'America/Yellowknife': {
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'America/Yellowknife (GMT-06:00)',
       location: 'Yellowknife',
-      locationDisplayName: 'Yellowknife',
+      locationLabel: 'Yellowknife',
+      name: 'America/Yellowknife',
       parent: 'America/Edmonton',
-      timezoneName: 'America/Yellowknife',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     'Antarctica/Casey': {
       comments: 'Casey',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Casey (GMT+08:00)',
       location: 'Casey',
-      locationDisplayName: 'Casey',
-      timezoneName: 'Antarctica/Casey',
-      type: 'Canonical'
+      locationLabel: 'Casey',
+      name: 'Antarctica/Casey',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Antarctica/Davis': {
       comments: 'Davis',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Davis (GMT+07:00)',
       location: 'Davis',
-      locationDisplayName: 'Davis',
-      timezoneName: 'Antarctica/Davis',
-      type: 'Canonical'
+      locationLabel: 'Davis',
+      name: 'Antarctica/Davis',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Antarctica/DumontDUrville': {
       comments: "Dumont-d'Urville",
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/DumontDUrville (GMT+10:00)',
       location: 'DumontDUrville',
-      locationDisplayName: 'DumontDUrville',
+      locationLabel: 'DumontDUrville',
+      name: 'Antarctica/DumontDUrville',
       parent: 'Pacific/Port_Moresby',
-      timezoneName: 'Antarctica/DumontDUrville',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Antarctica/Macquarie': {
       comments: 'Macquarie Island',
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Macquarie (GMT+10:00)',
       location: 'Macquarie',
-      locationDisplayName: 'Macquarie',
-      timezoneName: 'Antarctica/Macquarie',
-      type: 'Canonical'
+      locationLabel: 'Macquarie',
+      name: 'Antarctica/Macquarie',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Antarctica/Mawson': {
       comments: 'Mawson',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Mawson (GMT+05:00)',
       location: 'Mawson',
-      locationDisplayName: 'Mawson',
-      timezoneName: 'Antarctica/Mawson',
-      type: 'Canonical'
+      locationLabel: 'Mawson',
+      name: 'Antarctica/Mawson',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Antarctica/McMurdo': {
       comments: 'New Zealand time - McMurdo, South Pole',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/McMurdo (GMT+12:00)',
       location: 'McMurdo',
-      locationDisplayName: 'McMurdo',
+      locationLabel: 'McMurdo',
+      name: 'Antarctica/McMurdo',
       parent: 'Pacific/Auckland',
-      timezoneName: 'Antarctica/McMurdo',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:00'
     },
     'Antarctica/Palmer': {
       comments: 'Palmer',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Palmer (GMT-03:00)',
       location: 'Palmer',
-      locationDisplayName: 'Palmer',
-      timezoneName: 'Antarctica/Palmer',
-      type: 'Canonical'
+      locationLabel: 'Palmer',
+      name: 'Antarctica/Palmer',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'Antarctica/Rothera': {
       comments: 'Rothera',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Rothera (GMT-03:00)',
       location: 'Rothera',
-      locationDisplayName: 'Rothera',
-      timezoneName: 'Antarctica/Rothera',
-      type: 'Canonical'
+      locationLabel: 'Rothera',
+      name: 'Antarctica/Rothera',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'Antarctica/South_Pole': {
-      currentOffset: '+12:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/South_Pole (GMT+12:00)',
       location: 'South_Pole',
-      locationDisplayName: 'South Pole',
+      locationLabel: 'South Pole',
+      name: 'Antarctica/South_Pole',
       parent: 'Pacific/Auckland',
-      timezoneName: 'Antarctica/South_Pole',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:00'
     },
     'Antarctica/Syowa': {
       comments: 'Syowa',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Syowa (GMT+03:00)',
       location: 'Syowa',
-      locationDisplayName: 'Syowa',
+      locationLabel: 'Syowa',
+      name: 'Antarctica/Syowa',
       parent: 'Asia/Riyadh',
-      timezoneName: 'Antarctica/Syowa',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Antarctica/Troll': {
       comments: 'Troll',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Troll (GMT+02:00)',
       location: 'Troll',
-      locationDisplayName: 'Troll',
-      timezoneName: 'Antarctica/Troll',
-      type: 'Canonical'
+      locationLabel: 'Troll',
+      name: 'Antarctica/Troll',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Antarctica/Vostok': {
       comments: 'Vostok',
       countryCodes: [
         'AQ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Antarctica',
+      label: 'Antarctica/Vostok (GMT+05:00)',
       location: 'Vostok',
-      locationDisplayName: 'Vostok',
-      timezoneName: 'Antarctica/Vostok',
-      type: 'Canonical'
+      locationLabel: 'Vostok',
+      name: 'Antarctica/Vostok',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Arctic/Longyearbyen': {
       countryCodes: [
         'SJ'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Arctic',
+      label: 'Arctic/Longyearbyen (GMT+02:00)',
       location: 'Longyearbyen',
-      locationDisplayName: 'Longyearbyen',
+      locationLabel: 'Longyearbyen',
+      name: 'Arctic/Longyearbyen',
       parent: 'Europe/Berlin',
-      timezoneName: 'Arctic/Longyearbyen',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Asia/Aden': {
       countryCodes: [
         'YE'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Aden (GMT+03:00)',
       location: 'Aden',
-      locationDisplayName: 'Aden',
+      locationLabel: 'Aden',
+      name: 'Asia/Aden',
       parent: 'Asia/Riyadh',
-      timezoneName: 'Asia/Aden',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Asia/Almaty': {
       comments: 'most of Kazakhstan',
       countryCodes: [
         'KZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Almaty (GMT+05:00)',
       location: 'Almaty',
-      locationDisplayName: 'Almaty',
-      timezoneName: 'Asia/Almaty',
-      type: 'Canonical'
+      locationLabel: 'Almaty',
+      name: 'Asia/Almaty',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Amman': {
       countryCodes: [
         'JO'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Amman (GMT+03:00)',
       location: 'Amman',
-      locationDisplayName: 'Amman',
-      timezoneName: 'Asia/Amman',
-      type: 'Canonical'
+      locationLabel: 'Amman',
+      name: 'Asia/Amman',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Anadyr': {
       comments: 'MSK+09 - Bering Sea',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Asia',
+      label: 'Asia/Anadyr (GMT+12:00)',
       location: 'Anadyr',
-      locationDisplayName: 'Anadyr',
-      timezoneName: 'Asia/Anadyr',
-      type: 'Canonical'
+      locationLabel: 'Anadyr',
+      name: 'Asia/Anadyr',
+      type: 'Canonical',
+      utc: '+12:00'
     },
     'Asia/Aqtau': {
       comments: 'Mangghystaū/Mankistau',
       countryCodes: [
         'KZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Aqtau (GMT+05:00)',
       location: 'Aqtau',
-      locationDisplayName: 'Aqtau',
-      timezoneName: 'Asia/Aqtau',
-      type: 'Canonical'
+      locationLabel: 'Aqtau',
+      name: 'Asia/Aqtau',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Aqtobe': {
       comments: 'Aqtöbe/Aktobe',
       countryCodes: [
         'KZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Aqtobe (GMT+05:00)',
       location: 'Aqtobe',
-      locationDisplayName: 'Aqtobe',
-      timezoneName: 'Asia/Aqtobe',
-      type: 'Canonical'
+      locationLabel: 'Aqtobe',
+      name: 'Asia/Aqtobe',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Ashgabat': {
       children: [
@@ -3082,67 +3324,73 @@ export default {
       countryCodes: [
         'TM'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Ashgabat (GMT+05:00)',
       location: 'Ashgabat',
-      locationDisplayName: 'Ashgabat',
-      timezoneName: 'Asia/Ashgabat',
-      type: 'Canonical'
+      locationLabel: 'Ashgabat',
+      name: 'Asia/Ashgabat',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Ashkhabad': {
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Ashkhabad (GMT+05:00)',
       location: 'Ashkhabad',
-      locationDisplayName: 'Ashkhabad',
+      locationLabel: 'Ashkhabad',
+      name: 'Asia/Ashkhabad',
       parent: 'Asia/Ashgabat',
-      timezoneName: 'Asia/Ashkhabad',
-      type: 'Link'
+      type: 'Link',
+      utc: '+05:00'
     },
     'Asia/Atyrau': {
       comments: "Atyraū/Atirau/Gur'yev",
       countryCodes: [
         'KZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Atyrau (GMT+05:00)',
       location: 'Atyrau',
-      locationDisplayName: 'Atyrau',
-      timezoneName: 'Asia/Atyrau',
-      type: 'Canonical'
+      locationLabel: 'Atyrau',
+      name: 'Asia/Atyrau',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Baghdad': {
       countryCodes: [
         'IQ'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Baghdad (GMT+03:00)',
       location: 'Baghdad',
-      locationDisplayName: 'Baghdad',
-      timezoneName: 'Asia/Baghdad',
-      type: 'Canonical'
+      locationLabel: 'Baghdad',
+      name: 'Asia/Baghdad',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Bahrain': {
       countryCodes: [
         'BH'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Bahrain (GMT+03:00)',
       location: 'Bahrain',
-      locationDisplayName: 'Bahrain',
+      locationLabel: 'Bahrain',
+      name: 'Asia/Bahrain',
       parent: 'Asia/Qatar',
-      timezoneName: 'Asia/Bahrain',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Asia/Baku': {
       countryCodes: [
         'AZ'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Asia',
+      label: 'Asia/Baku (GMT+04:00)',
       location: 'Baku',
-      locationDisplayName: 'Baku',
-      timezoneName: 'Asia/Baku',
-      type: 'Canonical'
+      locationLabel: 'Baku',
+      name: 'Asia/Baku',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Asia/Bangkok': {
       children: [
@@ -3158,137 +3406,150 @@ export default {
         'TH',
         'VN'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Bangkok (GMT+07:00)',
       location: 'Bangkok',
-      locationDisplayName: 'Bangkok',
-      timezoneName: 'Asia/Bangkok',
-      type: 'Canonical'
+      locationLabel: 'Bangkok',
+      name: 'Asia/Bangkok',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Barnaul': {
       comments: 'MSK+04 - Altai',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Barnaul (GMT+07:00)',
       location: 'Barnaul',
-      locationDisplayName: 'Barnaul',
-      timezoneName: 'Asia/Barnaul',
-      type: 'Canonical'
+      locationLabel: 'Barnaul',
+      name: 'Asia/Barnaul',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Beirut': {
       countryCodes: [
         'LB'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Beirut (GMT+03:00)',
       location: 'Beirut',
-      locationDisplayName: 'Beirut',
-      timezoneName: 'Asia/Beirut',
-      type: 'Canonical'
+      locationLabel: 'Beirut',
+      name: 'Asia/Beirut',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Bishkek': {
       countryCodes: [
         'KG'
       ],
-      currentOffset: '+06:00',
       geographicArea: 'Asia',
+      label: 'Asia/Bishkek (GMT+06:00)',
       location: 'Bishkek',
-      locationDisplayName: 'Bishkek',
-      timezoneName: 'Asia/Bishkek',
-      type: 'Canonical'
+      locationLabel: 'Bishkek',
+      name: 'Asia/Bishkek',
+      type: 'Canonical',
+      utc: '+06:00'
     },
     'Asia/Brunei': {
       countryCodes: [
         'BN'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Brunei (GMT+08:00)',
       location: 'Brunei',
-      locationDisplayName: 'Brunei',
+      locationLabel: 'Brunei',
+      name: 'Asia/Brunei',
       parent: 'Asia/Kuching',
-      timezoneName: 'Asia/Brunei',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Calcutta': {
-      currentOffset: '+05:30',
       geographicArea: 'Asia',
+      label: 'Asia/Calcutta (GMT+05:30)',
       location: 'Calcutta',
-      locationDisplayName: 'Calcutta',
+      locationLabel: 'Calcutta',
+      name: 'Asia/Calcutta',
       parent: 'Asia/Kolkata',
-      timezoneName: 'Asia/Calcutta',
-      type: 'Link'
+      type: 'Link',
+      utc: '+05:30'
     },
     'Asia/Chita': {
       comments: 'MSK+06 - Zabaykalsky',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Asia/Chita (GMT+09:00)',
       location: 'Chita',
-      locationDisplayName: 'Chita',
-      timezoneName: 'Asia/Chita',
-      type: 'Canonical'
+      locationLabel: 'Chita',
+      name: 'Asia/Chita',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Asia/Choibalsan': {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Choibalsan (GMT+08:00)',
       location: 'Choibalsan',
-      locationDisplayName: 'Choibalsan',
+      locationLabel: 'Choibalsan',
+      name: 'Asia/Choibalsan',
       parent: 'Asia/Ulaanbaatar',
-      timezoneName: 'Asia/Choibalsan',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Chongqing': {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Chongqing (GMT+08:00)',
       location: 'Chongqing',
-      locationDisplayName: 'Chongqing',
+      locationLabel: 'Chongqing',
+      name: 'Asia/Chongqing',
       parent: 'Asia/Shanghai',
-      timezoneName: 'Asia/Chongqing',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Chungking': {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Chungking (GMT+08:00)',
       location: 'Chungking',
-      locationDisplayName: 'Chungking',
+      locationLabel: 'Chungking',
+      name: 'Asia/Chungking',
       parent: 'Asia/Shanghai',
-      timezoneName: 'Asia/Chungking',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Colombo': {
       countryCodes: [
         'LK'
       ],
-      currentOffset: '+05:30',
       geographicArea: 'Asia',
+      label: 'Asia/Colombo (GMT+05:30)',
       location: 'Colombo',
-      locationDisplayName: 'Colombo',
-      timezoneName: 'Asia/Colombo',
-      type: 'Canonical'
+      locationLabel: 'Colombo',
+      name: 'Asia/Colombo',
+      type: 'Canonical',
+      utc: '+05:30'
     },
     'Asia/Dacca': {
-      currentOffset: '+06:00',
       geographicArea: 'Asia',
+      label: 'Asia/Dacca (GMT+06:00)',
       location: 'Dacca',
-      locationDisplayName: 'Dacca',
+      locationLabel: 'Dacca',
+      name: 'Asia/Dacca',
       parent: 'Asia/Dhaka',
-      timezoneName: 'Asia/Dacca',
-      type: 'Link'
+      type: 'Link',
+      utc: '+06:00'
     },
     'Asia/Damascus': {
       countryCodes: [
         'SY'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Damascus (GMT+03:00)',
       location: 'Damascus',
-      locationDisplayName: 'Damascus',
-      timezoneName: 'Asia/Damascus',
-      type: 'Canonical'
+      locationLabel: 'Damascus',
+      name: 'Asia/Damascus',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Dhaka': {
       children: [
@@ -3297,23 +3558,25 @@ export default {
       countryCodes: [
         'BD'
       ],
-      currentOffset: '+06:00',
       geographicArea: 'Asia',
+      label: 'Asia/Dhaka (GMT+06:00)',
       location: 'Dhaka',
-      locationDisplayName: 'Dhaka',
-      timezoneName: 'Asia/Dhaka',
-      type: 'Canonical'
+      locationLabel: 'Dhaka',
+      name: 'Asia/Dhaka',
+      type: 'Canonical',
+      utc: '+06:00'
     },
     'Asia/Dili': {
       countryCodes: [
         'TL'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Asia/Dili (GMT+09:00)',
       location: 'Dili',
-      locationDisplayName: 'Dili',
-      timezoneName: 'Asia/Dili',
-      type: 'Canonical'
+      locationLabel: 'Dili',
+      name: 'Asia/Dili',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Asia/Dubai': {
       children: [
@@ -3329,68 +3592,74 @@ export default {
         'SC',
         'TF'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Asia',
+      label: 'Asia/Dubai (GMT+04:00)',
       location: 'Dubai',
-      locationDisplayName: 'Dubai',
-      timezoneName: 'Asia/Dubai',
-      type: 'Canonical'
+      locationLabel: 'Dubai',
+      name: 'Asia/Dubai',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Asia/Dushanbe': {
       countryCodes: [
         'TJ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Dushanbe (GMT+05:00)',
       location: 'Dushanbe',
-      locationDisplayName: 'Dushanbe',
-      timezoneName: 'Asia/Dushanbe',
-      type: 'Canonical'
+      locationLabel: 'Dushanbe',
+      name: 'Asia/Dushanbe',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Famagusta': {
       comments: 'Northern Cyprus',
       countryCodes: [
         'CY'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Famagusta (GMT+03:00)',
       location: 'Famagusta',
-      locationDisplayName: 'Famagusta',
-      timezoneName: 'Asia/Famagusta',
-      type: 'Canonical'
+      locationLabel: 'Famagusta',
+      name: 'Asia/Famagusta',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Gaza': {
       comments: 'Gaza Strip',
       countryCodes: [
         'PS'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Gaza (GMT+03:00)',
       location: 'Gaza',
-      locationDisplayName: 'Gaza',
-      timezoneName: 'Asia/Gaza',
-      type: 'Canonical'
+      locationLabel: 'Gaza',
+      name: 'Asia/Gaza',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Harbin': {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Harbin (GMT+08:00)',
       location: 'Harbin',
-      locationDisplayName: 'Harbin',
+      locationLabel: 'Harbin',
+      name: 'Asia/Harbin',
       parent: 'Asia/Shanghai',
-      timezoneName: 'Asia/Harbin',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Hebron': {
       comments: 'West Bank',
       countryCodes: [
         'PS'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Hebron (GMT+03:00)',
       location: 'Hebron',
-      locationDisplayName: 'Hebron',
-      timezoneName: 'Asia/Hebron',
-      type: 'Canonical'
+      locationLabel: 'Hebron',
+      name: 'Asia/Hebron',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Ho_Chi_Minh': {
       children: [
@@ -3400,12 +3669,13 @@ export default {
       countryCodes: [
         'VN'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Ho_Chi_Minh (GMT+07:00)',
       location: 'Ho_Chi_Minh',
-      locationDisplayName: 'Ho Chi_Minh',
-      timezoneName: 'Asia/Ho_Chi_Minh',
-      type: 'Canonical'
+      locationLabel: 'Ho Chi_Minh',
+      name: 'Asia/Ho_Chi_Minh',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Hong_Kong': {
       children: [
@@ -3414,69 +3684,75 @@ export default {
       countryCodes: [
         'HK'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Hong_Kong (GMT+08:00)',
       location: 'Hong_Kong',
-      locationDisplayName: 'Hong Kong',
-      timezoneName: 'Asia/Hong_Kong',
-      type: 'Canonical'
+      locationLabel: 'Hong Kong',
+      name: 'Asia/Hong_Kong',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Hovd': {
       comments: 'Bayan-Ölgii, Hovd, Uvs',
       countryCodes: [
         'MN'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Hovd (GMT+07:00)',
       location: 'Hovd',
-      locationDisplayName: 'Hovd',
-      timezoneName: 'Asia/Hovd',
-      type: 'Canonical'
+      locationLabel: 'Hovd',
+      name: 'Asia/Hovd',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Irkutsk': {
       comments: 'MSK+05 - Irkutsk, Buryatia',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Irkutsk (GMT+08:00)',
       location: 'Irkutsk',
-      locationDisplayName: 'Irkutsk',
-      timezoneName: 'Asia/Irkutsk',
-      type: 'Canonical'
+      locationLabel: 'Irkutsk',
+      name: 'Asia/Irkutsk',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Istanbul': {
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Istanbul (GMT+03:00)',
       location: 'Istanbul',
-      locationDisplayName: 'Istanbul',
+      locationLabel: 'Istanbul',
+      name: 'Asia/Istanbul',
       parent: 'Europe/Istanbul',
-      timezoneName: 'Asia/Istanbul',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Asia/Jakarta': {
       comments: 'Java, Sumatra',
       countryCodes: [
         'ID'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Jakarta (GMT+07:00)',
       location: 'Jakarta',
-      locationDisplayName: 'Jakarta',
-      timezoneName: 'Asia/Jakarta',
-      type: 'Canonical'
+      locationLabel: 'Jakarta',
+      name: 'Asia/Jakarta',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Jayapura': {
       comments: 'New Guinea (West Papua / Irian Jaya), Malukus/Moluccas',
       countryCodes: [
         'ID'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Asia/Jayapura (GMT+09:00)',
       location: 'Jayapura',
-      locationDisplayName: 'Jayapura',
-      timezoneName: 'Asia/Jayapura',
-      type: 'Canonical'
+      locationLabel: 'Jayapura',
+      name: 'Asia/Jayapura',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Asia/Jerusalem': {
       children: [
@@ -3486,55 +3762,60 @@ export default {
       countryCodes: [
         'IL'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Jerusalem (GMT+03:00)',
       location: 'Jerusalem',
-      locationDisplayName: 'Jerusalem',
-      timezoneName: 'Asia/Jerusalem',
-      type: 'Canonical'
+      locationLabel: 'Jerusalem',
+      name: 'Asia/Jerusalem',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Kabul': {
       countryCodes: [
         'AF'
       ],
-      currentOffset: '+04:30',
       geographicArea: 'Asia',
+      label: 'Asia/Kabul (GMT+04:30)',
       location: 'Kabul',
-      locationDisplayName: 'Kabul',
-      timezoneName: 'Asia/Kabul',
-      type: 'Canonical'
+      locationLabel: 'Kabul',
+      name: 'Asia/Kabul',
+      type: 'Canonical',
+      utc: '+04:30'
     },
     'Asia/Kamchatka': {
       comments: 'MSK+09 - Kamchatka',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Asia',
+      label: 'Asia/Kamchatka (GMT+12:00)',
       location: 'Kamchatka',
-      locationDisplayName: 'Kamchatka',
-      timezoneName: 'Asia/Kamchatka',
-      type: 'Canonical'
+      locationLabel: 'Kamchatka',
+      name: 'Asia/Kamchatka',
+      type: 'Canonical',
+      utc: '+12:00'
     },
     'Asia/Karachi': {
       countryCodes: [
         'PK'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Karachi (GMT+05:00)',
       location: 'Karachi',
-      locationDisplayName: 'Karachi',
-      timezoneName: 'Asia/Karachi',
-      type: 'Canonical'
+      locationLabel: 'Karachi',
+      name: 'Asia/Karachi',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Kashgar': {
-      currentOffset: '+06:00',
       geographicArea: 'Asia',
+      label: 'Asia/Kashgar (GMT+06:00)',
       location: 'Kashgar',
-      locationDisplayName: 'Kashgar',
+      locationLabel: 'Kashgar',
+      name: 'Asia/Kashgar',
       parent: 'Asia/Urumqi',
-      timezoneName: 'Asia/Kashgar',
-      type: 'Link'
+      type: 'Link',
+      utc: '+06:00'
     },
     'Asia/Kathmandu': {
       children: [
@@ -3543,33 +3824,36 @@ export default {
       countryCodes: [
         'NP'
       ],
-      currentOffset: '+05:45',
       geographicArea: 'Asia',
+      label: 'Asia/Kathmandu (GMT+05:45)',
       location: 'Kathmandu',
-      locationDisplayName: 'Kathmandu',
-      timezoneName: 'Asia/Kathmandu',
-      type: 'Canonical'
+      locationLabel: 'Kathmandu',
+      name: 'Asia/Kathmandu',
+      type: 'Canonical',
+      utc: '+05:45'
     },
     'Asia/Katmandu': {
-      currentOffset: '+05:45',
       geographicArea: 'Asia',
+      label: 'Asia/Katmandu (GMT+05:45)',
       location: 'Katmandu',
-      locationDisplayName: 'Katmandu',
+      locationLabel: 'Katmandu',
+      name: 'Asia/Katmandu',
       parent: 'Asia/Kathmandu',
-      timezoneName: 'Asia/Katmandu',
-      type: 'Link'
+      type: 'Link',
+      utc: '+05:45'
     },
     'Asia/Khandyga': {
       comments: 'MSK+06 - Tomponsky, Ust-Maysky',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Asia/Khandyga (GMT+09:00)',
       location: 'Khandyga',
-      locationDisplayName: 'Khandyga',
-      timezoneName: 'Asia/Khandyga',
-      type: 'Canonical'
+      locationLabel: 'Khandyga',
+      name: 'Asia/Khandyga',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Asia/Kolkata': {
       children: [
@@ -3578,37 +3862,40 @@ export default {
       countryCodes: [
         'IN'
       ],
-      currentOffset: '+05:30',
       geographicArea: 'Asia',
+      label: 'Asia/Kolkata (GMT+05:30)',
       location: 'Kolkata',
-      locationDisplayName: 'Kolkata',
-      timezoneName: 'Asia/Kolkata',
-      type: 'Canonical'
+      locationLabel: 'Kolkata',
+      name: 'Asia/Kolkata',
+      type: 'Canonical',
+      utc: '+05:30'
     },
     'Asia/Krasnoyarsk': {
       comments: 'MSK+04 - Krasnoyarsk area',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Krasnoyarsk (GMT+07:00)',
       location: 'Krasnoyarsk',
-      locationDisplayName: 'Krasnoyarsk',
-      timezoneName: 'Asia/Krasnoyarsk',
-      type: 'Canonical'
+      locationLabel: 'Krasnoyarsk',
+      name: 'Asia/Krasnoyarsk',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Kuala_Lumpur': {
       comments: 'Malaysia (peninsula)',
       countryCodes: [
         'MY'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Kuala_Lumpur (GMT+08:00)',
       location: 'Kuala_Lumpur',
-      locationDisplayName: 'Kuala Lumpur',
+      locationLabel: 'Kuala Lumpur',
+      name: 'Asia/Kuala_Lumpur',
       parent: 'Asia/Singapore',
-      timezoneName: 'Asia/Kuala_Lumpur',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Kuching': {
       children: [
@@ -3619,33 +3906,36 @@ export default {
         'BN',
         'MY'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Kuching (GMT+08:00)',
       location: 'Kuching',
-      locationDisplayName: 'Kuching',
-      timezoneName: 'Asia/Kuching',
-      type: 'Canonical'
+      locationLabel: 'Kuching',
+      name: 'Asia/Kuching',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Kuwait': {
       countryCodes: [
         'KW'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Kuwait (GMT+03:00)',
       location: 'Kuwait',
-      locationDisplayName: 'Kuwait',
+      locationLabel: 'Kuwait',
+      name: 'Asia/Kuwait',
       parent: 'Asia/Riyadh',
-      timezoneName: 'Asia/Kuwait',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Asia/Macao': {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Macao (GMT+08:00)',
       location: 'Macao',
-      locationDisplayName: 'Macao',
+      locationLabel: 'Macao',
+      name: 'Asia/Macao',
       parent: 'Asia/Macau',
-      timezoneName: 'Asia/Macao',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Macau': {
       children: [
@@ -3654,24 +3944,26 @@ export default {
       countryCodes: [
         'MO'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Macau (GMT+08:00)',
       location: 'Macau',
-      locationDisplayName: 'Macau',
-      timezoneName: 'Asia/Macau',
-      type: 'Canonical'
+      locationLabel: 'Macau',
+      name: 'Asia/Macau',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Magadan': {
       comments: 'MSK+08 - Magadan',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Asia',
+      label: 'Asia/Magadan (GMT+11:00)',
       location: 'Magadan',
-      locationDisplayName: 'Magadan',
-      timezoneName: 'Asia/Magadan',
-      type: 'Canonical'
+      locationLabel: 'Magadan',
+      name: 'Asia/Magadan',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Asia/Makassar': {
       children: [
@@ -3681,35 +3973,38 @@ export default {
       countryCodes: [
         'ID'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Makassar (GMT+08:00)',
       location: 'Makassar',
-      locationDisplayName: 'Makassar',
-      timezoneName: 'Asia/Makassar',
-      type: 'Canonical'
+      locationLabel: 'Makassar',
+      name: 'Asia/Makassar',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Manila': {
       countryCodes: [
         'PH'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Manila (GMT+08:00)',
       location: 'Manila',
-      locationDisplayName: 'Manila',
-      timezoneName: 'Asia/Manila',
-      type: 'Canonical'
+      locationLabel: 'Manila',
+      name: 'Asia/Manila',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Muscat': {
       countryCodes: [
         'OM'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Asia',
+      label: 'Asia/Muscat (GMT+04:00)',
       location: 'Muscat',
-      locationDisplayName: 'Muscat',
+      locationLabel: 'Muscat',
+      name: 'Asia/Muscat',
       parent: 'Asia/Dubai',
-      timezoneName: 'Asia/Muscat',
-      type: 'Link'
+      type: 'Link',
+      utc: '+04:00'
     },
     'Asia/Nicosia': {
       children: [
@@ -3719,95 +4014,103 @@ export default {
       countryCodes: [
         'CY'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Nicosia (GMT+03:00)',
       location: 'Nicosia',
-      locationDisplayName: 'Nicosia',
-      timezoneName: 'Asia/Nicosia',
-      type: 'Canonical'
+      locationLabel: 'Nicosia',
+      name: 'Asia/Nicosia',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Novokuznetsk': {
       comments: 'MSK+04 - Kemerovo',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Novokuznetsk (GMT+07:00)',
       location: 'Novokuznetsk',
-      locationDisplayName: 'Novokuznetsk',
-      timezoneName: 'Asia/Novokuznetsk',
-      type: 'Canonical'
+      locationLabel: 'Novokuznetsk',
+      name: 'Asia/Novokuznetsk',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Novosibirsk': {
       comments: 'MSK+04 - Novosibirsk',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Novosibirsk (GMT+07:00)',
       location: 'Novosibirsk',
-      locationDisplayName: 'Novosibirsk',
-      timezoneName: 'Asia/Novosibirsk',
-      type: 'Canonical'
+      locationLabel: 'Novosibirsk',
+      name: 'Asia/Novosibirsk',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Omsk': {
       comments: 'MSK+03 - Omsk',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+06:00',
       geographicArea: 'Asia',
+      label: 'Asia/Omsk (GMT+06:00)',
       location: 'Omsk',
-      locationDisplayName: 'Omsk',
-      timezoneName: 'Asia/Omsk',
-      type: 'Canonical'
+      locationLabel: 'Omsk',
+      name: 'Asia/Omsk',
+      type: 'Canonical',
+      utc: '+06:00'
     },
     'Asia/Oral': {
       comments: 'West Kazakhstan',
       countryCodes: [
         'KZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Oral (GMT+05:00)',
       location: 'Oral',
-      locationDisplayName: 'Oral',
-      timezoneName: 'Asia/Oral',
-      type: 'Canonical'
+      locationLabel: 'Oral',
+      name: 'Asia/Oral',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Phnom_Penh': {
       countryCodes: [
         'KH'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Phnom_Penh (GMT+07:00)',
       location: 'Phnom_Penh',
-      locationDisplayName: 'Phnom Penh',
+      locationLabel: 'Phnom Penh',
+      name: 'Asia/Phnom_Penh',
       parent: 'Asia/Bangkok',
-      timezoneName: 'Asia/Phnom_Penh',
-      type: 'Link'
+      type: 'Link',
+      utc: '+07:00'
     },
     'Asia/Pontianak': {
       comments: 'Borneo (west, central)',
       countryCodes: [
         'ID'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Pontianak (GMT+07:00)',
       location: 'Pontianak',
-      locationDisplayName: 'Pontianak',
-      timezoneName: 'Asia/Pontianak',
-      type: 'Canonical'
+      locationLabel: 'Pontianak',
+      name: 'Asia/Pontianak',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Pyongyang': {
       countryCodes: [
         'KP'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Asia/Pyongyang (GMT+09:00)',
       location: 'Pyongyang',
-      locationDisplayName: 'Pyongyang',
-      timezoneName: 'Asia/Pyongyang',
-      type: 'Canonical'
+      locationLabel: 'Pyongyang',
+      name: 'Asia/Pyongyang',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Asia/Qatar': {
       children: [
@@ -3817,45 +4120,49 @@ export default {
         'BH',
         'QA'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Qatar (GMT+03:00)',
       location: 'Qatar',
-      locationDisplayName: 'Qatar',
-      timezoneName: 'Asia/Qatar',
-      type: 'Canonical'
+      locationLabel: 'Qatar',
+      name: 'Asia/Qatar',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Qostanay': {
       comments: 'Qostanay/Kostanay/Kustanay',
       countryCodes: [
         'KZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Qostanay (GMT+05:00)',
       location: 'Qostanay',
-      locationDisplayName: 'Qostanay',
-      timezoneName: 'Asia/Qostanay',
-      type: 'Canonical'
+      locationLabel: 'Qostanay',
+      name: 'Asia/Qostanay',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Qyzylorda': {
       comments: 'Qyzylorda/Kyzylorda/Kzyl-Orda',
       countryCodes: [
         'KZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Qyzylorda (GMT+05:00)',
       location: 'Qyzylorda',
-      locationDisplayName: 'Qyzylorda',
-      timezoneName: 'Asia/Qyzylorda',
-      type: 'Canonical'
+      locationLabel: 'Qyzylorda',
+      name: 'Asia/Qyzylorda',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Rangoon': {
-      currentOffset: '+06:30',
       geographicArea: 'Asia',
+      label: 'Asia/Rangoon (GMT+06:30)',
       location: 'Rangoon',
-      locationDisplayName: 'Rangoon',
+      locationLabel: 'Rangoon',
+      name: 'Asia/Rangoon',
       parent: 'Asia/Yangon',
-      timezoneName: 'Asia/Rangoon',
-      type: 'Link'
+      type: 'Link',
+      utc: '+06:30'
     },
     'Asia/Riyadh': {
       children: [
@@ -3870,45 +4177,49 @@ export default {
         'SA',
         'YE'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Riyadh (GMT+03:00)',
       location: 'Riyadh',
-      locationDisplayName: 'Riyadh',
-      timezoneName: 'Asia/Riyadh',
-      type: 'Canonical'
+      locationLabel: 'Riyadh',
+      name: 'Asia/Riyadh',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Asia/Saigon': {
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Saigon (GMT+07:00)',
       location: 'Saigon',
-      locationDisplayName: 'Saigon',
+      locationLabel: 'Saigon',
+      name: 'Asia/Saigon',
       parent: 'Asia/Ho_Chi_Minh',
-      timezoneName: 'Asia/Saigon',
-      type: 'Link'
+      type: 'Link',
+      utc: '+07:00'
     },
     'Asia/Sakhalin': {
       comments: 'MSK+08 - Sakhalin Island',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Asia',
+      label: 'Asia/Sakhalin (GMT+11:00)',
       location: 'Sakhalin',
-      locationDisplayName: 'Sakhalin',
-      timezoneName: 'Asia/Sakhalin',
-      type: 'Canonical'
+      locationLabel: 'Sakhalin',
+      name: 'Asia/Sakhalin',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Asia/Samarkand': {
       comments: 'Uzbekistan (west)',
       countryCodes: [
         'UZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Samarkand (GMT+05:00)',
       location: 'Samarkand',
-      locationDisplayName: 'Samarkand',
-      timezoneName: 'Asia/Samarkand',
-      type: 'Canonical'
+      locationLabel: 'Samarkand',
+      name: 'Asia/Samarkand',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Seoul': {
       children: [
@@ -3917,12 +4228,13 @@ export default {
       countryCodes: [
         'KR'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Asia/Seoul (GMT+09:00)',
       location: 'Seoul',
-      locationDisplayName: 'Seoul',
-      timezoneName: 'Asia/Seoul',
-      type: 'Canonical'
+      locationLabel: 'Seoul',
+      name: 'Asia/Seoul',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Asia/Shanghai': {
       children: [
@@ -3935,12 +4247,13 @@ export default {
       countryCodes: [
         'CN'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Shanghai (GMT+08:00)',
       location: 'Shanghai',
-      locationDisplayName: 'Shanghai',
-      timezoneName: 'Asia/Shanghai',
-      type: 'Canonical'
+      locationLabel: 'Shanghai',
+      name: 'Asia/Shanghai',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Singapore': {
       children: [
@@ -3953,24 +4266,26 @@ export default {
         'MY',
         'SG'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Singapore (GMT+08:00)',
       location: 'Singapore',
-      locationDisplayName: 'Singapore',
-      timezoneName: 'Asia/Singapore',
-      type: 'Canonical'
+      locationLabel: 'Singapore',
+      name: 'Asia/Singapore',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Srednekolymsk': {
       comments: 'MSK+08 - Sakha (E), N Kuril Is',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Asia',
+      label: 'Asia/Srednekolymsk (GMT+11:00)',
       location: 'Srednekolymsk',
-      locationDisplayName: 'Srednekolymsk',
-      timezoneName: 'Asia/Srednekolymsk',
-      type: 'Canonical'
+      locationLabel: 'Srednekolymsk',
+      name: 'Asia/Srednekolymsk',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Asia/Taipei': {
       children: [
@@ -3979,35 +4294,38 @@ export default {
       countryCodes: [
         'TW'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Taipei (GMT+08:00)',
       location: 'Taipei',
-      locationDisplayName: 'Taipei',
-      timezoneName: 'Asia/Taipei',
-      type: 'Canonical'
+      locationLabel: 'Taipei',
+      name: 'Asia/Taipei',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Tashkent': {
       comments: 'Uzbekistan (east)',
       countryCodes: [
         'UZ'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Tashkent (GMT+05:00)',
       location: 'Tashkent',
-      locationDisplayName: 'Tashkent',
-      timezoneName: 'Asia/Tashkent',
-      type: 'Canonical'
+      locationLabel: 'Tashkent',
+      name: 'Asia/Tashkent',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Tbilisi': {
       countryCodes: [
         'GE'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Asia',
+      label: 'Asia/Tbilisi (GMT+04:00)',
       location: 'Tbilisi',
-      locationDisplayName: 'Tbilisi',
-      timezoneName: 'Asia/Tbilisi',
-      type: 'Canonical'
+      locationLabel: 'Tbilisi',
+      name: 'Asia/Tbilisi',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Asia/Tehran': {
       children: [
@@ -4016,30 +4334,33 @@ export default {
       countryCodes: [
         'IR'
       ],
-      currentOffset: '+03:30',
       geographicArea: 'Asia',
+      label: 'Asia/Tehran (GMT+03:30)',
       location: 'Tehran',
-      locationDisplayName: 'Tehran',
-      timezoneName: 'Asia/Tehran',
-      type: 'Canonical'
+      locationLabel: 'Tehran',
+      name: 'Asia/Tehran',
+      type: 'Canonical',
+      utc: '+03:30'
     },
     'Asia/Tel_Aviv': {
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Asia/Tel_Aviv (GMT+03:00)',
       location: 'Tel_Aviv',
-      locationDisplayName: 'Tel Aviv',
+      locationLabel: 'Tel Aviv',
+      name: 'Asia/Tel_Aviv',
       parent: 'Asia/Jerusalem',
-      timezoneName: 'Asia/Tel_Aviv',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Asia/Thimbu': {
-      currentOffset: '+06:00',
       geographicArea: 'Asia',
+      label: 'Asia/Thimbu (GMT+06:00)',
       location: 'Thimbu',
-      locationDisplayName: 'Thimbu',
+      locationLabel: 'Thimbu',
+      name: 'Asia/Thimbu',
       parent: 'Asia/Thimphu',
-      timezoneName: 'Asia/Thimbu',
-      type: 'Link'
+      type: 'Link',
+      utc: '+06:00'
     },
     'Asia/Thimphu': {
       children: [
@@ -4048,12 +4369,13 @@ export default {
       countryCodes: [
         'BT'
       ],
-      currentOffset: '+06:00',
       geographicArea: 'Asia',
+      label: 'Asia/Thimphu (GMT+06:00)',
       location: 'Thimphu',
-      locationDisplayName: 'Thimphu',
-      timezoneName: 'Asia/Thimphu',
-      type: 'Canonical'
+      locationLabel: 'Thimphu',
+      name: 'Asia/Thimphu',
+      type: 'Canonical',
+      utc: '+06:00'
     },
     'Asia/Tokyo': {
       children: [
@@ -4064,33 +4386,36 @@ export default {
         'AU',
         'JP'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Asia/Tokyo (GMT+09:00)',
       location: 'Tokyo',
-      locationDisplayName: 'Tokyo',
-      timezoneName: 'Asia/Tokyo',
-      type: 'Canonical'
+      locationLabel: 'Tokyo',
+      name: 'Asia/Tokyo',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Asia/Tomsk': {
       comments: 'MSK+04 - Tomsk',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Tomsk (GMT+07:00)',
       location: 'Tomsk',
-      locationDisplayName: 'Tomsk',
-      timezoneName: 'Asia/Tomsk',
-      type: 'Canonical'
+      locationLabel: 'Tomsk',
+      name: 'Asia/Tomsk',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Asia/Ujung_Pandang': {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Ujung_Pandang (GMT+08:00)',
       location: 'Ujung_Pandang',
-      locationDisplayName: 'Ujung Pandang',
+      locationLabel: 'Ujung Pandang',
+      name: 'Asia/Ujung_Pandang',
       parent: 'Asia/Makassar',
-      timezoneName: 'Asia/Ujung_Pandang',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Ulaanbaatar': {
       children: [
@@ -4101,21 +4426,23 @@ export default {
       countryCodes: [
         'MN'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Ulaanbaatar (GMT+08:00)',
       location: 'Ulaanbaatar',
-      locationDisplayName: 'Ulaanbaatar',
-      timezoneName: 'Asia/Ulaanbaatar',
-      type: 'Canonical'
+      locationLabel: 'Ulaanbaatar',
+      name: 'Asia/Ulaanbaatar',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Asia/Ulan_Bator': {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Asia/Ulan_Bator (GMT+08:00)',
       location: 'Ulan_Bator',
-      locationDisplayName: 'Ulan Bator',
+      locationLabel: 'Ulan Bator',
+      name: 'Asia/Ulan_Bator',
       parent: 'Asia/Ulaanbaatar',
-      timezoneName: 'Asia/Ulan_Bator',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Asia/Urumqi': {
       children: [
@@ -4125,60 +4452,65 @@ export default {
       countryCodes: [
         'CN'
       ],
-      currentOffset: '+06:00',
       geographicArea: 'Asia',
+      label: 'Asia/Urumqi (GMT+06:00)',
       location: 'Urumqi',
-      locationDisplayName: 'Urumqi',
-      timezoneName: 'Asia/Urumqi',
-      type: 'Canonical'
+      locationLabel: 'Urumqi',
+      name: 'Asia/Urumqi',
+      type: 'Canonical',
+      utc: '+06:00'
     },
     'Asia/Ust-Nera': {
       comments: 'MSK+07 - Oymyakonsky',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Asia',
+      label: 'Asia/Ust-Nera (GMT+10:00)',
       location: 'Ust-Nera',
-      locationDisplayName: 'Ust-Nera',
-      timezoneName: 'Asia/Ust-Nera',
-      type: 'Canonical'
+      locationLabel: 'Ust-Nera',
+      name: 'Asia/Ust-Nera',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Asia/Vientiane': {
       countryCodes: [
         'LA'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Asia',
+      label: 'Asia/Vientiane (GMT+07:00)',
       location: 'Vientiane',
-      locationDisplayName: 'Vientiane',
+      locationLabel: 'Vientiane',
+      name: 'Asia/Vientiane',
       parent: 'Asia/Bangkok',
-      timezoneName: 'Asia/Vientiane',
-      type: 'Link'
+      type: 'Link',
+      utc: '+07:00'
     },
     'Asia/Vladivostok': {
       comments: 'MSK+07 - Amur River',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Asia',
+      label: 'Asia/Vladivostok (GMT+10:00)',
       location: 'Vladivostok',
-      locationDisplayName: 'Vladivostok',
-      timezoneName: 'Asia/Vladivostok',
-      type: 'Canonical'
+      locationLabel: 'Vladivostok',
+      name: 'Asia/Vladivostok',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Asia/Yakutsk': {
       comments: 'MSK+06 - Lena River',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Asia/Yakutsk (GMT+09:00)',
       location: 'Yakutsk',
-      locationDisplayName: 'Yakutsk',
-      timezoneName: 'Asia/Yakutsk',
-      type: 'Canonical'
+      locationLabel: 'Yakutsk',
+      name: 'Asia/Yakutsk',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Asia/Yangon': {
       children: [
@@ -4189,90 +4521,98 @@ export default {
         'CC',
         'MM'
       ],
-      currentOffset: '+06:30',
       geographicArea: 'Asia',
+      label: 'Asia/Yangon (GMT+06:30)',
       location: 'Yangon',
-      locationDisplayName: 'Yangon',
-      timezoneName: 'Asia/Yangon',
-      type: 'Canonical'
+      locationLabel: 'Yangon',
+      name: 'Asia/Yangon',
+      type: 'Canonical',
+      utc: '+06:30'
     },
     'Asia/Yekaterinburg': {
       comments: 'MSK+02 - Urals',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Asia',
+      label: 'Asia/Yekaterinburg (GMT+05:00)',
       location: 'Yekaterinburg',
-      locationDisplayName: 'Yekaterinburg',
-      timezoneName: 'Asia/Yekaterinburg',
-      type: 'Canonical'
+      locationLabel: 'Yekaterinburg',
+      name: 'Asia/Yekaterinburg',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Asia/Yerevan': {
       countryCodes: [
         'AM'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Asia',
+      label: 'Asia/Yerevan (GMT+04:00)',
       location: 'Yerevan',
-      locationDisplayName: 'Yerevan',
-      timezoneName: 'Asia/Yerevan',
-      type: 'Canonical'
+      locationLabel: 'Yerevan',
+      name: 'Asia/Yerevan',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Atlantic/Azores': {
       comments: 'Azores',
       countryCodes: [
         'PT'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Azores (GMT+00:00)',
       location: 'Azores',
-      locationDisplayName: 'Azores',
-      timezoneName: 'Atlantic/Azores',
-      type: 'Canonical'
+      locationLabel: 'Azores',
+      name: 'Atlantic/Azores',
+      type: 'Canonical',
+      utc: '+00:00'
     },
     'Atlantic/Bermuda': {
       countryCodes: [
         'BM'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Bermuda (GMT-03:00)',
       location: 'Bermuda',
-      locationDisplayName: 'Bermuda',
-      timezoneName: 'Atlantic/Bermuda',
-      type: 'Canonical'
+      locationLabel: 'Bermuda',
+      name: 'Atlantic/Bermuda',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'Atlantic/Canary': {
       comments: 'Canary Islands',
       countryCodes: [
         'ES'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Canary (GMT+01:00)',
       location: 'Canary',
-      locationDisplayName: 'Canary',
-      timezoneName: 'Atlantic/Canary',
-      type: 'Canonical'
+      locationLabel: 'Canary',
+      name: 'Atlantic/Canary',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Atlantic/Cape_Verde': {
       countryCodes: [
         'CV'
       ],
-      currentOffset: '-01:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Cape_Verde (GMT-01:00)',
       location: 'Cape_Verde',
-      locationDisplayName: 'Cape Verde',
-      timezoneName: 'Atlantic/Cape_Verde',
-      type: 'Canonical'
+      locationLabel: 'Cape Verde',
+      name: 'Atlantic/Cape_Verde',
+      type: 'Canonical',
+      utc: '-01:00'
     },
     'Atlantic/Faeroe': {
-      currentOffset: '+01:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Faeroe (GMT+01:00)',
       location: 'Faeroe',
-      locationDisplayName: 'Faeroe',
+      locationLabel: 'Faeroe',
+      name: 'Atlantic/Faeroe',
       parent: 'Atlantic/Faroe',
-      timezoneName: 'Atlantic/Faeroe',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Atlantic/Faroe': {
       children: [
@@ -4281,88 +4621,96 @@ export default {
       countryCodes: [
         'FO'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Faroe (GMT+01:00)',
       location: 'Faroe',
-      locationDisplayName: 'Faroe',
-      timezoneName: 'Atlantic/Faroe',
-      type: 'Canonical'
+      locationLabel: 'Faroe',
+      name: 'Atlantic/Faroe',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Atlantic/Jan_Mayen': {
-      currentOffset: '+02:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Jan_Mayen (GMT+02:00)',
       location: 'Jan_Mayen',
-      locationDisplayName: 'Jan Mayen',
+      locationLabel: 'Jan Mayen',
+      name: 'Atlantic/Jan_Mayen',
       parent: 'Europe/Berlin',
-      timezoneName: 'Atlantic/Jan_Mayen',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Atlantic/Madeira': {
       comments: 'Madeira Islands',
       countryCodes: [
         'PT'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Madeira (GMT+01:00)',
       location: 'Madeira',
-      locationDisplayName: 'Madeira',
-      timezoneName: 'Atlantic/Madeira',
-      type: 'Canonical'
+      locationLabel: 'Madeira',
+      name: 'Atlantic/Madeira',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Atlantic/Reykjavik': {
       countryCodes: [
         'IS'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Reykjavik (GMT+00:00)',
       location: 'Reykjavik',
-      locationDisplayName: 'Reykjavik',
+      locationLabel: 'Reykjavik',
+      name: 'Atlantic/Reykjavik',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Atlantic/Reykjavik',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Atlantic/South_Georgia': {
       countryCodes: [
         'GS'
       ],
-      currentOffset: '-02:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/South_Georgia (GMT-02:00)',
       location: 'South_Georgia',
-      locationDisplayName: 'South Georgia',
-      timezoneName: 'Atlantic/South_Georgia',
-      type: 'Canonical'
+      locationLabel: 'South Georgia',
+      name: 'Atlantic/South_Georgia',
+      type: 'Canonical',
+      utc: '-02:00'
     },
     'Atlantic/St_Helena': {
       countryCodes: [
         'SH'
       ],
-      currentOffset: '+00:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/St_Helena (GMT+00:00)',
       location: 'St_Helena',
-      locationDisplayName: 'St Helena',
+      locationLabel: 'St Helena',
+      name: 'Atlantic/St_Helena',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Atlantic/St_Helena',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Atlantic/Stanley': {
       countryCodes: [
         'FK'
       ],
-      currentOffset: '-03:00',
       geographicArea: 'Atlantic',
+      label: 'Atlantic/Stanley (GMT-03:00)',
       location: 'Stanley',
-      locationDisplayName: 'Stanley',
-      timezoneName: 'Atlantic/Stanley',
-      type: 'Canonical'
+      locationLabel: 'Stanley',
+      name: 'Atlantic/Stanley',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'Australia/ACT': {
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/ACT (GMT+10:00)',
       location: 'ACT',
-      locationDisplayName: 'ACT',
+      locationLabel: 'ACT',
+      name: 'Australia/ACT',
       parent: 'Australia/Sydney',
-      timezoneName: 'Australia/ACT',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Australia/Adelaide': {
       children: [
@@ -4372,12 +4720,13 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+09:30',
       geographicArea: 'Australia',
+      label: 'Australia/Adelaide (GMT+09:30)',
       location: 'Adelaide',
-      locationDisplayName: 'Adelaide',
-      timezoneName: 'Australia/Adelaide',
-      type: 'Canonical'
+      locationLabel: 'Adelaide',
+      name: 'Australia/Adelaide',
+      type: 'Canonical',
+      utc: '+09:30'
     },
     'Australia/Brisbane': {
       children: [
@@ -4387,12 +4736,13 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Brisbane (GMT+10:00)',
       location: 'Brisbane',
-      locationDisplayName: 'Brisbane',
-      timezoneName: 'Australia/Brisbane',
-      type: 'Canonical'
+      locationLabel: 'Brisbane',
+      name: 'Australia/Brisbane',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Australia/Broken_Hill': {
       children: [
@@ -4402,30 +4752,33 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+09:30',
       geographicArea: 'Australia',
+      label: 'Australia/Broken_Hill (GMT+09:30)',
       location: 'Broken_Hill',
-      locationDisplayName: 'Broken Hill',
-      timezoneName: 'Australia/Broken_Hill',
-      type: 'Canonical'
+      locationLabel: 'Broken Hill',
+      name: 'Australia/Broken_Hill',
+      type: 'Canonical',
+      utc: '+09:30'
     },
     'Australia/Canberra': {
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Canberra (GMT+10:00)',
       location: 'Canberra',
-      locationDisplayName: 'Canberra',
+      locationLabel: 'Canberra',
+      name: 'Australia/Canberra',
       parent: 'Australia/Sydney',
-      timezoneName: 'Australia/Canberra',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Australia/Currie': {
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Currie (GMT+10:00)',
       location: 'Currie',
-      locationDisplayName: 'Currie',
+      locationLabel: 'Currie',
+      name: 'Australia/Currie',
       parent: 'Australia/Hobart',
-      timezoneName: 'Australia/Currie',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Australia/Darwin': {
       children: [
@@ -4435,24 +4788,26 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+09:30',
       geographicArea: 'Australia',
+      label: 'Australia/Darwin (GMT+09:30)',
       location: 'Darwin',
-      locationDisplayName: 'Darwin',
-      timezoneName: 'Australia/Darwin',
-      type: 'Canonical'
+      locationLabel: 'Darwin',
+      name: 'Australia/Darwin',
+      type: 'Canonical',
+      utc: '+09:30'
     },
     'Australia/Eucla': {
       comments: 'Western Australia (Eucla)',
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+08:45',
       geographicArea: 'Australia',
+      label: 'Australia/Eucla (GMT+08:45)',
       location: 'Eucla',
-      locationDisplayName: 'Eucla',
-      timezoneName: 'Australia/Eucla',
-      type: 'Canonical'
+      locationLabel: 'Eucla',
+      name: 'Australia/Eucla',
+      type: 'Canonical',
+      utc: '+08:45'
     },
     'Australia/Hobart': {
       children: [
@@ -4463,33 +4818,36 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Hobart (GMT+10:00)',
       location: 'Hobart',
-      locationDisplayName: 'Hobart',
-      timezoneName: 'Australia/Hobart',
-      type: 'Canonical'
+      locationLabel: 'Hobart',
+      name: 'Australia/Hobart',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Australia/LHI': {
-      currentOffset: '+10:30',
       geographicArea: 'Australia',
+      label: 'Australia/LHI (GMT+10:30)',
       location: 'LHI',
-      locationDisplayName: 'LHI',
+      locationLabel: 'LHI',
+      name: 'Australia/LHI',
       parent: 'Australia/Lord_Howe',
-      timezoneName: 'Australia/LHI',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:30'
     },
     'Australia/Lindeman': {
       comments: 'Queensland (Whitsunday Islands)',
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Lindeman (GMT+10:00)',
       location: 'Lindeman',
-      locationDisplayName: 'Lindeman',
-      timezoneName: 'Australia/Lindeman',
-      type: 'Canonical'
+      locationLabel: 'Lindeman',
+      name: 'Australia/Lindeman',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Australia/Lord_Howe': {
       children: [
@@ -4499,12 +4857,13 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+10:30',
       geographicArea: 'Australia',
+      label: 'Australia/Lord_Howe (GMT+10:30)',
       location: 'Lord_Howe',
-      locationDisplayName: 'Lord Howe',
-      timezoneName: 'Australia/Lord_Howe',
-      type: 'Canonical'
+      locationLabel: 'Lord Howe',
+      name: 'Australia/Lord_Howe',
+      type: 'Canonical',
+      utc: '+10:30'
     },
     'Australia/Melbourne': {
       children: [
@@ -4514,30 +4873,33 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Melbourne (GMT+10:00)',
       location: 'Melbourne',
-      locationDisplayName: 'Melbourne',
-      timezoneName: 'Australia/Melbourne',
-      type: 'Canonical'
+      locationLabel: 'Melbourne',
+      name: 'Australia/Melbourne',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Australia/NSW': {
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/NSW (GMT+10:00)',
       location: 'NSW',
-      locationDisplayName: 'NSW',
+      locationLabel: 'NSW',
+      name: 'Australia/NSW',
       parent: 'Australia/Sydney',
-      timezoneName: 'Australia/NSW',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Australia/North': {
-      currentOffset: '+09:30',
       geographicArea: 'Australia',
+      label: 'Australia/North (GMT+09:30)',
       location: 'North',
-      locationDisplayName: 'North',
+      locationLabel: 'North',
+      name: 'Australia/North',
       parent: 'Australia/Darwin',
-      timezoneName: 'Australia/North',
-      type: 'Link'
+      type: 'Link',
+      utc: '+09:30'
     },
     'Australia/Perth': {
       children: [
@@ -4547,30 +4909,33 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+08:00',
       geographicArea: 'Australia',
+      label: 'Australia/Perth (GMT+08:00)',
       location: 'Perth',
-      locationDisplayName: 'Perth',
-      timezoneName: 'Australia/Perth',
-      type: 'Canonical'
+      locationLabel: 'Perth',
+      name: 'Australia/Perth',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Australia/Queensland': {
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Queensland (GMT+10:00)',
       location: 'Queensland',
-      locationDisplayName: 'Queensland',
+      locationLabel: 'Queensland',
+      name: 'Australia/Queensland',
       parent: 'Australia/Brisbane',
-      timezoneName: 'Australia/Queensland',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Australia/South': {
-      currentOffset: '+09:30',
       geographicArea: 'Australia',
+      label: 'Australia/South (GMT+09:30)',
       location: 'South',
-      locationDisplayName: 'South',
+      locationLabel: 'South',
+      name: 'Australia/South',
       parent: 'Australia/Adelaide',
-      timezoneName: 'Australia/South',
-      type: 'Link'
+      type: 'Link',
+      utc: '+09:30'
     },
     'Australia/Sydney': {
       children: [
@@ -4582,246 +4947,273 @@ export default {
       countryCodes: [
         'AU'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Sydney (GMT+10:00)',
       location: 'Sydney',
-      locationDisplayName: 'Sydney',
-      timezoneName: 'Australia/Sydney',
-      type: 'Canonical'
+      locationLabel: 'Sydney',
+      name: 'Australia/Sydney',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Australia/Tasmania': {
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Tasmania (GMT+10:00)',
       location: 'Tasmania',
-      locationDisplayName: 'Tasmania',
+      locationLabel: 'Tasmania',
+      name: 'Australia/Tasmania',
       parent: 'Australia/Hobart',
-      timezoneName: 'Australia/Tasmania',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Australia/Victoria': {
-      currentOffset: '+10:00',
       geographicArea: 'Australia',
+      label: 'Australia/Victoria (GMT+10:00)',
       location: 'Victoria',
-      locationDisplayName: 'Victoria',
+      locationLabel: 'Victoria',
+      name: 'Australia/Victoria',
       parent: 'Australia/Melbourne',
-      timezoneName: 'Australia/Victoria',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Australia/West': {
-      currentOffset: '+08:00',
       geographicArea: 'Australia',
+      label: 'Australia/West (GMT+08:00)',
       location: 'West',
-      locationDisplayName: 'West',
+      locationLabel: 'West',
+      name: 'Australia/West',
       parent: 'Australia/Perth',
-      timezoneName: 'Australia/West',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     'Australia/Yancowinna': {
-      currentOffset: '+09:30',
       geographicArea: 'Australia',
+      label: 'Australia/Yancowinna (GMT+09:30)',
       location: 'Yancowinna',
-      locationDisplayName: 'Yancowinna',
+      locationLabel: 'Yancowinna',
+      name: 'Australia/Yancowinna',
       parent: 'Australia/Broken_Hill',
-      timezoneName: 'Australia/Yancowinna',
-      type: 'Link'
+      type: 'Link',
+      utc: '+09:30'
     },
     'Brazil/Acre': {
-      currentOffset: '-05:00',
       geographicArea: 'Brazil',
+      label: 'Brazil/Acre (GMT-05:00)',
       location: 'Acre',
-      locationDisplayName: 'Acre',
+      locationLabel: 'Acre',
+      name: 'Brazil/Acre',
       parent: 'America/Rio_Branco',
-      timezoneName: 'Brazil/Acre',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'Brazil/DeNoronha': {
-      currentOffset: '-02:00',
       geographicArea: 'Brazil',
+      label: 'Brazil/DeNoronha (GMT-02:00)',
       location: 'DeNoronha',
-      locationDisplayName: 'DeNoronha',
+      locationLabel: 'DeNoronha',
+      name: 'Brazil/DeNoronha',
       parent: 'America/Noronha',
-      timezoneName: 'Brazil/DeNoronha',
-      type: 'Link'
+      type: 'Link',
+      utc: '-02:00'
     },
     'Brazil/East': {
-      currentOffset: '-03:00',
       geographicArea: 'Brazil',
+      label: 'Brazil/East (GMT-03:00)',
       location: 'East',
-      locationDisplayName: 'East',
+      locationLabel: 'East',
+      name: 'Brazil/East',
       parent: 'America/Sao_Paulo',
-      timezoneName: 'Brazil/East',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'Brazil/West': {
-      currentOffset: '-04:00',
       geographicArea: 'Brazil',
+      label: 'Brazil/West (GMT-04:00)',
       location: 'West',
-      locationDisplayName: 'West',
+      locationLabel: 'West',
+      name: 'Brazil/West',
       parent: 'America/Manaus',
-      timezoneName: 'Brazil/West',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     CET: {
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'CET (GMT+02:00)',
       location: 'CET',
-      locationDisplayName: 'CET',
+      locationLabel: 'CET',
+      name: 'CET',
       parent: 'Europe/Brussels',
-      timezoneName: 'CET',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     CST6CDT: {
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'CST6CDT (GMT-05:00)',
       location: 'CST6CDT',
-      locationDisplayName: 'CST6CDT',
+      locationLabel: 'CST6CDT',
+      name: 'CST6CDT',
       parent: 'America/Chicago',
-      timezoneName: 'CST6CDT',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'Canada/Atlantic': {
-      currentOffset: '-03:00',
       geographicArea: 'Canada',
+      label: 'Canada/Atlantic (GMT-03:00)',
       location: 'Atlantic',
-      locationDisplayName: 'Atlantic',
+      locationLabel: 'Atlantic',
+      name: 'Canada/Atlantic',
       parent: 'America/Halifax',
-      timezoneName: 'Canada/Atlantic',
-      type: 'Link'
+      type: 'Link',
+      utc: '-03:00'
     },
     'Canada/Central': {
-      currentOffset: '-05:00',
       geographicArea: 'Canada',
+      label: 'Canada/Central (GMT-05:00)',
       location: 'Central',
-      locationDisplayName: 'Central',
+      locationLabel: 'Central',
+      name: 'Canada/Central',
       parent: 'America/Winnipeg',
-      timezoneName: 'Canada/Central',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'Canada/Eastern': {
-      currentOffset: '-04:00',
       geographicArea: 'Canada',
+      label: 'Canada/Eastern (GMT-04:00)',
       location: 'Eastern',
-      locationDisplayName: 'Eastern',
+      locationLabel: 'Eastern',
+      name: 'Canada/Eastern',
       parent: 'America/Toronto',
-      timezoneName: 'Canada/Eastern',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'Canada/Mountain': {
-      currentOffset: '-06:00',
       geographicArea: 'Canada',
+      label: 'Canada/Mountain (GMT-06:00)',
       location: 'Mountain',
-      locationDisplayName: 'Mountain',
+      locationLabel: 'Mountain',
+      name: 'Canada/Mountain',
       parent: 'America/Edmonton',
-      timezoneName: 'Canada/Mountain',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     'Canada/Newfoundland': {
-      currentOffset: '-02:30',
       geographicArea: 'Canada',
+      label: 'Canada/Newfoundland (GMT-02:30)',
       location: 'Newfoundland',
-      locationDisplayName: 'Newfoundland',
+      locationLabel: 'Newfoundland',
+      name: 'Canada/Newfoundland',
       parent: 'America/St_Johns',
-      timezoneName: 'Canada/Newfoundland',
-      type: 'Link'
+      type: 'Link',
+      utc: '-02:30'
     },
     'Canada/Pacific': {
-      currentOffset: '-07:00',
       geographicArea: 'Canada',
+      label: 'Canada/Pacific (GMT-07:00)',
       location: 'Pacific',
-      locationDisplayName: 'Pacific',
+      locationLabel: 'Pacific',
+      name: 'Canada/Pacific',
       parent: 'America/Vancouver',
-      timezoneName: 'Canada/Pacific',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'Canada/Saskatchewan': {
-      currentOffset: '-06:00',
       geographicArea: 'Canada',
+      label: 'Canada/Saskatchewan (GMT-06:00)',
       location: 'Saskatchewan',
-      locationDisplayName: 'Saskatchewan',
+      locationLabel: 'Saskatchewan',
+      name: 'Canada/Saskatchewan',
       parent: 'America/Regina',
-      timezoneName: 'Canada/Saskatchewan',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     'Canada/Yukon': {
-      currentOffset: '-07:00',
       geographicArea: 'Canada',
+      label: 'Canada/Yukon (GMT-07:00)',
       location: 'Yukon',
-      locationDisplayName: 'Yukon',
+      locationLabel: 'Yukon',
+      name: 'Canada/Yukon',
       parent: 'America/Whitehorse',
-      timezoneName: 'Canada/Yukon',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'Chile/Continental': {
-      currentOffset: '-04:00',
       geographicArea: 'Chile',
+      label: 'Chile/Continental (GMT-04:00)',
       location: 'Continental',
-      locationDisplayName: 'Continental',
+      locationLabel: 'Continental',
+      name: 'Chile/Continental',
       parent: 'America/Santiago',
-      timezoneName: 'Chile/Continental',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'Chile/EasterIsland': {
-      currentOffset: '-06:00',
       geographicArea: 'Chile',
+      label: 'Chile/EasterIsland (GMT-06:00)',
       location: 'EasterIsland',
-      locationDisplayName: 'EasterIsland',
+      locationLabel: 'EasterIsland',
+      name: 'Chile/EasterIsland',
       parent: 'Pacific/Easter',
-      timezoneName: 'Chile/EasterIsland',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     Cuba: {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'Cuba (GMT-04:00)',
       location: 'Cuba',
-      locationDisplayName: 'Cuba',
+      locationLabel: 'Cuba',
+      name: 'Cuba',
       parent: 'America/Havana',
-      timezoneName: 'Cuba',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     EET: {
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'EET (GMT+03:00)',
       location: 'EET',
-      locationDisplayName: 'EET',
+      locationLabel: 'EET',
+      name: 'EET',
       parent: 'Europe/Athens',
-      timezoneName: 'EET',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     EST: {
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'EST (GMT-05:00)',
       location: 'EST',
-      locationDisplayName: 'EST',
+      locationLabel: 'EST',
+      name: 'EST',
       parent: 'America/Panama',
-      timezoneName: 'EST',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     EST5EDT: {
-      currentOffset: '-04:00',
       geographicArea: 'America',
+      label: 'EST5EDT (GMT-04:00)',
       location: 'EST5EDT',
-      locationDisplayName: 'EST5EDT',
+      locationLabel: 'EST5EDT',
+      name: 'EST5EDT',
       parent: 'America/New_York',
-      timezoneName: 'EST5EDT',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     Egypt: {
-      currentOffset: '+03:00',
       geographicArea: 'Africa',
+      label: 'Egypt (GMT+03:00)',
       location: 'Egypt',
-      locationDisplayName: 'Egypt',
+      locationLabel: 'Egypt',
+      name: 'Egypt',
       parent: 'Africa/Cairo',
-      timezoneName: 'Egypt',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     Eire: {
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Eire (GMT+01:00)',
       location: 'Eire',
-      locationDisplayName: 'Eire',
+      locationLabel: 'Eire',
+      name: 'Eire',
       parent: 'Europe/Dublin',
-      timezoneName: 'Eire',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Etc/GMT': {
       children: [
@@ -4835,265 +5227,297 @@ export default {
         'GMT0',
         'Greenwich'
       ],
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'Etc/GMT (GMT+00:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT',
+      type: 'Canonical',
+      utc: '+00:00'
     },
     'Etc/GMT+0': {
-      currentOffset: '+00:00',
       geographicArea: 'Etc',
+      label: 'Etc/GMT+0 (GMT+00:00)',
       location: 'GMT+0',
-      locationDisplayName: 'GMT+0',
+      locationLabel: 'GMT+0',
+      name: 'Etc/GMT+0',
       parent: 'Etc/GMT',
-      timezoneName: 'Etc/GMT+0',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Etc/GMT+1': {
-      currentOffset: '-01:00',
       geographicArea: null,
+      label: 'Etc/GMT+1 (GMT-01:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+1',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+1',
+      type: 'Canonical',
+      utc: '-01:00'
     },
     'Etc/GMT+10': {
-      currentOffset: '-10:00',
       geographicArea: null,
+      label: 'Etc/GMT+10 (GMT-10:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+10',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+10',
+      type: 'Canonical',
+      utc: '-10:00'
     },
     'Etc/GMT+11': {
-      currentOffset: '-11:00',
       geographicArea: null,
+      label: 'Etc/GMT+11 (GMT-11:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+11',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+11',
+      type: 'Canonical',
+      utc: '-11:00'
     },
     'Etc/GMT+12': {
-      currentOffset: '-12:00',
       geographicArea: null,
+      label: 'Etc/GMT+12 (GMT-12:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+12',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+12',
+      type: 'Canonical',
+      utc: '-12:00'
     },
     'Etc/GMT+2': {
-      currentOffset: '-02:00',
       geographicArea: null,
+      label: 'Etc/GMT+2 (GMT-02:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+2',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+2',
+      type: 'Canonical',
+      utc: '-02:00'
     },
     'Etc/GMT+3': {
-      currentOffset: '-03:00',
       geographicArea: null,
+      label: 'Etc/GMT+3 (GMT-03:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+3',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+3',
+      type: 'Canonical',
+      utc: '-03:00'
     },
     'Etc/GMT+4': {
-      currentOffset: '-04:00',
       geographicArea: null,
+      label: 'Etc/GMT+4 (GMT-04:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+4',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+4',
+      type: 'Canonical',
+      utc: '-04:00'
     },
     'Etc/GMT+5': {
-      currentOffset: '-05:00',
       geographicArea: null,
+      label: 'Etc/GMT+5 (GMT-05:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+5',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+5',
+      type: 'Canonical',
+      utc: '-05:00'
     },
     'Etc/GMT+6': {
-      currentOffset: '-06:00',
       geographicArea: null,
+      label: 'Etc/GMT+6 (GMT-06:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+6',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+6',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'Etc/GMT+7': {
-      currentOffset: '-07:00',
       geographicArea: null,
+      label: 'Etc/GMT+7 (GMT-07:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+7',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+7',
+      type: 'Canonical',
+      utc: '-07:00'
     },
     'Etc/GMT+8': {
-      currentOffset: '-08:00',
       geographicArea: null,
+      label: 'Etc/GMT+8 (GMT-08:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+8',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+8',
+      type: 'Canonical',
+      utc: '-08:00'
     },
     'Etc/GMT+9': {
-      currentOffset: '-09:00',
       geographicArea: null,
+      label: 'Etc/GMT+9 (GMT-09:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT+9',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT+9',
+      type: 'Canonical',
+      utc: '-09:00'
     },
     'Etc/GMT-0': {
-      currentOffset: '+00:00',
       geographicArea: 'Etc',
+      label: 'Etc/GMT-0 (GMT+00:00)',
       location: 'GMT-0',
-      locationDisplayName: 'GMT-0',
+      locationLabel: 'GMT-0',
+      name: 'Etc/GMT-0',
       parent: 'Etc/GMT',
-      timezoneName: 'Etc/GMT-0',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Etc/GMT-1': {
-      currentOffset: '+01:00',
       geographicArea: null,
+      label: 'Etc/GMT-1 (GMT+01:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-1',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-1',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Etc/GMT-10': {
-      currentOffset: '+10:00',
       geographicArea: null,
+      label: 'Etc/GMT-10 (GMT+10:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-10',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-10',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Etc/GMT-11': {
-      currentOffset: '+11:00',
       geographicArea: null,
+      label: 'Etc/GMT-11 (GMT+11:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-11',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-11',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Etc/GMT-12': {
-      currentOffset: '+12:00',
       geographicArea: null,
+      label: 'Etc/GMT-12 (GMT+12:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-12',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-12',
+      type: 'Canonical',
+      utc: '+12:00'
     },
     'Etc/GMT-13': {
-      currentOffset: '+13:00',
       geographicArea: null,
+      label: 'Etc/GMT-13 (GMT+13:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-13',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-13',
+      type: 'Canonical',
+      utc: '+13:00'
     },
     'Etc/GMT-14': {
-      currentOffset: '+14:00',
       geographicArea: null,
+      label: 'Etc/GMT-14 (GMT+14:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-14',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-14',
+      type: 'Canonical',
+      utc: '+14:00'
     },
     'Etc/GMT-2': {
-      currentOffset: '+02:00',
       geographicArea: null,
+      label: 'Etc/GMT-2 (GMT+02:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-2',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-2',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Etc/GMT-3': {
-      currentOffset: '+03:00',
       geographicArea: null,
+      label: 'Etc/GMT-3 (GMT+03:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-3',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-3',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Etc/GMT-4': {
-      currentOffset: '+04:00',
       geographicArea: null,
+      label: 'Etc/GMT-4 (GMT+04:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-4',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-4',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Etc/GMT-5': {
-      currentOffset: '+05:00',
       geographicArea: null,
+      label: 'Etc/GMT-5 (GMT+05:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-5',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-5',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Etc/GMT-6': {
-      currentOffset: '+06:00',
       geographicArea: null,
+      label: 'Etc/GMT-6 (GMT+06:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-6',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-6',
+      type: 'Canonical',
+      utc: '+06:00'
     },
     'Etc/GMT-7': {
-      currentOffset: '+07:00',
       geographicArea: null,
+      label: 'Etc/GMT-7 (GMT+07:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-7',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-7',
+      type: 'Canonical',
+      utc: '+07:00'
     },
     'Etc/GMT-8': {
-      currentOffset: '+08:00',
       geographicArea: null,
+      label: 'Etc/GMT-8 (GMT+08:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-8',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-8',
+      type: 'Canonical',
+      utc: '+08:00'
     },
     'Etc/GMT-9': {
-      currentOffset: '+09:00',
       geographicArea: null,
+      label: 'Etc/GMT-9 (GMT+09:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/GMT-9',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/GMT-9',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Etc/GMT0': {
-      currentOffset: '+00:00',
       geographicArea: 'Etc',
+      label: 'Etc/GMT0 (GMT+00:00)',
       location: 'GMT0',
-      locationDisplayName: 'GMT0',
+      locationLabel: 'GMT0',
+      name: 'Etc/GMT0',
       parent: 'Etc/GMT',
-      timezoneName: 'Etc/GMT0',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Etc/Greenwich': {
-      currentOffset: '+00:00',
       geographicArea: 'Etc',
+      label: 'Etc/Greenwich (GMT+00:00)',
       location: 'Greenwich',
-      locationDisplayName: 'Greenwich',
+      locationLabel: 'Greenwich',
+      name: 'Etc/Greenwich',
       parent: 'Etc/GMT',
-      timezoneName: 'Etc/Greenwich',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Etc/UCT': {
-      currentOffset: '+00:00',
       geographicArea: 'Etc',
+      label: 'Etc/UCT (GMT+00:00)',
       location: 'UCT',
-      locationDisplayName: 'UCT',
+      locationLabel: 'UCT',
+      name: 'Etc/UCT',
       parent: 'Etc/UTC',
-      timezoneName: 'Etc/UCT',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Etc/UTC': {
       children: [
@@ -5105,65 +5529,71 @@ export default {
         'UTC',
         'Zulu'
       ],
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'Etc/UTC (GMT+00:00)',
       location: null,
-      locationDisplayName: null,
-      timezoneName: 'Etc/UTC',
-      type: 'Canonical'
+      locationLabel: null,
+      name: 'Etc/UTC',
+      type: 'Canonical',
+      utc: '+00:00'
     },
     'Etc/Universal': {
-      currentOffset: '+00:00',
       geographicArea: 'Etc',
+      label: 'Etc/Universal (GMT+00:00)',
       location: 'Universal',
-      locationDisplayName: 'Universal',
+      locationLabel: 'Universal',
+      name: 'Etc/Universal',
       parent: 'Etc/UTC',
-      timezoneName: 'Etc/Universal',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Etc/Zulu': {
-      currentOffset: '+00:00',
       geographicArea: 'Etc',
+      label: 'Etc/Zulu (GMT+00:00)',
       location: 'Zulu',
-      locationDisplayName: 'Zulu',
+      locationLabel: 'Zulu',
+      name: 'Etc/Zulu',
       parent: 'Etc/UTC',
-      timezoneName: 'Etc/Zulu',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Europe/Amsterdam': {
       countryCodes: [
         'NL'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Amsterdam (GMT+02:00)',
       location: 'Amsterdam',
-      locationDisplayName: 'Amsterdam',
+      locationLabel: 'Amsterdam',
+      name: 'Europe/Amsterdam',
       parent: 'Europe/Brussels',
-      timezoneName: 'Europe/Amsterdam',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Andorra': {
       countryCodes: [
         'AD'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Andorra (GMT+02:00)',
       location: 'Andorra',
-      locationDisplayName: 'Andorra',
-      timezoneName: 'Europe/Andorra',
-      type: 'Canonical'
+      locationLabel: 'Andorra',
+      name: 'Europe/Andorra',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Astrakhan': {
       comments: 'MSK+01 - Astrakhan',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Europe',
+      label: 'Europe/Astrakhan (GMT+04:00)',
       location: 'Astrakhan',
-      locationDisplayName: 'Astrakhan',
-      timezoneName: 'Europe/Astrakhan',
-      type: 'Canonical'
+      locationLabel: 'Astrakhan',
+      name: 'Europe/Astrakhan',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Europe/Athens': {
       children: [
@@ -5172,21 +5602,23 @@ export default {
       countryCodes: [
         'GR'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Athens (GMT+03:00)',
       location: 'Athens',
-      locationDisplayName: 'Athens',
-      timezoneName: 'Europe/Athens',
-      type: 'Canonical'
+      locationLabel: 'Athens',
+      name: 'Europe/Athens',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Belfast': {
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Europe/Belfast (GMT+01:00)',
       location: 'Belfast',
-      locationDisplayName: 'Belfast',
+      locationLabel: 'Belfast',
+      name: 'Europe/Belfast',
       parent: 'Europe/London',
-      timezoneName: 'Europe/Belfast',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Europe/Belgrade': {
       children: [
@@ -5204,12 +5636,13 @@ export default {
         'RS',
         'SI'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Belgrade (GMT+02:00)',
       location: 'Belgrade',
-      locationDisplayName: 'Belgrade',
-      timezoneName: 'Europe/Belgrade',
-      type: 'Canonical'
+      locationLabel: 'Belgrade',
+      name: 'Europe/Belgrade',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Berlin': {
       children: [
@@ -5227,24 +5660,26 @@ export default {
         'SE',
         'SJ'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Berlin (GMT+02:00)',
       location: 'Berlin',
-      locationDisplayName: 'Berlin',
-      timezoneName: 'Europe/Berlin',
-      type: 'Canonical'
+      locationLabel: 'Berlin',
+      name: 'Europe/Berlin',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Bratislava': {
       countryCodes: [
         'SK'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Bratislava (GMT+02:00)',
       location: 'Bratislava',
-      locationDisplayName: 'Bratislava',
+      locationLabel: 'Bratislava',
+      name: 'Europe/Bratislava',
       parent: 'Europe/Prague',
-      timezoneName: 'Europe/Bratislava',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Brussels': {
       children: [
@@ -5258,47 +5693,51 @@ export default {
         'LU',
         'NL'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Brussels (GMT+02:00)',
       location: 'Brussels',
-      locationDisplayName: 'Brussels',
-      timezoneName: 'Europe/Brussels',
-      type: 'Canonical'
+      locationLabel: 'Brussels',
+      name: 'Europe/Brussels',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Bucharest': {
       countryCodes: [
         'RO'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Bucharest (GMT+03:00)',
       location: 'Bucharest',
-      locationDisplayName: 'Bucharest',
-      timezoneName: 'Europe/Bucharest',
-      type: 'Canonical'
+      locationLabel: 'Bucharest',
+      name: 'Europe/Bucharest',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Budapest': {
       countryCodes: [
         'HU'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Budapest (GMT+02:00)',
       location: 'Budapest',
-      locationDisplayName: 'Budapest',
-      timezoneName: 'Europe/Budapest',
-      type: 'Canonical'
+      locationLabel: 'Budapest',
+      name: 'Europe/Budapest',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Busingen': {
       comments: 'Busingen',
       countryCodes: [
         'DE'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Busingen (GMT+02:00)',
       location: 'Busingen',
-      locationDisplayName: 'Busingen',
+      locationLabel: 'Busingen',
+      name: 'Europe/Busingen',
       parent: 'Europe/Zurich',
-      timezoneName: 'Europe/Busingen',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Chisinau': {
       children: [
@@ -5307,24 +5746,26 @@ export default {
       countryCodes: [
         'MD'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Chisinau (GMT+03:00)',
       location: 'Chisinau',
-      locationDisplayName: 'Chisinau',
-      timezoneName: 'Europe/Chisinau',
-      type: 'Canonical'
+      locationLabel: 'Chisinau',
+      name: 'Europe/Chisinau',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Copenhagen': {
       countryCodes: [
         'DK'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Copenhagen (GMT+02:00)',
       location: 'Copenhagen',
-      locationDisplayName: 'Copenhagen',
+      locationLabel: 'Copenhagen',
+      name: 'Europe/Copenhagen',
       parent: 'Europe/Berlin',
-      timezoneName: 'Europe/Copenhagen',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Dublin': {
       children: [
@@ -5333,35 +5774,38 @@ export default {
       countryCodes: [
         'IE'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Europe/Dublin (GMT+01:00)',
       location: 'Dublin',
-      locationDisplayName: 'Dublin',
-      timezoneName: 'Europe/Dublin',
-      type: 'Canonical'
+      locationLabel: 'Dublin',
+      name: 'Europe/Dublin',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Europe/Gibraltar': {
       countryCodes: [
         'GI'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Gibraltar (GMT+02:00)',
       location: 'Gibraltar',
-      locationDisplayName: 'Gibraltar',
-      timezoneName: 'Europe/Gibraltar',
-      type: 'Canonical'
+      locationLabel: 'Gibraltar',
+      name: 'Europe/Gibraltar',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Guernsey': {
       countryCodes: [
         'GG'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Europe/Guernsey (GMT+01:00)',
       location: 'Guernsey',
-      locationDisplayName: 'Guernsey',
+      locationLabel: 'Guernsey',
+      name: 'Europe/Guernsey',
       parent: 'Europe/London',
-      timezoneName: 'Europe/Guernsey',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Europe/Helsinki': {
       children: [
@@ -5371,24 +5815,26 @@ export default {
         'AX',
         'FI'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Helsinki (GMT+03:00)',
       location: 'Helsinki',
-      locationDisplayName: 'Helsinki',
-      timezoneName: 'Europe/Helsinki',
-      type: 'Canonical'
+      locationLabel: 'Helsinki',
+      name: 'Europe/Helsinki',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Isle_of_Man': {
       countryCodes: [
         'IM'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Europe/Isle_of_Man (GMT+01:00)',
       location: 'Isle_of_Man',
-      locationDisplayName: 'Isle of_Man',
+      locationLabel: 'Isle of_Man',
+      name: 'Europe/Isle_of_Man',
       parent: 'Europe/London',
-      timezoneName: 'Europe/Isle_of_Man',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Europe/Istanbul': {
       children: [
@@ -5398,57 +5844,62 @@ export default {
       countryCodes: [
         'TR'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Istanbul (GMT+03:00)',
       location: 'Istanbul',
-      locationDisplayName: 'Istanbul',
-      timezoneName: 'Europe/Istanbul',
-      type: 'Canonical'
+      locationLabel: 'Istanbul',
+      name: 'Europe/Istanbul',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Jersey': {
       countryCodes: [
         'JE'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Europe/Jersey (GMT+01:00)',
       location: 'Jersey',
-      locationDisplayName: 'Jersey',
+      locationLabel: 'Jersey',
+      name: 'Europe/Jersey',
       parent: 'Europe/London',
-      timezoneName: 'Europe/Jersey',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'Europe/Kaliningrad': {
       comments: 'MSK-01 - Kaliningrad',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Kaliningrad (GMT+02:00)',
       location: 'Kaliningrad',
-      locationDisplayName: 'Kaliningrad',
-      timezoneName: 'Europe/Kaliningrad',
-      type: 'Canonical'
+      locationLabel: 'Kaliningrad',
+      name: 'Europe/Kaliningrad',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Kiev': {
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Kiev (GMT+03:00)',
       location: 'Kiev',
-      locationDisplayName: 'Kiev',
+      locationLabel: 'Kiev',
+      name: 'Europe/Kiev',
       parent: 'Europe/Kyiv',
-      timezoneName: 'Europe/Kiev',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Europe/Kirov': {
       comments: 'MSK+00 - Kirov',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Kirov (GMT+03:00)',
       location: 'Kirov',
-      locationDisplayName: 'Kirov',
-      timezoneName: 'Europe/Kirov',
-      type: 'Canonical'
+      locationLabel: 'Kirov',
+      name: 'Europe/Kirov',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Kyiv': {
       children: [
@@ -5460,12 +5911,13 @@ export default {
       countryCodes: [
         'UA'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Kyiv (GMT+03:00)',
       location: 'Kyiv',
-      locationDisplayName: 'Kyiv',
-      timezoneName: 'Europe/Kyiv',
-      type: 'Canonical'
+      locationLabel: 'Kyiv',
+      name: 'Europe/Kyiv',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Lisbon': {
       children: [
@@ -5476,24 +5928,26 @@ export default {
       countryCodes: [
         'PT'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Europe/Lisbon (GMT+01:00)',
       location: 'Lisbon',
-      locationDisplayName: 'Lisbon',
-      timezoneName: 'Europe/Lisbon',
-      type: 'Canonical'
+      locationLabel: 'Lisbon',
+      name: 'Europe/Lisbon',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Europe/Ljubljana': {
       countryCodes: [
         'SI'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Ljubljana (GMT+02:00)',
       location: 'Ljubljana',
-      locationDisplayName: 'Ljubljana',
+      locationLabel: 'Ljubljana',
+      name: 'Europe/Ljubljana',
       parent: 'Europe/Belgrade',
-      timezoneName: 'Europe/Ljubljana',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/London': {
       children: [
@@ -5510,82 +5964,89 @@ export default {
         'IM',
         'JE'
       ],
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Europe/London (GMT+01:00)',
       location: 'London',
-      locationDisplayName: 'London',
-      timezoneName: 'Europe/London',
-      type: 'Canonical'
+      locationLabel: 'London',
+      name: 'Europe/London',
+      type: 'Canonical',
+      utc: '+01:00'
     },
     'Europe/Luxembourg': {
       countryCodes: [
         'LU'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Luxembourg (GMT+02:00)',
       location: 'Luxembourg',
-      locationDisplayName: 'Luxembourg',
+      locationLabel: 'Luxembourg',
+      name: 'Europe/Luxembourg',
       parent: 'Europe/Brussels',
-      timezoneName: 'Europe/Luxembourg',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Madrid': {
       comments: 'Spain (mainland)',
       countryCodes: [
         'ES'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Madrid (GMT+02:00)',
       location: 'Madrid',
-      locationDisplayName: 'Madrid',
-      timezoneName: 'Europe/Madrid',
-      type: 'Canonical'
+      locationLabel: 'Madrid',
+      name: 'Europe/Madrid',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Malta': {
       countryCodes: [
         'MT'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Malta (GMT+02:00)',
       location: 'Malta',
-      locationDisplayName: 'Malta',
-      timezoneName: 'Europe/Malta',
-      type: 'Canonical'
+      locationLabel: 'Malta',
+      name: 'Europe/Malta',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Mariehamn': {
       countryCodes: [
         'AX'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Mariehamn (GMT+03:00)',
       location: 'Mariehamn',
-      locationDisplayName: 'Mariehamn',
+      locationLabel: 'Mariehamn',
+      name: 'Europe/Mariehamn',
       parent: 'Europe/Helsinki',
-      timezoneName: 'Europe/Mariehamn',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Europe/Minsk': {
       countryCodes: [
         'BY'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Minsk (GMT+03:00)',
       location: 'Minsk',
-      locationDisplayName: 'Minsk',
-      timezoneName: 'Europe/Minsk',
-      type: 'Canonical'
+      locationLabel: 'Minsk',
+      name: 'Europe/Minsk',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Monaco': {
       countryCodes: [
         'MC'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Monaco (GMT+02:00)',
       location: 'Monaco',
-      locationDisplayName: 'Monaco',
+      locationLabel: 'Monaco',
+      name: 'Europe/Monaco',
       parent: 'Europe/Paris',
-      timezoneName: 'Europe/Monaco',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Moscow': {
       children: [
@@ -5595,33 +6056,36 @@ export default {
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Moscow (GMT+03:00)',
       location: 'Moscow',
-      locationDisplayName: 'Moscow',
-      timezoneName: 'Europe/Moscow',
-      type: 'Canonical'
+      locationLabel: 'Moscow',
+      name: 'Europe/Moscow',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Nicosia': {
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Nicosia (GMT+03:00)',
       location: 'Nicosia',
-      locationDisplayName: 'Nicosia',
+      locationLabel: 'Nicosia',
+      name: 'Europe/Nicosia',
       parent: 'Asia/Nicosia',
-      timezoneName: 'Europe/Nicosia',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Europe/Oslo': {
       countryCodes: [
         'NO'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Oslo (GMT+02:00)',
       location: 'Oslo',
-      locationDisplayName: 'Oslo',
+      locationLabel: 'Oslo',
+      name: 'Europe/Oslo',
       parent: 'Europe/Berlin',
-      timezoneName: 'Europe/Oslo',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Paris': {
       children: [
@@ -5631,24 +6095,26 @@ export default {
         'FR',
         'MC'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Paris (GMT+02:00)',
       location: 'Paris',
-      locationDisplayName: 'Paris',
-      timezoneName: 'Europe/Paris',
-      type: 'Canonical'
+      locationLabel: 'Paris',
+      name: 'Europe/Paris',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Podgorica': {
       countryCodes: [
         'ME'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Podgorica (GMT+02:00)',
       location: 'Podgorica',
-      locationDisplayName: 'Podgorica',
+      locationLabel: 'Podgorica',
+      name: 'Europe/Podgorica',
       parent: 'Europe/Belgrade',
-      timezoneName: 'Europe/Podgorica',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Prague': {
       children: [
@@ -5658,23 +6124,25 @@ export default {
         'CZ',
         'SK'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Prague (GMT+02:00)',
       location: 'Prague',
-      locationDisplayName: 'Prague',
-      timezoneName: 'Europe/Prague',
-      type: 'Canonical'
+      locationLabel: 'Prague',
+      name: 'Europe/Prague',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Riga': {
       countryCodes: [
         'LV'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Riga (GMT+03:00)',
       location: 'Riga',
-      locationDisplayName: 'Riga',
-      timezoneName: 'Europe/Riga',
-      type: 'Canonical'
+      locationLabel: 'Riga',
+      name: 'Europe/Riga',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Rome': {
       children: [
@@ -5686,60 +6154,65 @@ export default {
         'SM',
         'VA'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Rome (GMT+02:00)',
       location: 'Rome',
-      locationDisplayName: 'Rome',
-      timezoneName: 'Europe/Rome',
-      type: 'Canonical'
+      locationLabel: 'Rome',
+      name: 'Europe/Rome',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Samara': {
       comments: 'MSK+01 - Samara, Udmurtia',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Europe',
+      label: 'Europe/Samara (GMT+04:00)',
       location: 'Samara',
-      locationDisplayName: 'Samara',
-      timezoneName: 'Europe/Samara',
-      type: 'Canonical'
+      locationLabel: 'Samara',
+      name: 'Europe/Samara',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Europe/San_Marino': {
       countryCodes: [
         'SM'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/San_Marino (GMT+02:00)',
       location: 'San_Marino',
-      locationDisplayName: 'San Marino',
+      locationLabel: 'San Marino',
+      name: 'Europe/San_Marino',
       parent: 'Europe/Rome',
-      timezoneName: 'Europe/San_Marino',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Sarajevo': {
       countryCodes: [
         'BA'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Sarajevo (GMT+02:00)',
       location: 'Sarajevo',
-      locationDisplayName: 'Sarajevo',
+      locationLabel: 'Sarajevo',
+      name: 'Europe/Sarajevo',
       parent: 'Europe/Belgrade',
-      timezoneName: 'Europe/Sarajevo',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Saratov': {
       comments: 'MSK+01 - Saratov',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Europe',
+      label: 'Europe/Saratov (GMT+04:00)',
       location: 'Saratov',
-      locationDisplayName: 'Saratov',
-      timezoneName: 'Europe/Saratov',
-      type: 'Canonical'
+      locationLabel: 'Saratov',
+      name: 'Europe/Saratov',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Europe/Simferopol': {
       comments: 'Crimea',
@@ -5747,157 +6220,171 @@ export default {
         'RU',
         'UA'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Simferopol (GMT+03:00)',
       location: 'Simferopol',
-      locationDisplayName: 'Simferopol',
-      timezoneName: 'Europe/Simferopol',
-      type: 'Canonical'
+      locationLabel: 'Simferopol',
+      name: 'Europe/Simferopol',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Skopje': {
       countryCodes: [
         'MK'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Skopje (GMT+02:00)',
       location: 'Skopje',
-      locationDisplayName: 'Skopje',
+      locationLabel: 'Skopje',
+      name: 'Europe/Skopje',
       parent: 'Europe/Belgrade',
-      timezoneName: 'Europe/Skopje',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Sofia': {
       countryCodes: [
         'BG'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Sofia (GMT+03:00)',
       location: 'Sofia',
-      locationDisplayName: 'Sofia',
-      timezoneName: 'Europe/Sofia',
-      type: 'Canonical'
+      locationLabel: 'Sofia',
+      name: 'Europe/Sofia',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Stockholm': {
       countryCodes: [
         'SE'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Stockholm (GMT+02:00)',
       location: 'Stockholm',
-      locationDisplayName: 'Stockholm',
+      locationLabel: 'Stockholm',
+      name: 'Europe/Stockholm',
       parent: 'Europe/Berlin',
-      timezoneName: 'Europe/Stockholm',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Tallinn': {
       countryCodes: [
         'EE'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Tallinn (GMT+03:00)',
       location: 'Tallinn',
-      locationDisplayName: 'Tallinn',
-      timezoneName: 'Europe/Tallinn',
-      type: 'Canonical'
+      locationLabel: 'Tallinn',
+      name: 'Europe/Tallinn',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Tirane': {
       countryCodes: [
         'AL'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Tirane (GMT+02:00)',
       location: 'Tirane',
-      locationDisplayName: 'Tirane',
-      timezoneName: 'Europe/Tirane',
-      type: 'Canonical'
+      locationLabel: 'Tirane',
+      name: 'Europe/Tirane',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Tiraspol': {
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Tiraspol (GMT+03:00)',
       location: 'Tiraspol',
-      locationDisplayName: 'Tiraspol',
+      locationLabel: 'Tiraspol',
+      name: 'Europe/Tiraspol',
       parent: 'Europe/Chisinau',
-      timezoneName: 'Europe/Tiraspol',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Europe/Ulyanovsk': {
       comments: 'MSK+01 - Ulyanovsk',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Europe',
+      label: 'Europe/Ulyanovsk (GMT+04:00)',
       location: 'Ulyanovsk',
-      locationDisplayName: 'Ulyanovsk',
-      timezoneName: 'Europe/Ulyanovsk',
-      type: 'Canonical'
+      locationLabel: 'Ulyanovsk',
+      name: 'Europe/Ulyanovsk',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Europe/Uzhgorod': {
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Uzhgorod (GMT+03:00)',
       location: 'Uzhgorod',
-      locationDisplayName: 'Uzhgorod',
+      locationLabel: 'Uzhgorod',
+      name: 'Europe/Uzhgorod',
       parent: 'Europe/Kyiv',
-      timezoneName: 'Europe/Uzhgorod',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Europe/Vaduz': {
       countryCodes: [
         'LI'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Vaduz (GMT+02:00)',
       location: 'Vaduz',
-      locationDisplayName: 'Vaduz',
+      locationLabel: 'Vaduz',
+      name: 'Europe/Vaduz',
       parent: 'Europe/Zurich',
-      timezoneName: 'Europe/Vaduz',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Vatican': {
       countryCodes: [
         'VA'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Vatican (GMT+02:00)',
       location: 'Vatican',
-      locationDisplayName: 'Vatican',
+      locationLabel: 'Vatican',
+      name: 'Europe/Vatican',
       parent: 'Europe/Rome',
-      timezoneName: 'Europe/Vatican',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Vienna': {
       countryCodes: [
         'AT'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Vienna (GMT+02:00)',
       location: 'Vienna',
-      locationDisplayName: 'Vienna',
-      timezoneName: 'Europe/Vienna',
-      type: 'Canonical'
+      locationLabel: 'Vienna',
+      name: 'Europe/Vienna',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Vilnius': {
       countryCodes: [
         'LT'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Vilnius (GMT+03:00)',
       location: 'Vilnius',
-      locationDisplayName: 'Vilnius',
-      timezoneName: 'Europe/Vilnius',
-      type: 'Canonical'
+      locationLabel: 'Vilnius',
+      name: 'Europe/Vilnius',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Volgograd': {
       comments: 'MSK+00 - Volgograd',
       countryCodes: [
         'RU'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Volgograd (GMT+03:00)',
       location: 'Volgograd',
-      locationDisplayName: 'Volgograd',
-      timezoneName: 'Europe/Volgograd',
-      type: 'Canonical'
+      locationLabel: 'Volgograd',
+      name: 'Europe/Volgograd',
+      type: 'Canonical',
+      utc: '+03:00'
     },
     'Europe/Warsaw': {
       children: [
@@ -5906,33 +6393,36 @@ export default {
       countryCodes: [
         'PL'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Warsaw (GMT+02:00)',
       location: 'Warsaw',
-      locationDisplayName: 'Warsaw',
-      timezoneName: 'Europe/Warsaw',
-      type: 'Canonical'
+      locationLabel: 'Warsaw',
+      name: 'Europe/Warsaw',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     'Europe/Zagreb': {
       countryCodes: [
         'HR'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Zagreb (GMT+02:00)',
       location: 'Zagreb',
-      locationDisplayName: 'Zagreb',
+      locationLabel: 'Zagreb',
+      name: 'Europe/Zagreb',
       parent: 'Europe/Belgrade',
-      timezoneName: 'Europe/Zagreb',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     'Europe/Zaporozhye': {
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Europe/Zaporozhye (GMT+03:00)',
       location: 'Zaporozhye',
-      locationDisplayName: 'Zaporozhye',
+      locationLabel: 'Zaporozhye',
+      name: 'Europe/Zaporozhye',
       parent: 'Europe/Kyiv',
-      timezoneName: 'Europe/Zaporozhye',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Europe/Zurich': {
       children: [
@@ -5945,185 +6435,203 @@ export default {
         'DE',
         'LI'
       ],
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Europe/Zurich (GMT+02:00)',
       location: 'Zurich',
-      locationDisplayName: 'Zurich',
-      timezoneName: 'Europe/Zurich',
-      type: 'Canonical'
+      locationLabel: 'Zurich',
+      name: 'Europe/Zurich',
+      type: 'Canonical',
+      utc: '+02:00'
     },
     GB: {
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'GB (GMT+01:00)',
       location: 'GB',
-      locationDisplayName: 'GB',
+      locationLabel: 'GB',
+      name: 'GB',
       parent: 'Europe/London',
-      timezoneName: 'GB',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     'GB-Eire': {
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'GB-Eire (GMT+01:00)',
       location: 'GB-Eire',
-      locationDisplayName: 'GB-Eire',
+      locationLabel: 'GB-Eire',
+      name: 'GB-Eire',
       parent: 'Europe/London',
-      timezoneName: 'GB-Eire',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     GMT: {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'GMT (GMT+00:00)',
       location: null,
-      locationDisplayName: null,
+      locationLabel: null,
+      name: 'GMT',
       parent: 'Etc/GMT',
-      timezoneName: 'GMT',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'GMT+0': {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'GMT+0 (GMT+00:00)',
       location: 'GMT+0',
-      locationDisplayName: 'GMT+0',
+      locationLabel: 'GMT+0',
+      name: 'GMT+0',
       parent: 'Etc/GMT',
-      timezoneName: 'GMT+0',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'GMT-0': {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'GMT-0 (GMT+00:00)',
       location: 'GMT-0',
-      locationDisplayName: 'GMT-0',
+      locationLabel: 'GMT-0',
+      name: 'GMT-0',
       parent: 'Etc/GMT',
-      timezoneName: 'GMT-0',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     GMT0: {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'GMT0 (GMT+00:00)',
       location: 'GMT0',
-      locationDisplayName: 'GMT0',
+      locationLabel: 'GMT0',
+      name: 'GMT0',
       parent: 'Etc/GMT',
-      timezoneName: 'GMT0',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     Greenwich: {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'Greenwich (GMT+00:00)',
       location: 'Greenwich',
-      locationDisplayName: 'Greenwich',
+      locationLabel: 'Greenwich',
+      name: 'Greenwich',
       parent: 'Etc/GMT',
-      timezoneName: 'Greenwich',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     HST: {
-      currentOffset: '-10:00',
       geographicArea: 'Pacific',
+      label: 'HST (GMT-10:00)',
       location: 'HST',
-      locationDisplayName: 'HST',
+      locationLabel: 'HST',
+      name: 'HST',
       parent: 'Pacific/Honolulu',
-      timezoneName: 'HST',
-      type: 'Link'
+      type: 'Link',
+      utc: '-10:00'
     },
     Hongkong: {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Hongkong (GMT+08:00)',
       location: 'Hongkong',
-      locationDisplayName: 'Hongkong',
+      locationLabel: 'Hongkong',
+      name: 'Hongkong',
       parent: 'Asia/Hong_Kong',
-      timezoneName: 'Hongkong',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     Iceland: {
-      currentOffset: '+00:00',
       geographicArea: 'Africa',
+      label: 'Iceland (GMT+00:00)',
       location: 'Iceland',
-      locationDisplayName: 'Iceland',
+      locationLabel: 'Iceland',
+      name: 'Iceland',
       parent: 'Africa/Abidjan',
-      timezoneName: 'Iceland',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'Indian/Antananarivo': {
       countryCodes: [
         'MG'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Indian',
+      label: 'Indian/Antananarivo (GMT+03:00)',
       location: 'Antananarivo',
-      locationDisplayName: 'Antananarivo',
+      locationLabel: 'Antananarivo',
+      name: 'Indian/Antananarivo',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Indian/Antananarivo',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Indian/Chagos': {
       countryCodes: [
         'IO'
       ],
-      currentOffset: '+06:00',
       geographicArea: 'Indian',
+      label: 'Indian/Chagos (GMT+06:00)',
       location: 'Chagos',
-      locationDisplayName: 'Chagos',
-      timezoneName: 'Indian/Chagos',
-      type: 'Canonical'
+      locationLabel: 'Chagos',
+      name: 'Indian/Chagos',
+      type: 'Canonical',
+      utc: '+06:00'
     },
     'Indian/Christmas': {
       countryCodes: [
         'CX'
       ],
-      currentOffset: '+07:00',
       geographicArea: 'Indian',
+      label: 'Indian/Christmas (GMT+07:00)',
       location: 'Christmas',
-      locationDisplayName: 'Christmas',
+      locationLabel: 'Christmas',
+      name: 'Indian/Christmas',
       parent: 'Asia/Bangkok',
-      timezoneName: 'Indian/Christmas',
-      type: 'Link'
+      type: 'Link',
+      utc: '+07:00'
     },
     'Indian/Cocos': {
       countryCodes: [
         'CC'
       ],
-      currentOffset: '+06:30',
       geographicArea: 'Indian',
+      label: 'Indian/Cocos (GMT+06:30)',
       location: 'Cocos',
-      locationDisplayName: 'Cocos',
+      locationLabel: 'Cocos',
+      name: 'Indian/Cocos',
       parent: 'Asia/Yangon',
-      timezoneName: 'Indian/Cocos',
-      type: 'Link'
+      type: 'Link',
+      utc: '+06:30'
     },
     'Indian/Comoro': {
       countryCodes: [
         'KM'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Indian',
+      label: 'Indian/Comoro (GMT+03:00)',
       location: 'Comoro',
-      locationDisplayName: 'Comoro',
+      locationLabel: 'Comoro',
+      name: 'Indian/Comoro',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Indian/Comoro',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Indian/Kerguelen': {
       countryCodes: [
         'TF'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Indian',
+      label: 'Indian/Kerguelen (GMT+05:00)',
       location: 'Kerguelen',
-      locationDisplayName: 'Kerguelen',
+      locationLabel: 'Kerguelen',
+      name: 'Indian/Kerguelen',
       parent: 'Indian/Maldives',
-      timezoneName: 'Indian/Kerguelen',
-      type: 'Link'
+      type: 'Link',
+      utc: '+05:00'
     },
     'Indian/Mahe': {
       countryCodes: [
         'SC'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Indian',
+      label: 'Indian/Mahe (GMT+04:00)',
       location: 'Mahe',
-      locationDisplayName: 'Mahe',
+      locationLabel: 'Mahe',
+      name: 'Indian/Mahe',
       parent: 'Asia/Dubai',
-      timezoneName: 'Indian/Mahe',
-      type: 'Link'
+      type: 'Link',
+      utc: '+04:00'
     },
     'Indian/Maldives': {
       children: [
@@ -6134,211 +6642,233 @@ export default {
         'MV',
         'TF'
       ],
-      currentOffset: '+05:00',
       geographicArea: 'Indian',
+      label: 'Indian/Maldives (GMT+05:00)',
       location: 'Maldives',
-      locationDisplayName: 'Maldives',
-      timezoneName: 'Indian/Maldives',
-      type: 'Canonical'
+      locationLabel: 'Maldives',
+      name: 'Indian/Maldives',
+      type: 'Canonical',
+      utc: '+05:00'
     },
     'Indian/Mauritius': {
       countryCodes: [
         'MU'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Indian',
+      label: 'Indian/Mauritius (GMT+04:00)',
       location: 'Mauritius',
-      locationDisplayName: 'Mauritius',
-      timezoneName: 'Indian/Mauritius',
-      type: 'Canonical'
+      locationLabel: 'Mauritius',
+      name: 'Indian/Mauritius',
+      type: 'Canonical',
+      utc: '+04:00'
     },
     'Indian/Mayotte': {
       countryCodes: [
         'YT'
       ],
-      currentOffset: '+03:00',
       geographicArea: 'Indian',
+      label: 'Indian/Mayotte (GMT+03:00)',
       location: 'Mayotte',
-      locationDisplayName: 'Mayotte',
+      locationLabel: 'Mayotte',
+      name: 'Indian/Mayotte',
       parent: 'Africa/Nairobi',
-      timezoneName: 'Indian/Mayotte',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     'Indian/Reunion': {
       countryCodes: [
         'RE'
       ],
-      currentOffset: '+04:00',
       geographicArea: 'Indian',
+      label: 'Indian/Reunion (GMT+04:00)',
       location: 'Reunion',
-      locationDisplayName: 'Reunion',
+      locationLabel: 'Reunion',
+      name: 'Indian/Reunion',
       parent: 'Asia/Dubai',
-      timezoneName: 'Indian/Reunion',
-      type: 'Link'
+      type: 'Link',
+      utc: '+04:00'
     },
     Iran: {
-      currentOffset: '+03:30',
       geographicArea: 'Asia',
+      label: 'Iran (GMT+03:30)',
       location: 'Iran',
-      locationDisplayName: 'Iran',
+      locationLabel: 'Iran',
+      name: 'Iran',
       parent: 'Asia/Tehran',
-      timezoneName: 'Iran',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:30'
     },
     Israel: {
-      currentOffset: '+03:00',
       geographicArea: 'Asia',
+      label: 'Israel (GMT+03:00)',
       location: 'Israel',
-      locationDisplayName: 'Israel',
+      locationLabel: 'Israel',
+      name: 'Israel',
       parent: 'Asia/Jerusalem',
-      timezoneName: 'Israel',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     Jamaica: {
-      currentOffset: '-05:00',
       geographicArea: 'America',
+      label: 'Jamaica (GMT-05:00)',
       location: 'Jamaica',
-      locationDisplayName: 'Jamaica',
+      locationLabel: 'Jamaica',
+      name: 'Jamaica',
       parent: 'America/Jamaica',
-      timezoneName: 'Jamaica',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     Japan: {
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'Japan (GMT+09:00)',
       location: 'Japan',
-      locationDisplayName: 'Japan',
+      locationLabel: 'Japan',
+      name: 'Japan',
       parent: 'Asia/Tokyo',
-      timezoneName: 'Japan',
-      type: 'Link'
+      type: 'Link',
+      utc: '+09:00'
     },
     Kwajalein: {
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Kwajalein (GMT+12:00)',
       location: 'Kwajalein',
-      locationDisplayName: 'Kwajalein',
+      locationLabel: 'Kwajalein',
+      name: 'Kwajalein',
       parent: 'Pacific/Kwajalein',
-      timezoneName: 'Kwajalein',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:00'
     },
     Libya: {
-      currentOffset: '+02:00',
       geographicArea: 'Africa',
+      label: 'Libya (GMT+02:00)',
       location: 'Libya',
-      locationDisplayName: 'Libya',
+      locationLabel: 'Libya',
+      name: 'Libya',
       parent: 'Africa/Tripoli',
-      timezoneName: 'Libya',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     MET: {
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'MET (GMT+02:00)',
       location: 'MET',
-      locationDisplayName: 'MET',
+      locationLabel: 'MET',
+      name: 'MET',
       parent: 'Europe/Brussels',
-      timezoneName: 'MET',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     MST: {
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'MST (GMT-07:00)',
       location: 'MST',
-      locationDisplayName: 'MST',
+      locationLabel: 'MST',
+      name: 'MST',
       parent: 'America/Phoenix',
-      timezoneName: 'MST',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     MST7MDT: {
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'MST7MDT (GMT-06:00)',
       location: 'MST7MDT',
-      locationDisplayName: 'MST7MDT',
+      locationLabel: 'MST7MDT',
+      name: 'MST7MDT',
       parent: 'America/Denver',
-      timezoneName: 'MST7MDT',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     'Mexico/BajaNorte': {
-      currentOffset: '-07:00',
       geographicArea: 'Mexico',
+      label: 'Mexico/BajaNorte (GMT-07:00)',
       location: 'BajaNorte',
-      locationDisplayName: 'BajaNorte',
+      locationLabel: 'BajaNorte',
+      name: 'Mexico/BajaNorte',
       parent: 'America/Tijuana',
-      timezoneName: 'Mexico/BajaNorte',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'Mexico/BajaSur': {
-      currentOffset: '-07:00',
       geographicArea: 'Mexico',
+      label: 'Mexico/BajaSur (GMT-07:00)',
       location: 'BajaSur',
-      locationDisplayName: 'BajaSur',
+      locationLabel: 'BajaSur',
+      name: 'Mexico/BajaSur',
       parent: 'America/Mazatlan',
-      timezoneName: 'Mexico/BajaSur',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'Mexico/General': {
-      currentOffset: '-06:00',
       geographicArea: 'Mexico',
+      label: 'Mexico/General (GMT-06:00)',
       location: 'General',
-      locationDisplayName: 'General',
+      locationLabel: 'General',
+      name: 'Mexico/General',
       parent: 'America/Mexico_City',
-      timezoneName: 'Mexico/General',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     NZ: {
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'NZ (GMT+12:00)',
       location: 'NZ',
-      locationDisplayName: 'NZ',
+      locationLabel: 'NZ',
+      name: 'NZ',
       parent: 'Pacific/Auckland',
-      timezoneName: 'NZ',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:00'
     },
     'NZ-CHAT': {
-      currentOffset: '+12:45',
       geographicArea: 'Pacific',
+      label: 'NZ-CHAT (GMT+12:45)',
       location: 'NZ-CHAT',
-      locationDisplayName: 'NZ-CHAT',
+      locationLabel: 'NZ-CHAT',
+      name: 'NZ-CHAT',
       parent: 'Pacific/Chatham',
-      timezoneName: 'NZ-CHAT',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:45'
     },
     Navajo: {
-      currentOffset: '-06:00',
       geographicArea: 'America',
+      label: 'Navajo (GMT-06:00)',
       location: 'Navajo',
-      locationDisplayName: 'Navajo',
+      locationLabel: 'Navajo',
+      name: 'Navajo',
       parent: 'America/Denver',
-      timezoneName: 'Navajo',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     PRC: {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'PRC (GMT+08:00)',
       location: 'PRC',
-      locationDisplayName: 'PRC',
+      locationLabel: 'PRC',
+      name: 'PRC',
       parent: 'Asia/Shanghai',
-      timezoneName: 'PRC',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     PST8PDT: {
-      currentOffset: '-07:00',
       geographicArea: 'America',
+      label: 'PST8PDT (GMT-07:00)',
       location: 'PST8PDT',
-      locationDisplayName: 'PST8PDT',
+      locationLabel: 'PST8PDT',
+      name: 'PST8PDT',
       parent: 'America/Los_Angeles',
-      timezoneName: 'PST8PDT',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'Pacific/Apia': {
       countryCodes: [
         'WS'
       ],
-      currentOffset: '+13:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Apia (GMT+13:00)',
       location: 'Apia',
-      locationDisplayName: 'Apia',
-      timezoneName: 'Pacific/Apia',
-      type: 'Canonical'
+      locationLabel: 'Apia',
+      name: 'Pacific/Apia',
+      type: 'Canonical',
+      utc: '+13:00'
     },
     'Pacific/Auckland': {
       children: [
@@ -6351,24 +6881,26 @@ export default {
         'AQ',
         'NZ'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Auckland (GMT+12:00)',
       location: 'Auckland',
-      locationDisplayName: 'Auckland',
-      timezoneName: 'Pacific/Auckland',
-      type: 'Canonical'
+      locationLabel: 'Auckland',
+      name: 'Pacific/Auckland',
+      type: 'Canonical',
+      utc: '+12:00'
     },
     'Pacific/Bougainville': {
       comments: 'Bougainville',
       countryCodes: [
         'PG'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Bougainville (GMT+11:00)',
       location: 'Bougainville',
-      locationDisplayName: 'Bougainville',
-      timezoneName: 'Pacific/Bougainville',
-      type: 'Canonical'
+      locationLabel: 'Bougainville',
+      name: 'Pacific/Bougainville',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Pacific/Chatham': {
       children: [
@@ -6378,25 +6910,27 @@ export default {
       countryCodes: [
         'NZ'
       ],
-      currentOffset: '+12:45',
       geographicArea: 'Pacific',
+      label: 'Pacific/Chatham (GMT+12:45)',
       location: 'Chatham',
-      locationDisplayName: 'Chatham',
-      timezoneName: 'Pacific/Chatham',
-      type: 'Canonical'
+      locationLabel: 'Chatham',
+      name: 'Pacific/Chatham',
+      type: 'Canonical',
+      utc: '+12:45'
     },
     'Pacific/Chuuk': {
       comments: 'Chuuk/Truk, Yap',
       countryCodes: [
         'FM'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Chuuk (GMT+10:00)',
       location: 'Chuuk',
-      locationDisplayName: 'Chuuk',
+      locationLabel: 'Chuuk',
+      name: 'Pacific/Chuuk',
       parent: 'Pacific/Port_Moresby',
-      timezoneName: 'Pacific/Chuuk',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Pacific/Easter': {
       children: [
@@ -6406,90 +6940,98 @@ export default {
       countryCodes: [
         'CL'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Easter (GMT-06:00)',
       location: 'Easter',
-      locationDisplayName: 'Easter',
-      timezoneName: 'Pacific/Easter',
-      type: 'Canonical'
+      locationLabel: 'Easter',
+      name: 'Pacific/Easter',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'Pacific/Efate': {
       countryCodes: [
         'VU'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Efate (GMT+11:00)',
       location: 'Efate',
-      locationDisplayName: 'Efate',
-      timezoneName: 'Pacific/Efate',
-      type: 'Canonical'
+      locationLabel: 'Efate',
+      name: 'Pacific/Efate',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Pacific/Enderbury': {
-      currentOffset: '+13:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Enderbury (GMT+13:00)',
       location: 'Enderbury',
-      locationDisplayName: 'Enderbury',
+      locationLabel: 'Enderbury',
+      name: 'Pacific/Enderbury',
       parent: 'Pacific/Kanton',
-      timezoneName: 'Pacific/Enderbury',
-      type: 'Link'
+      type: 'Link',
+      utc: '+13:00'
     },
     'Pacific/Fakaofo': {
       countryCodes: [
         'TK'
       ],
-      currentOffset: '+13:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Fakaofo (GMT+13:00)',
       location: 'Fakaofo',
-      locationDisplayName: 'Fakaofo',
-      timezoneName: 'Pacific/Fakaofo',
-      type: 'Canonical'
+      locationLabel: 'Fakaofo',
+      name: 'Pacific/Fakaofo',
+      type: 'Canonical',
+      utc: '+13:00'
     },
     'Pacific/Fiji': {
       countryCodes: [
         'FJ'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Fiji (GMT+12:00)',
       location: 'Fiji',
-      locationDisplayName: 'Fiji',
-      timezoneName: 'Pacific/Fiji',
-      type: 'Canonical'
+      locationLabel: 'Fiji',
+      name: 'Pacific/Fiji',
+      type: 'Canonical',
+      utc: '+12:00'
     },
     'Pacific/Funafuti': {
       countryCodes: [
         'TV'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Funafuti (GMT+12:00)',
       location: 'Funafuti',
-      locationDisplayName: 'Funafuti',
+      locationLabel: 'Funafuti',
+      name: 'Pacific/Funafuti',
       parent: 'Pacific/Tarawa',
-      timezoneName: 'Pacific/Funafuti',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:00'
     },
     'Pacific/Galapagos': {
       comments: 'Galápagos Islands',
       countryCodes: [
         'EC'
       ],
-      currentOffset: '-06:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Galapagos (GMT-06:00)',
       location: 'Galapagos',
-      locationDisplayName: 'Galapagos',
-      timezoneName: 'Pacific/Galapagos',
-      type: 'Canonical'
+      locationLabel: 'Galapagos',
+      name: 'Pacific/Galapagos',
+      type: 'Canonical',
+      utc: '-06:00'
     },
     'Pacific/Gambier': {
       comments: 'Gambier Islands',
       countryCodes: [
         'PF'
       ],
-      currentOffset: '-09:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Gambier (GMT-09:00)',
       location: 'Gambier',
-      locationDisplayName: 'Gambier',
-      timezoneName: 'Pacific/Gambier',
-      type: 'Canonical'
+      locationLabel: 'Gambier',
+      name: 'Pacific/Gambier',
+      type: 'Canonical',
+      utc: '-09:00'
     },
     'Pacific/Guadalcanal': {
       children: [
@@ -6501,12 +7043,13 @@ export default {
         'FM',
         'SB'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Guadalcanal (GMT+11:00)',
       location: 'Guadalcanal',
-      locationDisplayName: 'Guadalcanal',
-      timezoneName: 'Pacific/Guadalcanal',
-      type: 'Canonical'
+      locationLabel: 'Guadalcanal',
+      name: 'Pacific/Guadalcanal',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Pacific/Guam': {
       children: [
@@ -6516,12 +7059,13 @@ export default {
         'GU',
         'MP'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Guam (GMT+10:00)',
       location: 'Guam',
-      locationDisplayName: 'Guam',
-      timezoneName: 'Pacific/Guam',
-      type: 'Canonical'
+      locationLabel: 'Guam',
+      name: 'Pacific/Guam',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Pacific/Honolulu': {
       children: [
@@ -6533,21 +7077,23 @@ export default {
       countryCodes: [
         'US'
       ],
-      currentOffset: '-10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Honolulu (GMT-10:00)',
       location: 'Honolulu',
-      locationDisplayName: 'Honolulu',
-      timezoneName: 'Pacific/Honolulu',
-      type: 'Canonical'
+      locationLabel: 'Honolulu',
+      name: 'Pacific/Honolulu',
+      type: 'Canonical',
+      utc: '-10:00'
     },
     'Pacific/Johnston': {
-      currentOffset: '-10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Johnston (GMT-10:00)',
       location: 'Johnston',
-      locationDisplayName: 'Johnston',
+      locationLabel: 'Johnston',
+      name: 'Pacific/Johnston',
       parent: 'Pacific/Honolulu',
-      timezoneName: 'Pacific/Johnston',
-      type: 'Link'
+      type: 'Link',
+      utc: '-10:00'
     },
     'Pacific/Kanton': {
       children: [
@@ -6557,36 +7103,39 @@ export default {
       countryCodes: [
         'KI'
       ],
-      currentOffset: '+13:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Kanton (GMT+13:00)',
       location: 'Kanton',
-      locationDisplayName: 'Kanton',
-      timezoneName: 'Pacific/Kanton',
-      type: 'Canonical'
+      locationLabel: 'Kanton',
+      name: 'Pacific/Kanton',
+      type: 'Canonical',
+      utc: '+13:00'
     },
     'Pacific/Kiritimati': {
       comments: 'Line Islands',
       countryCodes: [
         'KI'
       ],
-      currentOffset: '+14:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Kiritimati (GMT+14:00)',
       location: 'Kiritimati',
-      locationDisplayName: 'Kiritimati',
-      timezoneName: 'Pacific/Kiritimati',
-      type: 'Canonical'
+      locationLabel: 'Kiritimati',
+      name: 'Pacific/Kiritimati',
+      type: 'Canonical',
+      utc: '+14:00'
     },
     'Pacific/Kosrae': {
       comments: 'Kosrae',
       countryCodes: [
         'FM'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Kosrae (GMT+11:00)',
       location: 'Kosrae',
-      locationDisplayName: 'Kosrae',
-      timezoneName: 'Pacific/Kosrae',
-      type: 'Canonical'
+      locationLabel: 'Kosrae',
+      name: 'Pacific/Kosrae',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Pacific/Kwajalein': {
       children: [
@@ -6596,94 +7145,102 @@ export default {
       countryCodes: [
         'MH'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Kwajalein (GMT+12:00)',
       location: 'Kwajalein',
-      locationDisplayName: 'Kwajalein',
-      timezoneName: 'Pacific/Kwajalein',
-      type: 'Canonical'
+      locationLabel: 'Kwajalein',
+      name: 'Pacific/Kwajalein',
+      type: 'Canonical',
+      utc: '+12:00'
     },
     'Pacific/Majuro': {
       comments: 'most of Marshall Islands',
       countryCodes: [
         'MH'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Majuro (GMT+12:00)',
       location: 'Majuro',
-      locationDisplayName: 'Majuro',
+      locationLabel: 'Majuro',
+      name: 'Pacific/Majuro',
       parent: 'Pacific/Tarawa',
-      timezoneName: 'Pacific/Majuro',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:00'
     },
     'Pacific/Marquesas': {
       comments: 'Marquesas Islands',
       countryCodes: [
         'PF'
       ],
-      currentOffset: '-09:30',
       geographicArea: 'Pacific',
+      label: 'Pacific/Marquesas (GMT-09:30)',
       location: 'Marquesas',
-      locationDisplayName: 'Marquesas',
-      timezoneName: 'Pacific/Marquesas',
-      type: 'Canonical'
+      locationLabel: 'Marquesas',
+      name: 'Pacific/Marquesas',
+      type: 'Canonical',
+      utc: '-09:30'
     },
     'Pacific/Midway': {
       comments: 'Midway Islands',
       countryCodes: [
         'UM'
       ],
-      currentOffset: '-11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Midway (GMT-11:00)',
       location: 'Midway',
-      locationDisplayName: 'Midway',
+      locationLabel: 'Midway',
+      name: 'Pacific/Midway',
       parent: 'Pacific/Pago_Pago',
-      timezoneName: 'Pacific/Midway',
-      type: 'Link'
+      type: 'Link',
+      utc: '-11:00'
     },
     'Pacific/Nauru': {
       countryCodes: [
         'NR'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Nauru (GMT+12:00)',
       location: 'Nauru',
-      locationDisplayName: 'Nauru',
-      timezoneName: 'Pacific/Nauru',
-      type: 'Canonical'
+      locationLabel: 'Nauru',
+      name: 'Pacific/Nauru',
+      type: 'Canonical',
+      utc: '+12:00'
     },
     'Pacific/Niue': {
       countryCodes: [
         'NU'
       ],
-      currentOffset: '-11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Niue (GMT-11:00)',
       location: 'Niue',
-      locationDisplayName: 'Niue',
-      timezoneName: 'Pacific/Niue',
-      type: 'Canonical'
+      locationLabel: 'Niue',
+      name: 'Pacific/Niue',
+      type: 'Canonical',
+      utc: '-11:00'
     },
     'Pacific/Norfolk': {
       countryCodes: [
         'NF'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Norfolk (GMT+11:00)',
       location: 'Norfolk',
-      locationDisplayName: 'Norfolk',
-      timezoneName: 'Pacific/Norfolk',
-      type: 'Canonical'
+      locationLabel: 'Norfolk',
+      name: 'Pacific/Norfolk',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Pacific/Noumea': {
       countryCodes: [
         'NC'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Noumea (GMT+11:00)',
       location: 'Noumea',
-      locationDisplayName: 'Noumea',
-      timezoneName: 'Pacific/Noumea',
-      type: 'Canonical'
+      locationLabel: 'Noumea',
+      name: 'Pacific/Noumea',
+      type: 'Canonical',
+      utc: '+11:00'
     },
     'Pacific/Pago_Pago': {
       children: [
@@ -6696,56 +7253,61 @@ export default {
         'AS',
         'UM'
       ],
-      currentOffset: '-11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Pago_Pago (GMT-11:00)',
       location: 'Pago_Pago',
-      locationDisplayName: 'Pago Pago',
-      timezoneName: 'Pacific/Pago_Pago',
-      type: 'Canonical'
+      locationLabel: 'Pago Pago',
+      name: 'Pacific/Pago_Pago',
+      type: 'Canonical',
+      utc: '-11:00'
     },
     'Pacific/Palau': {
       countryCodes: [
         'PW'
       ],
-      currentOffset: '+09:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Palau (GMT+09:00)',
       location: 'Palau',
-      locationDisplayName: 'Palau',
-      timezoneName: 'Pacific/Palau',
-      type: 'Canonical'
+      locationLabel: 'Palau',
+      name: 'Pacific/Palau',
+      type: 'Canonical',
+      utc: '+09:00'
     },
     'Pacific/Pitcairn': {
       countryCodes: [
         'PN'
       ],
-      currentOffset: '-08:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Pitcairn (GMT-08:00)',
       location: 'Pitcairn',
-      locationDisplayName: 'Pitcairn',
-      timezoneName: 'Pacific/Pitcairn',
-      type: 'Canonical'
+      locationLabel: 'Pitcairn',
+      name: 'Pacific/Pitcairn',
+      type: 'Canonical',
+      utc: '-08:00'
     },
     'Pacific/Pohnpei': {
       comments: 'Pohnpei/Ponape',
       countryCodes: [
         'FM'
       ],
-      currentOffset: '+11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Pohnpei (GMT+11:00)',
       location: 'Pohnpei',
-      locationDisplayName: 'Pohnpei',
+      locationLabel: 'Pohnpei',
+      name: 'Pacific/Pohnpei',
       parent: 'Pacific/Guadalcanal',
-      timezoneName: 'Pacific/Pohnpei',
-      type: 'Link'
+      type: 'Link',
+      utc: '+11:00'
     },
     'Pacific/Ponape': {
-      currentOffset: '+11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Ponape (GMT+11:00)',
       location: 'Ponape',
-      locationDisplayName: 'Ponape',
+      locationLabel: 'Ponape',
+      name: 'Pacific/Ponape',
       parent: 'Pacific/Guadalcanal',
-      timezoneName: 'Pacific/Ponape',
-      type: 'Link'
+      type: 'Link',
+      utc: '+11:00'
     },
     'Pacific/Port_Moresby': {
       children: [
@@ -6760,56 +7322,61 @@ export default {
         'FM',
         'PG'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Port_Moresby (GMT+10:00)',
       location: 'Port_Moresby',
-      locationDisplayName: 'Port Moresby',
-      timezoneName: 'Pacific/Port_Moresby',
-      type: 'Canonical'
+      locationLabel: 'Port Moresby',
+      name: 'Pacific/Port_Moresby',
+      type: 'Canonical',
+      utc: '+10:00'
     },
     'Pacific/Rarotonga': {
       countryCodes: [
         'CK'
       ],
-      currentOffset: '-10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Rarotonga (GMT-10:00)',
       location: 'Rarotonga',
-      locationDisplayName: 'Rarotonga',
-      timezoneName: 'Pacific/Rarotonga',
-      type: 'Canonical'
+      locationLabel: 'Rarotonga',
+      name: 'Pacific/Rarotonga',
+      type: 'Canonical',
+      utc: '-10:00'
     },
     'Pacific/Saipan': {
       countryCodes: [
         'MP'
       ],
-      currentOffset: '+10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Saipan (GMT+10:00)',
       location: 'Saipan',
-      locationDisplayName: 'Saipan',
+      locationLabel: 'Saipan',
+      name: 'Pacific/Saipan',
       parent: 'Pacific/Guam',
-      timezoneName: 'Pacific/Saipan',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Pacific/Samoa': {
-      currentOffset: '-11:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Samoa (GMT-11:00)',
       location: 'Samoa',
-      locationDisplayName: 'Samoa',
+      locationLabel: 'Samoa',
+      name: 'Pacific/Samoa',
       parent: 'Pacific/Pago_Pago',
-      timezoneName: 'Pacific/Samoa',
-      type: 'Link'
+      type: 'Link',
+      utc: '-11:00'
     },
     'Pacific/Tahiti': {
       comments: 'Society Islands',
       countryCodes: [
         'PF'
       ],
-      currentOffset: '-10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Tahiti (GMT-10:00)',
       location: 'Tahiti',
-      locationDisplayName: 'Tahiti',
-      timezoneName: 'Pacific/Tahiti',
-      type: 'Canonical'
+      locationLabel: 'Tahiti',
+      name: 'Pacific/Tahiti',
+      type: 'Canonical',
+      utc: '-10:00'
     },
     'Pacific/Tarawa': {
       children: [
@@ -6826,282 +7393,312 @@ export default {
         'UM',
         'WF'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Tarawa (GMT+12:00)',
       location: 'Tarawa',
-      locationDisplayName: 'Tarawa',
-      timezoneName: 'Pacific/Tarawa',
-      type: 'Canonical'
+      locationLabel: 'Tarawa',
+      name: 'Pacific/Tarawa',
+      type: 'Canonical',
+      utc: '+12:00'
     },
     'Pacific/Tongatapu': {
       countryCodes: [
         'TO'
       ],
-      currentOffset: '+13:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Tongatapu (GMT+13:00)',
       location: 'Tongatapu',
-      locationDisplayName: 'Tongatapu',
-      timezoneName: 'Pacific/Tongatapu',
-      type: 'Canonical'
+      locationLabel: 'Tongatapu',
+      name: 'Pacific/Tongatapu',
+      type: 'Canonical',
+      utc: '+13:00'
     },
     'Pacific/Truk': {
-      currentOffset: '+10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Truk (GMT+10:00)',
       location: 'Truk',
-      locationDisplayName: 'Truk',
+      locationLabel: 'Truk',
+      name: 'Pacific/Truk',
       parent: 'Pacific/Port_Moresby',
-      timezoneName: 'Pacific/Truk',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     'Pacific/Wake': {
       comments: 'Wake Island',
       countryCodes: [
         'UM'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Wake (GMT+12:00)',
       location: 'Wake',
-      locationDisplayName: 'Wake',
+      locationLabel: 'Wake',
+      name: 'Pacific/Wake',
       parent: 'Pacific/Tarawa',
-      timezoneName: 'Pacific/Wake',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:00'
     },
     'Pacific/Wallis': {
       countryCodes: [
         'WF'
       ],
-      currentOffset: '+12:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Wallis (GMT+12:00)',
       location: 'Wallis',
-      locationDisplayName: 'Wallis',
+      locationLabel: 'Wallis',
+      name: 'Pacific/Wallis',
       parent: 'Pacific/Tarawa',
-      timezoneName: 'Pacific/Wallis',
-      type: 'Link'
+      type: 'Link',
+      utc: '+12:00'
     },
     'Pacific/Yap': {
-      currentOffset: '+10:00',
       geographicArea: 'Pacific',
+      label: 'Pacific/Yap (GMT+10:00)',
       location: 'Yap',
-      locationDisplayName: 'Yap',
+      locationLabel: 'Yap',
+      name: 'Pacific/Yap',
       parent: 'Pacific/Port_Moresby',
-      timezoneName: 'Pacific/Yap',
-      type: 'Link'
+      type: 'Link',
+      utc: '+10:00'
     },
     Poland: {
-      currentOffset: '+02:00',
       geographicArea: 'Europe',
+      label: 'Poland (GMT+02:00)',
       location: 'Poland',
-      locationDisplayName: 'Poland',
+      locationLabel: 'Poland',
+      name: 'Poland',
       parent: 'Europe/Warsaw',
-      timezoneName: 'Poland',
-      type: 'Link'
+      type: 'Link',
+      utc: '+02:00'
     },
     Portugal: {
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'Portugal (GMT+01:00)',
       location: 'Portugal',
-      locationDisplayName: 'Portugal',
+      locationLabel: 'Portugal',
+      name: 'Portugal',
       parent: 'Europe/Lisbon',
-      timezoneName: 'Portugal',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     ROC: {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'ROC (GMT+08:00)',
       location: 'ROC',
-      locationDisplayName: 'ROC',
+      locationLabel: 'ROC',
+      name: 'ROC',
       parent: 'Asia/Taipei',
-      timezoneName: 'ROC',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     ROK: {
-      currentOffset: '+09:00',
       geographicArea: 'Asia',
+      label: 'ROK (GMT+09:00)',
       location: 'ROK',
-      locationDisplayName: 'ROK',
+      locationLabel: 'ROK',
+      name: 'ROK',
       parent: 'Asia/Seoul',
-      timezoneName: 'ROK',
-      type: 'Link'
+      type: 'Link',
+      utc: '+09:00'
     },
     Singapore: {
-      currentOffset: '+08:00',
       geographicArea: 'Asia',
+      label: 'Singapore (GMT+08:00)',
       location: 'Singapore',
-      locationDisplayName: 'Singapore',
+      locationLabel: 'Singapore',
+      name: 'Singapore',
       parent: 'Asia/Singapore',
-      timezoneName: 'Singapore',
-      type: 'Link'
+      type: 'Link',
+      utc: '+08:00'
     },
     Turkey: {
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'Turkey (GMT+03:00)',
       location: 'Turkey',
-      locationDisplayName: 'Turkey',
+      locationLabel: 'Turkey',
+      name: 'Turkey',
       parent: 'Europe/Istanbul',
-      timezoneName: 'Turkey',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     UCT: {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'UCT (GMT+00:00)',
       location: 'UCT',
-      locationDisplayName: 'UCT',
+      locationLabel: 'UCT',
+      name: 'UCT',
       parent: 'Etc/UTC',
-      timezoneName: 'UCT',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'US/Alaska': {
-      currentOffset: '-08:00',
       geographicArea: 'US',
+      label: 'US/Alaska (GMT-08:00)',
       location: 'Alaska',
-      locationDisplayName: 'Alaska',
+      locationLabel: 'Alaska',
+      name: 'US/Alaska',
       parent: 'America/Anchorage',
-      timezoneName: 'US/Alaska',
-      type: 'Link'
+      type: 'Link',
+      utc: '-08:00'
     },
     'US/Aleutian': {
-      currentOffset: '-09:00',
       geographicArea: 'US',
+      label: 'US/Aleutian (GMT-09:00)',
       location: 'Aleutian',
-      locationDisplayName: 'Aleutian',
+      locationLabel: 'Aleutian',
+      name: 'US/Aleutian',
       parent: 'America/Adak',
-      timezoneName: 'US/Aleutian',
-      type: 'Link'
+      type: 'Link',
+      utc: '-09:00'
     },
     'US/Arizona': {
-      currentOffset: '-07:00',
       geographicArea: 'US',
+      label: 'US/Arizona (GMT-07:00)',
       location: 'Arizona',
-      locationDisplayName: 'Arizona',
+      locationLabel: 'Arizona',
+      name: 'US/Arizona',
       parent: 'America/Phoenix',
-      timezoneName: 'US/Arizona',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'US/Central': {
-      currentOffset: '-05:00',
       geographicArea: 'US',
+      label: 'US/Central (GMT-05:00)',
       location: 'Central',
-      locationDisplayName: 'Central',
+      locationLabel: 'Central',
+      name: 'US/Central',
       parent: 'America/Chicago',
-      timezoneName: 'US/Central',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'US/East-Indiana': {
-      currentOffset: '-04:00',
       geographicArea: 'US',
+      label: 'US/East-Indiana (GMT-04:00)',
       location: 'East-Indiana',
-      locationDisplayName: 'East-Indiana',
+      locationLabel: 'East-Indiana',
+      name: 'US/East-Indiana',
       parent: 'America/Indiana/Indianapolis',
-      timezoneName: 'US/East-Indiana',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'US/Eastern': {
-      currentOffset: '-04:00',
       geographicArea: 'US',
+      label: 'US/Eastern (GMT-04:00)',
       location: 'Eastern',
-      locationDisplayName: 'Eastern',
+      locationLabel: 'Eastern',
+      name: 'US/Eastern',
       parent: 'America/New_York',
-      timezoneName: 'US/Eastern',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'US/Hawaii': {
-      currentOffset: '-10:00',
       geographicArea: 'US',
+      label: 'US/Hawaii (GMT-10:00)',
       location: 'Hawaii',
-      locationDisplayName: 'Hawaii',
+      locationLabel: 'Hawaii',
+      name: 'US/Hawaii',
       parent: 'Pacific/Honolulu',
-      timezoneName: 'US/Hawaii',
-      type: 'Link'
+      type: 'Link',
+      utc: '-10:00'
     },
     'US/Indiana-Starke': {
-      currentOffset: '-05:00',
       geographicArea: 'US',
+      label: 'US/Indiana-Starke (GMT-05:00)',
       location: 'Indiana-Starke',
-      locationDisplayName: 'Indiana-Starke',
+      locationLabel: 'Indiana-Starke',
+      name: 'US/Indiana-Starke',
       parent: 'America/Indiana/Knox',
-      timezoneName: 'US/Indiana-Starke',
-      type: 'Link'
+      type: 'Link',
+      utc: '-05:00'
     },
     'US/Michigan': {
-      currentOffset: '-04:00',
       geographicArea: 'US',
+      label: 'US/Michigan (GMT-04:00)',
       location: 'Michigan',
-      locationDisplayName: 'Michigan',
+      locationLabel: 'Michigan',
+      name: 'US/Michigan',
       parent: 'America/Detroit',
-      timezoneName: 'US/Michigan',
-      type: 'Link'
+      type: 'Link',
+      utc: '-04:00'
     },
     'US/Mountain': {
-      currentOffset: '-06:00',
       geographicArea: 'US',
+      label: 'US/Mountain (GMT-06:00)',
       location: 'Mountain',
-      locationDisplayName: 'Mountain',
+      locationLabel: 'Mountain',
+      name: 'US/Mountain',
       parent: 'America/Denver',
-      timezoneName: 'US/Mountain',
-      type: 'Link'
+      type: 'Link',
+      utc: '-06:00'
     },
     'US/Pacific': {
-      currentOffset: '-07:00',
       geographicArea: 'US',
+      label: 'US/Pacific (GMT-07:00)',
       location: 'Pacific',
-      locationDisplayName: 'Pacific',
+      locationLabel: 'Pacific',
+      name: 'US/Pacific',
       parent: 'America/Los_Angeles',
-      timezoneName: 'US/Pacific',
-      type: 'Link'
+      type: 'Link',
+      utc: '-07:00'
     },
     'US/Samoa': {
-      currentOffset: '-11:00',
       geographicArea: 'US',
+      label: 'US/Samoa (GMT-11:00)',
       location: 'Samoa',
-      locationDisplayName: 'Samoa',
+      locationLabel: 'Samoa',
+      name: 'US/Samoa',
       parent: 'Pacific/Pago_Pago',
-      timezoneName: 'US/Samoa',
-      type: 'Link'
+      type: 'Link',
+      utc: '-11:00'
     },
     UTC: {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'UTC (GMT+00:00)',
       location: 'UTC',
-      locationDisplayName: 'UTC',
+      locationLabel: 'UTC',
+      name: 'UTC',
       parent: 'Etc/UTC',
-      timezoneName: 'UTC',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     Universal: {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'Universal (GMT+00:00)',
       location: 'Universal',
-      locationDisplayName: 'Universal',
+      locationLabel: 'Universal',
+      name: 'Universal',
       parent: 'Etc/UTC',
-      timezoneName: 'Universal',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     },
     'W-SU': {
-      currentOffset: '+03:00',
       geographicArea: 'Europe',
+      label: 'W-SU (GMT+03:00)',
       location: 'W-SU',
-      locationDisplayName: 'W-SU',
+      locationLabel: 'W-SU',
+      name: 'W-SU',
       parent: 'Europe/Moscow',
-      timezoneName: 'W-SU',
-      type: 'Link'
+      type: 'Link',
+      utc: '+03:00'
     },
     WET: {
-      currentOffset: '+01:00',
       geographicArea: 'Europe',
+      label: 'WET (GMT+01:00)',
       location: 'WET',
-      locationDisplayName: 'WET',
+      locationLabel: 'WET',
+      name: 'WET',
       parent: 'Europe/Lisbon',
-      timezoneName: 'WET',
-      type: 'Link'
+      type: 'Link',
+      utc: '+01:00'
     },
     Zulu: {
-      currentOffset: '+00:00',
       geographicArea: null,
+      label: 'Zulu (GMT+00:00)',
       location: 'Zulu',
-      locationDisplayName: 'Zulu',
+      locationLabel: 'Zulu',
+      name: 'Zulu',
       parent: 'Etc/UTC',
-      timezoneName: 'Zulu',
-      type: 'Link'
+      type: 'Link',
+      utc: '+00:00'
     }
   }
 };

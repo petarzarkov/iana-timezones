@@ -1,5 +1,7 @@
+import { name } from '../../package.json';
+
 const colorIfAllowed = (colorFn: (text: string) => string) => (text: string) =>
-  !process.env.NO_COLOR ? colorFn(text) : text;
+  !process.env.TZDB_NO_COLOR ? colorFn(text) : text;
 
 const colors = {
   bold: colorIfAllowed((text) => `\x1B[1m${text}\x1B[0m`),
@@ -16,7 +18,7 @@ const colors = {
 };
 
 function step(message: string, color: keyof typeof colors = 'cyan', ctx?: unknown) {
-  const coloredMessage = colors[color](message);
+  const coloredMessage = colors[color](`[${name}] ${message}`);
   if (ctx) {
     console.log(coloredMessage, ctx);
     return;

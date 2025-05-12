@@ -16,7 +16,7 @@ export async function parseData(data: IANATzDataFiles) {
   const zoneFileOptions: Options = {
     bom: true,
     ...parseOptions,
-    columns: ['countryCodes', 'coordinates', 'timezoneName', 'comments'],
+    columns: ['countryCodes', 'coordinates', 'name', 'comments'],
   };
 
   for (const file of [legacyZoneFileName, zone1970FileName, etcFileName, backwardFileName]) {
@@ -29,7 +29,7 @@ export async function parseData(data: IANATzDataFiles) {
 
   const legacyZoneRowsByZoneName: Record<string, ZoneFileRow> = {};
   for (const row of legacyZoneFileRows) {
-    legacyZoneRowsByZoneName[row.timezoneName] = row;
+    legacyZoneRowsByZoneName[row.name] = row;
   }
 
   const zoneFileRows: ZoneFileRow[] = parseCsv(data[zone1970FileName]!, zoneFileOptions);
@@ -44,24 +44,26 @@ export async function parseData(data: IANATzDataFiles) {
 
   for (const row of zoneFileRows) {
     const countryCodes = row.countryCodes.split(',');
-    const timezoneName = row.timezoneName.trim(); // Trim to be safe
-    if (!timezoneName) {
-      logger.warn('Empty timezoneName in zone1970.tab row', { row });
+    const name = row.name.trim(); // Trim to be safe
+    if (!name) {
+      logger.warn('Empty name in zone1970.tab row', { row });
       continue;
     }
 
-    const { geographicArea, location } = extractGeographicAreaAndLocation(timezoneName);
-    canonicalTimezones[timezoneName] = {
+    const { geographicArea, location } = extractGeographicAreaAndLocation(name);
+    const currentOffset = getCurrentOffset(name);
+    canonicalTimezones[name] = {
       type: 'Canonical',
-      timezoneName,
+      name,
+      label: `${name} (GMT${currentOffset})`,
       countryCodes,
       geographicArea,
       location,
-      locationDisplayName: formatLocation(location),
+      locationLabel: formatLocation(location),
       ...(row.comments && {
         comments: row.comments,
       }),
-      currentOffset: getCurrentOffset(timezoneName),
+      utc: currentOffset,
     };
   }
 
@@ -74,19 +76,21 @@ export async function parseData(data: IANATzDataFiles) {
     }
 
     if (recordType === 'Zone') {
-      const [, timezoneName] = etcZone;
-      if (!timezoneName) {
+      const [, name] = etcZone;
+      if (!name) {
         logger.warn('no timezone name found for Zone record', { etcZone });
         continue;
       }
 
-      canonicalTimezones[timezoneName] = {
-        timezoneName,
-        locationDisplayName: null,
+      const currentOffset = getCurrentOffset(name);
+      canonicalTimezones[name] = {
+        name,
+        label: `${name} (GMT${currentOffset})`,
+        locationLabel: null,
         geographicArea: null,
         location: null,
         type: 'Canonical',
-        currentOffset: getCurrentOffset(timezoneName),
+        utc: currentOffset,
       };
     }
 
@@ -107,14 +111,16 @@ export async function parseData(data: IANATzDataFiles) {
         continue;
       }
 
+      const currentOffset = getCurrentOffset(linkName);
       linkTimezones[linkName] = {
-        timezoneName: linkName,
+        name: linkName,
+        label: `${linkName} (GMT${currentOffset})`,
         geographicArea: parent.geographicArea,
         location: parent.location,
-        locationDisplayName: parent.locationDisplayName,
+        locationLabel: parent.locationLabel,
         type: 'Link',
         parent: canonicalTimezoneName,
-        currentOffset: getCurrentOffset(linkName),
+        utc: currentOffset,
       };
 
       if (!parent.children && linkName) {
@@ -157,21 +163,23 @@ export async function parseData(data: IANATzDataFiles) {
 
     const legacyRow = legacyZoneRowsByZoneName[linkName];
 
+    const currentOffset = getCurrentOffset(linkName) || canonicalZoneRecord.utc;
     linkTimezones[linkName] = {
-      timezoneName: linkName,
+      name: linkName,
+      label: `${linkName} (GMT${currentOffset})`,
       ...(legacyRow &&
         legacyRow.countryCodes && {
           countryCodes: [legacyRow.countryCodes],
         }),
       geographicArea: geographicArea || canonicalZoneRecord.geographicArea,
       location,
-      locationDisplayName: formatLocation(location),
+      locationLabel: formatLocation(location),
       ...(legacyRow?.comments && {
         comments: legacyRow.comments,
       }),
       type: 'Link',
       parent: canonicalZoneName,
-      currentOffset: getCurrentOffset(linkName) || canonicalZoneRecord.currentOffset,
+      utc: currentOffset,
     };
   }
 

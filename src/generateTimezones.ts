@@ -3,7 +3,8 @@ import { writeFileSync, stat } from 'node:fs';
 import { logger } from './utils/logger.js';
 import { fetchData } from './helpers/fetchData.js';
 import { parseData } from './helpers/parseData.js';
-import { generateReadme } from './generateReadme.js';
+import { prependReadme } from './prependReadme.js';
+import { generateTimezonesReadme } from './generateTimezonesReadme.js';
 import { inspect } from 'node:util';
 
 export async function generateTimezones() {
@@ -22,8 +23,12 @@ export async function generateTimezones() {
     writeFileSync('previous.json', JSON.stringify({ lastModified: parsedData.lastModified }, null, 2));
     const jsObjectLiteralString = inspect(parsedData, { depth: null, compact: false, breakLength: 140 });
 
+    logger.debug('Generating timezones.ts file...');
     writeFileSync('timezones.ts', `export default ${jsObjectLiteralString};`);
-    generateReadme(parsedData);
+    logger.debug('Generating TIMEZONES.md file...');
+    generateTimezonesReadme(parsedData);
+    logger.debug('Updating README.md file...');
+    prependReadme(parsedData);
 
     stat('timezones.ts', (err, stats) => {
       if (err) {
@@ -33,7 +38,7 @@ export async function generateTimezones() {
       logger.debug('Size in kb for timezones.ts', { kb: stats.size / 1024 });
     });
 
-    logger.info('tz data successfully generated', { elapsed: Date.now() - startTs });
+    logger.info('timezone-db successfully generated', { elapsed: Date.now() - startTs });
   } catch (error) {
     logger.error('an error has occurred on processing tz data', { elapsed: Date.now() - startTs, error });
     throw error;

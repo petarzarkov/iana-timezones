@@ -63,7 +63,7 @@ const genVersion = async () => {
     const addCmd = 'git add .';
     logger.debug(`[${packageName}] Staging changes.`, { command: addCmd });
     execSync(addCmd);
-    const commit = `version bump ${newVersion}, ${commitMessage}, ${commitSha}`;
+    const commit = `Updated ${currentVersion} -> ${newVersion}, ${commitMessage}, ${commitSha}`;
     execSync(`git commit -m "${commit}"`);
     logger.info(`[${packageName}] Commit created successfully.`, { commit });
   } catch (error) {
