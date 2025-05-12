@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
 import tzdb, { TimezoneName, Timezone, CanonicalTimezone } from '../index.js';
 
-describe('timezone-db', () => {
+describe('iana-db-timezones', () => {
   const zones = Object.keys(tzdb.zones) as TimezoneName[];
 
   test('unknown zone', () => {

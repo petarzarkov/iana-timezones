@@ -1,4 +1,4 @@
-# timezone-db
+# iana-db-timezones
 
 [![cov](https://petarzarkov.github.io/iana-timezones/coverage.svg)](https://github.com/petarzarkov/iana-timezones/actions)
 [![build](https://github.com/petarzarkov/iana-timezones/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/petarzarkov/iana-timezones/actions)
@@ -49,7 +49,7 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 
 ## Overview
 
-`timezone-db` provides up-to-date information about timezones based on the IANA Time Zone Database. Unlike some other packages, this package provides richer details about each timezone, including its type (`Canonical` or `Link`), children/parent, current UTC offset, associated country codes, geographic area, location, and display name.
+`iana-db-timezones` provides up-to-date information about timezones based on the IANA Time Zone Database. Unlike some other packages, this package provides richer details about each timezone, including its type (`Canonical` or `Link`), children/parent, current UTC offset, associated country codes, geographic area, location, and display name.
 
 A key feature is the automated weekly update process. A cron job checks for updates to the IANA tz data, and if new data is available, a new version of this package is automatically generated, tested, and published to npm. This ensures you always have the latest timezone information. Using semantic versioning.
 
@@ -60,19 +60,19 @@ The package supports CommonJS (CJS), ES Modules (ESM), and includes full TypeScr
 You can install the package using npm or yarn:
 
 ```bash
-npm install timezone-db
+npm install iana-db-timezones
 ```
 
 or
 
 ```bash
-yarn add timezone-db
+yarn add iana-db-timezones
 ```
 
 or
 
 ```bash
-pnpm add timezone-db
+pnpm add iana-db-timezones
 ```
 
 ## Usage
@@ -84,13 +84,13 @@ The package exports several utilities and the raw timezone data.
 **ES Modules (ESM):**
 
 ```javascript
-import tzdb, { TimezoneName, Timezone } from 'timezone-db';
+import tzdb, { TimezoneName, Timezone } from 'iana-db-timezones';
 ```
 
 **CommonJS (CJS):
 
 ```javascript
-const tzdb = require('timezone-db');
+const tzdb = require('iana-db-timezones');
 ```
 
 ### Accessing the raw data
@@ -100,7 +100,7 @@ The raw timezone data is available as an object and an ES6 Map.
 **Raw Data Object (`zones`):**
 
 ```javascript
-import tzdb from 'timezone-db';
+import tzdb from 'iana-db-timezones';
 
 const allZones = tzdb.zones;
 console.log(allZones['Europe/Sofia']);
@@ -122,7 +122,7 @@ console.log(allZones['Europe/Sofia']);
 The data is also available as an ES6 Map for potentially better performance when looking up zones by name.
 
 ```javascript
-import tzdb from 'timezone-db';
+import tzdb from 'iana-db-timezones';
 
 const zoneMap = tzdb.map;
 console.log(zoneMap.get('America/New_York'));
@@ -150,7 +150,7 @@ The package provides helper functions for common tasks.
 Returns the timezone object for a given zone name, or `null` if not found.
 
 ```javascript
-import { getZone } from 'timezone-db';
+import { getZone } from 'iana-db-timezones';
 
 const sofiaZone = getZone('Europe/Sofia');
 console.log(sofiaZone);
@@ -166,7 +166,7 @@ console.log(unknownZone);
 Returns the current UTC offset for a timezone in `+HH:MM` or `-HH:MM` format, or `null` if the zone or offset is not available.
 
 ```javascript
-import { getZoneUTC } from 'timezone-db';
+import { getZoneUTC } from 'iana-db-timezones';
 
 console.log(getZoneUTC('Europe/Sofia'));
 // => '+03:00'
@@ -183,7 +183,7 @@ console.log(getZoneUTC('Invalid/Timezone'));
 Returns the current ISO 8601 date-time string adjusted to the timezone's current offset, or `null` if the zone or offset is not available or invalid. The format is `YYYY-MM-DDTHH:mm:ss.sss+HH:MM` or `YYYY-MM-DDTHH:mm:ss.sss-HH:MM`.
 
 ```javascript
-import { getZoneISODate } from 'timezone-db';
+import { getZoneISODate } from 'iana-db-timezones';
 
 console.log(getZoneISODate('Europe/Sofia'));
 // => '2025-05-12T08:25:49.322+03:00' (example output)
@@ -200,7 +200,7 @@ console.log(getZoneISODate('Invalid/Timezone'));
 The package is written in TypeScript and includes full type definitions. You can import the types directly:
 
 ```typescript
-import type { CanonicalTimezone, LinkTimezone, Timezone, TimezoneName } from 'timezone-db';
+import type { CanonicalTimezone, LinkTimezone, Timezone, TimezoneName } from 'iana-db-timezones';
 
 const zone: Timezone | null = ianatz.getZone('Europe/London');
 

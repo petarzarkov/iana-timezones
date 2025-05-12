@@ -41,7 +41,7 @@ export async function generateTimezones() {
       logger.debug('Size in kb for timezones.ts', { kb: stats.size / 1024 });
     });
 
-    logger.info('timezone-db successfully generated', { elapsed: Date.now() - startTs });
+    logger.info('iana-db-timezones successfully generated', { elapsed: Date.now() - startTs });
   } catch (error) {
     logger.error('an error has occurred on processing tz data', { elapsed: Date.now() - startTs, error });
     throw error;

@@ -1,5 +1,5 @@
 {
-  "name": "timezone-db",
+  "name": "iana-db-timezones",
   "description": "Auto generated timezones from iana db https://www.iana.org/time-zones",
   "type": "module",
   "main": "dist/cjs/index.js",
