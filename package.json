@@ -23,7 +23,7 @@
     "url": "https://github.com/petarzarkov"
   },
   "license": "MIT",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "engines": {
     "node": ">= 22.15.0",
     "pnpm": ">= 10.9.0"
