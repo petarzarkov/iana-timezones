@@ -7,7 +7,7 @@ import { prependReadme } from './prependReadme.js';
 import { generateTimezonesReadme } from './generateTimezonesReadme.js';
 import { inspect } from 'node:util';
 
-export async function generateTimezones(overrideVersion?: string) {
+export async function generateTimezones() {
   const startTs = Date.now();
   try {
     const latestData = await fetchData({
@@ -19,9 +19,6 @@ export async function generateTimezones(overrideVersion?: string) {
     }
 
     const parsedData = await parseData(latestData);
-    if (overrideVersion) {
-      parsedData.version = overrideVersion;
-    }
 
     writeFileSync('previous.json', JSON.stringify({ lastModified: parsedData.lastModified }, null, 2));
     const jsObjectLiteralString = inspect(parsedData, { depth: null, compact: false, breakLength: 140 });
