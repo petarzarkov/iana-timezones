@@ -30,6 +30,9 @@ export async function generateTimezones() {
     logger.debug('Updating README.md file...');
     prependReadme(parsedData);
 
+    logger.debug('Generating timezones.json file...');
+    writeFileSync('timezones.json', JSON.stringify(parsedData, null, 2));
+
     stat('timezones.ts', (err, stats) => {
       if (err) {
         logger.warn('Error on stat timezones.ts', { err });

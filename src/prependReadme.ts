@@ -14,6 +14,7 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 - No external dependencies
 - Weekly cron job to check for new iana timezone data
 - Can be used both in both Node.js and Browser
+- If you just need the json data - [timezones.json](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.json)
 
 The fields for each timezone object in the timezones-db are as follows:
 

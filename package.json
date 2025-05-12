@@ -1,5 +1,6 @@
 {
   "name": "timezone-db",
+  "description": "Auto generated timezones from iana db https://www.iana.org/time-zones",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -11,12 +12,14 @@
       "import": "./dist/esm/index.js"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "LICENSE",
     "README.md",
     "dist"
   ],
-  "description": "Auto generated timezones from iana db https://www.iana.org/time-zones",
   "author": {
     "name": "Petar Zarkov",
     "email": "pzarko1@gmail.com",
