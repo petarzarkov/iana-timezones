@@ -7,6 +7,8 @@ import { version, name } from '../package.json';
 export function generateReadme(parsedData: ParsedData): void {
   const header = `# ${name}
 
+[![cov](https://petarzarkov.github.io/iana-timezones/badges/coverage.svg)](https://github.com/petarzarkov/iana-timezones/actions)
+
 Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)

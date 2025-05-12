@@ -11,6 +11,7 @@ export default defineConfig({
       },
       provider: 'v8',
       include: ['index.ts', 'timezones.ts'],
+      reporter: ['text', 'html', 'json', 'json-summary'],
       reportOnFailure: true,
     },
   },
