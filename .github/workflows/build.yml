@@ -14,6 +14,11 @@ jobs:
     strategy:
       matrix:
         node-version: [v22.15]
+        include:
+          - branch: main
+            artifact: main
+          - branch: ${{ github.head_ref }}
+            artifact: pull-request
     name: Build
     steps:
       - name: Checkout
@@ -37,9 +42,11 @@ jobs:
         run: pnpm run lint
       - name: Test Coverage
         run: pnpm run test:cov
-      - name: 'Report Coverage'
-        if: always()
-        uses: davelosert/vitest-coverage-report-action@v2.8.2
+      - name: 'Upload Coverage'
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-${{ matrix.artifact }}
+          path: coverage
       - name: Version and generate timezones
         env:
           ORIGINAL_COMMIT_SHA: ${{ github.sha }}
@@ -49,3 +56,21 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           pnpm run versioning
+
+  report-coverage:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Download Coverage Artifacts'
+        uses: actions/download-artifact@v4
+        with:
+          name: coverage-pull-request
+          path: coverage
+      - uses: actions/download-artifact@v4
+        with:
+          name: coverage-main
+          path: coverage-main
+      - name: 'Report Coverage'
+        uses: davelosert/vitest-coverage-report-action@v2
+        with:
+          json-summary-compare-path: coverage-main/coverage-summary.json
