@@ -42,7 +42,7 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 - **Zones MD**: [timezones](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
 - **Files used from IANA DB**: \`${parsedData.filesUsed.join(', ')}\`
 
-${separator}\n`;
+${separator}`;
 
   const currentReadmeContent = readFileSync('README.md', 'utf8');
 

@@ -52,7 +52,7 @@ const genVersion = async () => {
   execSync(`npm version ${newVersion} --no-git-tag-version`).toString();
   logger.info(`[${packageName}] Bumped package.json version.`);
 
-  await generateTimezones();
+  await generateTimezones(newVersion);
 
   if (!process.env.CI) {
     logger.info(`[${packageName}] Running outside CI environment. Skipping git add, commit, tag, push.`);
