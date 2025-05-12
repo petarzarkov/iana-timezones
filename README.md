@@ -15,24 +15,24 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 
 The fields for each timezone object in the timezones-db are as follows:
 
-- `name`: The standard IANA Time Zone Database identifier (e.g., `Europe/Rome`, `Europe/London`).
-- `label`: A display string containing the name followed by the current UTC offset (e.g., `Europe/Rome (GMT+02:00)`).
-- `utc`: The current static UTC offset from Coordinated Universal Time (UTC) in `+HH:MM` or `-HH:MM` format (e.g., `+02:00`).
+- `name`: The standard IANA Time Zone Database identifier (e.g., `America/Phoenix`, `Europe/London`).
+- `label`: A display string containing the name followed by the current UTC offset (e.g., `America/Phoenix (GMT-07:00)`).
+- `utc`: The current static UTC offset from Coordinated Universal Time (UTC) in `+HH:MM` or `-HH:MM` format (e.g., `-07:00`).
 This offset reflects the current state (including Daylight Saving Time if applicable).
-- `locationLabel`: A human-readable name for the primary city or location associated with the timezone (e.g., `Rome`, `London`).
+- `locationLabel`: A human-readable name for the primary city or location associated with the timezone (e.g., `Phoenix`, `London`).
 - `countryCodes`: An array of `ISO 3166-1 alpha-2` country codes associated with this timezone (e.g. `['KI','MH','TV','UM','WF'`)
-- `geographicArea`: The continent or ocean region the timezone is located in (e.g., `Europe`, `Europe`, `Pacific`).
+- `geographicArea`: The continent or ocean region the timezone is located in (e.g., `America`, `Europe`, `Pacific`).
 - `type`: Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.
 - `parent`: (Present for Link types) The name of the canonical timezone that this link points to.
 - `comments`: (Optional) Additional notes about the zone.
 - `children`: (Present for Canonical types) An array of name values for the zones that are links pointing to this canonical zone.
-- `location`: The raw location name used in the IANA database (e.g. `Rome`).
+- `location`: The raw location name used in the IANA database (e.g. `Phoenix`).
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
-- **Package version**: 0.1.1
+- **Package version**: 0.1.2
 - **IANA DB Version**: 2025b
-- **Updated**: Mon, 12 May 2025 12:50:07 GMT
+- **Updated**: Mon, 12 May 2025 12:57:38 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Number of zones**: 597
 - **Zones Data File**: [timezones.ts](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.ts)
@@ -40,6 +40,7 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 - **Files used from IANA DB**: `zone.tab, zone1970.tab, etcetera, backward`
 
 ---
+
 
 
 
