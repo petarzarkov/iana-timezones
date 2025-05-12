@@ -1,12 +1,14 @@
 # iana-timezones
 
+[![cov](https://petarzarkov.github.io/iana-timezones/badges/coverage.svg)](https://github.com/petarzarkov/iana-timezones/actions)
+
 Auto generated timezones from IANA DB [tzdata-latest.tar.gz](https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz)
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
-- **Package version**: 0.0.8
+- **Package version**: 0.0.9
 - **IANA DB Version**: 2025b
-- **Updated**: Mon, 12 May 2025 06:51:02 GMT
+- **Updated**: Mon, 12 May 2025 08:03:50 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Number of zones**: 597
 - **Zones**: [timezones.ts](./timezones.ts)

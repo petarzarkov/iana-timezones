@@ -37,9 +37,6 @@ jobs:
         run: pnpm run lint
       - name: Test Coverage
         run: pnpm run test:cov
-      - name: Update Coverage Badge
-        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
-        uses: we-cli/coverage-badge-action@main
       - name: Version and generate timezones
         env:
           ORIGINAL_COMMIT_SHA: ${{ github.sha }}
@@ -49,3 +46,6 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           pnpm run versioning
+      - name: Update Coverage Badge
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        uses: we-cli/coverage-badge-action@main
