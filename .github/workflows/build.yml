@@ -67,6 +67,7 @@ jobs:
           user_email: '41898282+github-actions[bot]@users.noreply.github.com'
           commit_message: 'Deploy coverage report [skip ci]'
       - name: Version and generate timezones
+        id: versioning
         env:
           ORIGINAL_COMMIT_SHA: ${{ github.sha }}
           ORIGINAL_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
@@ -74,12 +75,13 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          pnpm run versioning
+          OUTPUT=$(pnpm run versioning)
+          echo "result=$OUTPUT" >> "$GITHUB_OUTPUT"
       - name: Build
-        if: ${{ success() }}
+        if: steps.versioning.outputs.result != 'SKIP'
         run: pnpm build
       - name: Publish
-        if: ${{ success() }}
+        if: steps.versioning.outputs.result != 'SKIP'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: pnpm publish --access public

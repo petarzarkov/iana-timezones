@@ -25,7 +25,7 @@ export const getNewVersion = (currentVersion: string): `${string}.${string}.${st
   return `${major}.${minor}.${patch}`;
 };
 
-const genVersion = async () => {
+const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
   const commitSha = process.env.ORIGINAL_COMMIT_SHA || execSync('git rev-parse HEAD').toString().trim();
   const commitMessage =
     process.env.ORIGINAL_COMMIT_MESSAGE?.replace(/\n/g, ' ') || execSync('git log -1 --pretty=%B').toString().trim();
@@ -42,7 +42,7 @@ const genVersion = async () => {
   const diffOutput = execSync(checkDiffCmd, { stdio: 'pipe' }).toString().trim() || null;
   if (!diffOutput) {
     logger.info(`[${packageName}] timezones.ts has no changes between ${commitsToCompare}. Skipping versioning.`);
-    return;
+    return 'SKIP';
   }
 
   logger.info(`[${packageName}] timezones.ts has changes between ${commitsToCompare}. Proceeding with versioning.`, {
@@ -56,7 +56,7 @@ const genVersion = async () => {
 
   if (!process.env.CI) {
     logger.info(`[${packageName}] Running outside CI environment. Skipping git add, commit, tag, push.`);
-    return;
+    return 'SKIP';
   }
 
   try {
@@ -106,6 +106,7 @@ const genVersion = async () => {
   }
 
   logger.debug(`[${packageName}] Versioning process completed.`, { finalVersion: newVersion });
+  return 'SUCCESS';
 };
 
 await genVersion();
