@@ -16,7 +16,7 @@ export async function parseData(data: IANATzDataFiles) {
   const zoneFileOptions: Options = {
     bom: true,
     ...parseOptions,
-    columns: ['countryCodes', 'coordinates', 'name', 'comments'],
+    columns: ['countryCodes', 'coordinates', 'tzCode', 'comments'],
   };
 
   for (const file of [legacyZoneFileName, zone1970FileName, etcFileName, backwardFileName]) {
@@ -29,7 +29,7 @@ export async function parseData(data: IANATzDataFiles) {
 
   const legacyZoneRowsByZoneName: Record<string, ZoneFileRow> = {};
   for (const row of legacyZoneFileRows) {
-    legacyZoneRowsByZoneName[row.name] = row;
+    legacyZoneRowsByZoneName[row.tzCode] = row;
   }
 
   const zoneFileRows: ZoneFileRow[] = parseCsv(data[zone1970FileName]!, zoneFileOptions);
@@ -44,18 +44,18 @@ export async function parseData(data: IANATzDataFiles) {
 
   for (const row of zoneFileRows) {
     const countryCodes = row.countryCodes.split(',');
-    const name = row.name.trim(); // Trim to be safe
-    if (!name) {
-      logger.warn('Empty name in zone1970.tab row', { row });
+    const tzCode = row.tzCode.trim(); // Trim to be safe
+    if (!tzCode) {
+      logger.warn('Empty tzCode in zone1970.tab row', { row });
       continue;
     }
 
-    const { geographicArea, location } = extractGeographicAreaAndLocation(name);
-    const currentOffset = getCurrentOffset(name);
-    canonicalTimezones[name] = {
+    const { geographicArea, location } = extractGeographicAreaAndLocation(tzCode);
+    const currentOffset = getCurrentOffset(tzCode);
+    canonicalTimezones[tzCode] = {
       type: 'Canonical',
-      name,
-      label: `${name} (GMT${currentOffset})`,
+      tzCode,
+      label: `${tzCode} (GMT${currentOffset})`,
       countryCodes,
       geographicArea,
       location,
@@ -76,16 +76,16 @@ export async function parseData(data: IANATzDataFiles) {
     }
 
     if (recordType === 'Zone') {
-      const [, name] = etcZone;
-      if (!name) {
-        logger.warn('no timezone name found for Zone record', { etcZone });
+      const [, tzCode] = etcZone;
+      if (!tzCode) {
+        logger.warn('no timezone tzCode found for Zone record', { etcZone });
         continue;
       }
 
-      const currentOffset = getCurrentOffset(name);
-      canonicalTimezones[name] = {
-        name,
-        label: `${name} (GMT${currentOffset})`,
+      const currentOffset = getCurrentOffset(tzCode);
+      canonicalTimezones[tzCode] = {
+        tzCode,
+        label: `${tzCode} (GMT${currentOffset})`,
         locationLabel: null,
         geographicArea: null,
         location: null,
@@ -95,26 +95,26 @@ export async function parseData(data: IANATzDataFiles) {
     }
 
     if (recordType === 'Link') {
-      const [, canonicalTimezoneName, , , , linkName] = etcZone;
+      const [, canonicalTimezoneName, , , , linkCode] = etcZone;
       if (!canonicalTimezoneName) {
         logger.warn('File etcetera. No canonical zone found for link', { etcZone });
         continue;
       }
-      if (!linkName) {
-        logger.warn('File etcetera. No link name found for link', { etcZone });
+      if (!linkCode) {
+        logger.warn('File etcetera. No link tzCode found for link', { etcZone });
         continue;
       }
 
       const parent = canonicalTimezones[canonicalTimezoneName];
       if (!parent) {
-        logger.warn(`File etcetera. No parent found for: ${linkName}`, { etcZone });
+        logger.warn(`File etcetera. No parent found for: ${linkCode}`, { etcZone });
         continue;
       }
 
-      const currentOffset = getCurrentOffset(linkName);
-      linkTimezones[linkName] = {
-        name: linkName,
-        label: `${linkName} (GMT${currentOffset})`,
+      const currentOffset = getCurrentOffset(linkCode);
+      linkTimezones[linkCode] = {
+        tzCode: linkCode,
+        label: `${linkCode} (GMT${currentOffset})`,
         geographicArea: parent.geographicArea,
         location: parent.location,
         locationLabel: parent.locationLabel,
@@ -123,11 +123,11 @@ export async function parseData(data: IANATzDataFiles) {
         utc: currentOffset,
       };
 
-      if (!parent.children && linkName) {
+      if (!parent.children && linkCode) {
         parent.children = [];
       }
       if (parent.children) {
-        parent.children.push(linkName);
+        parent.children.push(linkCode);
       }
     }
   }
@@ -136,14 +136,14 @@ export async function parseData(data: IANATzDataFiles) {
     const filteredLinkRow = linkRow.filter((value) => value !== '');
 
     // Assuming all rows are links
-    const [, canonicalZoneName, linkName] = filteredLinkRow;
+    const [, canonicalZoneName, linkCode] = filteredLinkRow;
 
     if (!canonicalZoneName) {
-      logger.warn(`File backward. No canonical zone for name.`, { filteredLinkRow });
+      logger.warn(`File backward. No canonical zone for tzCode.`, { filteredLinkRow });
       continue;
     }
-    if (!linkName) {
-      logger.warn(`File backward. No canonical link name.`, { filteredLinkRow });
+    if (!linkCode) {
+      logger.warn(`File backward. No canonical link tzCode.`, { filteredLinkRow });
       continue;
     }
     const canonicalZoneRecord = canonicalTimezones[canonicalZoneName];
@@ -152,21 +152,21 @@ export async function parseData(data: IANATzDataFiles) {
       continue;
     }
 
-    if (!canonicalZoneRecord.children && linkName) {
+    if (!canonicalZoneRecord.children && linkCode) {
       canonicalZoneRecord.children = [];
     }
     if (canonicalZoneRecord.children) {
-      canonicalZoneRecord.children.push(linkName);
+      canonicalZoneRecord.children.push(linkCode);
     }
 
-    const { geographicArea, location } = extractGeographicAreaAndLocation(linkName);
+    const { geographicArea, location } = extractGeographicAreaAndLocation(linkCode);
 
-    const legacyRow = legacyZoneRowsByZoneName[linkName];
+    const legacyRow = legacyZoneRowsByZoneName[linkCode];
 
-    const currentOffset = getCurrentOffset(linkName) || canonicalZoneRecord.utc;
-    linkTimezones[linkName] = {
-      name: linkName,
-      label: `${linkName} (GMT${currentOffset})`,
+    const currentOffset = getCurrentOffset(linkCode) || canonicalZoneRecord.utc;
+    linkTimezones[linkCode] = {
+      tzCode: linkCode,
+      label: `${linkCode} (GMT${currentOffset})`,
       ...(legacyRow &&
         legacyRow.countryCodes && {
           countryCodes: [legacyRow.countryCodes],

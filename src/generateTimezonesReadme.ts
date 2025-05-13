@@ -13,12 +13,12 @@ export function generateTimezonesReadme(parsedData: ParsedData): void {
     zonesByArea.get(area)!.push(zone);
   }
 
-  function createMarkdownLink(name: string): string {
-    const anchor = name
+  function createMarkdownLink(tzCode: string): string {
+    const anchor = tzCode
       .toLowerCase()
       .replace(/[\/_]/g, '-')
       .replace(/[^a-z0-9-]/g, '');
-    return `[\`${name}\`]\(#${anchor}\)`;
+    return `[\`${tzCode}\`]\(#${anchor}\)`;
   }
 
   const timezoneTableContent = Array.from(zonesByArea.entries())
@@ -27,9 +27,9 @@ export function generateTimezonesReadme(parsedData: ParsedData): void {
       const tableHeader = `## ${area}\n\n| Location | Timezone | Type | Country Codes | Current Offset | Link |\n|----------|----------|------|---------------|----------------|------|\n`;
 
       const tableRows = zones
-        .sort((a, b) => a.name.localeCompare(b.name))
+        .sort((a, b) => a.tzCode.localeCompare(b.tzCode))
         .map((zone) => {
-          const rowAnchor = zone.name
+          const rowAnchor = zone.tzCode
             .toLowerCase()
             .replace(/[\/_]/g, '-')
             .replace(/[^a-z0-9-]/g, '');
@@ -43,7 +43,7 @@ export function generateTimezonesReadme(parsedData: ParsedData): void {
             linkText = `Parent: ${createMarkdownLink(zone.parent)}`;
           }
 
-          return `| <a name="${rowAnchor}"></a>${zone.locationLabel ?? '-'} | \`${zone.name}\` | ${zone.type} | ${countryCodes} | ${offset} | ${linkText} |`;
+          return `| <a name="${rowAnchor}"></a>${zone.locationLabel ?? '-'} | \`${zone.tzCode}\` | ${zone.type} | ${countryCodes} | ${offset} | ${linkText} |`;
         })
         .join('\n');
 

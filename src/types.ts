@@ -14,13 +14,13 @@ export interface BaseTimezone {
   /**
    * The standard IANA Time Zone Database identifier (e.g., `Asia/Taipei`, `Europe/London`).
    */
-  name: string;
+  tzCode: string;
   /**
-   * Indicates if the entry is a \`Canonical\` timezone or a \`Link\` (an alias) to another timezone.
+   * Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.
    */
   type: 'Canonical' | 'Link';
   /**
-   * A display string containing the name followed by the current UTC offset (e.g., `Asia/Taipei (GMT+08:00)`).
+   * A display string containing the tzCode followed by the current UTC offset (e.g., `Asia/Taipei (GMT+08:00)`).
    */
   label: string;
   /**
@@ -28,11 +28,11 @@ export interface BaseTimezone {
    */
   countryCodes?: string[];
   /**
-   * The continent or ocean region the timezone is located in (e.g., \`${rz.geographicArea}\`, \`Europe\`, \`Pacific\`).
+   * The continent or ocean region the timezone is located in (e.g., , `Europe`, `Pacific`).
    */
   geographicArea: string | null;
   /**
-   * The raw location name used in the IANA database (often the same as the last part of the name, but can differ).
+   * The raw location name used in the IANA database (often the same as the last part of the tzCode, but can differ).
    */
   location: string | null;
   /**
@@ -53,7 +53,7 @@ This offset reflects the current state (including Daylight Saving Time if applic
 export interface CanonicalTimezone extends BaseTimezone {
   type: 'Canonical';
   /**
-   * (Present for Canonical types) An array of name values for the zones that are links pointing to this canonical zone.
+   * (Present for Canonical types) An array of tzCode values for the zones that are links pointing to this canonical zone.
    */
   children?: string[];
 }
@@ -61,7 +61,7 @@ export interface CanonicalTimezone extends BaseTimezone {
 export interface LinkTimezone extends BaseTimezone {
   type: 'Link';
   /**
-   * (Present for Link types) The name of the canonical timezone that this link points to.
+   * (Present for Link types) The tzCode of the canonical timezone that this link points to.
    */
   parent: string | null;
 }
@@ -69,6 +69,6 @@ export interface LinkTimezone extends BaseTimezone {
 export interface ZoneFileRow {
   countryCodes: string;
   coordinates: string;
-  name: string;
+  tzCode: string;
   comments: string;
 }

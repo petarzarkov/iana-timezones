@@ -6,23 +6,21 @@ export function prependReadme(parsedData: ParsedData): void {
   const zoneValues = Object.values(parsedData.zones);
   const rz = zoneValues[Math.floor(Math.random() * zoneValues.length)]!;
 
-  const separator = '📜';
+  const separator = '******';
   const fieldsTable = `The fields for each timezone object are as follows:
-
   | Field Name     | Description                                                                                                | Example Value             |
   |----------------|------------------------------------------------------------------------------------------------------------|---------------------------|
-  | \`name\`         | The standard IANA Time Zone Database identifier (tz code).                                                 | \`${rz.name}\`            |
-  | \`label\`        | A display string combining the \`name\` and the current UTC offset.                                        | \`${rz.label}\`           |
+  | \`tzCode\`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | \`${rz.tzCode}\`            |
+  | \`label\`        | A display string combining the \`tzCode\` and the current UTC offset.                                        | \`${rz.label}\`           |
   | \`utc\`          | The current static UTC offset from UTC in \`+HH:MM\` or \`-HH:MM\` format. Reflects current DST.         | \`${rz.utc}\`             |
   | \`locationLabel\`| A human-readable name for the primary city or location associated with the timezone.                         | \`${rz.locationLabel}\`   |
   | \`countryCodes\` | An array of \`ISO 3166-1 alpha-2\` country codes associated with this timezone.                            | \`['US']\` or \`['KI', ...]\` |
   | \`geographicArea\`| The continent or ocean region the timezone is located in.                                                  | \`${rz.geographicArea}\`  |
   | \`type\`         | Indicates if the entry is a \`Canonical\` timezone or a \`Link\` (an alias) to another timezone.             | \`Canonical\` or \`Link\` |
-  | \`parent\`       | (Present for \`Link\` types) The \`name\` of the canonical timezone that this link points to.              | \`Europe/London\`         |
+  | \`parent\`       | (Present for \`Link\` types) The \`tzCode\` of the canonical timezone that this link points to.              | \`Europe/London\`         |
   | \`comments\`     | (Optional) Additional notes from the IANA database.                                                      | \`'Mountain (most areas)'\`         |
-  | \`children\`     | (Present for \`Canonical\` types) An array of \`name\` values for the zones that are links pointing to this. | \`['EST5EDT', ...]\`      |
-  | \`location\`     | The raw location name used in the IANA database (e.g., the last part of the \`name\` before underscores).    | \`${rz.location}\`        |
-  
+  | \`children\`     | (Present for \`Canonical\` types) An array of \`tzCode\` values for the zones that are links pointing to this. | \`['EST5EDT', ...]\`      |
+  | \`location\`     | The raw location name used in the IANA database (e.g., the last part of the \`tzCode\` before underscores).    | \`${rz.location}\`        |
   `;
   const dynamicHeader = `${separator}
 
@@ -42,7 +40,8 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 - **Last Modified**: ${parsedData.lastModified}
 - **Number of zones**: ${parsedData.numberOfZones}
 - **Zones Data File**: [timezones.ts](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.ts)
-- **Zones MD**: [timezones](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
+- **Zones MD**: [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
+- **Tests Coverage**: [coverage](https://petarzarkov.github.io/iana-timezones)
 - **Files used from IANA DB**: \`${parsedData.filesUsed.join(', ')}\`
 
 ${separator}`;

@@ -4,10 +4,10 @@ const futureOffsets: Record<string, string> = {
   'America/Coyhaique': '-03:00',
 };
 
-export function getCurrentOffset(name: string): string | null {
+export function getCurrentOffset(tzCode: string): string | null {
   try {
     const formatter = new Intl.DateTimeFormat('en-US', {
-      timeZone: name,
+      timeZone: tzCode,
       timeZoneName: 'shortOffset',
     });
 
@@ -17,7 +17,7 @@ export function getCurrentOffset(name: string): string | null {
 
     try {
       const isoFormatter = new Intl.DateTimeFormat('en-US', {
-        timeZone: name,
+        timeZone: tzCode,
         timeZoneName: 'longOffset',
       });
       const isoParts = isoFormatter.formatToParts(new Date());
@@ -27,7 +27,7 @@ export function getCurrentOffset(name: string): string | null {
         return formattedPart !== '' ? formattedPart : '+00:00';
       }
     } catch (isoErr) {
-      logger.warn(`Failed to get longOffset for ${name}:`, isoErr);
+      logger.warn(`Failed to get longOffset for ${tzCode}:`, isoErr);
       return null;
     }
 
@@ -37,10 +37,10 @@ export function getCurrentOffset(name: string): string | null {
 
     return offsetString || null;
   } catch (error) {
-    if (futureOffsets[name]) {
-      return futureOffsets[name];
+    if (futureOffsets[tzCode]) {
+      return futureOffsets[tzCode];
     } else {
-      logger.warn(`Could not get offset for timezone "${name}":`, error);
+      logger.warn(`Could not get offset for timezone "${tzCode}":`, error);
     }
 
     return null;

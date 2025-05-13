@@ -1,7 +1,7 @@
 export default {
   version: '2025b',
   lastModified: 'Sat, 22 Mar 2025 21:45:31 GMT',
-  updatedAt: 'Mon, 12 May 2025 15:20:30 GMT',
+  updatedAt: 'Tue, 13 May 2025 06:45:52 GMT',
   numberOfZones: 597,
   filesUsed: [
     'zone.tab',
@@ -44,8 +44,8 @@ export default {
       label: 'Africa/Abidjan (GMT+00:00)',
       location: 'Abidjan',
       locationLabel: 'Abidjan',
-      name: 'Africa/Abidjan',
       type: 'Canonical',
+      tzCode: 'Africa/Abidjan',
       utc: '+00:00'
     },
     'Africa/Accra': {
@@ -56,9 +56,9 @@ export default {
       label: 'Africa/Accra (GMT+00:00)',
       location: 'Accra',
       locationLabel: 'Accra',
-      name: 'Africa/Accra',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Accra',
       utc: '+00:00'
     },
     'Africa/Addis_Ababa': {
@@ -69,9 +69,9 @@ export default {
       label: 'Africa/Addis_Ababa (GMT+03:00)',
       location: 'Addis_Ababa',
       locationLabel: 'Addis Ababa',
-      name: 'Africa/Addis_Ababa',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Africa/Addis_Ababa',
       utc: '+03:00'
     },
     'Africa/Algiers': {
@@ -82,8 +82,8 @@ export default {
       label: 'Africa/Algiers (GMT+01:00)',
       location: 'Algiers',
       locationLabel: 'Algiers',
-      name: 'Africa/Algiers',
       type: 'Canonical',
+      tzCode: 'Africa/Algiers',
       utc: '+01:00'
     },
     'Africa/Asmara': {
@@ -94,9 +94,9 @@ export default {
       label: 'Africa/Asmara (GMT+03:00)',
       location: 'Asmara',
       locationLabel: 'Asmara',
-      name: 'Africa/Asmara',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Africa/Asmara',
       utc: '+03:00'
     },
     'Africa/Asmera': {
@@ -104,9 +104,9 @@ export default {
       label: 'Africa/Asmera (GMT+03:00)',
       location: 'Asmera',
       locationLabel: 'Asmera',
-      name: 'Africa/Asmera',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Africa/Asmera',
       utc: '+03:00'
     },
     'Africa/Bamako': {
@@ -117,9 +117,9 @@ export default {
       label: 'Africa/Bamako (GMT+00:00)',
       location: 'Bamako',
       locationLabel: 'Bamako',
-      name: 'Africa/Bamako',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Bamako',
       utc: '+00:00'
     },
     'Africa/Bangui': {
@@ -130,9 +130,9 @@ export default {
       label: 'Africa/Bangui (GMT+01:00)',
       location: 'Bangui',
       locationLabel: 'Bangui',
-      name: 'Africa/Bangui',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Bangui',
       utc: '+01:00'
     },
     'Africa/Banjul': {
@@ -143,9 +143,9 @@ export default {
       label: 'Africa/Banjul (GMT+00:00)',
       location: 'Banjul',
       locationLabel: 'Banjul',
-      name: 'Africa/Banjul',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Banjul',
       utc: '+00:00'
     },
     'Africa/Bissau': {
@@ -156,8 +156,8 @@ export default {
       label: 'Africa/Bissau (GMT+00:00)',
       location: 'Bissau',
       locationLabel: 'Bissau',
-      name: 'Africa/Bissau',
       type: 'Canonical',
+      tzCode: 'Africa/Bissau',
       utc: '+00:00'
     },
     'Africa/Blantyre': {
@@ -168,9 +168,9 @@ export default {
       label: 'Africa/Blantyre (GMT+02:00)',
       location: 'Blantyre',
       locationLabel: 'Blantyre',
-      name: 'Africa/Blantyre',
       parent: 'Africa/Maputo',
       type: 'Link',
+      tzCode: 'Africa/Blantyre',
       utc: '+02:00'
     },
     'Africa/Brazzaville': {
@@ -181,9 +181,9 @@ export default {
       label: 'Africa/Brazzaville (GMT+01:00)',
       location: 'Brazzaville',
       locationLabel: 'Brazzaville',
-      name: 'Africa/Brazzaville',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Brazzaville',
       utc: '+01:00'
     },
     'Africa/Bujumbura': {
@@ -194,9 +194,9 @@ export default {
       label: 'Africa/Bujumbura (GMT+02:00)',
       location: 'Bujumbura',
       locationLabel: 'Bujumbura',
-      name: 'Africa/Bujumbura',
       parent: 'Africa/Maputo',
       type: 'Link',
+      tzCode: 'Africa/Bujumbura',
       utc: '+02:00'
     },
     'Africa/Cairo': {
@@ -210,8 +210,8 @@ export default {
       label: 'Africa/Cairo (GMT+03:00)',
       location: 'Cairo',
       locationLabel: 'Cairo',
-      name: 'Africa/Cairo',
       type: 'Canonical',
+      tzCode: 'Africa/Cairo',
       utc: '+03:00'
     },
     'Africa/Casablanca': {
@@ -222,8 +222,8 @@ export default {
       label: 'Africa/Casablanca (GMT+01:00)',
       location: 'Casablanca',
       locationLabel: 'Casablanca',
-      name: 'Africa/Casablanca',
       type: 'Canonical',
+      tzCode: 'Africa/Casablanca',
       utc: '+01:00'
     },
     'Africa/Ceuta': {
@@ -235,8 +235,8 @@ export default {
       label: 'Africa/Ceuta (GMT+02:00)',
       location: 'Ceuta',
       locationLabel: 'Ceuta',
-      name: 'Africa/Ceuta',
       type: 'Canonical',
+      tzCode: 'Africa/Ceuta',
       utc: '+02:00'
     },
     'Africa/Conakry': {
@@ -247,9 +247,9 @@ export default {
       label: 'Africa/Conakry (GMT+00:00)',
       location: 'Conakry',
       locationLabel: 'Conakry',
-      name: 'Africa/Conakry',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Conakry',
       utc: '+00:00'
     },
     'Africa/Dakar': {
@@ -260,9 +260,9 @@ export default {
       label: 'Africa/Dakar (GMT+00:00)',
       location: 'Dakar',
       locationLabel: 'Dakar',
-      name: 'Africa/Dakar',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Dakar',
       utc: '+00:00'
     },
     'Africa/Dar_es_Salaam': {
@@ -273,9 +273,9 @@ export default {
       label: 'Africa/Dar_es_Salaam (GMT+03:00)',
       location: 'Dar_es_Salaam',
       locationLabel: 'Dar es_Salaam',
-      name: 'Africa/Dar_es_Salaam',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Africa/Dar_es_Salaam',
       utc: '+03:00'
     },
     'Africa/Djibouti': {
@@ -286,9 +286,9 @@ export default {
       label: 'Africa/Djibouti (GMT+03:00)',
       location: 'Djibouti',
       locationLabel: 'Djibouti',
-      name: 'Africa/Djibouti',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Africa/Djibouti',
       utc: '+03:00'
     },
     'Africa/Douala': {
@@ -299,9 +299,9 @@ export default {
       label: 'Africa/Douala (GMT+01:00)',
       location: 'Douala',
       locationLabel: 'Douala',
-      name: 'Africa/Douala',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Douala',
       utc: '+01:00'
     },
     'Africa/El_Aaiun': {
@@ -312,8 +312,8 @@ export default {
       label: 'Africa/El_Aaiun (GMT+01:00)',
       location: 'El_Aaiun',
       locationLabel: 'El Aaiun',
-      name: 'Africa/El_Aaiun',
       type: 'Canonical',
+      tzCode: 'Africa/El_Aaiun',
       utc: '+01:00'
     },
     'Africa/Freetown': {
@@ -324,9 +324,9 @@ export default {
       label: 'Africa/Freetown (GMT+00:00)',
       location: 'Freetown',
       locationLabel: 'Freetown',
-      name: 'Africa/Freetown',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Freetown',
       utc: '+00:00'
     },
     'Africa/Gaborone': {
@@ -337,9 +337,9 @@ export default {
       label: 'Africa/Gaborone (GMT+02:00)',
       location: 'Gaborone',
       locationLabel: 'Gaborone',
-      name: 'Africa/Gaborone',
       parent: 'Africa/Maputo',
       type: 'Link',
+      tzCode: 'Africa/Gaborone',
       utc: '+02:00'
     },
     'Africa/Harare': {
@@ -350,9 +350,9 @@ export default {
       label: 'Africa/Harare (GMT+02:00)',
       location: 'Harare',
       locationLabel: 'Harare',
-      name: 'Africa/Harare',
       parent: 'Africa/Maputo',
       type: 'Link',
+      tzCode: 'Africa/Harare',
       utc: '+02:00'
     },
     'Africa/Johannesburg': {
@@ -369,8 +369,8 @@ export default {
       label: 'Africa/Johannesburg (GMT+02:00)',
       location: 'Johannesburg',
       locationLabel: 'Johannesburg',
-      name: 'Africa/Johannesburg',
       type: 'Canonical',
+      tzCode: 'Africa/Johannesburg',
       utc: '+02:00'
     },
     'Africa/Juba': {
@@ -381,8 +381,8 @@ export default {
       label: 'Africa/Juba (GMT+02:00)',
       location: 'Juba',
       locationLabel: 'Juba',
-      name: 'Africa/Juba',
       type: 'Canonical',
+      tzCode: 'Africa/Juba',
       utc: '+02:00'
     },
     'Africa/Kampala': {
@@ -393,9 +393,9 @@ export default {
       label: 'Africa/Kampala (GMT+03:00)',
       location: 'Kampala',
       locationLabel: 'Kampala',
-      name: 'Africa/Kampala',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Africa/Kampala',
       utc: '+03:00'
     },
     'Africa/Khartoum': {
@@ -406,8 +406,8 @@ export default {
       label: 'Africa/Khartoum (GMT+02:00)',
       location: 'Khartoum',
       locationLabel: 'Khartoum',
-      name: 'Africa/Khartoum',
       type: 'Canonical',
+      tzCode: 'Africa/Khartoum',
       utc: '+02:00'
     },
     'Africa/Kigali': {
@@ -418,9 +418,9 @@ export default {
       label: 'Africa/Kigali (GMT+02:00)',
       location: 'Kigali',
       locationLabel: 'Kigali',
-      name: 'Africa/Kigali',
       parent: 'Africa/Maputo',
       type: 'Link',
+      tzCode: 'Africa/Kigali',
       utc: '+02:00'
     },
     'Africa/Kinshasa': {
@@ -432,9 +432,9 @@ export default {
       label: 'Africa/Kinshasa (GMT+01:00)',
       location: 'Kinshasa',
       locationLabel: 'Kinshasa',
-      name: 'Africa/Kinshasa',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Kinshasa',
       utc: '+01:00'
     },
     'Africa/Lagos': {
@@ -466,8 +466,8 @@ export default {
       label: 'Africa/Lagos (GMT+01:00)',
       location: 'Lagos',
       locationLabel: 'Lagos',
-      name: 'Africa/Lagos',
       type: 'Canonical',
+      tzCode: 'Africa/Lagos',
       utc: '+01:00'
     },
     'Africa/Libreville': {
@@ -478,9 +478,9 @@ export default {
       label: 'Africa/Libreville (GMT+01:00)',
       location: 'Libreville',
       locationLabel: 'Libreville',
-      name: 'Africa/Libreville',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Libreville',
       utc: '+01:00'
     },
     'Africa/Lome': {
@@ -491,9 +491,9 @@ export default {
       label: 'Africa/Lome (GMT+00:00)',
       location: 'Lome',
       locationLabel: 'Lome',
-      name: 'Africa/Lome',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Lome',
       utc: '+00:00'
     },
     'Africa/Luanda': {
@@ -504,9 +504,9 @@ export default {
       label: 'Africa/Luanda (GMT+01:00)',
       location: 'Luanda',
       locationLabel: 'Luanda',
-      name: 'Africa/Luanda',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Luanda',
       utc: '+01:00'
     },
     'Africa/Lubumbashi': {
@@ -518,9 +518,9 @@ export default {
       label: 'Africa/Lubumbashi (GMT+02:00)',
       location: 'Lubumbashi',
       locationLabel: 'Lubumbashi',
-      name: 'Africa/Lubumbashi',
       parent: 'Africa/Maputo',
       type: 'Link',
+      tzCode: 'Africa/Lubumbashi',
       utc: '+02:00'
     },
     'Africa/Lusaka': {
@@ -531,9 +531,9 @@ export default {
       label: 'Africa/Lusaka (GMT+02:00)',
       location: 'Lusaka',
       locationLabel: 'Lusaka',
-      name: 'Africa/Lusaka',
       parent: 'Africa/Maputo',
       type: 'Link',
+      tzCode: 'Africa/Lusaka',
       utc: '+02:00'
     },
     'Africa/Malabo': {
@@ -544,9 +544,9 @@ export default {
       label: 'Africa/Malabo (GMT+01:00)',
       location: 'Malabo',
       locationLabel: 'Malabo',
-      name: 'Africa/Malabo',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Malabo',
       utc: '+01:00'
     },
     'Africa/Maputo': {
@@ -574,8 +574,8 @@ export default {
       label: 'Africa/Maputo (GMT+02:00)',
       location: 'Maputo',
       locationLabel: 'Maputo',
-      name: 'Africa/Maputo',
       type: 'Canonical',
+      tzCode: 'Africa/Maputo',
       utc: '+02:00'
     },
     'Africa/Maseru': {
@@ -586,9 +586,9 @@ export default {
       label: 'Africa/Maseru (GMT+02:00)',
       location: 'Maseru',
       locationLabel: 'Maseru',
-      name: 'Africa/Maseru',
       parent: 'Africa/Johannesburg',
       type: 'Link',
+      tzCode: 'Africa/Maseru',
       utc: '+02:00'
     },
     'Africa/Mbabane': {
@@ -599,9 +599,9 @@ export default {
       label: 'Africa/Mbabane (GMT+02:00)',
       location: 'Mbabane',
       locationLabel: 'Mbabane',
-      name: 'Africa/Mbabane',
       parent: 'Africa/Johannesburg',
       type: 'Link',
+      tzCode: 'Africa/Mbabane',
       utc: '+02:00'
     },
     'Africa/Mogadishu': {
@@ -612,9 +612,9 @@ export default {
       label: 'Africa/Mogadishu (GMT+03:00)',
       location: 'Mogadishu',
       locationLabel: 'Mogadishu',
-      name: 'Africa/Mogadishu',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Africa/Mogadishu',
       utc: '+03:00'
     },
     'Africa/Monrovia': {
@@ -625,8 +625,8 @@ export default {
       label: 'Africa/Monrovia (GMT+00:00)',
       location: 'Monrovia',
       locationLabel: 'Monrovia',
-      name: 'Africa/Monrovia',
       type: 'Canonical',
+      tzCode: 'Africa/Monrovia',
       utc: '+00:00'
     },
     'Africa/Nairobi': {
@@ -658,8 +658,8 @@ export default {
       label: 'Africa/Nairobi (GMT+03:00)',
       location: 'Nairobi',
       locationLabel: 'Nairobi',
-      name: 'Africa/Nairobi',
       type: 'Canonical',
+      tzCode: 'Africa/Nairobi',
       utc: '+03:00'
     },
     'Africa/Ndjamena': {
@@ -670,8 +670,8 @@ export default {
       label: 'Africa/Ndjamena (GMT+01:00)',
       location: 'Ndjamena',
       locationLabel: 'Ndjamena',
-      name: 'Africa/Ndjamena',
       type: 'Canonical',
+      tzCode: 'Africa/Ndjamena',
       utc: '+01:00'
     },
     'Africa/Niamey': {
@@ -682,9 +682,9 @@ export default {
       label: 'Africa/Niamey (GMT+01:00)',
       location: 'Niamey',
       locationLabel: 'Niamey',
-      name: 'Africa/Niamey',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Niamey',
       utc: '+01:00'
     },
     'Africa/Nouakchott': {
@@ -695,9 +695,9 @@ export default {
       label: 'Africa/Nouakchott (GMT+00:00)',
       location: 'Nouakchott',
       locationLabel: 'Nouakchott',
-      name: 'Africa/Nouakchott',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Nouakchott',
       utc: '+00:00'
     },
     'Africa/Ouagadougou': {
@@ -708,9 +708,9 @@ export default {
       label: 'Africa/Ouagadougou (GMT+00:00)',
       location: 'Ouagadougou',
       locationLabel: 'Ouagadougou',
-      name: 'Africa/Ouagadougou',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Ouagadougou',
       utc: '+00:00'
     },
     'Africa/Porto-Novo': {
@@ -721,9 +721,9 @@ export default {
       label: 'Africa/Porto-Novo (GMT+01:00)',
       location: 'Porto-Novo',
       locationLabel: 'Porto-Novo',
-      name: 'Africa/Porto-Novo',
       parent: 'Africa/Lagos',
       type: 'Link',
+      tzCode: 'Africa/Porto-Novo',
       utc: '+01:00'
     },
     'Africa/Sao_Tome': {
@@ -734,8 +734,8 @@ export default {
       label: 'Africa/Sao_Tome (GMT+00:00)',
       location: 'Sao_Tome',
       locationLabel: 'Sao Tome',
-      name: 'Africa/Sao_Tome',
       type: 'Canonical',
+      tzCode: 'Africa/Sao_Tome',
       utc: '+00:00'
     },
     'Africa/Timbuktu': {
@@ -743,9 +743,9 @@ export default {
       label: 'Africa/Timbuktu (GMT+00:00)',
       location: 'Timbuktu',
       locationLabel: 'Timbuktu',
-      name: 'Africa/Timbuktu',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Africa/Timbuktu',
       utc: '+00:00'
     },
     'Africa/Tripoli': {
@@ -759,8 +759,8 @@ export default {
       label: 'Africa/Tripoli (GMT+02:00)',
       location: 'Tripoli',
       locationLabel: 'Tripoli',
-      name: 'Africa/Tripoli',
       type: 'Canonical',
+      tzCode: 'Africa/Tripoli',
       utc: '+02:00'
     },
     'Africa/Tunis': {
@@ -771,8 +771,8 @@ export default {
       label: 'Africa/Tunis (GMT+01:00)',
       location: 'Tunis',
       locationLabel: 'Tunis',
-      name: 'Africa/Tunis',
       type: 'Canonical',
+      tzCode: 'Africa/Tunis',
       utc: '+01:00'
     },
     'Africa/Windhoek': {
@@ -783,8 +783,8 @@ export default {
       label: 'Africa/Windhoek (GMT+02:00)',
       location: 'Windhoek',
       locationLabel: 'Windhoek',
-      name: 'Africa/Windhoek',
       type: 'Canonical',
+      tzCode: 'Africa/Windhoek',
       utc: '+02:00'
     },
     'America/Adak': {
@@ -800,8 +800,8 @@ export default {
       label: 'America/Adak (GMT-09:00)',
       location: 'Adak',
       locationLabel: 'Adak',
-      name: 'America/Adak',
       type: 'Canonical',
+      tzCode: 'America/Adak',
       utc: '-09:00'
     },
     'America/Anchorage': {
@@ -816,8 +816,8 @@ export default {
       label: 'America/Anchorage (GMT-08:00)',
       location: 'Anchorage',
       locationLabel: 'Anchorage',
-      name: 'America/Anchorage',
       type: 'Canonical',
+      tzCode: 'America/Anchorage',
       utc: '-08:00'
     },
     'America/Anguilla': {
@@ -828,9 +828,9 @@ export default {
       label: 'America/Anguilla (GMT-04:00)',
       location: 'Anguilla',
       locationLabel: 'Anguilla',
-      name: 'America/Anguilla',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Anguilla',
       utc: '-04:00'
     },
     'America/Antigua': {
@@ -841,9 +841,9 @@ export default {
       label: 'America/Antigua (GMT-04:00)',
       location: 'Antigua',
       locationLabel: 'Antigua',
-      name: 'America/Antigua',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Antigua',
       utc: '-04:00'
     },
     'America/Araguaina': {
@@ -855,8 +855,8 @@ export default {
       label: 'America/Araguaina (GMT-03:00)',
       location: 'Araguaina',
       locationLabel: 'Araguaina',
-      name: 'America/Araguaina',
       type: 'Canonical',
+      tzCode: 'America/Araguaina',
       utc: '-03:00'
     },
     'America/Argentina/Buenos_Aires': {
@@ -871,8 +871,8 @@ export default {
       label: 'America/Argentina/Buenos_Aires (GMT-03:00)',
       location: 'Argentina/Buenos_Aires',
       locationLabel: 'Argentina - Buenos Aires',
-      name: 'America/Argentina/Buenos_Aires',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Buenos_Aires',
       utc: '-03:00'
     },
     'America/Argentina/Catamarca': {
@@ -888,8 +888,8 @@ export default {
       label: 'America/Argentina/Catamarca (GMT-03:00)',
       location: 'Argentina/Catamarca',
       locationLabel: 'Argentina - Catamarca',
-      name: 'America/Argentina/Catamarca',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Catamarca',
       utc: '-03:00'
     },
     'America/Argentina/ComodRivadavia': {
@@ -897,9 +897,9 @@ export default {
       label: 'America/Argentina/ComodRivadavia (GMT-03:00)',
       location: 'Argentina/ComodRivadavia',
       locationLabel: 'Argentina - ComodRivadavia',
-      name: 'America/Argentina/ComodRivadavia',
       parent: 'America/Argentina/Catamarca',
       type: 'Link',
+      tzCode: 'America/Argentina/ComodRivadavia',
       utc: '-03:00'
     },
     'America/Argentina/Cordoba': {
@@ -915,8 +915,8 @@ export default {
       label: 'America/Argentina/Cordoba (GMT-03:00)',
       location: 'Argentina/Cordoba',
       locationLabel: 'Argentina - Cordoba',
-      name: 'America/Argentina/Cordoba',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Cordoba',
       utc: '-03:00'
     },
     'America/Argentina/Jujuy': {
@@ -931,8 +931,8 @@ export default {
       label: 'America/Argentina/Jujuy (GMT-03:00)',
       location: 'Argentina/Jujuy',
       locationLabel: 'Argentina - Jujuy',
-      name: 'America/Argentina/Jujuy',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Jujuy',
       utc: '-03:00'
     },
     'America/Argentina/La_Rioja': {
@@ -944,8 +944,8 @@ export default {
       label: 'America/Argentina/La_Rioja (GMT-03:00)',
       location: 'Argentina/La_Rioja',
       locationLabel: 'Argentina - La Rioja',
-      name: 'America/Argentina/La_Rioja',
       type: 'Canonical',
+      tzCode: 'America/Argentina/La_Rioja',
       utc: '-03:00'
     },
     'America/Argentina/Mendoza': {
@@ -960,8 +960,8 @@ export default {
       label: 'America/Argentina/Mendoza (GMT-03:00)',
       location: 'Argentina/Mendoza',
       locationLabel: 'Argentina - Mendoza',
-      name: 'America/Argentina/Mendoza',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Mendoza',
       utc: '-03:00'
     },
     'America/Argentina/Rio_Gallegos': {
@@ -973,8 +973,8 @@ export default {
       label: 'America/Argentina/Rio_Gallegos (GMT-03:00)',
       location: 'Argentina/Rio_Gallegos',
       locationLabel: 'Argentina - Rio Gallegos',
-      name: 'America/Argentina/Rio_Gallegos',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Rio_Gallegos',
       utc: '-03:00'
     },
     'America/Argentina/Salta': {
@@ -986,8 +986,8 @@ export default {
       label: 'America/Argentina/Salta (GMT-03:00)',
       location: 'Argentina/Salta',
       locationLabel: 'Argentina - Salta',
-      name: 'America/Argentina/Salta',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Salta',
       utc: '-03:00'
     },
     'America/Argentina/San_Juan': {
@@ -999,8 +999,8 @@ export default {
       label: 'America/Argentina/San_Juan (GMT-03:00)',
       location: 'Argentina/San_Juan',
       locationLabel: 'Argentina - San Juan',
-      name: 'America/Argentina/San_Juan',
       type: 'Canonical',
+      tzCode: 'America/Argentina/San_Juan',
       utc: '-03:00'
     },
     'America/Argentina/San_Luis': {
@@ -1012,8 +1012,8 @@ export default {
       label: 'America/Argentina/San_Luis (GMT-03:00)',
       location: 'Argentina/San_Luis',
       locationLabel: 'Argentina - San Luis',
-      name: 'America/Argentina/San_Luis',
       type: 'Canonical',
+      tzCode: 'America/Argentina/San_Luis',
       utc: '-03:00'
     },
     'America/Argentina/Tucuman': {
@@ -1025,8 +1025,8 @@ export default {
       label: 'America/Argentina/Tucuman (GMT-03:00)',
       location: 'Argentina/Tucuman',
       locationLabel: 'Argentina - Tucuman',
-      name: 'America/Argentina/Tucuman',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Tucuman',
       utc: '-03:00'
     },
     'America/Argentina/Ushuaia': {
@@ -1038,8 +1038,8 @@ export default {
       label: 'America/Argentina/Ushuaia (GMT-03:00)',
       location: 'Argentina/Ushuaia',
       locationLabel: 'Argentina - Ushuaia',
-      name: 'America/Argentina/Ushuaia',
       type: 'Canonical',
+      tzCode: 'America/Argentina/Ushuaia',
       utc: '-03:00'
     },
     'America/Aruba': {
@@ -1050,9 +1050,9 @@ export default {
       label: 'America/Aruba (GMT-04:00)',
       location: 'Aruba',
       locationLabel: 'Aruba',
-      name: 'America/Aruba',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Aruba',
       utc: '-04:00'
     },
     'America/Asuncion': {
@@ -1063,8 +1063,8 @@ export default {
       label: 'America/Asuncion (GMT-03:00)',
       location: 'Asuncion',
       locationLabel: 'Asuncion',
-      name: 'America/Asuncion',
       type: 'Canonical',
+      tzCode: 'America/Asuncion',
       utc: '-03:00'
     },
     'America/Atikokan': {
@@ -1076,9 +1076,9 @@ export default {
       label: 'America/Atikokan (GMT-05:00)',
       location: 'Atikokan',
       locationLabel: 'Atikokan',
-      name: 'America/Atikokan',
       parent: 'America/Panama',
       type: 'Link',
+      tzCode: 'America/Atikokan',
       utc: '-05:00'
     },
     'America/Atka': {
@@ -1086,9 +1086,9 @@ export default {
       label: 'America/Atka (GMT-09:00)',
       location: 'Atka',
       locationLabel: 'Atka',
-      name: 'America/Atka',
       parent: 'America/Adak',
       type: 'Link',
+      tzCode: 'America/Atka',
       utc: '-09:00'
     },
     'America/Bahia': {
@@ -1100,8 +1100,8 @@ export default {
       label: 'America/Bahia (GMT-03:00)',
       location: 'Bahia',
       locationLabel: 'Bahia',
-      name: 'America/Bahia',
       type: 'Canonical',
+      tzCode: 'America/Bahia',
       utc: '-03:00'
     },
     'America/Bahia_Banderas': {
@@ -1113,8 +1113,8 @@ export default {
       label: 'America/Bahia_Banderas (GMT-06:00)',
       location: 'Bahia_Banderas',
       locationLabel: 'Bahia Banderas',
-      name: 'America/Bahia_Banderas',
       type: 'Canonical',
+      tzCode: 'America/Bahia_Banderas',
       utc: '-06:00'
     },
     'America/Barbados': {
@@ -1125,8 +1125,8 @@ export default {
       label: 'America/Barbados (GMT-04:00)',
       location: 'Barbados',
       locationLabel: 'Barbados',
-      name: 'America/Barbados',
       type: 'Canonical',
+      tzCode: 'America/Barbados',
       utc: '-04:00'
     },
     'America/Belem': {
@@ -1138,8 +1138,8 @@ export default {
       label: 'America/Belem (GMT-03:00)',
       location: 'Belem',
       locationLabel: 'Belem',
-      name: 'America/Belem',
       type: 'Canonical',
+      tzCode: 'America/Belem',
       utc: '-03:00'
     },
     'America/Belize': {
@@ -1150,8 +1150,8 @@ export default {
       label: 'America/Belize (GMT-06:00)',
       location: 'Belize',
       locationLabel: 'Belize',
-      name: 'America/Belize',
       type: 'Canonical',
+      tzCode: 'America/Belize',
       utc: '-06:00'
     },
     'America/Blanc-Sablon': {
@@ -1163,9 +1163,9 @@ export default {
       label: 'America/Blanc-Sablon (GMT-04:00)',
       location: 'Blanc-Sablon',
       locationLabel: 'Blanc-Sablon',
-      name: 'America/Blanc-Sablon',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Blanc-Sablon',
       utc: '-04:00'
     },
     'America/Boa_Vista': {
@@ -1177,8 +1177,8 @@ export default {
       label: 'America/Boa_Vista (GMT-04:00)',
       location: 'Boa_Vista',
       locationLabel: 'Boa Vista',
-      name: 'America/Boa_Vista',
       type: 'Canonical',
+      tzCode: 'America/Boa_Vista',
       utc: '-04:00'
     },
     'America/Bogota': {
@@ -1189,8 +1189,8 @@ export default {
       label: 'America/Bogota (GMT-05:00)',
       location: 'Bogota',
       locationLabel: 'Bogota',
-      name: 'America/Bogota',
       type: 'Canonical',
+      tzCode: 'America/Bogota',
       utc: '-05:00'
     },
     'America/Boise': {
@@ -1202,8 +1202,8 @@ export default {
       label: 'America/Boise (GMT-06:00)',
       location: 'Boise',
       locationLabel: 'Boise',
-      name: 'America/Boise',
       type: 'Canonical',
+      tzCode: 'America/Boise',
       utc: '-06:00'
     },
     'America/Buenos_Aires': {
@@ -1211,9 +1211,9 @@ export default {
       label: 'America/Buenos_Aires (GMT-03:00)',
       location: 'Buenos_Aires',
       locationLabel: 'Buenos Aires',
-      name: 'America/Buenos_Aires',
       parent: 'America/Argentina/Buenos_Aires',
       type: 'Link',
+      tzCode: 'America/Buenos_Aires',
       utc: '-03:00'
     },
     'America/Cambridge_Bay': {
@@ -1225,8 +1225,8 @@ export default {
       label: 'America/Cambridge_Bay (GMT-06:00)',
       location: 'Cambridge_Bay',
       locationLabel: 'Cambridge Bay',
-      name: 'America/Cambridge_Bay',
       type: 'Canonical',
+      tzCode: 'America/Cambridge_Bay',
       utc: '-06:00'
     },
     'America/Campo_Grande': {
@@ -1238,8 +1238,8 @@ export default {
       label: 'America/Campo_Grande (GMT-04:00)',
       location: 'Campo_Grande',
       locationLabel: 'Campo Grande',
-      name: 'America/Campo_Grande',
       type: 'Canonical',
+      tzCode: 'America/Campo_Grande',
       utc: '-04:00'
     },
     'America/Cancun': {
@@ -1251,8 +1251,8 @@ export default {
       label: 'America/Cancun (GMT-05:00)',
       location: 'Cancun',
       locationLabel: 'Cancun',
-      name: 'America/Cancun',
       type: 'Canonical',
+      tzCode: 'America/Cancun',
       utc: '-05:00'
     },
     'America/Caracas': {
@@ -1263,8 +1263,8 @@ export default {
       label: 'America/Caracas (GMT-04:00)',
       location: 'Caracas',
       locationLabel: 'Caracas',
-      name: 'America/Caracas',
       type: 'Canonical',
+      tzCode: 'America/Caracas',
       utc: '-04:00'
     },
     'America/Catamarca': {
@@ -1272,9 +1272,9 @@ export default {
       label: 'America/Catamarca (GMT-03:00)',
       location: 'Catamarca',
       locationLabel: 'Catamarca',
-      name: 'America/Catamarca',
       parent: 'America/Argentina/Catamarca',
       type: 'Link',
+      tzCode: 'America/Catamarca',
       utc: '-03:00'
     },
     'America/Cayenne': {
@@ -1285,8 +1285,8 @@ export default {
       label: 'America/Cayenne (GMT-03:00)',
       location: 'Cayenne',
       locationLabel: 'Cayenne',
-      name: 'America/Cayenne',
       type: 'Canonical',
+      tzCode: 'America/Cayenne',
       utc: '-03:00'
     },
     'America/Cayman': {
@@ -1297,9 +1297,9 @@ export default {
       label: 'America/Cayman (GMT-05:00)',
       location: 'Cayman',
       locationLabel: 'Cayman',
-      name: 'America/Cayman',
       parent: 'America/Panama',
       type: 'Link',
+      tzCode: 'America/Cayman',
       utc: '-05:00'
     },
     'America/Chicago': {
@@ -1315,8 +1315,8 @@ export default {
       label: 'America/Chicago (GMT-05:00)',
       location: 'Chicago',
       locationLabel: 'Chicago',
-      name: 'America/Chicago',
       type: 'Canonical',
+      tzCode: 'America/Chicago',
       utc: '-05:00'
     },
     'America/Chihuahua': {
@@ -1328,8 +1328,8 @@ export default {
       label: 'America/Chihuahua (GMT-06:00)',
       location: 'Chihuahua',
       locationLabel: 'Chihuahua',
-      name: 'America/Chihuahua',
       type: 'Canonical',
+      tzCode: 'America/Chihuahua',
       utc: '-06:00'
     },
     'America/Ciudad_Juarez': {
@@ -1341,8 +1341,8 @@ export default {
       label: 'America/Ciudad_Juarez (GMT-06:00)',
       location: 'Ciudad_Juarez',
       locationLabel: 'Ciudad Juarez',
-      name: 'America/Ciudad_Juarez',
       type: 'Canonical',
+      tzCode: 'America/Ciudad_Juarez',
       utc: '-06:00'
     },
     'America/Coral_Harbour': {
@@ -1350,9 +1350,9 @@ export default {
       label: 'America/Coral_Harbour (GMT-05:00)',
       location: 'Coral_Harbour',
       locationLabel: 'Coral Harbour',
-      name: 'America/Coral_Harbour',
       parent: 'America/Panama',
       type: 'Link',
+      tzCode: 'America/Coral_Harbour',
       utc: '-05:00'
     },
     'America/Cordoba': {
@@ -1360,9 +1360,9 @@ export default {
       label: 'America/Cordoba (GMT-03:00)',
       location: 'Cordoba',
       locationLabel: 'Cordoba',
-      name: 'America/Cordoba',
       parent: 'America/Argentina/Cordoba',
       type: 'Link',
+      tzCode: 'America/Cordoba',
       utc: '-03:00'
     },
     'America/Costa_Rica': {
@@ -1373,8 +1373,8 @@ export default {
       label: 'America/Costa_Rica (GMT-06:00)',
       location: 'Costa_Rica',
       locationLabel: 'Costa Rica',
-      name: 'America/Costa_Rica',
       type: 'Canonical',
+      tzCode: 'America/Costa_Rica',
       utc: '-06:00'
     },
     'America/Coyhaique': {
@@ -1386,8 +1386,8 @@ export default {
       label: 'America/Coyhaique (GMT-03:00)',
       location: 'Coyhaique',
       locationLabel: 'Coyhaique',
-      name: 'America/Coyhaique',
       type: 'Canonical',
+      tzCode: 'America/Coyhaique',
       utc: '-03:00'
     },
     'America/Creston': {
@@ -1399,9 +1399,9 @@ export default {
       label: 'America/Creston (GMT-07:00)',
       location: 'Creston',
       locationLabel: 'Creston',
-      name: 'America/Creston',
       parent: 'America/Phoenix',
       type: 'Link',
+      tzCode: 'America/Creston',
       utc: '-07:00'
     },
     'America/Cuiaba': {
@@ -1413,8 +1413,8 @@ export default {
       label: 'America/Cuiaba (GMT-04:00)',
       location: 'Cuiaba',
       locationLabel: 'Cuiaba',
-      name: 'America/Cuiaba',
       type: 'Canonical',
+      tzCode: 'America/Cuiaba',
       utc: '-04:00'
     },
     'America/Curacao': {
@@ -1425,9 +1425,9 @@ export default {
       label: 'America/Curacao (GMT-04:00)',
       location: 'Curacao',
       locationLabel: 'Curacao',
-      name: 'America/Curacao',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Curacao',
       utc: '-04:00'
     },
     'America/Danmarkshavn': {
@@ -1439,8 +1439,8 @@ export default {
       label: 'America/Danmarkshavn (GMT+00:00)',
       location: 'Danmarkshavn',
       locationLabel: 'Danmarkshavn',
-      name: 'America/Danmarkshavn',
       type: 'Canonical',
+      tzCode: 'America/Danmarkshavn',
       utc: '+00:00'
     },
     'America/Dawson': {
@@ -1452,8 +1452,8 @@ export default {
       label: 'America/Dawson (GMT-07:00)',
       location: 'Dawson',
       locationLabel: 'Dawson',
-      name: 'America/Dawson',
       type: 'Canonical',
+      tzCode: 'America/Dawson',
       utc: '-07:00'
     },
     'America/Dawson_Creek': {
@@ -1465,8 +1465,8 @@ export default {
       label: 'America/Dawson_Creek (GMT-07:00)',
       location: 'Dawson_Creek',
       locationLabel: 'Dawson Creek',
-      name: 'America/Dawson_Creek',
       type: 'Canonical',
+      tzCode: 'America/Dawson_Creek',
       utc: '-07:00'
     },
     'America/Denver': {
@@ -1484,8 +1484,8 @@ export default {
       label: 'America/Denver (GMT-06:00)',
       location: 'Denver',
       locationLabel: 'Denver',
-      name: 'America/Denver',
       type: 'Canonical',
+      tzCode: 'America/Denver',
       utc: '-06:00'
     },
     'America/Detroit': {
@@ -1500,8 +1500,8 @@ export default {
       label: 'America/Detroit (GMT-04:00)',
       location: 'Detroit',
       locationLabel: 'Detroit',
-      name: 'America/Detroit',
       type: 'Canonical',
+      tzCode: 'America/Detroit',
       utc: '-04:00'
     },
     'America/Dominica': {
@@ -1512,9 +1512,9 @@ export default {
       label: 'America/Dominica (GMT-04:00)',
       location: 'Dominica',
       locationLabel: 'Dominica',
-      name: 'America/Dominica',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Dominica',
       utc: '-04:00'
     },
     'America/Edmonton': {
@@ -1530,8 +1530,8 @@ export default {
       label: 'America/Edmonton (GMT-06:00)',
       location: 'Edmonton',
       locationLabel: 'Edmonton',
-      name: 'America/Edmonton',
       type: 'Canonical',
+      tzCode: 'America/Edmonton',
       utc: '-06:00'
     },
     'America/Eirunepe': {
@@ -1543,8 +1543,8 @@ export default {
       label: 'America/Eirunepe (GMT-05:00)',
       location: 'Eirunepe',
       locationLabel: 'Eirunepe',
-      name: 'America/Eirunepe',
       type: 'Canonical',
+      tzCode: 'America/Eirunepe',
       utc: '-05:00'
     },
     'America/El_Salvador': {
@@ -1555,8 +1555,8 @@ export default {
       label: 'America/El_Salvador (GMT-06:00)',
       location: 'El_Salvador',
       locationLabel: 'El Salvador',
-      name: 'America/El_Salvador',
       type: 'Canonical',
+      tzCode: 'America/El_Salvador',
       utc: '-06:00'
     },
     'America/Ensenada': {
@@ -1564,9 +1564,9 @@ export default {
       label: 'America/Ensenada (GMT-07:00)',
       location: 'Ensenada',
       locationLabel: 'Ensenada',
-      name: 'America/Ensenada',
       parent: 'America/Tijuana',
       type: 'Link',
+      tzCode: 'America/Ensenada',
       utc: '-07:00'
     },
     'America/Fort_Nelson': {
@@ -1578,8 +1578,8 @@ export default {
       label: 'America/Fort_Nelson (GMT-07:00)',
       location: 'Fort_Nelson',
       locationLabel: 'Fort Nelson',
-      name: 'America/Fort_Nelson',
       type: 'Canonical',
+      tzCode: 'America/Fort_Nelson',
       utc: '-07:00'
     },
     'America/Fort_Wayne': {
@@ -1587,9 +1587,9 @@ export default {
       label: 'America/Fort_Wayne (GMT-04:00)',
       location: 'Fort_Wayne',
       locationLabel: 'Fort Wayne',
-      name: 'America/Fort_Wayne',
       parent: 'America/Indiana/Indianapolis',
       type: 'Link',
+      tzCode: 'America/Fort_Wayne',
       utc: '-04:00'
     },
     'America/Fortaleza': {
@@ -1601,8 +1601,8 @@ export default {
       label: 'America/Fortaleza (GMT-03:00)',
       location: 'Fortaleza',
       locationLabel: 'Fortaleza',
-      name: 'America/Fortaleza',
       type: 'Canonical',
+      tzCode: 'America/Fortaleza',
       utc: '-03:00'
     },
     'America/Glace_Bay': {
@@ -1614,8 +1614,8 @@ export default {
       label: 'America/Glace_Bay (GMT-03:00)',
       location: 'Glace_Bay',
       locationLabel: 'Glace Bay',
-      name: 'America/Glace_Bay',
       type: 'Canonical',
+      tzCode: 'America/Glace_Bay',
       utc: '-03:00'
     },
     'America/Godthab': {
@@ -1623,9 +1623,9 @@ export default {
       label: 'America/Godthab (GMT-01:00)',
       location: 'Godthab',
       locationLabel: 'Godthab',
-      name: 'America/Godthab',
       parent: 'America/Nuuk',
       type: 'Link',
+      tzCode: 'America/Godthab',
       utc: '-01:00'
     },
     'America/Goose_Bay': {
@@ -1637,8 +1637,8 @@ export default {
       label: 'America/Goose_Bay (GMT-03:00)',
       location: 'Goose_Bay',
       locationLabel: 'Goose Bay',
-      name: 'America/Goose_Bay',
       type: 'Canonical',
+      tzCode: 'America/Goose_Bay',
       utc: '-03:00'
     },
     'America/Grand_Turk': {
@@ -1649,8 +1649,8 @@ export default {
       label: 'America/Grand_Turk (GMT-04:00)',
       location: 'Grand_Turk',
       locationLabel: 'Grand Turk',
-      name: 'America/Grand_Turk',
       type: 'Canonical',
+      tzCode: 'America/Grand_Turk',
       utc: '-04:00'
     },
     'America/Grenada': {
@@ -1661,9 +1661,9 @@ export default {
       label: 'America/Grenada (GMT-04:00)',
       location: 'Grenada',
       locationLabel: 'Grenada',
-      name: 'America/Grenada',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Grenada',
       utc: '-04:00'
     },
     'America/Guadeloupe': {
@@ -1674,9 +1674,9 @@ export default {
       label: 'America/Guadeloupe (GMT-04:00)',
       location: 'Guadeloupe',
       locationLabel: 'Guadeloupe',
-      name: 'America/Guadeloupe',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Guadeloupe',
       utc: '-04:00'
     },
     'America/Guatemala': {
@@ -1687,8 +1687,8 @@ export default {
       label: 'America/Guatemala (GMT-06:00)',
       location: 'Guatemala',
       locationLabel: 'Guatemala',
-      name: 'America/Guatemala',
       type: 'Canonical',
+      tzCode: 'America/Guatemala',
       utc: '-06:00'
     },
     'America/Guayaquil': {
@@ -1700,8 +1700,8 @@ export default {
       label: 'America/Guayaquil (GMT-05:00)',
       location: 'Guayaquil',
       locationLabel: 'Guayaquil',
-      name: 'America/Guayaquil',
       type: 'Canonical',
+      tzCode: 'America/Guayaquil',
       utc: '-05:00'
     },
     'America/Guyana': {
@@ -1712,8 +1712,8 @@ export default {
       label: 'America/Guyana (GMT-04:00)',
       location: 'Guyana',
       locationLabel: 'Guyana',
-      name: 'America/Guyana',
       type: 'Canonical',
+      tzCode: 'America/Guyana',
       utc: '-04:00'
     },
     'America/Halifax': {
@@ -1728,8 +1728,8 @@ export default {
       label: 'America/Halifax (GMT-03:00)',
       location: 'Halifax',
       locationLabel: 'Halifax',
-      name: 'America/Halifax',
       type: 'Canonical',
+      tzCode: 'America/Halifax',
       utc: '-03:00'
     },
     'America/Havana': {
@@ -1743,8 +1743,8 @@ export default {
       label: 'America/Havana (GMT-04:00)',
       location: 'Havana',
       locationLabel: 'Havana',
-      name: 'America/Havana',
       type: 'Canonical',
+      tzCode: 'America/Havana',
       utc: '-04:00'
     },
     'America/Hermosillo': {
@@ -1756,8 +1756,8 @@ export default {
       label: 'America/Hermosillo (GMT-07:00)',
       location: 'Hermosillo',
       locationLabel: 'Hermosillo',
-      name: 'America/Hermosillo',
       type: 'Canonical',
+      tzCode: 'America/Hermosillo',
       utc: '-07:00'
     },
     'America/Indiana/Indianapolis': {
@@ -1774,8 +1774,8 @@ export default {
       label: 'America/Indiana/Indianapolis (GMT-04:00)',
       location: 'Indiana/Indianapolis',
       locationLabel: 'Indiana - Indianapolis',
-      name: 'America/Indiana/Indianapolis',
       type: 'Canonical',
+      tzCode: 'America/Indiana/Indianapolis',
       utc: '-04:00'
     },
     'America/Indiana/Knox': {
@@ -1791,8 +1791,8 @@ export default {
       label: 'America/Indiana/Knox (GMT-05:00)',
       location: 'Indiana/Knox',
       locationLabel: 'Indiana - Knox',
-      name: 'America/Indiana/Knox',
       type: 'Canonical',
+      tzCode: 'America/Indiana/Knox',
       utc: '-05:00'
     },
     'America/Indiana/Marengo': {
@@ -1804,8 +1804,8 @@ export default {
       label: 'America/Indiana/Marengo (GMT-04:00)',
       location: 'Indiana/Marengo',
       locationLabel: 'Indiana - Marengo',
-      name: 'America/Indiana/Marengo',
       type: 'Canonical',
+      tzCode: 'America/Indiana/Marengo',
       utc: '-04:00'
     },
     'America/Indiana/Petersburg': {
@@ -1817,8 +1817,8 @@ export default {
       label: 'America/Indiana/Petersburg (GMT-04:00)',
       location: 'Indiana/Petersburg',
       locationLabel: 'Indiana - Petersburg',
-      name: 'America/Indiana/Petersburg',
       type: 'Canonical',
+      tzCode: 'America/Indiana/Petersburg',
       utc: '-04:00'
     },
     'America/Indiana/Tell_City': {
@@ -1830,8 +1830,8 @@ export default {
       label: 'America/Indiana/Tell_City (GMT-05:00)',
       location: 'Indiana/Tell_City',
       locationLabel: 'Indiana - Tell City',
-      name: 'America/Indiana/Tell_City',
       type: 'Canonical',
+      tzCode: 'America/Indiana/Tell_City',
       utc: '-05:00'
     },
     'America/Indiana/Vevay': {
@@ -1843,8 +1843,8 @@ export default {
       label: 'America/Indiana/Vevay (GMT-04:00)',
       location: 'Indiana/Vevay',
       locationLabel: 'Indiana - Vevay',
-      name: 'America/Indiana/Vevay',
       type: 'Canonical',
+      tzCode: 'America/Indiana/Vevay',
       utc: '-04:00'
     },
     'America/Indiana/Vincennes': {
@@ -1856,8 +1856,8 @@ export default {
       label: 'America/Indiana/Vincennes (GMT-04:00)',
       location: 'Indiana/Vincennes',
       locationLabel: 'Indiana - Vincennes',
-      name: 'America/Indiana/Vincennes',
       type: 'Canonical',
+      tzCode: 'America/Indiana/Vincennes',
       utc: '-04:00'
     },
     'America/Indiana/Winamac': {
@@ -1869,8 +1869,8 @@ export default {
       label: 'America/Indiana/Winamac (GMT-04:00)',
       location: 'Indiana/Winamac',
       locationLabel: 'Indiana - Winamac',
-      name: 'America/Indiana/Winamac',
       type: 'Canonical',
+      tzCode: 'America/Indiana/Winamac',
       utc: '-04:00'
     },
     'America/Indianapolis': {
@@ -1878,9 +1878,9 @@ export default {
       label: 'America/Indianapolis (GMT-04:00)',
       location: 'Indianapolis',
       locationLabel: 'Indianapolis',
-      name: 'America/Indianapolis',
       parent: 'America/Indiana/Indianapolis',
       type: 'Link',
+      tzCode: 'America/Indianapolis',
       utc: '-04:00'
     },
     'America/Inuvik': {
@@ -1892,8 +1892,8 @@ export default {
       label: 'America/Inuvik (GMT-06:00)',
       location: 'Inuvik',
       locationLabel: 'Inuvik',
-      name: 'America/Inuvik',
       type: 'Canonical',
+      tzCode: 'America/Inuvik',
       utc: '-06:00'
     },
     'America/Iqaluit': {
@@ -1908,8 +1908,8 @@ export default {
       label: 'America/Iqaluit (GMT-04:00)',
       location: 'Iqaluit',
       locationLabel: 'Iqaluit',
-      name: 'America/Iqaluit',
       type: 'Canonical',
+      tzCode: 'America/Iqaluit',
       utc: '-04:00'
     },
     'America/Jamaica': {
@@ -1923,8 +1923,8 @@ export default {
       label: 'America/Jamaica (GMT-05:00)',
       location: 'Jamaica',
       locationLabel: 'Jamaica',
-      name: 'America/Jamaica',
       type: 'Canonical',
+      tzCode: 'America/Jamaica',
       utc: '-05:00'
     },
     'America/Jujuy': {
@@ -1932,9 +1932,9 @@ export default {
       label: 'America/Jujuy (GMT-03:00)',
       location: 'Jujuy',
       locationLabel: 'Jujuy',
-      name: 'America/Jujuy',
       parent: 'America/Argentina/Jujuy',
       type: 'Link',
+      tzCode: 'America/Jujuy',
       utc: '-03:00'
     },
     'America/Juneau': {
@@ -1946,8 +1946,8 @@ export default {
       label: 'America/Juneau (GMT-08:00)',
       location: 'Juneau',
       locationLabel: 'Juneau',
-      name: 'America/Juneau',
       type: 'Canonical',
+      tzCode: 'America/Juneau',
       utc: '-08:00'
     },
     'America/Kentucky/Louisville': {
@@ -1962,8 +1962,8 @@ export default {
       label: 'America/Kentucky/Louisville (GMT-04:00)',
       location: 'Kentucky/Louisville',
       locationLabel: 'Kentucky - Louisville',
-      name: 'America/Kentucky/Louisville',
       type: 'Canonical',
+      tzCode: 'America/Kentucky/Louisville',
       utc: '-04:00'
     },
     'America/Kentucky/Monticello': {
@@ -1975,8 +1975,8 @@ export default {
       label: 'America/Kentucky/Monticello (GMT-04:00)',
       location: 'Kentucky/Monticello',
       locationLabel: 'Kentucky - Monticello',
-      name: 'America/Kentucky/Monticello',
       type: 'Canonical',
+      tzCode: 'America/Kentucky/Monticello',
       utc: '-04:00'
     },
     'America/Knox_IN': {
@@ -1984,9 +1984,9 @@ export default {
       label: 'America/Knox_IN (GMT-05:00)',
       location: 'Knox_IN',
       locationLabel: 'Knox IN',
-      name: 'America/Knox_IN',
       parent: 'America/Indiana/Knox',
       type: 'Link',
+      tzCode: 'America/Knox_IN',
       utc: '-05:00'
     },
     'America/Kralendijk': {
@@ -1997,9 +1997,9 @@ export default {
       label: 'America/Kralendijk (GMT-04:00)',
       location: 'Kralendijk',
       locationLabel: 'Kralendijk',
-      name: 'America/Kralendijk',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Kralendijk',
       utc: '-04:00'
     },
     'America/La_Paz': {
@@ -2010,8 +2010,8 @@ export default {
       label: 'America/La_Paz (GMT-04:00)',
       location: 'La_Paz',
       locationLabel: 'La Paz',
-      name: 'America/La_Paz',
       type: 'Canonical',
+      tzCode: 'America/La_Paz',
       utc: '-04:00'
     },
     'America/Lima': {
@@ -2022,8 +2022,8 @@ export default {
       label: 'America/Lima (GMT-05:00)',
       location: 'Lima',
       locationLabel: 'Lima',
-      name: 'America/Lima',
       type: 'Canonical',
+      tzCode: 'America/Lima',
       utc: '-05:00'
     },
     'America/Los_Angeles': {
@@ -2039,8 +2039,8 @@ export default {
       label: 'America/Los_Angeles (GMT-07:00)',
       location: 'Los_Angeles',
       locationLabel: 'Los Angeles',
-      name: 'America/Los_Angeles',
       type: 'Canonical',
+      tzCode: 'America/Los_Angeles',
       utc: '-07:00'
     },
     'America/Louisville': {
@@ -2048,9 +2048,9 @@ export default {
       label: 'America/Louisville (GMT-04:00)',
       location: 'Louisville',
       locationLabel: 'Louisville',
-      name: 'America/Louisville',
       parent: 'America/Kentucky/Louisville',
       type: 'Link',
+      tzCode: 'America/Louisville',
       utc: '-04:00'
     },
     'America/Lower_Princes': {
@@ -2061,9 +2061,9 @@ export default {
       label: 'America/Lower_Princes (GMT-04:00)',
       location: 'Lower_Princes',
       locationLabel: 'Lower Princes',
-      name: 'America/Lower_Princes',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Lower_Princes',
       utc: '-04:00'
     },
     'America/Maceio': {
@@ -2075,8 +2075,8 @@ export default {
       label: 'America/Maceio (GMT-03:00)',
       location: 'Maceio',
       locationLabel: 'Maceio',
-      name: 'America/Maceio',
       type: 'Canonical',
+      tzCode: 'America/Maceio',
       utc: '-03:00'
     },
     'America/Managua': {
@@ -2087,8 +2087,8 @@ export default {
       label: 'America/Managua (GMT-06:00)',
       location: 'Managua',
       locationLabel: 'Managua',
-      name: 'America/Managua',
       type: 'Canonical',
+      tzCode: 'America/Managua',
       utc: '-06:00'
     },
     'America/Manaus': {
@@ -2103,8 +2103,8 @@ export default {
       label: 'America/Manaus (GMT-04:00)',
       location: 'Manaus',
       locationLabel: 'Manaus',
-      name: 'America/Manaus',
       type: 'Canonical',
+      tzCode: 'America/Manaus',
       utc: '-04:00'
     },
     'America/Marigot': {
@@ -2115,9 +2115,9 @@ export default {
       label: 'America/Marigot (GMT-04:00)',
       location: 'Marigot',
       locationLabel: 'Marigot',
-      name: 'America/Marigot',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Marigot',
       utc: '-04:00'
     },
     'America/Martinique': {
@@ -2128,8 +2128,8 @@ export default {
       label: 'America/Martinique (GMT-04:00)',
       location: 'Martinique',
       locationLabel: 'Martinique',
-      name: 'America/Martinique',
       type: 'Canonical',
+      tzCode: 'America/Martinique',
       utc: '-04:00'
     },
     'America/Matamoros': {
@@ -2141,8 +2141,8 @@ export default {
       label: 'America/Matamoros (GMT-05:00)',
       location: 'Matamoros',
       locationLabel: 'Matamoros',
-      name: 'America/Matamoros',
       type: 'Canonical',
+      tzCode: 'America/Matamoros',
       utc: '-05:00'
     },
     'America/Mazatlan': {
@@ -2157,8 +2157,8 @@ export default {
       label: 'America/Mazatlan (GMT-07:00)',
       location: 'Mazatlan',
       locationLabel: 'Mazatlan',
-      name: 'America/Mazatlan',
       type: 'Canonical',
+      tzCode: 'America/Mazatlan',
       utc: '-07:00'
     },
     'America/Mendoza': {
@@ -2166,9 +2166,9 @@ export default {
       label: 'America/Mendoza (GMT-03:00)',
       location: 'Mendoza',
       locationLabel: 'Mendoza',
-      name: 'America/Mendoza',
       parent: 'America/Argentina/Mendoza',
       type: 'Link',
+      tzCode: 'America/Mendoza',
       utc: '-03:00'
     },
     'America/Menominee': {
@@ -2180,8 +2180,8 @@ export default {
       label: 'America/Menominee (GMT-05:00)',
       location: 'Menominee',
       locationLabel: 'Menominee',
-      name: 'America/Menominee',
       type: 'Canonical',
+      tzCode: 'America/Menominee',
       utc: '-05:00'
     },
     'America/Merida': {
@@ -2193,8 +2193,8 @@ export default {
       label: 'America/Merida (GMT-06:00)',
       location: 'Merida',
       locationLabel: 'Merida',
-      name: 'America/Merida',
       type: 'Canonical',
+      tzCode: 'America/Merida',
       utc: '-06:00'
     },
     'America/Metlakatla': {
@@ -2206,8 +2206,8 @@ export default {
       label: 'America/Metlakatla (GMT-08:00)',
       location: 'Metlakatla',
       locationLabel: 'Metlakatla',
-      name: 'America/Metlakatla',
       type: 'Canonical',
+      tzCode: 'America/Metlakatla',
       utc: '-08:00'
     },
     'America/Mexico_City': {
@@ -2222,8 +2222,8 @@ export default {
       label: 'America/Mexico_City (GMT-06:00)',
       location: 'Mexico_City',
       locationLabel: 'Mexico City',
-      name: 'America/Mexico_City',
       type: 'Canonical',
+      tzCode: 'America/Mexico_City',
       utc: '-06:00'
     },
     'America/Miquelon': {
@@ -2234,8 +2234,8 @@ export default {
       label: 'America/Miquelon (GMT-02:00)',
       location: 'Miquelon',
       locationLabel: 'Miquelon',
-      name: 'America/Miquelon',
       type: 'Canonical',
+      tzCode: 'America/Miquelon',
       utc: '-02:00'
     },
     'America/Moncton': {
@@ -2247,8 +2247,8 @@ export default {
       label: 'America/Moncton (GMT-03:00)',
       location: 'Moncton',
       locationLabel: 'Moncton',
-      name: 'America/Moncton',
       type: 'Canonical',
+      tzCode: 'America/Moncton',
       utc: '-03:00'
     },
     'America/Monterrey': {
@@ -2260,8 +2260,8 @@ export default {
       label: 'America/Monterrey (GMT-06:00)',
       location: 'Monterrey',
       locationLabel: 'Monterrey',
-      name: 'America/Monterrey',
       type: 'Canonical',
+      tzCode: 'America/Monterrey',
       utc: '-06:00'
     },
     'America/Montevideo': {
@@ -2272,8 +2272,8 @@ export default {
       label: 'America/Montevideo (GMT-03:00)',
       location: 'Montevideo',
       locationLabel: 'Montevideo',
-      name: 'America/Montevideo',
       type: 'Canonical',
+      tzCode: 'America/Montevideo',
       utc: '-03:00'
     },
     'America/Montreal': {
@@ -2281,9 +2281,9 @@ export default {
       label: 'America/Montreal (GMT-04:00)',
       location: 'Montreal',
       locationLabel: 'Montreal',
-      name: 'America/Montreal',
       parent: 'America/Toronto',
       type: 'Link',
+      tzCode: 'America/Montreal',
       utc: '-04:00'
     },
     'America/Montserrat': {
@@ -2294,9 +2294,9 @@ export default {
       label: 'America/Montserrat (GMT-04:00)',
       location: 'Montserrat',
       locationLabel: 'Montserrat',
-      name: 'America/Montserrat',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Montserrat',
       utc: '-04:00'
     },
     'America/Nassau': {
@@ -2307,9 +2307,9 @@ export default {
       label: 'America/Nassau (GMT-04:00)',
       location: 'Nassau',
       locationLabel: 'Nassau',
-      name: 'America/Nassau',
       parent: 'America/Toronto',
       type: 'Link',
+      tzCode: 'America/Nassau',
       utc: '-04:00'
     },
     'America/New_York': {
@@ -2325,8 +2325,8 @@ export default {
       label: 'America/New_York (GMT-04:00)',
       location: 'New_York',
       locationLabel: 'New York',
-      name: 'America/New_York',
       type: 'Canonical',
+      tzCode: 'America/New_York',
       utc: '-04:00'
     },
     'America/Nipigon': {
@@ -2334,9 +2334,9 @@ export default {
       label: 'America/Nipigon (GMT-04:00)',
       location: 'Nipigon',
       locationLabel: 'Nipigon',
-      name: 'America/Nipigon',
       parent: 'America/Toronto',
       type: 'Link',
+      tzCode: 'America/Nipigon',
       utc: '-04:00'
     },
     'America/Nome': {
@@ -2348,8 +2348,8 @@ export default {
       label: 'America/Nome (GMT-08:00)',
       location: 'Nome',
       locationLabel: 'Nome',
-      name: 'America/Nome',
       type: 'Canonical',
+      tzCode: 'America/Nome',
       utc: '-08:00'
     },
     'America/Noronha': {
@@ -2364,8 +2364,8 @@ export default {
       label: 'America/Noronha (GMT-02:00)',
       location: 'Noronha',
       locationLabel: 'Noronha',
-      name: 'America/Noronha',
       type: 'Canonical',
+      tzCode: 'America/Noronha',
       utc: '-02:00'
     },
     'America/North_Dakota/Beulah': {
@@ -2377,8 +2377,8 @@ export default {
       label: 'America/North_Dakota/Beulah (GMT-05:00)',
       location: 'North_Dakota/Beulah',
       locationLabel: 'North Dakota - Beulah',
-      name: 'America/North_Dakota/Beulah',
       type: 'Canonical',
+      tzCode: 'America/North_Dakota/Beulah',
       utc: '-05:00'
     },
     'America/North_Dakota/Center': {
@@ -2390,8 +2390,8 @@ export default {
       label: 'America/North_Dakota/Center (GMT-05:00)',
       location: 'North_Dakota/Center',
       locationLabel: 'North Dakota - Center',
-      name: 'America/North_Dakota/Center',
       type: 'Canonical',
+      tzCode: 'America/North_Dakota/Center',
       utc: '-05:00'
     },
     'America/North_Dakota/New_Salem': {
@@ -2403,8 +2403,8 @@ export default {
       label: 'America/North_Dakota/New_Salem (GMT-05:00)',
       location: 'North_Dakota/New_Salem',
       locationLabel: 'North Dakota - New_Salem',
-      name: 'America/North_Dakota/New_Salem',
       type: 'Canonical',
+      tzCode: 'America/North_Dakota/New_Salem',
       utc: '-05:00'
     },
     'America/Nuuk': {
@@ -2419,8 +2419,8 @@ export default {
       label: 'America/Nuuk (GMT-01:00)',
       location: 'Nuuk',
       locationLabel: 'Nuuk',
-      name: 'America/Nuuk',
       type: 'Canonical',
+      tzCode: 'America/Nuuk',
       utc: '-01:00'
     },
     'America/Ojinaga': {
@@ -2432,8 +2432,8 @@ export default {
       label: 'America/Ojinaga (GMT-05:00)',
       location: 'Ojinaga',
       locationLabel: 'Ojinaga',
-      name: 'America/Ojinaga',
       type: 'Canonical',
+      tzCode: 'America/Ojinaga',
       utc: '-05:00'
     },
     'America/Panama': {
@@ -2453,8 +2453,8 @@ export default {
       label: 'America/Panama (GMT-05:00)',
       location: 'Panama',
       locationLabel: 'Panama',
-      name: 'America/Panama',
       type: 'Canonical',
+      tzCode: 'America/Panama',
       utc: '-05:00'
     },
     'America/Pangnirtung': {
@@ -2462,9 +2462,9 @@ export default {
       label: 'America/Pangnirtung (GMT-04:00)',
       location: 'Pangnirtung',
       locationLabel: 'Pangnirtung',
-      name: 'America/Pangnirtung',
       parent: 'America/Iqaluit',
       type: 'Link',
+      tzCode: 'America/Pangnirtung',
       utc: '-04:00'
     },
     'America/Paramaribo': {
@@ -2475,8 +2475,8 @@ export default {
       label: 'America/Paramaribo (GMT-03:00)',
       location: 'Paramaribo',
       locationLabel: 'Paramaribo',
-      name: 'America/Paramaribo',
       type: 'Canonical',
+      tzCode: 'America/Paramaribo',
       utc: '-03:00'
     },
     'America/Phoenix': {
@@ -2494,8 +2494,8 @@ export default {
       label: 'America/Phoenix (GMT-07:00)',
       location: 'Phoenix',
       locationLabel: 'Phoenix',
-      name: 'America/Phoenix',
       type: 'Canonical',
+      tzCode: 'America/Phoenix',
       utc: '-07:00'
     },
     'America/Port-au-Prince': {
@@ -2506,8 +2506,8 @@ export default {
       label: 'America/Port-au-Prince (GMT-04:00)',
       location: 'Port-au-Prince',
       locationLabel: 'Port-au-Prince',
-      name: 'America/Port-au-Prince',
       type: 'Canonical',
+      tzCode: 'America/Port-au-Prince',
       utc: '-04:00'
     },
     'America/Port_of_Spain': {
@@ -2518,9 +2518,9 @@ export default {
       label: 'America/Port_of_Spain (GMT-04:00)',
       location: 'Port_of_Spain',
       locationLabel: 'Port of_Spain',
-      name: 'America/Port_of_Spain',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Port_of_Spain',
       utc: '-04:00'
     },
     'America/Porto_Acre': {
@@ -2528,9 +2528,9 @@ export default {
       label: 'America/Porto_Acre (GMT-05:00)',
       location: 'Porto_Acre',
       locationLabel: 'Porto Acre',
-      name: 'America/Porto_Acre',
       parent: 'America/Rio_Branco',
       type: 'Link',
+      tzCode: 'America/Porto_Acre',
       utc: '-05:00'
     },
     'America/Porto_Velho': {
@@ -2542,8 +2542,8 @@ export default {
       label: 'America/Porto_Velho (GMT-04:00)',
       location: 'Porto_Velho',
       locationLabel: 'Porto Velho',
-      name: 'America/Porto_Velho',
       type: 'Canonical',
+      tzCode: 'America/Porto_Velho',
       utc: '-04:00'
     },
     'America/Puerto_Rico': {
@@ -2596,8 +2596,8 @@ export default {
       label: 'America/Puerto_Rico (GMT-04:00)',
       location: 'Puerto_Rico',
       locationLabel: 'Puerto Rico',
-      name: 'America/Puerto_Rico',
       type: 'Canonical',
+      tzCode: 'America/Puerto_Rico',
       utc: '-04:00'
     },
     'America/Punta_Arenas': {
@@ -2609,8 +2609,8 @@ export default {
       label: 'America/Punta_Arenas (GMT-03:00)',
       location: 'Punta_Arenas',
       locationLabel: 'Punta Arenas',
-      name: 'America/Punta_Arenas',
       type: 'Canonical',
+      tzCode: 'America/Punta_Arenas',
       utc: '-03:00'
     },
     'America/Rainy_River': {
@@ -2618,9 +2618,9 @@ export default {
       label: 'America/Rainy_River (GMT-05:00)',
       location: 'Rainy_River',
       locationLabel: 'Rainy River',
-      name: 'America/Rainy_River',
       parent: 'America/Winnipeg',
       type: 'Link',
+      tzCode: 'America/Rainy_River',
       utc: '-05:00'
     },
     'America/Rankin_Inlet': {
@@ -2632,8 +2632,8 @@ export default {
       label: 'America/Rankin_Inlet (GMT-05:00)',
       location: 'Rankin_Inlet',
       locationLabel: 'Rankin Inlet',
-      name: 'America/Rankin_Inlet',
       type: 'Canonical',
+      tzCode: 'America/Rankin_Inlet',
       utc: '-05:00'
     },
     'America/Recife': {
@@ -2645,8 +2645,8 @@ export default {
       label: 'America/Recife (GMT-03:00)',
       location: 'Recife',
       locationLabel: 'Recife',
-      name: 'America/Recife',
       type: 'Canonical',
+      tzCode: 'America/Recife',
       utc: '-03:00'
     },
     'America/Regina': {
@@ -2661,8 +2661,8 @@ export default {
       label: 'America/Regina (GMT-06:00)',
       location: 'Regina',
       locationLabel: 'Regina',
-      name: 'America/Regina',
       type: 'Canonical',
+      tzCode: 'America/Regina',
       utc: '-06:00'
     },
     'America/Resolute': {
@@ -2674,8 +2674,8 @@ export default {
       label: 'America/Resolute (GMT-05:00)',
       location: 'Resolute',
       locationLabel: 'Resolute',
-      name: 'America/Resolute',
       type: 'Canonical',
+      tzCode: 'America/Resolute',
       utc: '-05:00'
     },
     'America/Rio_Branco': {
@@ -2691,8 +2691,8 @@ export default {
       label: 'America/Rio_Branco (GMT-05:00)',
       location: 'Rio_Branco',
       locationLabel: 'Rio Branco',
-      name: 'America/Rio_Branco',
       type: 'Canonical',
+      tzCode: 'America/Rio_Branco',
       utc: '-05:00'
     },
     'America/Rosario': {
@@ -2700,9 +2700,9 @@ export default {
       label: 'America/Rosario (GMT-03:00)',
       location: 'Rosario',
       locationLabel: 'Rosario',
-      name: 'America/Rosario',
       parent: 'America/Argentina/Cordoba',
       type: 'Link',
+      tzCode: 'America/Rosario',
       utc: '-03:00'
     },
     'America/Santa_Isabel': {
@@ -2710,9 +2710,9 @@ export default {
       label: 'America/Santa_Isabel (GMT-07:00)',
       location: 'Santa_Isabel',
       locationLabel: 'Santa Isabel',
-      name: 'America/Santa_Isabel',
       parent: 'America/Tijuana',
       type: 'Link',
+      tzCode: 'America/Santa_Isabel',
       utc: '-07:00'
     },
     'America/Santarem': {
@@ -2724,8 +2724,8 @@ export default {
       label: 'America/Santarem (GMT-03:00)',
       location: 'Santarem',
       locationLabel: 'Santarem',
-      name: 'America/Santarem',
       type: 'Canonical',
+      tzCode: 'America/Santarem',
       utc: '-03:00'
     },
     'America/Santiago': {
@@ -2740,8 +2740,8 @@ export default {
       label: 'America/Santiago (GMT-04:00)',
       location: 'Santiago',
       locationLabel: 'Santiago',
-      name: 'America/Santiago',
       type: 'Canonical',
+      tzCode: 'America/Santiago',
       utc: '-04:00'
     },
     'America/Santo_Domingo': {
@@ -2752,8 +2752,8 @@ export default {
       label: 'America/Santo_Domingo (GMT-04:00)',
       location: 'Santo_Domingo',
       locationLabel: 'Santo Domingo',
-      name: 'America/Santo_Domingo',
       type: 'Canonical',
+      tzCode: 'America/Santo_Domingo',
       utc: '-04:00'
     },
     'America/Sao_Paulo': {
@@ -2768,8 +2768,8 @@ export default {
       label: 'America/Sao_Paulo (GMT-03:00)',
       location: 'Sao_Paulo',
       locationLabel: 'Sao Paulo',
-      name: 'America/Sao_Paulo',
       type: 'Canonical',
+      tzCode: 'America/Sao_Paulo',
       utc: '-03:00'
     },
     'America/Scoresbysund': {
@@ -2781,8 +2781,8 @@ export default {
       label: 'America/Scoresbysund (GMT-01:00)',
       location: 'Scoresbysund',
       locationLabel: 'Scoresbysund',
-      name: 'America/Scoresbysund',
       type: 'Canonical',
+      tzCode: 'America/Scoresbysund',
       utc: '-01:00'
     },
     'America/Shiprock': {
@@ -2790,9 +2790,9 @@ export default {
       label: 'America/Shiprock (GMT-06:00)',
       location: 'Shiprock',
       locationLabel: 'Shiprock',
-      name: 'America/Shiprock',
       parent: 'America/Denver',
       type: 'Link',
+      tzCode: 'America/Shiprock',
       utc: '-06:00'
     },
     'America/Sitka': {
@@ -2804,8 +2804,8 @@ export default {
       label: 'America/Sitka (GMT-08:00)',
       location: 'Sitka',
       locationLabel: 'Sitka',
-      name: 'America/Sitka',
       type: 'Canonical',
+      tzCode: 'America/Sitka',
       utc: '-08:00'
     },
     'America/St_Barthelemy': {
@@ -2816,9 +2816,9 @@ export default {
       label: 'America/St_Barthelemy (GMT-04:00)',
       location: 'St_Barthelemy',
       locationLabel: 'St Barthelemy',
-      name: 'America/St_Barthelemy',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/St_Barthelemy',
       utc: '-04:00'
     },
     'America/St_Johns': {
@@ -2833,8 +2833,8 @@ export default {
       label: 'America/St_Johns (GMT-02:30)',
       location: 'St_Johns',
       locationLabel: 'St Johns',
-      name: 'America/St_Johns',
       type: 'Canonical',
+      tzCode: 'America/St_Johns',
       utc: '-02:30'
     },
     'America/St_Kitts': {
@@ -2845,9 +2845,9 @@ export default {
       label: 'America/St_Kitts (GMT-04:00)',
       location: 'St_Kitts',
       locationLabel: 'St Kitts',
-      name: 'America/St_Kitts',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/St_Kitts',
       utc: '-04:00'
     },
     'America/St_Lucia': {
@@ -2858,9 +2858,9 @@ export default {
       label: 'America/St_Lucia (GMT-04:00)',
       location: 'St_Lucia',
       locationLabel: 'St Lucia',
-      name: 'America/St_Lucia',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/St_Lucia',
       utc: '-04:00'
     },
     'America/St_Thomas': {
@@ -2871,9 +2871,9 @@ export default {
       label: 'America/St_Thomas (GMT-04:00)',
       location: 'St_Thomas',
       locationLabel: 'St Thomas',
-      name: 'America/St_Thomas',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/St_Thomas',
       utc: '-04:00'
     },
     'America/St_Vincent': {
@@ -2884,9 +2884,9 @@ export default {
       label: 'America/St_Vincent (GMT-04:00)',
       location: 'St_Vincent',
       locationLabel: 'St Vincent',
-      name: 'America/St_Vincent',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/St_Vincent',
       utc: '-04:00'
     },
     'America/Swift_Current': {
@@ -2898,8 +2898,8 @@ export default {
       label: 'America/Swift_Current (GMT-06:00)',
       location: 'Swift_Current',
       locationLabel: 'Swift Current',
-      name: 'America/Swift_Current',
       type: 'Canonical',
+      tzCode: 'America/Swift_Current',
       utc: '-06:00'
     },
     'America/Tegucigalpa': {
@@ -2910,8 +2910,8 @@ export default {
       label: 'America/Tegucigalpa (GMT-06:00)',
       location: 'Tegucigalpa',
       locationLabel: 'Tegucigalpa',
-      name: 'America/Tegucigalpa',
       type: 'Canonical',
+      tzCode: 'America/Tegucigalpa',
       utc: '-06:00'
     },
     'America/Thule': {
@@ -2923,8 +2923,8 @@ export default {
       label: 'America/Thule (GMT-03:00)',
       location: 'Thule',
       locationLabel: 'Thule',
-      name: 'America/Thule',
       type: 'Canonical',
+      tzCode: 'America/Thule',
       utc: '-03:00'
     },
     'America/Thunder_Bay': {
@@ -2932,9 +2932,9 @@ export default {
       label: 'America/Thunder_Bay (GMT-04:00)',
       location: 'Thunder_Bay',
       locationLabel: 'Thunder Bay',
-      name: 'America/Thunder_Bay',
       parent: 'America/Toronto',
       type: 'Link',
+      tzCode: 'America/Thunder_Bay',
       utc: '-04:00'
     },
     'America/Tijuana': {
@@ -2951,8 +2951,8 @@ export default {
       label: 'America/Tijuana (GMT-07:00)',
       location: 'Tijuana',
       locationLabel: 'Tijuana',
-      name: 'America/Tijuana',
       type: 'Canonical',
+      tzCode: 'America/Tijuana',
       utc: '-07:00'
     },
     'America/Toronto': {
@@ -2972,8 +2972,8 @@ export default {
       label: 'America/Toronto (GMT-04:00)',
       location: 'Toronto',
       locationLabel: 'Toronto',
-      name: 'America/Toronto',
       type: 'Canonical',
+      tzCode: 'America/Toronto',
       utc: '-04:00'
     },
     'America/Tortola': {
@@ -2984,9 +2984,9 @@ export default {
       label: 'America/Tortola (GMT-04:00)',
       location: 'Tortola',
       locationLabel: 'Tortola',
-      name: 'America/Tortola',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Tortola',
       utc: '-04:00'
     },
     'America/Vancouver': {
@@ -3001,8 +3001,8 @@ export default {
       label: 'America/Vancouver (GMT-07:00)',
       location: 'Vancouver',
       locationLabel: 'Vancouver',
-      name: 'America/Vancouver',
       type: 'Canonical',
+      tzCode: 'America/Vancouver',
       utc: '-07:00'
     },
     'America/Virgin': {
@@ -3010,9 +3010,9 @@ export default {
       label: 'America/Virgin (GMT-04:00)',
       location: 'Virgin',
       locationLabel: 'Virgin',
-      name: 'America/Virgin',
       parent: 'America/Puerto_Rico',
       type: 'Link',
+      tzCode: 'America/Virgin',
       utc: '-04:00'
     },
     'America/Whitehorse': {
@@ -3027,8 +3027,8 @@ export default {
       label: 'America/Whitehorse (GMT-07:00)',
       location: 'Whitehorse',
       locationLabel: 'Whitehorse',
-      name: 'America/Whitehorse',
       type: 'Canonical',
+      tzCode: 'America/Whitehorse',
       utc: '-07:00'
     },
     'America/Winnipeg': {
@@ -3044,8 +3044,8 @@ export default {
       label: 'America/Winnipeg (GMT-05:00)',
       location: 'Winnipeg',
       locationLabel: 'Winnipeg',
-      name: 'America/Winnipeg',
       type: 'Canonical',
+      tzCode: 'America/Winnipeg',
       utc: '-05:00'
     },
     'America/Yakutat': {
@@ -3057,8 +3057,8 @@ export default {
       label: 'America/Yakutat (GMT-08:00)',
       location: 'Yakutat',
       locationLabel: 'Yakutat',
-      name: 'America/Yakutat',
       type: 'Canonical',
+      tzCode: 'America/Yakutat',
       utc: '-08:00'
     },
     'America/Yellowknife': {
@@ -3066,9 +3066,9 @@ export default {
       label: 'America/Yellowknife (GMT-06:00)',
       location: 'Yellowknife',
       locationLabel: 'Yellowknife',
-      name: 'America/Yellowknife',
       parent: 'America/Edmonton',
       type: 'Link',
+      tzCode: 'America/Yellowknife',
       utc: '-06:00'
     },
     'Antarctica/Casey': {
@@ -3080,8 +3080,8 @@ export default {
       label: 'Antarctica/Casey (GMT+08:00)',
       location: 'Casey',
       locationLabel: 'Casey',
-      name: 'Antarctica/Casey',
       type: 'Canonical',
+      tzCode: 'Antarctica/Casey',
       utc: '+08:00'
     },
     'Antarctica/Davis': {
@@ -3093,8 +3093,8 @@ export default {
       label: 'Antarctica/Davis (GMT+07:00)',
       location: 'Davis',
       locationLabel: 'Davis',
-      name: 'Antarctica/Davis',
       type: 'Canonical',
+      tzCode: 'Antarctica/Davis',
       utc: '+07:00'
     },
     'Antarctica/DumontDUrville': {
@@ -3106,9 +3106,9 @@ export default {
       label: 'Antarctica/DumontDUrville (GMT+10:00)',
       location: 'DumontDUrville',
       locationLabel: 'DumontDUrville',
-      name: 'Antarctica/DumontDUrville',
       parent: 'Pacific/Port_Moresby',
       type: 'Link',
+      tzCode: 'Antarctica/DumontDUrville',
       utc: '+10:00'
     },
     'Antarctica/Macquarie': {
@@ -3120,8 +3120,8 @@ export default {
       label: 'Antarctica/Macquarie (GMT+10:00)',
       location: 'Macquarie',
       locationLabel: 'Macquarie',
-      name: 'Antarctica/Macquarie',
       type: 'Canonical',
+      tzCode: 'Antarctica/Macquarie',
       utc: '+10:00'
     },
     'Antarctica/Mawson': {
@@ -3133,8 +3133,8 @@ export default {
       label: 'Antarctica/Mawson (GMT+05:00)',
       location: 'Mawson',
       locationLabel: 'Mawson',
-      name: 'Antarctica/Mawson',
       type: 'Canonical',
+      tzCode: 'Antarctica/Mawson',
       utc: '+05:00'
     },
     'Antarctica/McMurdo': {
@@ -3146,9 +3146,9 @@ export default {
       label: 'Antarctica/McMurdo (GMT+12:00)',
       location: 'McMurdo',
       locationLabel: 'McMurdo',
-      name: 'Antarctica/McMurdo',
       parent: 'Pacific/Auckland',
       type: 'Link',
+      tzCode: 'Antarctica/McMurdo',
       utc: '+12:00'
     },
     'Antarctica/Palmer': {
@@ -3160,8 +3160,8 @@ export default {
       label: 'Antarctica/Palmer (GMT-03:00)',
       location: 'Palmer',
       locationLabel: 'Palmer',
-      name: 'Antarctica/Palmer',
       type: 'Canonical',
+      tzCode: 'Antarctica/Palmer',
       utc: '-03:00'
     },
     'Antarctica/Rothera': {
@@ -3173,8 +3173,8 @@ export default {
       label: 'Antarctica/Rothera (GMT-03:00)',
       location: 'Rothera',
       locationLabel: 'Rothera',
-      name: 'Antarctica/Rothera',
       type: 'Canonical',
+      tzCode: 'Antarctica/Rothera',
       utc: '-03:00'
     },
     'Antarctica/South_Pole': {
@@ -3182,9 +3182,9 @@ export default {
       label: 'Antarctica/South_Pole (GMT+12:00)',
       location: 'South_Pole',
       locationLabel: 'South Pole',
-      name: 'Antarctica/South_Pole',
       parent: 'Pacific/Auckland',
       type: 'Link',
+      tzCode: 'Antarctica/South_Pole',
       utc: '+12:00'
     },
     'Antarctica/Syowa': {
@@ -3196,9 +3196,9 @@ export default {
       label: 'Antarctica/Syowa (GMT+03:00)',
       location: 'Syowa',
       locationLabel: 'Syowa',
-      name: 'Antarctica/Syowa',
       parent: 'Asia/Riyadh',
       type: 'Link',
+      tzCode: 'Antarctica/Syowa',
       utc: '+03:00'
     },
     'Antarctica/Troll': {
@@ -3210,8 +3210,8 @@ export default {
       label: 'Antarctica/Troll (GMT+02:00)',
       location: 'Troll',
       locationLabel: 'Troll',
-      name: 'Antarctica/Troll',
       type: 'Canonical',
+      tzCode: 'Antarctica/Troll',
       utc: '+02:00'
     },
     'Antarctica/Vostok': {
@@ -3223,8 +3223,8 @@ export default {
       label: 'Antarctica/Vostok (GMT+05:00)',
       location: 'Vostok',
       locationLabel: 'Vostok',
-      name: 'Antarctica/Vostok',
       type: 'Canonical',
+      tzCode: 'Antarctica/Vostok',
       utc: '+05:00'
     },
     'Arctic/Longyearbyen': {
@@ -3235,9 +3235,9 @@ export default {
       label: 'Arctic/Longyearbyen (GMT+02:00)',
       location: 'Longyearbyen',
       locationLabel: 'Longyearbyen',
-      name: 'Arctic/Longyearbyen',
       parent: 'Europe/Berlin',
       type: 'Link',
+      tzCode: 'Arctic/Longyearbyen',
       utc: '+02:00'
     },
     'Asia/Aden': {
@@ -3248,9 +3248,9 @@ export default {
       label: 'Asia/Aden (GMT+03:00)',
       location: 'Aden',
       locationLabel: 'Aden',
-      name: 'Asia/Aden',
       parent: 'Asia/Riyadh',
       type: 'Link',
+      tzCode: 'Asia/Aden',
       utc: '+03:00'
     },
     'Asia/Almaty': {
@@ -3262,8 +3262,8 @@ export default {
       label: 'Asia/Almaty (GMT+05:00)',
       location: 'Almaty',
       locationLabel: 'Almaty',
-      name: 'Asia/Almaty',
       type: 'Canonical',
+      tzCode: 'Asia/Almaty',
       utc: '+05:00'
     },
     'Asia/Amman': {
@@ -3274,8 +3274,8 @@ export default {
       label: 'Asia/Amman (GMT+03:00)',
       location: 'Amman',
       locationLabel: 'Amman',
-      name: 'Asia/Amman',
       type: 'Canonical',
+      tzCode: 'Asia/Amman',
       utc: '+03:00'
     },
     'Asia/Anadyr': {
@@ -3287,8 +3287,8 @@ export default {
       label: 'Asia/Anadyr (GMT+12:00)',
       location: 'Anadyr',
       locationLabel: 'Anadyr',
-      name: 'Asia/Anadyr',
       type: 'Canonical',
+      tzCode: 'Asia/Anadyr',
       utc: '+12:00'
     },
     'Asia/Aqtau': {
@@ -3300,8 +3300,8 @@ export default {
       label: 'Asia/Aqtau (GMT+05:00)',
       location: 'Aqtau',
       locationLabel: 'Aqtau',
-      name: 'Asia/Aqtau',
       type: 'Canonical',
+      tzCode: 'Asia/Aqtau',
       utc: '+05:00'
     },
     'Asia/Aqtobe': {
@@ -3313,8 +3313,8 @@ export default {
       label: 'Asia/Aqtobe (GMT+05:00)',
       location: 'Aqtobe',
       locationLabel: 'Aqtobe',
-      name: 'Asia/Aqtobe',
       type: 'Canonical',
+      tzCode: 'Asia/Aqtobe',
       utc: '+05:00'
     },
     'Asia/Ashgabat': {
@@ -3328,8 +3328,8 @@ export default {
       label: 'Asia/Ashgabat (GMT+05:00)',
       location: 'Ashgabat',
       locationLabel: 'Ashgabat',
-      name: 'Asia/Ashgabat',
       type: 'Canonical',
+      tzCode: 'Asia/Ashgabat',
       utc: '+05:00'
     },
     'Asia/Ashkhabad': {
@@ -3337,9 +3337,9 @@ export default {
       label: 'Asia/Ashkhabad (GMT+05:00)',
       location: 'Ashkhabad',
       locationLabel: 'Ashkhabad',
-      name: 'Asia/Ashkhabad',
       parent: 'Asia/Ashgabat',
       type: 'Link',
+      tzCode: 'Asia/Ashkhabad',
       utc: '+05:00'
     },
     'Asia/Atyrau': {
@@ -3351,8 +3351,8 @@ export default {
       label: 'Asia/Atyrau (GMT+05:00)',
       location: 'Atyrau',
       locationLabel: 'Atyrau',
-      name: 'Asia/Atyrau',
       type: 'Canonical',
+      tzCode: 'Asia/Atyrau',
       utc: '+05:00'
     },
     'Asia/Baghdad': {
@@ -3363,8 +3363,8 @@ export default {
       label: 'Asia/Baghdad (GMT+03:00)',
       location: 'Baghdad',
       locationLabel: 'Baghdad',
-      name: 'Asia/Baghdad',
       type: 'Canonical',
+      tzCode: 'Asia/Baghdad',
       utc: '+03:00'
     },
     'Asia/Bahrain': {
@@ -3375,9 +3375,9 @@ export default {
       label: 'Asia/Bahrain (GMT+03:00)',
       location: 'Bahrain',
       locationLabel: 'Bahrain',
-      name: 'Asia/Bahrain',
       parent: 'Asia/Qatar',
       type: 'Link',
+      tzCode: 'Asia/Bahrain',
       utc: '+03:00'
     },
     'Asia/Baku': {
@@ -3388,8 +3388,8 @@ export default {
       label: 'Asia/Baku (GMT+04:00)',
       location: 'Baku',
       locationLabel: 'Baku',
-      name: 'Asia/Baku',
       type: 'Canonical',
+      tzCode: 'Asia/Baku',
       utc: '+04:00'
     },
     'Asia/Bangkok': {
@@ -3410,8 +3410,8 @@ export default {
       label: 'Asia/Bangkok (GMT+07:00)',
       location: 'Bangkok',
       locationLabel: 'Bangkok',
-      name: 'Asia/Bangkok',
       type: 'Canonical',
+      tzCode: 'Asia/Bangkok',
       utc: '+07:00'
     },
     'Asia/Barnaul': {
@@ -3423,8 +3423,8 @@ export default {
       label: 'Asia/Barnaul (GMT+07:00)',
       location: 'Barnaul',
       locationLabel: 'Barnaul',
-      name: 'Asia/Barnaul',
       type: 'Canonical',
+      tzCode: 'Asia/Barnaul',
       utc: '+07:00'
     },
     'Asia/Beirut': {
@@ -3435,8 +3435,8 @@ export default {
       label: 'Asia/Beirut (GMT+03:00)',
       location: 'Beirut',
       locationLabel: 'Beirut',
-      name: 'Asia/Beirut',
       type: 'Canonical',
+      tzCode: 'Asia/Beirut',
       utc: '+03:00'
     },
     'Asia/Bishkek': {
@@ -3447,8 +3447,8 @@ export default {
       label: 'Asia/Bishkek (GMT+06:00)',
       location: 'Bishkek',
       locationLabel: 'Bishkek',
-      name: 'Asia/Bishkek',
       type: 'Canonical',
+      tzCode: 'Asia/Bishkek',
       utc: '+06:00'
     },
     'Asia/Brunei': {
@@ -3459,9 +3459,9 @@ export default {
       label: 'Asia/Brunei (GMT+08:00)',
       location: 'Brunei',
       locationLabel: 'Brunei',
-      name: 'Asia/Brunei',
       parent: 'Asia/Kuching',
       type: 'Link',
+      tzCode: 'Asia/Brunei',
       utc: '+08:00'
     },
     'Asia/Calcutta': {
@@ -3469,9 +3469,9 @@ export default {
       label: 'Asia/Calcutta (GMT+05:30)',
       location: 'Calcutta',
       locationLabel: 'Calcutta',
-      name: 'Asia/Calcutta',
       parent: 'Asia/Kolkata',
       type: 'Link',
+      tzCode: 'Asia/Calcutta',
       utc: '+05:30'
     },
     'Asia/Chita': {
@@ -3483,8 +3483,8 @@ export default {
       label: 'Asia/Chita (GMT+09:00)',
       location: 'Chita',
       locationLabel: 'Chita',
-      name: 'Asia/Chita',
       type: 'Canonical',
+      tzCode: 'Asia/Chita',
       utc: '+09:00'
     },
     'Asia/Choibalsan': {
@@ -3492,9 +3492,9 @@ export default {
       label: 'Asia/Choibalsan (GMT+08:00)',
       location: 'Choibalsan',
       locationLabel: 'Choibalsan',
-      name: 'Asia/Choibalsan',
       parent: 'Asia/Ulaanbaatar',
       type: 'Link',
+      tzCode: 'Asia/Choibalsan',
       utc: '+08:00'
     },
     'Asia/Chongqing': {
@@ -3502,9 +3502,9 @@ export default {
       label: 'Asia/Chongqing (GMT+08:00)',
       location: 'Chongqing',
       locationLabel: 'Chongqing',
-      name: 'Asia/Chongqing',
       parent: 'Asia/Shanghai',
       type: 'Link',
+      tzCode: 'Asia/Chongqing',
       utc: '+08:00'
     },
     'Asia/Chungking': {
@@ -3512,9 +3512,9 @@ export default {
       label: 'Asia/Chungking (GMT+08:00)',
       location: 'Chungking',
       locationLabel: 'Chungking',
-      name: 'Asia/Chungking',
       parent: 'Asia/Shanghai',
       type: 'Link',
+      tzCode: 'Asia/Chungking',
       utc: '+08:00'
     },
     'Asia/Colombo': {
@@ -3525,8 +3525,8 @@ export default {
       label: 'Asia/Colombo (GMT+05:30)',
       location: 'Colombo',
       locationLabel: 'Colombo',
-      name: 'Asia/Colombo',
       type: 'Canonical',
+      tzCode: 'Asia/Colombo',
       utc: '+05:30'
     },
     'Asia/Dacca': {
@@ -3534,9 +3534,9 @@ export default {
       label: 'Asia/Dacca (GMT+06:00)',
       location: 'Dacca',
       locationLabel: 'Dacca',
-      name: 'Asia/Dacca',
       parent: 'Asia/Dhaka',
       type: 'Link',
+      tzCode: 'Asia/Dacca',
       utc: '+06:00'
     },
     'Asia/Damascus': {
@@ -3547,8 +3547,8 @@ export default {
       label: 'Asia/Damascus (GMT+03:00)',
       location: 'Damascus',
       locationLabel: 'Damascus',
-      name: 'Asia/Damascus',
       type: 'Canonical',
+      tzCode: 'Asia/Damascus',
       utc: '+03:00'
     },
     'Asia/Dhaka': {
@@ -3562,8 +3562,8 @@ export default {
       label: 'Asia/Dhaka (GMT+06:00)',
       location: 'Dhaka',
       locationLabel: 'Dhaka',
-      name: 'Asia/Dhaka',
       type: 'Canonical',
+      tzCode: 'Asia/Dhaka',
       utc: '+06:00'
     },
     'Asia/Dili': {
@@ -3574,8 +3574,8 @@ export default {
       label: 'Asia/Dili (GMT+09:00)',
       location: 'Dili',
       locationLabel: 'Dili',
-      name: 'Asia/Dili',
       type: 'Canonical',
+      tzCode: 'Asia/Dili',
       utc: '+09:00'
     },
     'Asia/Dubai': {
@@ -3596,8 +3596,8 @@ export default {
       label: 'Asia/Dubai (GMT+04:00)',
       location: 'Dubai',
       locationLabel: 'Dubai',
-      name: 'Asia/Dubai',
       type: 'Canonical',
+      tzCode: 'Asia/Dubai',
       utc: '+04:00'
     },
     'Asia/Dushanbe': {
@@ -3608,8 +3608,8 @@ export default {
       label: 'Asia/Dushanbe (GMT+05:00)',
       location: 'Dushanbe',
       locationLabel: 'Dushanbe',
-      name: 'Asia/Dushanbe',
       type: 'Canonical',
+      tzCode: 'Asia/Dushanbe',
       utc: '+05:00'
     },
     'Asia/Famagusta': {
@@ -3621,8 +3621,8 @@ export default {
       label: 'Asia/Famagusta (GMT+03:00)',
       location: 'Famagusta',
       locationLabel: 'Famagusta',
-      name: 'Asia/Famagusta',
       type: 'Canonical',
+      tzCode: 'Asia/Famagusta',
       utc: '+03:00'
     },
     'Asia/Gaza': {
@@ -3634,8 +3634,8 @@ export default {
       label: 'Asia/Gaza (GMT+03:00)',
       location: 'Gaza',
       locationLabel: 'Gaza',
-      name: 'Asia/Gaza',
       type: 'Canonical',
+      tzCode: 'Asia/Gaza',
       utc: '+03:00'
     },
     'Asia/Harbin': {
@@ -3643,9 +3643,9 @@ export default {
       label: 'Asia/Harbin (GMT+08:00)',
       location: 'Harbin',
       locationLabel: 'Harbin',
-      name: 'Asia/Harbin',
       parent: 'Asia/Shanghai',
       type: 'Link',
+      tzCode: 'Asia/Harbin',
       utc: '+08:00'
     },
     'Asia/Hebron': {
@@ -3657,8 +3657,8 @@ export default {
       label: 'Asia/Hebron (GMT+03:00)',
       location: 'Hebron',
       locationLabel: 'Hebron',
-      name: 'Asia/Hebron',
       type: 'Canonical',
+      tzCode: 'Asia/Hebron',
       utc: '+03:00'
     },
     'Asia/Ho_Chi_Minh': {
@@ -3673,8 +3673,8 @@ export default {
       label: 'Asia/Ho_Chi_Minh (GMT+07:00)',
       location: 'Ho_Chi_Minh',
       locationLabel: 'Ho Chi_Minh',
-      name: 'Asia/Ho_Chi_Minh',
       type: 'Canonical',
+      tzCode: 'Asia/Ho_Chi_Minh',
       utc: '+07:00'
     },
     'Asia/Hong_Kong': {
@@ -3688,8 +3688,8 @@ export default {
       label: 'Asia/Hong_Kong (GMT+08:00)',
       location: 'Hong_Kong',
       locationLabel: 'Hong Kong',
-      name: 'Asia/Hong_Kong',
       type: 'Canonical',
+      tzCode: 'Asia/Hong_Kong',
       utc: '+08:00'
     },
     'Asia/Hovd': {
@@ -3701,8 +3701,8 @@ export default {
       label: 'Asia/Hovd (GMT+07:00)',
       location: 'Hovd',
       locationLabel: 'Hovd',
-      name: 'Asia/Hovd',
       type: 'Canonical',
+      tzCode: 'Asia/Hovd',
       utc: '+07:00'
     },
     'Asia/Irkutsk': {
@@ -3714,8 +3714,8 @@ export default {
       label: 'Asia/Irkutsk (GMT+08:00)',
       location: 'Irkutsk',
       locationLabel: 'Irkutsk',
-      name: 'Asia/Irkutsk',
       type: 'Canonical',
+      tzCode: 'Asia/Irkutsk',
       utc: '+08:00'
     },
     'Asia/Istanbul': {
@@ -3723,9 +3723,9 @@ export default {
       label: 'Asia/Istanbul (GMT+03:00)',
       location: 'Istanbul',
       locationLabel: 'Istanbul',
-      name: 'Asia/Istanbul',
       parent: 'Europe/Istanbul',
       type: 'Link',
+      tzCode: 'Asia/Istanbul',
       utc: '+03:00'
     },
     'Asia/Jakarta': {
@@ -3737,8 +3737,8 @@ export default {
       label: 'Asia/Jakarta (GMT+07:00)',
       location: 'Jakarta',
       locationLabel: 'Jakarta',
-      name: 'Asia/Jakarta',
       type: 'Canonical',
+      tzCode: 'Asia/Jakarta',
       utc: '+07:00'
     },
     'Asia/Jayapura': {
@@ -3750,8 +3750,8 @@ export default {
       label: 'Asia/Jayapura (GMT+09:00)',
       location: 'Jayapura',
       locationLabel: 'Jayapura',
-      name: 'Asia/Jayapura',
       type: 'Canonical',
+      tzCode: 'Asia/Jayapura',
       utc: '+09:00'
     },
     'Asia/Jerusalem': {
@@ -3766,8 +3766,8 @@ export default {
       label: 'Asia/Jerusalem (GMT+03:00)',
       location: 'Jerusalem',
       locationLabel: 'Jerusalem',
-      name: 'Asia/Jerusalem',
       type: 'Canonical',
+      tzCode: 'Asia/Jerusalem',
       utc: '+03:00'
     },
     'Asia/Kabul': {
@@ -3778,8 +3778,8 @@ export default {
       label: 'Asia/Kabul (GMT+04:30)',
       location: 'Kabul',
       locationLabel: 'Kabul',
-      name: 'Asia/Kabul',
       type: 'Canonical',
+      tzCode: 'Asia/Kabul',
       utc: '+04:30'
     },
     'Asia/Kamchatka': {
@@ -3791,8 +3791,8 @@ export default {
       label: 'Asia/Kamchatka (GMT+12:00)',
       location: 'Kamchatka',
       locationLabel: 'Kamchatka',
-      name: 'Asia/Kamchatka',
       type: 'Canonical',
+      tzCode: 'Asia/Kamchatka',
       utc: '+12:00'
     },
     'Asia/Karachi': {
@@ -3803,8 +3803,8 @@ export default {
       label: 'Asia/Karachi (GMT+05:00)',
       location: 'Karachi',
       locationLabel: 'Karachi',
-      name: 'Asia/Karachi',
       type: 'Canonical',
+      tzCode: 'Asia/Karachi',
       utc: '+05:00'
     },
     'Asia/Kashgar': {
@@ -3812,9 +3812,9 @@ export default {
       label: 'Asia/Kashgar (GMT+06:00)',
       location: 'Kashgar',
       locationLabel: 'Kashgar',
-      name: 'Asia/Kashgar',
       parent: 'Asia/Urumqi',
       type: 'Link',
+      tzCode: 'Asia/Kashgar',
       utc: '+06:00'
     },
     'Asia/Kathmandu': {
@@ -3828,8 +3828,8 @@ export default {
       label: 'Asia/Kathmandu (GMT+05:45)',
       location: 'Kathmandu',
       locationLabel: 'Kathmandu',
-      name: 'Asia/Kathmandu',
       type: 'Canonical',
+      tzCode: 'Asia/Kathmandu',
       utc: '+05:45'
     },
     'Asia/Katmandu': {
@@ -3837,9 +3837,9 @@ export default {
       label: 'Asia/Katmandu (GMT+05:45)',
       location: 'Katmandu',
       locationLabel: 'Katmandu',
-      name: 'Asia/Katmandu',
       parent: 'Asia/Kathmandu',
       type: 'Link',
+      tzCode: 'Asia/Katmandu',
       utc: '+05:45'
     },
     'Asia/Khandyga': {
@@ -3851,8 +3851,8 @@ export default {
       label: 'Asia/Khandyga (GMT+09:00)',
       location: 'Khandyga',
       locationLabel: 'Khandyga',
-      name: 'Asia/Khandyga',
       type: 'Canonical',
+      tzCode: 'Asia/Khandyga',
       utc: '+09:00'
     },
     'Asia/Kolkata': {
@@ -3866,8 +3866,8 @@ export default {
       label: 'Asia/Kolkata (GMT+05:30)',
       location: 'Kolkata',
       locationLabel: 'Kolkata',
-      name: 'Asia/Kolkata',
       type: 'Canonical',
+      tzCode: 'Asia/Kolkata',
       utc: '+05:30'
     },
     'Asia/Krasnoyarsk': {
@@ -3879,8 +3879,8 @@ export default {
       label: 'Asia/Krasnoyarsk (GMT+07:00)',
       location: 'Krasnoyarsk',
       locationLabel: 'Krasnoyarsk',
-      name: 'Asia/Krasnoyarsk',
       type: 'Canonical',
+      tzCode: 'Asia/Krasnoyarsk',
       utc: '+07:00'
     },
     'Asia/Kuala_Lumpur': {
@@ -3892,9 +3892,9 @@ export default {
       label: 'Asia/Kuala_Lumpur (GMT+08:00)',
       location: 'Kuala_Lumpur',
       locationLabel: 'Kuala Lumpur',
-      name: 'Asia/Kuala_Lumpur',
       parent: 'Asia/Singapore',
       type: 'Link',
+      tzCode: 'Asia/Kuala_Lumpur',
       utc: '+08:00'
     },
     'Asia/Kuching': {
@@ -3910,8 +3910,8 @@ export default {
       label: 'Asia/Kuching (GMT+08:00)',
       location: 'Kuching',
       locationLabel: 'Kuching',
-      name: 'Asia/Kuching',
       type: 'Canonical',
+      tzCode: 'Asia/Kuching',
       utc: '+08:00'
     },
     'Asia/Kuwait': {
@@ -3922,9 +3922,9 @@ export default {
       label: 'Asia/Kuwait (GMT+03:00)',
       location: 'Kuwait',
       locationLabel: 'Kuwait',
-      name: 'Asia/Kuwait',
       parent: 'Asia/Riyadh',
       type: 'Link',
+      tzCode: 'Asia/Kuwait',
       utc: '+03:00'
     },
     'Asia/Macao': {
@@ -3932,9 +3932,9 @@ export default {
       label: 'Asia/Macao (GMT+08:00)',
       location: 'Macao',
       locationLabel: 'Macao',
-      name: 'Asia/Macao',
       parent: 'Asia/Macau',
       type: 'Link',
+      tzCode: 'Asia/Macao',
       utc: '+08:00'
     },
     'Asia/Macau': {
@@ -3948,8 +3948,8 @@ export default {
       label: 'Asia/Macau (GMT+08:00)',
       location: 'Macau',
       locationLabel: 'Macau',
-      name: 'Asia/Macau',
       type: 'Canonical',
+      tzCode: 'Asia/Macau',
       utc: '+08:00'
     },
     'Asia/Magadan': {
@@ -3961,8 +3961,8 @@ export default {
       label: 'Asia/Magadan (GMT+11:00)',
       location: 'Magadan',
       locationLabel: 'Magadan',
-      name: 'Asia/Magadan',
       type: 'Canonical',
+      tzCode: 'Asia/Magadan',
       utc: '+11:00'
     },
     'Asia/Makassar': {
@@ -3977,8 +3977,8 @@ export default {
       label: 'Asia/Makassar (GMT+08:00)',
       location: 'Makassar',
       locationLabel: 'Makassar',
-      name: 'Asia/Makassar',
       type: 'Canonical',
+      tzCode: 'Asia/Makassar',
       utc: '+08:00'
     },
     'Asia/Manila': {
@@ -3989,8 +3989,8 @@ export default {
       label: 'Asia/Manila (GMT+08:00)',
       location: 'Manila',
       locationLabel: 'Manila',
-      name: 'Asia/Manila',
       type: 'Canonical',
+      tzCode: 'Asia/Manila',
       utc: '+08:00'
     },
     'Asia/Muscat': {
@@ -4001,9 +4001,9 @@ export default {
       label: 'Asia/Muscat (GMT+04:00)',
       location: 'Muscat',
       locationLabel: 'Muscat',
-      name: 'Asia/Muscat',
       parent: 'Asia/Dubai',
       type: 'Link',
+      tzCode: 'Asia/Muscat',
       utc: '+04:00'
     },
     'Asia/Nicosia': {
@@ -4018,8 +4018,8 @@ export default {
       label: 'Asia/Nicosia (GMT+03:00)',
       location: 'Nicosia',
       locationLabel: 'Nicosia',
-      name: 'Asia/Nicosia',
       type: 'Canonical',
+      tzCode: 'Asia/Nicosia',
       utc: '+03:00'
     },
     'Asia/Novokuznetsk': {
@@ -4031,8 +4031,8 @@ export default {
       label: 'Asia/Novokuznetsk (GMT+07:00)',
       location: 'Novokuznetsk',
       locationLabel: 'Novokuznetsk',
-      name: 'Asia/Novokuznetsk',
       type: 'Canonical',
+      tzCode: 'Asia/Novokuznetsk',
       utc: '+07:00'
     },
     'Asia/Novosibirsk': {
@@ -4044,8 +4044,8 @@ export default {
       label: 'Asia/Novosibirsk (GMT+07:00)',
       location: 'Novosibirsk',
       locationLabel: 'Novosibirsk',
-      name: 'Asia/Novosibirsk',
       type: 'Canonical',
+      tzCode: 'Asia/Novosibirsk',
       utc: '+07:00'
     },
     'Asia/Omsk': {
@@ -4057,8 +4057,8 @@ export default {
       label: 'Asia/Omsk (GMT+06:00)',
       location: 'Omsk',
       locationLabel: 'Omsk',
-      name: 'Asia/Omsk',
       type: 'Canonical',
+      tzCode: 'Asia/Omsk',
       utc: '+06:00'
     },
     'Asia/Oral': {
@@ -4070,8 +4070,8 @@ export default {
       label: 'Asia/Oral (GMT+05:00)',
       location: 'Oral',
       locationLabel: 'Oral',
-      name: 'Asia/Oral',
       type: 'Canonical',
+      tzCode: 'Asia/Oral',
       utc: '+05:00'
     },
     'Asia/Phnom_Penh': {
@@ -4082,9 +4082,9 @@ export default {
       label: 'Asia/Phnom_Penh (GMT+07:00)',
       location: 'Phnom_Penh',
       locationLabel: 'Phnom Penh',
-      name: 'Asia/Phnom_Penh',
       parent: 'Asia/Bangkok',
       type: 'Link',
+      tzCode: 'Asia/Phnom_Penh',
       utc: '+07:00'
     },
     'Asia/Pontianak': {
@@ -4096,8 +4096,8 @@ export default {
       label: 'Asia/Pontianak (GMT+07:00)',
       location: 'Pontianak',
       locationLabel: 'Pontianak',
-      name: 'Asia/Pontianak',
       type: 'Canonical',
+      tzCode: 'Asia/Pontianak',
       utc: '+07:00'
     },
     'Asia/Pyongyang': {
@@ -4108,8 +4108,8 @@ export default {
       label: 'Asia/Pyongyang (GMT+09:00)',
       location: 'Pyongyang',
       locationLabel: 'Pyongyang',
-      name: 'Asia/Pyongyang',
       type: 'Canonical',
+      tzCode: 'Asia/Pyongyang',
       utc: '+09:00'
     },
     'Asia/Qatar': {
@@ -4124,8 +4124,8 @@ export default {
       label: 'Asia/Qatar (GMT+03:00)',
       location: 'Qatar',
       locationLabel: 'Qatar',
-      name: 'Asia/Qatar',
       type: 'Canonical',
+      tzCode: 'Asia/Qatar',
       utc: '+03:00'
     },
     'Asia/Qostanay': {
@@ -4137,8 +4137,8 @@ export default {
       label: 'Asia/Qostanay (GMT+05:00)',
       location: 'Qostanay',
       locationLabel: 'Qostanay',
-      name: 'Asia/Qostanay',
       type: 'Canonical',
+      tzCode: 'Asia/Qostanay',
       utc: '+05:00'
     },
     'Asia/Qyzylorda': {
@@ -4150,8 +4150,8 @@ export default {
       label: 'Asia/Qyzylorda (GMT+05:00)',
       location: 'Qyzylorda',
       locationLabel: 'Qyzylorda',
-      name: 'Asia/Qyzylorda',
       type: 'Canonical',
+      tzCode: 'Asia/Qyzylorda',
       utc: '+05:00'
     },
     'Asia/Rangoon': {
@@ -4159,9 +4159,9 @@ export default {
       label: 'Asia/Rangoon (GMT+06:30)',
       location: 'Rangoon',
       locationLabel: 'Rangoon',
-      name: 'Asia/Rangoon',
       parent: 'Asia/Yangon',
       type: 'Link',
+      tzCode: 'Asia/Rangoon',
       utc: '+06:30'
     },
     'Asia/Riyadh': {
@@ -4181,8 +4181,8 @@ export default {
       label: 'Asia/Riyadh (GMT+03:00)',
       location: 'Riyadh',
       locationLabel: 'Riyadh',
-      name: 'Asia/Riyadh',
       type: 'Canonical',
+      tzCode: 'Asia/Riyadh',
       utc: '+03:00'
     },
     'Asia/Saigon': {
@@ -4190,9 +4190,9 @@ export default {
       label: 'Asia/Saigon (GMT+07:00)',
       location: 'Saigon',
       locationLabel: 'Saigon',
-      name: 'Asia/Saigon',
       parent: 'Asia/Ho_Chi_Minh',
       type: 'Link',
+      tzCode: 'Asia/Saigon',
       utc: '+07:00'
     },
     'Asia/Sakhalin': {
@@ -4204,8 +4204,8 @@ export default {
       label: 'Asia/Sakhalin (GMT+11:00)',
       location: 'Sakhalin',
       locationLabel: 'Sakhalin',
-      name: 'Asia/Sakhalin',
       type: 'Canonical',
+      tzCode: 'Asia/Sakhalin',
       utc: '+11:00'
     },
     'Asia/Samarkand': {
@@ -4217,8 +4217,8 @@ export default {
       label: 'Asia/Samarkand (GMT+05:00)',
       location: 'Samarkand',
       locationLabel: 'Samarkand',
-      name: 'Asia/Samarkand',
       type: 'Canonical',
+      tzCode: 'Asia/Samarkand',
       utc: '+05:00'
     },
     'Asia/Seoul': {
@@ -4232,8 +4232,8 @@ export default {
       label: 'Asia/Seoul (GMT+09:00)',
       location: 'Seoul',
       locationLabel: 'Seoul',
-      name: 'Asia/Seoul',
       type: 'Canonical',
+      tzCode: 'Asia/Seoul',
       utc: '+09:00'
     },
     'Asia/Shanghai': {
@@ -4251,8 +4251,8 @@ export default {
       label: 'Asia/Shanghai (GMT+08:00)',
       location: 'Shanghai',
       locationLabel: 'Shanghai',
-      name: 'Asia/Shanghai',
       type: 'Canonical',
+      tzCode: 'Asia/Shanghai',
       utc: '+08:00'
     },
     'Asia/Singapore': {
@@ -4270,8 +4270,8 @@ export default {
       label: 'Asia/Singapore (GMT+08:00)',
       location: 'Singapore',
       locationLabel: 'Singapore',
-      name: 'Asia/Singapore',
       type: 'Canonical',
+      tzCode: 'Asia/Singapore',
       utc: '+08:00'
     },
     'Asia/Srednekolymsk': {
@@ -4283,8 +4283,8 @@ export default {
       label: 'Asia/Srednekolymsk (GMT+11:00)',
       location: 'Srednekolymsk',
       locationLabel: 'Srednekolymsk',
-      name: 'Asia/Srednekolymsk',
       type: 'Canonical',
+      tzCode: 'Asia/Srednekolymsk',
       utc: '+11:00'
     },
     'Asia/Taipei': {
@@ -4298,8 +4298,8 @@ export default {
       label: 'Asia/Taipei (GMT+08:00)',
       location: 'Taipei',
       locationLabel: 'Taipei',
-      name: 'Asia/Taipei',
       type: 'Canonical',
+      tzCode: 'Asia/Taipei',
       utc: '+08:00'
     },
     'Asia/Tashkent': {
@@ -4311,8 +4311,8 @@ export default {
       label: 'Asia/Tashkent (GMT+05:00)',
       location: 'Tashkent',
       locationLabel: 'Tashkent',
-      name: 'Asia/Tashkent',
       type: 'Canonical',
+      tzCode: 'Asia/Tashkent',
       utc: '+05:00'
     },
     'Asia/Tbilisi': {
@@ -4323,8 +4323,8 @@ export default {
       label: 'Asia/Tbilisi (GMT+04:00)',
       location: 'Tbilisi',
       locationLabel: 'Tbilisi',
-      name: 'Asia/Tbilisi',
       type: 'Canonical',
+      tzCode: 'Asia/Tbilisi',
       utc: '+04:00'
     },
     'Asia/Tehran': {
@@ -4338,8 +4338,8 @@ export default {
       label: 'Asia/Tehran (GMT+03:30)',
       location: 'Tehran',
       locationLabel: 'Tehran',
-      name: 'Asia/Tehran',
       type: 'Canonical',
+      tzCode: 'Asia/Tehran',
       utc: '+03:30'
     },
     'Asia/Tel_Aviv': {
@@ -4347,9 +4347,9 @@ export default {
       label: 'Asia/Tel_Aviv (GMT+03:00)',
       location: 'Tel_Aviv',
       locationLabel: 'Tel Aviv',
-      name: 'Asia/Tel_Aviv',
       parent: 'Asia/Jerusalem',
       type: 'Link',
+      tzCode: 'Asia/Tel_Aviv',
       utc: '+03:00'
     },
     'Asia/Thimbu': {
@@ -4357,9 +4357,9 @@ export default {
       label: 'Asia/Thimbu (GMT+06:00)',
       location: 'Thimbu',
       locationLabel: 'Thimbu',
-      name: 'Asia/Thimbu',
       parent: 'Asia/Thimphu',
       type: 'Link',
+      tzCode: 'Asia/Thimbu',
       utc: '+06:00'
     },
     'Asia/Thimphu': {
@@ -4373,8 +4373,8 @@ export default {
       label: 'Asia/Thimphu (GMT+06:00)',
       location: 'Thimphu',
       locationLabel: 'Thimphu',
-      name: 'Asia/Thimphu',
       type: 'Canonical',
+      tzCode: 'Asia/Thimphu',
       utc: '+06:00'
     },
     'Asia/Tokyo': {
@@ -4390,8 +4390,8 @@ export default {
       label: 'Asia/Tokyo (GMT+09:00)',
       location: 'Tokyo',
       locationLabel: 'Tokyo',
-      name: 'Asia/Tokyo',
       type: 'Canonical',
+      tzCode: 'Asia/Tokyo',
       utc: '+09:00'
     },
     'Asia/Tomsk': {
@@ -4403,8 +4403,8 @@ export default {
       label: 'Asia/Tomsk (GMT+07:00)',
       location: 'Tomsk',
       locationLabel: 'Tomsk',
-      name: 'Asia/Tomsk',
       type: 'Canonical',
+      tzCode: 'Asia/Tomsk',
       utc: '+07:00'
     },
     'Asia/Ujung_Pandang': {
@@ -4412,9 +4412,9 @@ export default {
       label: 'Asia/Ujung_Pandang (GMT+08:00)',
       location: 'Ujung_Pandang',
       locationLabel: 'Ujung Pandang',
-      name: 'Asia/Ujung_Pandang',
       parent: 'Asia/Makassar',
       type: 'Link',
+      tzCode: 'Asia/Ujung_Pandang',
       utc: '+08:00'
     },
     'Asia/Ulaanbaatar': {
@@ -4430,8 +4430,8 @@ export default {
       label: 'Asia/Ulaanbaatar (GMT+08:00)',
       location: 'Ulaanbaatar',
       locationLabel: 'Ulaanbaatar',
-      name: 'Asia/Ulaanbaatar',
       type: 'Canonical',
+      tzCode: 'Asia/Ulaanbaatar',
       utc: '+08:00'
     },
     'Asia/Ulan_Bator': {
@@ -4439,9 +4439,9 @@ export default {
       label: 'Asia/Ulan_Bator (GMT+08:00)',
       location: 'Ulan_Bator',
       locationLabel: 'Ulan Bator',
-      name: 'Asia/Ulan_Bator',
       parent: 'Asia/Ulaanbaatar',
       type: 'Link',
+      tzCode: 'Asia/Ulan_Bator',
       utc: '+08:00'
     },
     'Asia/Urumqi': {
@@ -4456,8 +4456,8 @@ export default {
       label: 'Asia/Urumqi (GMT+06:00)',
       location: 'Urumqi',
       locationLabel: 'Urumqi',
-      name: 'Asia/Urumqi',
       type: 'Canonical',
+      tzCode: 'Asia/Urumqi',
       utc: '+06:00'
     },
     'Asia/Ust-Nera': {
@@ -4469,8 +4469,8 @@ export default {
       label: 'Asia/Ust-Nera (GMT+10:00)',
       location: 'Ust-Nera',
       locationLabel: 'Ust-Nera',
-      name: 'Asia/Ust-Nera',
       type: 'Canonical',
+      tzCode: 'Asia/Ust-Nera',
       utc: '+10:00'
     },
     'Asia/Vientiane': {
@@ -4481,9 +4481,9 @@ export default {
       label: 'Asia/Vientiane (GMT+07:00)',
       location: 'Vientiane',
       locationLabel: 'Vientiane',
-      name: 'Asia/Vientiane',
       parent: 'Asia/Bangkok',
       type: 'Link',
+      tzCode: 'Asia/Vientiane',
       utc: '+07:00'
     },
     'Asia/Vladivostok': {
@@ -4495,8 +4495,8 @@ export default {
       label: 'Asia/Vladivostok (GMT+10:00)',
       location: 'Vladivostok',
       locationLabel: 'Vladivostok',
-      name: 'Asia/Vladivostok',
       type: 'Canonical',
+      tzCode: 'Asia/Vladivostok',
       utc: '+10:00'
     },
     'Asia/Yakutsk': {
@@ -4508,8 +4508,8 @@ export default {
       label: 'Asia/Yakutsk (GMT+09:00)',
       location: 'Yakutsk',
       locationLabel: 'Yakutsk',
-      name: 'Asia/Yakutsk',
       type: 'Canonical',
+      tzCode: 'Asia/Yakutsk',
       utc: '+09:00'
     },
     'Asia/Yangon': {
@@ -4525,8 +4525,8 @@ export default {
       label: 'Asia/Yangon (GMT+06:30)',
       location: 'Yangon',
       locationLabel: 'Yangon',
-      name: 'Asia/Yangon',
       type: 'Canonical',
+      tzCode: 'Asia/Yangon',
       utc: '+06:30'
     },
     'Asia/Yekaterinburg': {
@@ -4538,8 +4538,8 @@ export default {
       label: 'Asia/Yekaterinburg (GMT+05:00)',
       location: 'Yekaterinburg',
       locationLabel: 'Yekaterinburg',
-      name: 'Asia/Yekaterinburg',
       type: 'Canonical',
+      tzCode: 'Asia/Yekaterinburg',
       utc: '+05:00'
     },
     'Asia/Yerevan': {
@@ -4550,8 +4550,8 @@ export default {
       label: 'Asia/Yerevan (GMT+04:00)',
       location: 'Yerevan',
       locationLabel: 'Yerevan',
-      name: 'Asia/Yerevan',
       type: 'Canonical',
+      tzCode: 'Asia/Yerevan',
       utc: '+04:00'
     },
     'Atlantic/Azores': {
@@ -4563,8 +4563,8 @@ export default {
       label: 'Atlantic/Azores (GMT+00:00)',
       location: 'Azores',
       locationLabel: 'Azores',
-      name: 'Atlantic/Azores',
       type: 'Canonical',
+      tzCode: 'Atlantic/Azores',
       utc: '+00:00'
     },
     'Atlantic/Bermuda': {
@@ -4575,8 +4575,8 @@ export default {
       label: 'Atlantic/Bermuda (GMT-03:00)',
       location: 'Bermuda',
       locationLabel: 'Bermuda',
-      name: 'Atlantic/Bermuda',
       type: 'Canonical',
+      tzCode: 'Atlantic/Bermuda',
       utc: '-03:00'
     },
     'Atlantic/Canary': {
@@ -4588,8 +4588,8 @@ export default {
       label: 'Atlantic/Canary (GMT+01:00)',
       location: 'Canary',
       locationLabel: 'Canary',
-      name: 'Atlantic/Canary',
       type: 'Canonical',
+      tzCode: 'Atlantic/Canary',
       utc: '+01:00'
     },
     'Atlantic/Cape_Verde': {
@@ -4600,8 +4600,8 @@ export default {
       label: 'Atlantic/Cape_Verde (GMT-01:00)',
       location: 'Cape_Verde',
       locationLabel: 'Cape Verde',
-      name: 'Atlantic/Cape_Verde',
       type: 'Canonical',
+      tzCode: 'Atlantic/Cape_Verde',
       utc: '-01:00'
     },
     'Atlantic/Faeroe': {
@@ -4609,9 +4609,9 @@ export default {
       label: 'Atlantic/Faeroe (GMT+01:00)',
       location: 'Faeroe',
       locationLabel: 'Faeroe',
-      name: 'Atlantic/Faeroe',
       parent: 'Atlantic/Faroe',
       type: 'Link',
+      tzCode: 'Atlantic/Faeroe',
       utc: '+01:00'
     },
     'Atlantic/Faroe': {
@@ -4625,8 +4625,8 @@ export default {
       label: 'Atlantic/Faroe (GMT+01:00)',
       location: 'Faroe',
       locationLabel: 'Faroe',
-      name: 'Atlantic/Faroe',
       type: 'Canonical',
+      tzCode: 'Atlantic/Faroe',
       utc: '+01:00'
     },
     'Atlantic/Jan_Mayen': {
@@ -4634,9 +4634,9 @@ export default {
       label: 'Atlantic/Jan_Mayen (GMT+02:00)',
       location: 'Jan_Mayen',
       locationLabel: 'Jan Mayen',
-      name: 'Atlantic/Jan_Mayen',
       parent: 'Europe/Berlin',
       type: 'Link',
+      tzCode: 'Atlantic/Jan_Mayen',
       utc: '+02:00'
     },
     'Atlantic/Madeira': {
@@ -4648,8 +4648,8 @@ export default {
       label: 'Atlantic/Madeira (GMT+01:00)',
       location: 'Madeira',
       locationLabel: 'Madeira',
-      name: 'Atlantic/Madeira',
       type: 'Canonical',
+      tzCode: 'Atlantic/Madeira',
       utc: '+01:00'
     },
     'Atlantic/Reykjavik': {
@@ -4660,9 +4660,9 @@ export default {
       label: 'Atlantic/Reykjavik (GMT+00:00)',
       location: 'Reykjavik',
       locationLabel: 'Reykjavik',
-      name: 'Atlantic/Reykjavik',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Atlantic/Reykjavik',
       utc: '+00:00'
     },
     'Atlantic/South_Georgia': {
@@ -4673,8 +4673,8 @@ export default {
       label: 'Atlantic/South_Georgia (GMT-02:00)',
       location: 'South_Georgia',
       locationLabel: 'South Georgia',
-      name: 'Atlantic/South_Georgia',
       type: 'Canonical',
+      tzCode: 'Atlantic/South_Georgia',
       utc: '-02:00'
     },
     'Atlantic/St_Helena': {
@@ -4685,9 +4685,9 @@ export default {
       label: 'Atlantic/St_Helena (GMT+00:00)',
       location: 'St_Helena',
       locationLabel: 'St Helena',
-      name: 'Atlantic/St_Helena',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Atlantic/St_Helena',
       utc: '+00:00'
     },
     'Atlantic/Stanley': {
@@ -4698,8 +4698,8 @@ export default {
       label: 'Atlantic/Stanley (GMT-03:00)',
       location: 'Stanley',
       locationLabel: 'Stanley',
-      name: 'Atlantic/Stanley',
       type: 'Canonical',
+      tzCode: 'Atlantic/Stanley',
       utc: '-03:00'
     },
     'Australia/ACT': {
@@ -4707,9 +4707,9 @@ export default {
       label: 'Australia/ACT (GMT+10:00)',
       location: 'ACT',
       locationLabel: 'ACT',
-      name: 'Australia/ACT',
       parent: 'Australia/Sydney',
       type: 'Link',
+      tzCode: 'Australia/ACT',
       utc: '+10:00'
     },
     'Australia/Adelaide': {
@@ -4724,8 +4724,8 @@ export default {
       label: 'Australia/Adelaide (GMT+09:30)',
       location: 'Adelaide',
       locationLabel: 'Adelaide',
-      name: 'Australia/Adelaide',
       type: 'Canonical',
+      tzCode: 'Australia/Adelaide',
       utc: '+09:30'
     },
     'Australia/Brisbane': {
@@ -4740,8 +4740,8 @@ export default {
       label: 'Australia/Brisbane (GMT+10:00)',
       location: 'Brisbane',
       locationLabel: 'Brisbane',
-      name: 'Australia/Brisbane',
       type: 'Canonical',
+      tzCode: 'Australia/Brisbane',
       utc: '+10:00'
     },
     'Australia/Broken_Hill': {
@@ -4756,8 +4756,8 @@ export default {
       label: 'Australia/Broken_Hill (GMT+09:30)',
       location: 'Broken_Hill',
       locationLabel: 'Broken Hill',
-      name: 'Australia/Broken_Hill',
       type: 'Canonical',
+      tzCode: 'Australia/Broken_Hill',
       utc: '+09:30'
     },
     'Australia/Canberra': {
@@ -4765,9 +4765,9 @@ export default {
       label: 'Australia/Canberra (GMT+10:00)',
       location: 'Canberra',
       locationLabel: 'Canberra',
-      name: 'Australia/Canberra',
       parent: 'Australia/Sydney',
       type: 'Link',
+      tzCode: 'Australia/Canberra',
       utc: '+10:00'
     },
     'Australia/Currie': {
@@ -4775,9 +4775,9 @@ export default {
       label: 'Australia/Currie (GMT+10:00)',
       location: 'Currie',
       locationLabel: 'Currie',
-      name: 'Australia/Currie',
       parent: 'Australia/Hobart',
       type: 'Link',
+      tzCode: 'Australia/Currie',
       utc: '+10:00'
     },
     'Australia/Darwin': {
@@ -4792,8 +4792,8 @@ export default {
       label: 'Australia/Darwin (GMT+09:30)',
       location: 'Darwin',
       locationLabel: 'Darwin',
-      name: 'Australia/Darwin',
       type: 'Canonical',
+      tzCode: 'Australia/Darwin',
       utc: '+09:30'
     },
     'Australia/Eucla': {
@@ -4805,8 +4805,8 @@ export default {
       label: 'Australia/Eucla (GMT+08:45)',
       location: 'Eucla',
       locationLabel: 'Eucla',
-      name: 'Australia/Eucla',
       type: 'Canonical',
+      tzCode: 'Australia/Eucla',
       utc: '+08:45'
     },
     'Australia/Hobart': {
@@ -4822,8 +4822,8 @@ export default {
       label: 'Australia/Hobart (GMT+10:00)',
       location: 'Hobart',
       locationLabel: 'Hobart',
-      name: 'Australia/Hobart',
       type: 'Canonical',
+      tzCode: 'Australia/Hobart',
       utc: '+10:00'
     },
     'Australia/LHI': {
@@ -4831,9 +4831,9 @@ export default {
       label: 'Australia/LHI (GMT+10:30)',
       location: 'LHI',
       locationLabel: 'LHI',
-      name: 'Australia/LHI',
       parent: 'Australia/Lord_Howe',
       type: 'Link',
+      tzCode: 'Australia/LHI',
       utc: '+10:30'
     },
     'Australia/Lindeman': {
@@ -4845,8 +4845,8 @@ export default {
       label: 'Australia/Lindeman (GMT+10:00)',
       location: 'Lindeman',
       locationLabel: 'Lindeman',
-      name: 'Australia/Lindeman',
       type: 'Canonical',
+      tzCode: 'Australia/Lindeman',
       utc: '+10:00'
     },
     'Australia/Lord_Howe': {
@@ -4861,8 +4861,8 @@ export default {
       label: 'Australia/Lord_Howe (GMT+10:30)',
       location: 'Lord_Howe',
       locationLabel: 'Lord Howe',
-      name: 'Australia/Lord_Howe',
       type: 'Canonical',
+      tzCode: 'Australia/Lord_Howe',
       utc: '+10:30'
     },
     'Australia/Melbourne': {
@@ -4877,8 +4877,8 @@ export default {
       label: 'Australia/Melbourne (GMT+10:00)',
       location: 'Melbourne',
       locationLabel: 'Melbourne',
-      name: 'Australia/Melbourne',
       type: 'Canonical',
+      tzCode: 'Australia/Melbourne',
       utc: '+10:00'
     },
     'Australia/NSW': {
@@ -4886,9 +4886,9 @@ export default {
       label: 'Australia/NSW (GMT+10:00)',
       location: 'NSW',
       locationLabel: 'NSW',
-      name: 'Australia/NSW',
       parent: 'Australia/Sydney',
       type: 'Link',
+      tzCode: 'Australia/NSW',
       utc: '+10:00'
     },
     'Australia/North': {
@@ -4896,9 +4896,9 @@ export default {
       label: 'Australia/North (GMT+09:30)',
       location: 'North',
       locationLabel: 'North',
-      name: 'Australia/North',
       parent: 'Australia/Darwin',
       type: 'Link',
+      tzCode: 'Australia/North',
       utc: '+09:30'
     },
     'Australia/Perth': {
@@ -4913,8 +4913,8 @@ export default {
       label: 'Australia/Perth (GMT+08:00)',
       location: 'Perth',
       locationLabel: 'Perth',
-      name: 'Australia/Perth',
       type: 'Canonical',
+      tzCode: 'Australia/Perth',
       utc: '+08:00'
     },
     'Australia/Queensland': {
@@ -4922,9 +4922,9 @@ export default {
       label: 'Australia/Queensland (GMT+10:00)',
       location: 'Queensland',
       locationLabel: 'Queensland',
-      name: 'Australia/Queensland',
       parent: 'Australia/Brisbane',
       type: 'Link',
+      tzCode: 'Australia/Queensland',
       utc: '+10:00'
     },
     'Australia/South': {
@@ -4932,9 +4932,9 @@ export default {
       label: 'Australia/South (GMT+09:30)',
       location: 'South',
       locationLabel: 'South',
-      name: 'Australia/South',
       parent: 'Australia/Adelaide',
       type: 'Link',
+      tzCode: 'Australia/South',
       utc: '+09:30'
     },
     'Australia/Sydney': {
@@ -4951,8 +4951,8 @@ export default {
       label: 'Australia/Sydney (GMT+10:00)',
       location: 'Sydney',
       locationLabel: 'Sydney',
-      name: 'Australia/Sydney',
       type: 'Canonical',
+      tzCode: 'Australia/Sydney',
       utc: '+10:00'
     },
     'Australia/Tasmania': {
@@ -4960,9 +4960,9 @@ export default {
       label: 'Australia/Tasmania (GMT+10:00)',
       location: 'Tasmania',
       locationLabel: 'Tasmania',
-      name: 'Australia/Tasmania',
       parent: 'Australia/Hobart',
       type: 'Link',
+      tzCode: 'Australia/Tasmania',
       utc: '+10:00'
     },
     'Australia/Victoria': {
@@ -4970,9 +4970,9 @@ export default {
       label: 'Australia/Victoria (GMT+10:00)',
       location: 'Victoria',
       locationLabel: 'Victoria',
-      name: 'Australia/Victoria',
       parent: 'Australia/Melbourne',
       type: 'Link',
+      tzCode: 'Australia/Victoria',
       utc: '+10:00'
     },
     'Australia/West': {
@@ -4980,9 +4980,9 @@ export default {
       label: 'Australia/West (GMT+08:00)',
       location: 'West',
       locationLabel: 'West',
-      name: 'Australia/West',
       parent: 'Australia/Perth',
       type: 'Link',
+      tzCode: 'Australia/West',
       utc: '+08:00'
     },
     'Australia/Yancowinna': {
@@ -4990,9 +4990,9 @@ export default {
       label: 'Australia/Yancowinna (GMT+09:30)',
       location: 'Yancowinna',
       locationLabel: 'Yancowinna',
-      name: 'Australia/Yancowinna',
       parent: 'Australia/Broken_Hill',
       type: 'Link',
+      tzCode: 'Australia/Yancowinna',
       utc: '+09:30'
     },
     'Brazil/Acre': {
@@ -5000,9 +5000,9 @@ export default {
       label: 'Brazil/Acre (GMT-05:00)',
       location: 'Acre',
       locationLabel: 'Acre',
-      name: 'Brazil/Acre',
       parent: 'America/Rio_Branco',
       type: 'Link',
+      tzCode: 'Brazil/Acre',
       utc: '-05:00'
     },
     'Brazil/DeNoronha': {
@@ -5010,9 +5010,9 @@ export default {
       label: 'Brazil/DeNoronha (GMT-02:00)',
       location: 'DeNoronha',
       locationLabel: 'DeNoronha',
-      name: 'Brazil/DeNoronha',
       parent: 'America/Noronha',
       type: 'Link',
+      tzCode: 'Brazil/DeNoronha',
       utc: '-02:00'
     },
     'Brazil/East': {
@@ -5020,9 +5020,9 @@ export default {
       label: 'Brazil/East (GMT-03:00)',
       location: 'East',
       locationLabel: 'East',
-      name: 'Brazil/East',
       parent: 'America/Sao_Paulo',
       type: 'Link',
+      tzCode: 'Brazil/East',
       utc: '-03:00'
     },
     'Brazil/West': {
@@ -5030,9 +5030,9 @@ export default {
       label: 'Brazil/West (GMT-04:00)',
       location: 'West',
       locationLabel: 'West',
-      name: 'Brazil/West',
       parent: 'America/Manaus',
       type: 'Link',
+      tzCode: 'Brazil/West',
       utc: '-04:00'
     },
     CET: {
@@ -5040,9 +5040,9 @@ export default {
       label: 'CET (GMT+02:00)',
       location: 'CET',
       locationLabel: 'CET',
-      name: 'CET',
       parent: 'Europe/Brussels',
       type: 'Link',
+      tzCode: 'CET',
       utc: '+02:00'
     },
     CST6CDT: {
@@ -5050,9 +5050,9 @@ export default {
       label: 'CST6CDT (GMT-05:00)',
       location: 'CST6CDT',
       locationLabel: 'CST6CDT',
-      name: 'CST6CDT',
       parent: 'America/Chicago',
       type: 'Link',
+      tzCode: 'CST6CDT',
       utc: '-05:00'
     },
     'Canada/Atlantic': {
@@ -5060,9 +5060,9 @@ export default {
       label: 'Canada/Atlantic (GMT-03:00)',
       location: 'Atlantic',
       locationLabel: 'Atlantic',
-      name: 'Canada/Atlantic',
       parent: 'America/Halifax',
       type: 'Link',
+      tzCode: 'Canada/Atlantic',
       utc: '-03:00'
     },
     'Canada/Central': {
@@ -5070,9 +5070,9 @@ export default {
       label: 'Canada/Central (GMT-05:00)',
       location: 'Central',
       locationLabel: 'Central',
-      name: 'Canada/Central',
       parent: 'America/Winnipeg',
       type: 'Link',
+      tzCode: 'Canada/Central',
       utc: '-05:00'
     },
     'Canada/Eastern': {
@@ -5080,9 +5080,9 @@ export default {
       label: 'Canada/Eastern (GMT-04:00)',
       location: 'Eastern',
       locationLabel: 'Eastern',
-      name: 'Canada/Eastern',
       parent: 'America/Toronto',
       type: 'Link',
+      tzCode: 'Canada/Eastern',
       utc: '-04:00'
     },
     'Canada/Mountain': {
@@ -5090,9 +5090,9 @@ export default {
       label: 'Canada/Mountain (GMT-06:00)',
       location: 'Mountain',
       locationLabel: 'Mountain',
-      name: 'Canada/Mountain',
       parent: 'America/Edmonton',
       type: 'Link',
+      tzCode: 'Canada/Mountain',
       utc: '-06:00'
     },
     'Canada/Newfoundland': {
@@ -5100,9 +5100,9 @@ export default {
       label: 'Canada/Newfoundland (GMT-02:30)',
       location: 'Newfoundland',
       locationLabel: 'Newfoundland',
-      name: 'Canada/Newfoundland',
       parent: 'America/St_Johns',
       type: 'Link',
+      tzCode: 'Canada/Newfoundland',
       utc: '-02:30'
     },
     'Canada/Pacific': {
@@ -5110,9 +5110,9 @@ export default {
       label: 'Canada/Pacific (GMT-07:00)',
       location: 'Pacific',
       locationLabel: 'Pacific',
-      name: 'Canada/Pacific',
       parent: 'America/Vancouver',
       type: 'Link',
+      tzCode: 'Canada/Pacific',
       utc: '-07:00'
     },
     'Canada/Saskatchewan': {
@@ -5120,9 +5120,9 @@ export default {
       label: 'Canada/Saskatchewan (GMT-06:00)',
       location: 'Saskatchewan',
       locationLabel: 'Saskatchewan',
-      name: 'Canada/Saskatchewan',
       parent: 'America/Regina',
       type: 'Link',
+      tzCode: 'Canada/Saskatchewan',
       utc: '-06:00'
     },
     'Canada/Yukon': {
@@ -5130,9 +5130,9 @@ export default {
       label: 'Canada/Yukon (GMT-07:00)',
       location: 'Yukon',
       locationLabel: 'Yukon',
-      name: 'Canada/Yukon',
       parent: 'America/Whitehorse',
       type: 'Link',
+      tzCode: 'Canada/Yukon',
       utc: '-07:00'
     },
     'Chile/Continental': {
@@ -5140,9 +5140,9 @@ export default {
       label: 'Chile/Continental (GMT-04:00)',
       location: 'Continental',
       locationLabel: 'Continental',
-      name: 'Chile/Continental',
       parent: 'America/Santiago',
       type: 'Link',
+      tzCode: 'Chile/Continental',
       utc: '-04:00'
     },
     'Chile/EasterIsland': {
@@ -5150,9 +5150,9 @@ export default {
       label: 'Chile/EasterIsland (GMT-06:00)',
       location: 'EasterIsland',
       locationLabel: 'EasterIsland',
-      name: 'Chile/EasterIsland',
       parent: 'Pacific/Easter',
       type: 'Link',
+      tzCode: 'Chile/EasterIsland',
       utc: '-06:00'
     },
     Cuba: {
@@ -5160,9 +5160,9 @@ export default {
       label: 'Cuba (GMT-04:00)',
       location: 'Cuba',
       locationLabel: 'Cuba',
-      name: 'Cuba',
       parent: 'America/Havana',
       type: 'Link',
+      tzCode: 'Cuba',
       utc: '-04:00'
     },
     EET: {
@@ -5170,9 +5170,9 @@ export default {
       label: 'EET (GMT+03:00)',
       location: 'EET',
       locationLabel: 'EET',
-      name: 'EET',
       parent: 'Europe/Athens',
       type: 'Link',
+      tzCode: 'EET',
       utc: '+03:00'
     },
     EST: {
@@ -5180,9 +5180,9 @@ export default {
       label: 'EST (GMT-05:00)',
       location: 'EST',
       locationLabel: 'EST',
-      name: 'EST',
       parent: 'America/Panama',
       type: 'Link',
+      tzCode: 'EST',
       utc: '-05:00'
     },
     EST5EDT: {
@@ -5190,9 +5190,9 @@ export default {
       label: 'EST5EDT (GMT-04:00)',
       location: 'EST5EDT',
       locationLabel: 'EST5EDT',
-      name: 'EST5EDT',
       parent: 'America/New_York',
       type: 'Link',
+      tzCode: 'EST5EDT',
       utc: '-04:00'
     },
     Egypt: {
@@ -5200,9 +5200,9 @@ export default {
       label: 'Egypt (GMT+03:00)',
       location: 'Egypt',
       locationLabel: 'Egypt',
-      name: 'Egypt',
       parent: 'Africa/Cairo',
       type: 'Link',
+      tzCode: 'Egypt',
       utc: '+03:00'
     },
     Eire: {
@@ -5210,9 +5210,9 @@ export default {
       label: 'Eire (GMT+01:00)',
       location: 'Eire',
       locationLabel: 'Eire',
-      name: 'Eire',
       parent: 'Europe/Dublin',
       type: 'Link',
+      tzCode: 'Eire',
       utc: '+01:00'
     },
     'Etc/GMT': {
@@ -5231,8 +5231,8 @@ export default {
       label: 'Etc/GMT (GMT+00:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT',
       type: 'Canonical',
+      tzCode: 'Etc/GMT',
       utc: '+00:00'
     },
     'Etc/GMT+0': {
@@ -5240,9 +5240,9 @@ export default {
       label: 'Etc/GMT+0 (GMT+00:00)',
       location: 'GMT+0',
       locationLabel: 'GMT+0',
-      name: 'Etc/GMT+0',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'Etc/GMT+0',
       utc: '+00:00'
     },
     'Etc/GMT+1': {
@@ -5250,8 +5250,8 @@ export default {
       label: 'Etc/GMT+1 (GMT-01:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+1',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+1',
       utc: '-01:00'
     },
     'Etc/GMT+10': {
@@ -5259,8 +5259,8 @@ export default {
       label: 'Etc/GMT+10 (GMT-10:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+10',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+10',
       utc: '-10:00'
     },
     'Etc/GMT+11': {
@@ -5268,8 +5268,8 @@ export default {
       label: 'Etc/GMT+11 (GMT-11:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+11',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+11',
       utc: '-11:00'
     },
     'Etc/GMT+12': {
@@ -5277,8 +5277,8 @@ export default {
       label: 'Etc/GMT+12 (GMT-12:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+12',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+12',
       utc: '-12:00'
     },
     'Etc/GMT+2': {
@@ -5286,8 +5286,8 @@ export default {
       label: 'Etc/GMT+2 (GMT-02:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+2',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+2',
       utc: '-02:00'
     },
     'Etc/GMT+3': {
@@ -5295,8 +5295,8 @@ export default {
       label: 'Etc/GMT+3 (GMT-03:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+3',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+3',
       utc: '-03:00'
     },
     'Etc/GMT+4': {
@@ -5304,8 +5304,8 @@ export default {
       label: 'Etc/GMT+4 (GMT-04:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+4',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+4',
       utc: '-04:00'
     },
     'Etc/GMT+5': {
@@ -5313,8 +5313,8 @@ export default {
       label: 'Etc/GMT+5 (GMT-05:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+5',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+5',
       utc: '-05:00'
     },
     'Etc/GMT+6': {
@@ -5322,8 +5322,8 @@ export default {
       label: 'Etc/GMT+6 (GMT-06:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+6',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+6',
       utc: '-06:00'
     },
     'Etc/GMT+7': {
@@ -5331,8 +5331,8 @@ export default {
       label: 'Etc/GMT+7 (GMT-07:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+7',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+7',
       utc: '-07:00'
     },
     'Etc/GMT+8': {
@@ -5340,8 +5340,8 @@ export default {
       label: 'Etc/GMT+8 (GMT-08:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+8',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+8',
       utc: '-08:00'
     },
     'Etc/GMT+9': {
@@ -5349,8 +5349,8 @@ export default {
       label: 'Etc/GMT+9 (GMT-09:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT+9',
       type: 'Canonical',
+      tzCode: 'Etc/GMT+9',
       utc: '-09:00'
     },
     'Etc/GMT-0': {
@@ -5358,9 +5358,9 @@ export default {
       label: 'Etc/GMT-0 (GMT+00:00)',
       location: 'GMT-0',
       locationLabel: 'GMT-0',
-      name: 'Etc/GMT-0',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'Etc/GMT-0',
       utc: '+00:00'
     },
     'Etc/GMT-1': {
@@ -5368,8 +5368,8 @@ export default {
       label: 'Etc/GMT-1 (GMT+01:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-1',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-1',
       utc: '+01:00'
     },
     'Etc/GMT-10': {
@@ -5377,8 +5377,8 @@ export default {
       label: 'Etc/GMT-10 (GMT+10:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-10',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-10',
       utc: '+10:00'
     },
     'Etc/GMT-11': {
@@ -5386,8 +5386,8 @@ export default {
       label: 'Etc/GMT-11 (GMT+11:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-11',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-11',
       utc: '+11:00'
     },
     'Etc/GMT-12': {
@@ -5395,8 +5395,8 @@ export default {
       label: 'Etc/GMT-12 (GMT+12:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-12',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-12',
       utc: '+12:00'
     },
     'Etc/GMT-13': {
@@ -5404,8 +5404,8 @@ export default {
       label: 'Etc/GMT-13 (GMT+13:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-13',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-13',
       utc: '+13:00'
     },
     'Etc/GMT-14': {
@@ -5413,8 +5413,8 @@ export default {
       label: 'Etc/GMT-14 (GMT+14:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-14',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-14',
       utc: '+14:00'
     },
     'Etc/GMT-2': {
@@ -5422,8 +5422,8 @@ export default {
       label: 'Etc/GMT-2 (GMT+02:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-2',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-2',
       utc: '+02:00'
     },
     'Etc/GMT-3': {
@@ -5431,8 +5431,8 @@ export default {
       label: 'Etc/GMT-3 (GMT+03:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-3',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-3',
       utc: '+03:00'
     },
     'Etc/GMT-4': {
@@ -5440,8 +5440,8 @@ export default {
       label: 'Etc/GMT-4 (GMT+04:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-4',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-4',
       utc: '+04:00'
     },
     'Etc/GMT-5': {
@@ -5449,8 +5449,8 @@ export default {
       label: 'Etc/GMT-5 (GMT+05:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-5',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-5',
       utc: '+05:00'
     },
     'Etc/GMT-6': {
@@ -5458,8 +5458,8 @@ export default {
       label: 'Etc/GMT-6 (GMT+06:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-6',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-6',
       utc: '+06:00'
     },
     'Etc/GMT-7': {
@@ -5467,8 +5467,8 @@ export default {
       label: 'Etc/GMT-7 (GMT+07:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-7',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-7',
       utc: '+07:00'
     },
     'Etc/GMT-8': {
@@ -5476,8 +5476,8 @@ export default {
       label: 'Etc/GMT-8 (GMT+08:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-8',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-8',
       utc: '+08:00'
     },
     'Etc/GMT-9': {
@@ -5485,8 +5485,8 @@ export default {
       label: 'Etc/GMT-9 (GMT+09:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/GMT-9',
       type: 'Canonical',
+      tzCode: 'Etc/GMT-9',
       utc: '+09:00'
     },
     'Etc/GMT0': {
@@ -5494,9 +5494,9 @@ export default {
       label: 'Etc/GMT0 (GMT+00:00)',
       location: 'GMT0',
       locationLabel: 'GMT0',
-      name: 'Etc/GMT0',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'Etc/GMT0',
       utc: '+00:00'
     },
     'Etc/Greenwich': {
@@ -5504,9 +5504,9 @@ export default {
       label: 'Etc/Greenwich (GMT+00:00)',
       location: 'Greenwich',
       locationLabel: 'Greenwich',
-      name: 'Etc/Greenwich',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'Etc/Greenwich',
       utc: '+00:00'
     },
     'Etc/UCT': {
@@ -5514,9 +5514,9 @@ export default {
       label: 'Etc/UCT (GMT+00:00)',
       location: 'UCT',
       locationLabel: 'UCT',
-      name: 'Etc/UCT',
       parent: 'Etc/UTC',
       type: 'Link',
+      tzCode: 'Etc/UCT',
       utc: '+00:00'
     },
     'Etc/UTC': {
@@ -5533,8 +5533,8 @@ export default {
       label: 'Etc/UTC (GMT+00:00)',
       location: null,
       locationLabel: null,
-      name: 'Etc/UTC',
       type: 'Canonical',
+      tzCode: 'Etc/UTC',
       utc: '+00:00'
     },
     'Etc/Universal': {
@@ -5542,9 +5542,9 @@ export default {
       label: 'Etc/Universal (GMT+00:00)',
       location: 'Universal',
       locationLabel: 'Universal',
-      name: 'Etc/Universal',
       parent: 'Etc/UTC',
       type: 'Link',
+      tzCode: 'Etc/Universal',
       utc: '+00:00'
     },
     'Etc/Zulu': {
@@ -5552,9 +5552,9 @@ export default {
       label: 'Etc/Zulu (GMT+00:00)',
       location: 'Zulu',
       locationLabel: 'Zulu',
-      name: 'Etc/Zulu',
       parent: 'Etc/UTC',
       type: 'Link',
+      tzCode: 'Etc/Zulu',
       utc: '+00:00'
     },
     'Europe/Amsterdam': {
@@ -5565,9 +5565,9 @@ export default {
       label: 'Europe/Amsterdam (GMT+02:00)',
       location: 'Amsterdam',
       locationLabel: 'Amsterdam',
-      name: 'Europe/Amsterdam',
       parent: 'Europe/Brussels',
       type: 'Link',
+      tzCode: 'Europe/Amsterdam',
       utc: '+02:00'
     },
     'Europe/Andorra': {
@@ -5578,8 +5578,8 @@ export default {
       label: 'Europe/Andorra (GMT+02:00)',
       location: 'Andorra',
       locationLabel: 'Andorra',
-      name: 'Europe/Andorra',
       type: 'Canonical',
+      tzCode: 'Europe/Andorra',
       utc: '+02:00'
     },
     'Europe/Astrakhan': {
@@ -5591,8 +5591,8 @@ export default {
       label: 'Europe/Astrakhan (GMT+04:00)',
       location: 'Astrakhan',
       locationLabel: 'Astrakhan',
-      name: 'Europe/Astrakhan',
       type: 'Canonical',
+      tzCode: 'Europe/Astrakhan',
       utc: '+04:00'
     },
     'Europe/Athens': {
@@ -5606,8 +5606,8 @@ export default {
       label: 'Europe/Athens (GMT+03:00)',
       location: 'Athens',
       locationLabel: 'Athens',
-      name: 'Europe/Athens',
       type: 'Canonical',
+      tzCode: 'Europe/Athens',
       utc: '+03:00'
     },
     'Europe/Belfast': {
@@ -5615,9 +5615,9 @@ export default {
       label: 'Europe/Belfast (GMT+01:00)',
       location: 'Belfast',
       locationLabel: 'Belfast',
-      name: 'Europe/Belfast',
       parent: 'Europe/London',
       type: 'Link',
+      tzCode: 'Europe/Belfast',
       utc: '+01:00'
     },
     'Europe/Belgrade': {
@@ -5640,8 +5640,8 @@ export default {
       label: 'Europe/Belgrade (GMT+02:00)',
       location: 'Belgrade',
       locationLabel: 'Belgrade',
-      name: 'Europe/Belgrade',
       type: 'Canonical',
+      tzCode: 'Europe/Belgrade',
       utc: '+02:00'
     },
     'Europe/Berlin': {
@@ -5664,8 +5664,8 @@ export default {
       label: 'Europe/Berlin (GMT+02:00)',
       location: 'Berlin',
       locationLabel: 'Berlin',
-      name: 'Europe/Berlin',
       type: 'Canonical',
+      tzCode: 'Europe/Berlin',
       utc: '+02:00'
     },
     'Europe/Bratislava': {
@@ -5676,9 +5676,9 @@ export default {
       label: 'Europe/Bratislava (GMT+02:00)',
       location: 'Bratislava',
       locationLabel: 'Bratislava',
-      name: 'Europe/Bratislava',
       parent: 'Europe/Prague',
       type: 'Link',
+      tzCode: 'Europe/Bratislava',
       utc: '+02:00'
     },
     'Europe/Brussels': {
@@ -5697,8 +5697,8 @@ export default {
       label: 'Europe/Brussels (GMT+02:00)',
       location: 'Brussels',
       locationLabel: 'Brussels',
-      name: 'Europe/Brussels',
       type: 'Canonical',
+      tzCode: 'Europe/Brussels',
       utc: '+02:00'
     },
     'Europe/Bucharest': {
@@ -5709,8 +5709,8 @@ export default {
       label: 'Europe/Bucharest (GMT+03:00)',
       location: 'Bucharest',
       locationLabel: 'Bucharest',
-      name: 'Europe/Bucharest',
       type: 'Canonical',
+      tzCode: 'Europe/Bucharest',
       utc: '+03:00'
     },
     'Europe/Budapest': {
@@ -5721,8 +5721,8 @@ export default {
       label: 'Europe/Budapest (GMT+02:00)',
       location: 'Budapest',
       locationLabel: 'Budapest',
-      name: 'Europe/Budapest',
       type: 'Canonical',
+      tzCode: 'Europe/Budapest',
       utc: '+02:00'
     },
     'Europe/Busingen': {
@@ -5734,9 +5734,9 @@ export default {
       label: 'Europe/Busingen (GMT+02:00)',
       location: 'Busingen',
       locationLabel: 'Busingen',
-      name: 'Europe/Busingen',
       parent: 'Europe/Zurich',
       type: 'Link',
+      tzCode: 'Europe/Busingen',
       utc: '+02:00'
     },
     'Europe/Chisinau': {
@@ -5750,8 +5750,8 @@ export default {
       label: 'Europe/Chisinau (GMT+03:00)',
       location: 'Chisinau',
       locationLabel: 'Chisinau',
-      name: 'Europe/Chisinau',
       type: 'Canonical',
+      tzCode: 'Europe/Chisinau',
       utc: '+03:00'
     },
     'Europe/Copenhagen': {
@@ -5762,9 +5762,9 @@ export default {
       label: 'Europe/Copenhagen (GMT+02:00)',
       location: 'Copenhagen',
       locationLabel: 'Copenhagen',
-      name: 'Europe/Copenhagen',
       parent: 'Europe/Berlin',
       type: 'Link',
+      tzCode: 'Europe/Copenhagen',
       utc: '+02:00'
     },
     'Europe/Dublin': {
@@ -5778,8 +5778,8 @@ export default {
       label: 'Europe/Dublin (GMT+01:00)',
       location: 'Dublin',
       locationLabel: 'Dublin',
-      name: 'Europe/Dublin',
       type: 'Canonical',
+      tzCode: 'Europe/Dublin',
       utc: '+01:00'
     },
     'Europe/Gibraltar': {
@@ -5790,8 +5790,8 @@ export default {
       label: 'Europe/Gibraltar (GMT+02:00)',
       location: 'Gibraltar',
       locationLabel: 'Gibraltar',
-      name: 'Europe/Gibraltar',
       type: 'Canonical',
+      tzCode: 'Europe/Gibraltar',
       utc: '+02:00'
     },
     'Europe/Guernsey': {
@@ -5802,9 +5802,9 @@ export default {
       label: 'Europe/Guernsey (GMT+01:00)',
       location: 'Guernsey',
       locationLabel: 'Guernsey',
-      name: 'Europe/Guernsey',
       parent: 'Europe/London',
       type: 'Link',
+      tzCode: 'Europe/Guernsey',
       utc: '+01:00'
     },
     'Europe/Helsinki': {
@@ -5819,8 +5819,8 @@ export default {
       label: 'Europe/Helsinki (GMT+03:00)',
       location: 'Helsinki',
       locationLabel: 'Helsinki',
-      name: 'Europe/Helsinki',
       type: 'Canonical',
+      tzCode: 'Europe/Helsinki',
       utc: '+03:00'
     },
     'Europe/Isle_of_Man': {
@@ -5831,9 +5831,9 @@ export default {
       label: 'Europe/Isle_of_Man (GMT+01:00)',
       location: 'Isle_of_Man',
       locationLabel: 'Isle of_Man',
-      name: 'Europe/Isle_of_Man',
       parent: 'Europe/London',
       type: 'Link',
+      tzCode: 'Europe/Isle_of_Man',
       utc: '+01:00'
     },
     'Europe/Istanbul': {
@@ -5848,8 +5848,8 @@ export default {
       label: 'Europe/Istanbul (GMT+03:00)',
       location: 'Istanbul',
       locationLabel: 'Istanbul',
-      name: 'Europe/Istanbul',
       type: 'Canonical',
+      tzCode: 'Europe/Istanbul',
       utc: '+03:00'
     },
     'Europe/Jersey': {
@@ -5860,9 +5860,9 @@ export default {
       label: 'Europe/Jersey (GMT+01:00)',
       location: 'Jersey',
       locationLabel: 'Jersey',
-      name: 'Europe/Jersey',
       parent: 'Europe/London',
       type: 'Link',
+      tzCode: 'Europe/Jersey',
       utc: '+01:00'
     },
     'Europe/Kaliningrad': {
@@ -5874,8 +5874,8 @@ export default {
       label: 'Europe/Kaliningrad (GMT+02:00)',
       location: 'Kaliningrad',
       locationLabel: 'Kaliningrad',
-      name: 'Europe/Kaliningrad',
       type: 'Canonical',
+      tzCode: 'Europe/Kaliningrad',
       utc: '+02:00'
     },
     'Europe/Kiev': {
@@ -5883,9 +5883,9 @@ export default {
       label: 'Europe/Kiev (GMT+03:00)',
       location: 'Kiev',
       locationLabel: 'Kiev',
-      name: 'Europe/Kiev',
       parent: 'Europe/Kyiv',
       type: 'Link',
+      tzCode: 'Europe/Kiev',
       utc: '+03:00'
     },
     'Europe/Kirov': {
@@ -5897,8 +5897,8 @@ export default {
       label: 'Europe/Kirov (GMT+03:00)',
       location: 'Kirov',
       locationLabel: 'Kirov',
-      name: 'Europe/Kirov',
       type: 'Canonical',
+      tzCode: 'Europe/Kirov',
       utc: '+03:00'
     },
     'Europe/Kyiv': {
@@ -5915,8 +5915,8 @@ export default {
       label: 'Europe/Kyiv (GMT+03:00)',
       location: 'Kyiv',
       locationLabel: 'Kyiv',
-      name: 'Europe/Kyiv',
       type: 'Canonical',
+      tzCode: 'Europe/Kyiv',
       utc: '+03:00'
     },
     'Europe/Lisbon': {
@@ -5932,8 +5932,8 @@ export default {
       label: 'Europe/Lisbon (GMT+01:00)',
       location: 'Lisbon',
       locationLabel: 'Lisbon',
-      name: 'Europe/Lisbon',
       type: 'Canonical',
+      tzCode: 'Europe/Lisbon',
       utc: '+01:00'
     },
     'Europe/Ljubljana': {
@@ -5944,9 +5944,9 @@ export default {
       label: 'Europe/Ljubljana (GMT+02:00)',
       location: 'Ljubljana',
       locationLabel: 'Ljubljana',
-      name: 'Europe/Ljubljana',
       parent: 'Europe/Belgrade',
       type: 'Link',
+      tzCode: 'Europe/Ljubljana',
       utc: '+02:00'
     },
     'Europe/London': {
@@ -5968,8 +5968,8 @@ export default {
       label: 'Europe/London (GMT+01:00)',
       location: 'London',
       locationLabel: 'London',
-      name: 'Europe/London',
       type: 'Canonical',
+      tzCode: 'Europe/London',
       utc: '+01:00'
     },
     'Europe/Luxembourg': {
@@ -5980,9 +5980,9 @@ export default {
       label: 'Europe/Luxembourg (GMT+02:00)',
       location: 'Luxembourg',
       locationLabel: 'Luxembourg',
-      name: 'Europe/Luxembourg',
       parent: 'Europe/Brussels',
       type: 'Link',
+      tzCode: 'Europe/Luxembourg',
       utc: '+02:00'
     },
     'Europe/Madrid': {
@@ -5994,8 +5994,8 @@ export default {
       label: 'Europe/Madrid (GMT+02:00)',
       location: 'Madrid',
       locationLabel: 'Madrid',
-      name: 'Europe/Madrid',
       type: 'Canonical',
+      tzCode: 'Europe/Madrid',
       utc: '+02:00'
     },
     'Europe/Malta': {
@@ -6006,8 +6006,8 @@ export default {
       label: 'Europe/Malta (GMT+02:00)',
       location: 'Malta',
       locationLabel: 'Malta',
-      name: 'Europe/Malta',
       type: 'Canonical',
+      tzCode: 'Europe/Malta',
       utc: '+02:00'
     },
     'Europe/Mariehamn': {
@@ -6018,9 +6018,9 @@ export default {
       label: 'Europe/Mariehamn (GMT+03:00)',
       location: 'Mariehamn',
       locationLabel: 'Mariehamn',
-      name: 'Europe/Mariehamn',
       parent: 'Europe/Helsinki',
       type: 'Link',
+      tzCode: 'Europe/Mariehamn',
       utc: '+03:00'
     },
     'Europe/Minsk': {
@@ -6031,8 +6031,8 @@ export default {
       label: 'Europe/Minsk (GMT+03:00)',
       location: 'Minsk',
       locationLabel: 'Minsk',
-      name: 'Europe/Minsk',
       type: 'Canonical',
+      tzCode: 'Europe/Minsk',
       utc: '+03:00'
     },
     'Europe/Monaco': {
@@ -6043,9 +6043,9 @@ export default {
       label: 'Europe/Monaco (GMT+02:00)',
       location: 'Monaco',
       locationLabel: 'Monaco',
-      name: 'Europe/Monaco',
       parent: 'Europe/Paris',
       type: 'Link',
+      tzCode: 'Europe/Monaco',
       utc: '+02:00'
     },
     'Europe/Moscow': {
@@ -6060,8 +6060,8 @@ export default {
       label: 'Europe/Moscow (GMT+03:00)',
       location: 'Moscow',
       locationLabel: 'Moscow',
-      name: 'Europe/Moscow',
       type: 'Canonical',
+      tzCode: 'Europe/Moscow',
       utc: '+03:00'
     },
     'Europe/Nicosia': {
@@ -6069,9 +6069,9 @@ export default {
       label: 'Europe/Nicosia (GMT+03:00)',
       location: 'Nicosia',
       locationLabel: 'Nicosia',
-      name: 'Europe/Nicosia',
       parent: 'Asia/Nicosia',
       type: 'Link',
+      tzCode: 'Europe/Nicosia',
       utc: '+03:00'
     },
     'Europe/Oslo': {
@@ -6082,9 +6082,9 @@ export default {
       label: 'Europe/Oslo (GMT+02:00)',
       location: 'Oslo',
       locationLabel: 'Oslo',
-      name: 'Europe/Oslo',
       parent: 'Europe/Berlin',
       type: 'Link',
+      tzCode: 'Europe/Oslo',
       utc: '+02:00'
     },
     'Europe/Paris': {
@@ -6099,8 +6099,8 @@ export default {
       label: 'Europe/Paris (GMT+02:00)',
       location: 'Paris',
       locationLabel: 'Paris',
-      name: 'Europe/Paris',
       type: 'Canonical',
+      tzCode: 'Europe/Paris',
       utc: '+02:00'
     },
     'Europe/Podgorica': {
@@ -6111,9 +6111,9 @@ export default {
       label: 'Europe/Podgorica (GMT+02:00)',
       location: 'Podgorica',
       locationLabel: 'Podgorica',
-      name: 'Europe/Podgorica',
       parent: 'Europe/Belgrade',
       type: 'Link',
+      tzCode: 'Europe/Podgorica',
       utc: '+02:00'
     },
     'Europe/Prague': {
@@ -6128,8 +6128,8 @@ export default {
       label: 'Europe/Prague (GMT+02:00)',
       location: 'Prague',
       locationLabel: 'Prague',
-      name: 'Europe/Prague',
       type: 'Canonical',
+      tzCode: 'Europe/Prague',
       utc: '+02:00'
     },
     'Europe/Riga': {
@@ -6140,8 +6140,8 @@ export default {
       label: 'Europe/Riga (GMT+03:00)',
       location: 'Riga',
       locationLabel: 'Riga',
-      name: 'Europe/Riga',
       type: 'Canonical',
+      tzCode: 'Europe/Riga',
       utc: '+03:00'
     },
     'Europe/Rome': {
@@ -6158,8 +6158,8 @@ export default {
       label: 'Europe/Rome (GMT+02:00)',
       location: 'Rome',
       locationLabel: 'Rome',
-      name: 'Europe/Rome',
       type: 'Canonical',
+      tzCode: 'Europe/Rome',
       utc: '+02:00'
     },
     'Europe/Samara': {
@@ -6171,8 +6171,8 @@ export default {
       label: 'Europe/Samara (GMT+04:00)',
       location: 'Samara',
       locationLabel: 'Samara',
-      name: 'Europe/Samara',
       type: 'Canonical',
+      tzCode: 'Europe/Samara',
       utc: '+04:00'
     },
     'Europe/San_Marino': {
@@ -6183,9 +6183,9 @@ export default {
       label: 'Europe/San_Marino (GMT+02:00)',
       location: 'San_Marino',
       locationLabel: 'San Marino',
-      name: 'Europe/San_Marino',
       parent: 'Europe/Rome',
       type: 'Link',
+      tzCode: 'Europe/San_Marino',
       utc: '+02:00'
     },
     'Europe/Sarajevo': {
@@ -6196,9 +6196,9 @@ export default {
       label: 'Europe/Sarajevo (GMT+02:00)',
       location: 'Sarajevo',
       locationLabel: 'Sarajevo',
-      name: 'Europe/Sarajevo',
       parent: 'Europe/Belgrade',
       type: 'Link',
+      tzCode: 'Europe/Sarajevo',
       utc: '+02:00'
     },
     'Europe/Saratov': {
@@ -6210,8 +6210,8 @@ export default {
       label: 'Europe/Saratov (GMT+04:00)',
       location: 'Saratov',
       locationLabel: 'Saratov',
-      name: 'Europe/Saratov',
       type: 'Canonical',
+      tzCode: 'Europe/Saratov',
       utc: '+04:00'
     },
     'Europe/Simferopol': {
@@ -6224,8 +6224,8 @@ export default {
       label: 'Europe/Simferopol (GMT+03:00)',
       location: 'Simferopol',
       locationLabel: 'Simferopol',
-      name: 'Europe/Simferopol',
       type: 'Canonical',
+      tzCode: 'Europe/Simferopol',
       utc: '+03:00'
     },
     'Europe/Skopje': {
@@ -6236,9 +6236,9 @@ export default {
       label: 'Europe/Skopje (GMT+02:00)',
       location: 'Skopje',
       locationLabel: 'Skopje',
-      name: 'Europe/Skopje',
       parent: 'Europe/Belgrade',
       type: 'Link',
+      tzCode: 'Europe/Skopje',
       utc: '+02:00'
     },
     'Europe/Sofia': {
@@ -6249,8 +6249,8 @@ export default {
       label: 'Europe/Sofia (GMT+03:00)',
       location: 'Sofia',
       locationLabel: 'Sofia',
-      name: 'Europe/Sofia',
       type: 'Canonical',
+      tzCode: 'Europe/Sofia',
       utc: '+03:00'
     },
     'Europe/Stockholm': {
@@ -6261,9 +6261,9 @@ export default {
       label: 'Europe/Stockholm (GMT+02:00)',
       location: 'Stockholm',
       locationLabel: 'Stockholm',
-      name: 'Europe/Stockholm',
       parent: 'Europe/Berlin',
       type: 'Link',
+      tzCode: 'Europe/Stockholm',
       utc: '+02:00'
     },
     'Europe/Tallinn': {
@@ -6274,8 +6274,8 @@ export default {
       label: 'Europe/Tallinn (GMT+03:00)',
       location: 'Tallinn',
       locationLabel: 'Tallinn',
-      name: 'Europe/Tallinn',
       type: 'Canonical',
+      tzCode: 'Europe/Tallinn',
       utc: '+03:00'
     },
     'Europe/Tirane': {
@@ -6286,8 +6286,8 @@ export default {
       label: 'Europe/Tirane (GMT+02:00)',
       location: 'Tirane',
       locationLabel: 'Tirane',
-      name: 'Europe/Tirane',
       type: 'Canonical',
+      tzCode: 'Europe/Tirane',
       utc: '+02:00'
     },
     'Europe/Tiraspol': {
@@ -6295,9 +6295,9 @@ export default {
       label: 'Europe/Tiraspol (GMT+03:00)',
       location: 'Tiraspol',
       locationLabel: 'Tiraspol',
-      name: 'Europe/Tiraspol',
       parent: 'Europe/Chisinau',
       type: 'Link',
+      tzCode: 'Europe/Tiraspol',
       utc: '+03:00'
     },
     'Europe/Ulyanovsk': {
@@ -6309,8 +6309,8 @@ export default {
       label: 'Europe/Ulyanovsk (GMT+04:00)',
       location: 'Ulyanovsk',
       locationLabel: 'Ulyanovsk',
-      name: 'Europe/Ulyanovsk',
       type: 'Canonical',
+      tzCode: 'Europe/Ulyanovsk',
       utc: '+04:00'
     },
     'Europe/Uzhgorod': {
@@ -6318,9 +6318,9 @@ export default {
       label: 'Europe/Uzhgorod (GMT+03:00)',
       location: 'Uzhgorod',
       locationLabel: 'Uzhgorod',
-      name: 'Europe/Uzhgorod',
       parent: 'Europe/Kyiv',
       type: 'Link',
+      tzCode: 'Europe/Uzhgorod',
       utc: '+03:00'
     },
     'Europe/Vaduz': {
@@ -6331,9 +6331,9 @@ export default {
       label: 'Europe/Vaduz (GMT+02:00)',
       location: 'Vaduz',
       locationLabel: 'Vaduz',
-      name: 'Europe/Vaduz',
       parent: 'Europe/Zurich',
       type: 'Link',
+      tzCode: 'Europe/Vaduz',
       utc: '+02:00'
     },
     'Europe/Vatican': {
@@ -6344,9 +6344,9 @@ export default {
       label: 'Europe/Vatican (GMT+02:00)',
       location: 'Vatican',
       locationLabel: 'Vatican',
-      name: 'Europe/Vatican',
       parent: 'Europe/Rome',
       type: 'Link',
+      tzCode: 'Europe/Vatican',
       utc: '+02:00'
     },
     'Europe/Vienna': {
@@ -6357,8 +6357,8 @@ export default {
       label: 'Europe/Vienna (GMT+02:00)',
       location: 'Vienna',
       locationLabel: 'Vienna',
-      name: 'Europe/Vienna',
       type: 'Canonical',
+      tzCode: 'Europe/Vienna',
       utc: '+02:00'
     },
     'Europe/Vilnius': {
@@ -6369,8 +6369,8 @@ export default {
       label: 'Europe/Vilnius (GMT+03:00)',
       location: 'Vilnius',
       locationLabel: 'Vilnius',
-      name: 'Europe/Vilnius',
       type: 'Canonical',
+      tzCode: 'Europe/Vilnius',
       utc: '+03:00'
     },
     'Europe/Volgograd': {
@@ -6382,8 +6382,8 @@ export default {
       label: 'Europe/Volgograd (GMT+03:00)',
       location: 'Volgograd',
       locationLabel: 'Volgograd',
-      name: 'Europe/Volgograd',
       type: 'Canonical',
+      tzCode: 'Europe/Volgograd',
       utc: '+03:00'
     },
     'Europe/Warsaw': {
@@ -6397,8 +6397,8 @@ export default {
       label: 'Europe/Warsaw (GMT+02:00)',
       location: 'Warsaw',
       locationLabel: 'Warsaw',
-      name: 'Europe/Warsaw',
       type: 'Canonical',
+      tzCode: 'Europe/Warsaw',
       utc: '+02:00'
     },
     'Europe/Zagreb': {
@@ -6409,9 +6409,9 @@ export default {
       label: 'Europe/Zagreb (GMT+02:00)',
       location: 'Zagreb',
       locationLabel: 'Zagreb',
-      name: 'Europe/Zagreb',
       parent: 'Europe/Belgrade',
       type: 'Link',
+      tzCode: 'Europe/Zagreb',
       utc: '+02:00'
     },
     'Europe/Zaporozhye': {
@@ -6419,9 +6419,9 @@ export default {
       label: 'Europe/Zaporozhye (GMT+03:00)',
       location: 'Zaporozhye',
       locationLabel: 'Zaporozhye',
-      name: 'Europe/Zaporozhye',
       parent: 'Europe/Kyiv',
       type: 'Link',
+      tzCode: 'Europe/Zaporozhye',
       utc: '+03:00'
     },
     'Europe/Zurich': {
@@ -6439,8 +6439,8 @@ export default {
       label: 'Europe/Zurich (GMT+02:00)',
       location: 'Zurich',
       locationLabel: 'Zurich',
-      name: 'Europe/Zurich',
       type: 'Canonical',
+      tzCode: 'Europe/Zurich',
       utc: '+02:00'
     },
     GB: {
@@ -6448,9 +6448,9 @@ export default {
       label: 'GB (GMT+01:00)',
       location: 'GB',
       locationLabel: 'GB',
-      name: 'GB',
       parent: 'Europe/London',
       type: 'Link',
+      tzCode: 'GB',
       utc: '+01:00'
     },
     'GB-Eire': {
@@ -6458,9 +6458,9 @@ export default {
       label: 'GB-Eire (GMT+01:00)',
       location: 'GB-Eire',
       locationLabel: 'GB-Eire',
-      name: 'GB-Eire',
       parent: 'Europe/London',
       type: 'Link',
+      tzCode: 'GB-Eire',
       utc: '+01:00'
     },
     GMT: {
@@ -6468,9 +6468,9 @@ export default {
       label: 'GMT (GMT+00:00)',
       location: null,
       locationLabel: null,
-      name: 'GMT',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'GMT',
       utc: '+00:00'
     },
     'GMT+0': {
@@ -6478,9 +6478,9 @@ export default {
       label: 'GMT+0 (GMT+00:00)',
       location: 'GMT+0',
       locationLabel: 'GMT+0',
-      name: 'GMT+0',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'GMT+0',
       utc: '+00:00'
     },
     'GMT-0': {
@@ -6488,9 +6488,9 @@ export default {
       label: 'GMT-0 (GMT+00:00)',
       location: 'GMT-0',
       locationLabel: 'GMT-0',
-      name: 'GMT-0',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'GMT-0',
       utc: '+00:00'
     },
     GMT0: {
@@ -6498,9 +6498,9 @@ export default {
       label: 'GMT0 (GMT+00:00)',
       location: 'GMT0',
       locationLabel: 'GMT0',
-      name: 'GMT0',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'GMT0',
       utc: '+00:00'
     },
     Greenwich: {
@@ -6508,9 +6508,9 @@ export default {
       label: 'Greenwich (GMT+00:00)',
       location: 'Greenwich',
       locationLabel: 'Greenwich',
-      name: 'Greenwich',
       parent: 'Etc/GMT',
       type: 'Link',
+      tzCode: 'Greenwich',
       utc: '+00:00'
     },
     HST: {
@@ -6518,9 +6518,9 @@ export default {
       label: 'HST (GMT-10:00)',
       location: 'HST',
       locationLabel: 'HST',
-      name: 'HST',
       parent: 'Pacific/Honolulu',
       type: 'Link',
+      tzCode: 'HST',
       utc: '-10:00'
     },
     Hongkong: {
@@ -6528,9 +6528,9 @@ export default {
       label: 'Hongkong (GMT+08:00)',
       location: 'Hongkong',
       locationLabel: 'Hongkong',
-      name: 'Hongkong',
       parent: 'Asia/Hong_Kong',
       type: 'Link',
+      tzCode: 'Hongkong',
       utc: '+08:00'
     },
     Iceland: {
@@ -6538,9 +6538,9 @@ export default {
       label: 'Iceland (GMT+00:00)',
       location: 'Iceland',
       locationLabel: 'Iceland',
-      name: 'Iceland',
       parent: 'Africa/Abidjan',
       type: 'Link',
+      tzCode: 'Iceland',
       utc: '+00:00'
     },
     'Indian/Antananarivo': {
@@ -6551,9 +6551,9 @@ export default {
       label: 'Indian/Antananarivo (GMT+03:00)',
       location: 'Antananarivo',
       locationLabel: 'Antananarivo',
-      name: 'Indian/Antananarivo',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Indian/Antananarivo',
       utc: '+03:00'
     },
     'Indian/Chagos': {
@@ -6564,8 +6564,8 @@ export default {
       label: 'Indian/Chagos (GMT+06:00)',
       location: 'Chagos',
       locationLabel: 'Chagos',
-      name: 'Indian/Chagos',
       type: 'Canonical',
+      tzCode: 'Indian/Chagos',
       utc: '+06:00'
     },
     'Indian/Christmas': {
@@ -6576,9 +6576,9 @@ export default {
       label: 'Indian/Christmas (GMT+07:00)',
       location: 'Christmas',
       locationLabel: 'Christmas',
-      name: 'Indian/Christmas',
       parent: 'Asia/Bangkok',
       type: 'Link',
+      tzCode: 'Indian/Christmas',
       utc: '+07:00'
     },
     'Indian/Cocos': {
@@ -6589,9 +6589,9 @@ export default {
       label: 'Indian/Cocos (GMT+06:30)',
       location: 'Cocos',
       locationLabel: 'Cocos',
-      name: 'Indian/Cocos',
       parent: 'Asia/Yangon',
       type: 'Link',
+      tzCode: 'Indian/Cocos',
       utc: '+06:30'
     },
     'Indian/Comoro': {
@@ -6602,9 +6602,9 @@ export default {
       label: 'Indian/Comoro (GMT+03:00)',
       location: 'Comoro',
       locationLabel: 'Comoro',
-      name: 'Indian/Comoro',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Indian/Comoro',
       utc: '+03:00'
     },
     'Indian/Kerguelen': {
@@ -6615,9 +6615,9 @@ export default {
       label: 'Indian/Kerguelen (GMT+05:00)',
       location: 'Kerguelen',
       locationLabel: 'Kerguelen',
-      name: 'Indian/Kerguelen',
       parent: 'Indian/Maldives',
       type: 'Link',
+      tzCode: 'Indian/Kerguelen',
       utc: '+05:00'
     },
     'Indian/Mahe': {
@@ -6628,9 +6628,9 @@ export default {
       label: 'Indian/Mahe (GMT+04:00)',
       location: 'Mahe',
       locationLabel: 'Mahe',
-      name: 'Indian/Mahe',
       parent: 'Asia/Dubai',
       type: 'Link',
+      tzCode: 'Indian/Mahe',
       utc: '+04:00'
     },
     'Indian/Maldives': {
@@ -6646,8 +6646,8 @@ export default {
       label: 'Indian/Maldives (GMT+05:00)',
       location: 'Maldives',
       locationLabel: 'Maldives',
-      name: 'Indian/Maldives',
       type: 'Canonical',
+      tzCode: 'Indian/Maldives',
       utc: '+05:00'
     },
     'Indian/Mauritius': {
@@ -6658,8 +6658,8 @@ export default {
       label: 'Indian/Mauritius (GMT+04:00)',
       location: 'Mauritius',
       locationLabel: 'Mauritius',
-      name: 'Indian/Mauritius',
       type: 'Canonical',
+      tzCode: 'Indian/Mauritius',
       utc: '+04:00'
     },
     'Indian/Mayotte': {
@@ -6670,9 +6670,9 @@ export default {
       label: 'Indian/Mayotte (GMT+03:00)',
       location: 'Mayotte',
       locationLabel: 'Mayotte',
-      name: 'Indian/Mayotte',
       parent: 'Africa/Nairobi',
       type: 'Link',
+      tzCode: 'Indian/Mayotte',
       utc: '+03:00'
     },
     'Indian/Reunion': {
@@ -6683,9 +6683,9 @@ export default {
       label: 'Indian/Reunion (GMT+04:00)',
       location: 'Reunion',
       locationLabel: 'Reunion',
-      name: 'Indian/Reunion',
       parent: 'Asia/Dubai',
       type: 'Link',
+      tzCode: 'Indian/Reunion',
       utc: '+04:00'
     },
     Iran: {
@@ -6693,9 +6693,9 @@ export default {
       label: 'Iran (GMT+03:30)',
       location: 'Iran',
       locationLabel: 'Iran',
-      name: 'Iran',
       parent: 'Asia/Tehran',
       type: 'Link',
+      tzCode: 'Iran',
       utc: '+03:30'
     },
     Israel: {
@@ -6703,9 +6703,9 @@ export default {
       label: 'Israel (GMT+03:00)',
       location: 'Israel',
       locationLabel: 'Israel',
-      name: 'Israel',
       parent: 'Asia/Jerusalem',
       type: 'Link',
+      tzCode: 'Israel',
       utc: '+03:00'
     },
     Jamaica: {
@@ -6713,9 +6713,9 @@ export default {
       label: 'Jamaica (GMT-05:00)',
       location: 'Jamaica',
       locationLabel: 'Jamaica',
-      name: 'Jamaica',
       parent: 'America/Jamaica',
       type: 'Link',
+      tzCode: 'Jamaica',
       utc: '-05:00'
     },
     Japan: {
@@ -6723,9 +6723,9 @@ export default {
       label: 'Japan (GMT+09:00)',
       location: 'Japan',
       locationLabel: 'Japan',
-      name: 'Japan',
       parent: 'Asia/Tokyo',
       type: 'Link',
+      tzCode: 'Japan',
       utc: '+09:00'
     },
     Kwajalein: {
@@ -6733,9 +6733,9 @@ export default {
       label: 'Kwajalein (GMT+12:00)',
       location: 'Kwajalein',
       locationLabel: 'Kwajalein',
-      name: 'Kwajalein',
       parent: 'Pacific/Kwajalein',
       type: 'Link',
+      tzCode: 'Kwajalein',
       utc: '+12:00'
     },
     Libya: {
@@ -6743,9 +6743,9 @@ export default {
       label: 'Libya (GMT+02:00)',
       location: 'Libya',
       locationLabel: 'Libya',
-      name: 'Libya',
       parent: 'Africa/Tripoli',
       type: 'Link',
+      tzCode: 'Libya',
       utc: '+02:00'
     },
     MET: {
@@ -6753,9 +6753,9 @@ export default {
       label: 'MET (GMT+02:00)',
       location: 'MET',
       locationLabel: 'MET',
-      name: 'MET',
       parent: 'Europe/Brussels',
       type: 'Link',
+      tzCode: 'MET',
       utc: '+02:00'
     },
     MST: {
@@ -6763,9 +6763,9 @@ export default {
       label: 'MST (GMT-07:00)',
       location: 'MST',
       locationLabel: 'MST',
-      name: 'MST',
       parent: 'America/Phoenix',
       type: 'Link',
+      tzCode: 'MST',
       utc: '-07:00'
     },
     MST7MDT: {
@@ -6773,9 +6773,9 @@ export default {
       label: 'MST7MDT (GMT-06:00)',
       location: 'MST7MDT',
       locationLabel: 'MST7MDT',
-      name: 'MST7MDT',
       parent: 'America/Denver',
       type: 'Link',
+      tzCode: 'MST7MDT',
       utc: '-06:00'
     },
     'Mexico/BajaNorte': {
@@ -6783,9 +6783,9 @@ export default {
       label: 'Mexico/BajaNorte (GMT-07:00)',
       location: 'BajaNorte',
       locationLabel: 'BajaNorte',
-      name: 'Mexico/BajaNorte',
       parent: 'America/Tijuana',
       type: 'Link',
+      tzCode: 'Mexico/BajaNorte',
       utc: '-07:00'
     },
     'Mexico/BajaSur': {
@@ -6793,9 +6793,9 @@ export default {
       label: 'Mexico/BajaSur (GMT-07:00)',
       location: 'BajaSur',
       locationLabel: 'BajaSur',
-      name: 'Mexico/BajaSur',
       parent: 'America/Mazatlan',
       type: 'Link',
+      tzCode: 'Mexico/BajaSur',
       utc: '-07:00'
     },
     'Mexico/General': {
@@ -6803,9 +6803,9 @@ export default {
       label: 'Mexico/General (GMT-06:00)',
       location: 'General',
       locationLabel: 'General',
-      name: 'Mexico/General',
       parent: 'America/Mexico_City',
       type: 'Link',
+      tzCode: 'Mexico/General',
       utc: '-06:00'
     },
     NZ: {
@@ -6813,9 +6813,9 @@ export default {
       label: 'NZ (GMT+12:00)',
       location: 'NZ',
       locationLabel: 'NZ',
-      name: 'NZ',
       parent: 'Pacific/Auckland',
       type: 'Link',
+      tzCode: 'NZ',
       utc: '+12:00'
     },
     'NZ-CHAT': {
@@ -6823,9 +6823,9 @@ export default {
       label: 'NZ-CHAT (GMT+12:45)',
       location: 'NZ-CHAT',
       locationLabel: 'NZ-CHAT',
-      name: 'NZ-CHAT',
       parent: 'Pacific/Chatham',
       type: 'Link',
+      tzCode: 'NZ-CHAT',
       utc: '+12:45'
     },
     Navajo: {
@@ -6833,9 +6833,9 @@ export default {
       label: 'Navajo (GMT-06:00)',
       location: 'Navajo',
       locationLabel: 'Navajo',
-      name: 'Navajo',
       parent: 'America/Denver',
       type: 'Link',
+      tzCode: 'Navajo',
       utc: '-06:00'
     },
     PRC: {
@@ -6843,9 +6843,9 @@ export default {
       label: 'PRC (GMT+08:00)',
       location: 'PRC',
       locationLabel: 'PRC',
-      name: 'PRC',
       parent: 'Asia/Shanghai',
       type: 'Link',
+      tzCode: 'PRC',
       utc: '+08:00'
     },
     PST8PDT: {
@@ -6853,9 +6853,9 @@ export default {
       label: 'PST8PDT (GMT-07:00)',
       location: 'PST8PDT',
       locationLabel: 'PST8PDT',
-      name: 'PST8PDT',
       parent: 'America/Los_Angeles',
       type: 'Link',
+      tzCode: 'PST8PDT',
       utc: '-07:00'
     },
     'Pacific/Apia': {
@@ -6866,8 +6866,8 @@ export default {
       label: 'Pacific/Apia (GMT+13:00)',
       location: 'Apia',
       locationLabel: 'Apia',
-      name: 'Pacific/Apia',
       type: 'Canonical',
+      tzCode: 'Pacific/Apia',
       utc: '+13:00'
     },
     'Pacific/Auckland': {
@@ -6885,8 +6885,8 @@ export default {
       label: 'Pacific/Auckland (GMT+12:00)',
       location: 'Auckland',
       locationLabel: 'Auckland',
-      name: 'Pacific/Auckland',
       type: 'Canonical',
+      tzCode: 'Pacific/Auckland',
       utc: '+12:00'
     },
     'Pacific/Bougainville': {
@@ -6898,8 +6898,8 @@ export default {
       label: 'Pacific/Bougainville (GMT+11:00)',
       location: 'Bougainville',
       locationLabel: 'Bougainville',
-      name: 'Pacific/Bougainville',
       type: 'Canonical',
+      tzCode: 'Pacific/Bougainville',
       utc: '+11:00'
     },
     'Pacific/Chatham': {
@@ -6914,8 +6914,8 @@ export default {
       label: 'Pacific/Chatham (GMT+12:45)',
       location: 'Chatham',
       locationLabel: 'Chatham',
-      name: 'Pacific/Chatham',
       type: 'Canonical',
+      tzCode: 'Pacific/Chatham',
       utc: '+12:45'
     },
     'Pacific/Chuuk': {
@@ -6927,9 +6927,9 @@ export default {
       label: 'Pacific/Chuuk (GMT+10:00)',
       location: 'Chuuk',
       locationLabel: 'Chuuk',
-      name: 'Pacific/Chuuk',
       parent: 'Pacific/Port_Moresby',
       type: 'Link',
+      tzCode: 'Pacific/Chuuk',
       utc: '+10:00'
     },
     'Pacific/Easter': {
@@ -6944,8 +6944,8 @@ export default {
       label: 'Pacific/Easter (GMT-06:00)',
       location: 'Easter',
       locationLabel: 'Easter',
-      name: 'Pacific/Easter',
       type: 'Canonical',
+      tzCode: 'Pacific/Easter',
       utc: '-06:00'
     },
     'Pacific/Efate': {
@@ -6956,8 +6956,8 @@ export default {
       label: 'Pacific/Efate (GMT+11:00)',
       location: 'Efate',
       locationLabel: 'Efate',
-      name: 'Pacific/Efate',
       type: 'Canonical',
+      tzCode: 'Pacific/Efate',
       utc: '+11:00'
     },
     'Pacific/Enderbury': {
@@ -6965,9 +6965,9 @@ export default {
       label: 'Pacific/Enderbury (GMT+13:00)',
       location: 'Enderbury',
       locationLabel: 'Enderbury',
-      name: 'Pacific/Enderbury',
       parent: 'Pacific/Kanton',
       type: 'Link',
+      tzCode: 'Pacific/Enderbury',
       utc: '+13:00'
     },
     'Pacific/Fakaofo': {
@@ -6978,8 +6978,8 @@ export default {
       label: 'Pacific/Fakaofo (GMT+13:00)',
       location: 'Fakaofo',
       locationLabel: 'Fakaofo',
-      name: 'Pacific/Fakaofo',
       type: 'Canonical',
+      tzCode: 'Pacific/Fakaofo',
       utc: '+13:00'
     },
     'Pacific/Fiji': {
@@ -6990,8 +6990,8 @@ export default {
       label: 'Pacific/Fiji (GMT+12:00)',
       location: 'Fiji',
       locationLabel: 'Fiji',
-      name: 'Pacific/Fiji',
       type: 'Canonical',
+      tzCode: 'Pacific/Fiji',
       utc: '+12:00'
     },
     'Pacific/Funafuti': {
@@ -7002,9 +7002,9 @@ export default {
       label: 'Pacific/Funafuti (GMT+12:00)',
       location: 'Funafuti',
       locationLabel: 'Funafuti',
-      name: 'Pacific/Funafuti',
       parent: 'Pacific/Tarawa',
       type: 'Link',
+      tzCode: 'Pacific/Funafuti',
       utc: '+12:00'
     },
     'Pacific/Galapagos': {
@@ -7016,8 +7016,8 @@ export default {
       label: 'Pacific/Galapagos (GMT-06:00)',
       location: 'Galapagos',
       locationLabel: 'Galapagos',
-      name: 'Pacific/Galapagos',
       type: 'Canonical',
+      tzCode: 'Pacific/Galapagos',
       utc: '-06:00'
     },
     'Pacific/Gambier': {
@@ -7029,8 +7029,8 @@ export default {
       label: 'Pacific/Gambier (GMT-09:00)',
       location: 'Gambier',
       locationLabel: 'Gambier',
-      name: 'Pacific/Gambier',
       type: 'Canonical',
+      tzCode: 'Pacific/Gambier',
       utc: '-09:00'
     },
     'Pacific/Guadalcanal': {
@@ -7047,8 +7047,8 @@ export default {
       label: 'Pacific/Guadalcanal (GMT+11:00)',
       location: 'Guadalcanal',
       locationLabel: 'Guadalcanal',
-      name: 'Pacific/Guadalcanal',
       type: 'Canonical',
+      tzCode: 'Pacific/Guadalcanal',
       utc: '+11:00'
     },
     'Pacific/Guam': {
@@ -7063,8 +7063,8 @@ export default {
       label: 'Pacific/Guam (GMT+10:00)',
       location: 'Guam',
       locationLabel: 'Guam',
-      name: 'Pacific/Guam',
       type: 'Canonical',
+      tzCode: 'Pacific/Guam',
       utc: '+10:00'
     },
     'Pacific/Honolulu': {
@@ -7081,8 +7081,8 @@ export default {
       label: 'Pacific/Honolulu (GMT-10:00)',
       location: 'Honolulu',
       locationLabel: 'Honolulu',
-      name: 'Pacific/Honolulu',
       type: 'Canonical',
+      tzCode: 'Pacific/Honolulu',
       utc: '-10:00'
     },
     'Pacific/Johnston': {
@@ -7090,9 +7090,9 @@ export default {
       label: 'Pacific/Johnston (GMT-10:00)',
       location: 'Johnston',
       locationLabel: 'Johnston',
-      name: 'Pacific/Johnston',
       parent: 'Pacific/Honolulu',
       type: 'Link',
+      tzCode: 'Pacific/Johnston',
       utc: '-10:00'
     },
     'Pacific/Kanton': {
@@ -7107,8 +7107,8 @@ export default {
       label: 'Pacific/Kanton (GMT+13:00)',
       location: 'Kanton',
       locationLabel: 'Kanton',
-      name: 'Pacific/Kanton',
       type: 'Canonical',
+      tzCode: 'Pacific/Kanton',
       utc: '+13:00'
     },
     'Pacific/Kiritimati': {
@@ -7120,8 +7120,8 @@ export default {
       label: 'Pacific/Kiritimati (GMT+14:00)',
       location: 'Kiritimati',
       locationLabel: 'Kiritimati',
-      name: 'Pacific/Kiritimati',
       type: 'Canonical',
+      tzCode: 'Pacific/Kiritimati',
       utc: '+14:00'
     },
     'Pacific/Kosrae': {
@@ -7133,8 +7133,8 @@ export default {
       label: 'Pacific/Kosrae (GMT+11:00)',
       location: 'Kosrae',
       locationLabel: 'Kosrae',
-      name: 'Pacific/Kosrae',
       type: 'Canonical',
+      tzCode: 'Pacific/Kosrae',
       utc: '+11:00'
     },
     'Pacific/Kwajalein': {
@@ -7149,8 +7149,8 @@ export default {
       label: 'Pacific/Kwajalein (GMT+12:00)',
       location: 'Kwajalein',
       locationLabel: 'Kwajalein',
-      name: 'Pacific/Kwajalein',
       type: 'Canonical',
+      tzCode: 'Pacific/Kwajalein',
       utc: '+12:00'
     },
     'Pacific/Majuro': {
@@ -7162,9 +7162,9 @@ export default {
       label: 'Pacific/Majuro (GMT+12:00)',
       location: 'Majuro',
       locationLabel: 'Majuro',
-      name: 'Pacific/Majuro',
       parent: 'Pacific/Tarawa',
       type: 'Link',
+      tzCode: 'Pacific/Majuro',
       utc: '+12:00'
     },
     'Pacific/Marquesas': {
@@ -7176,8 +7176,8 @@ export default {
       label: 'Pacific/Marquesas (GMT-09:30)',
       location: 'Marquesas',
       locationLabel: 'Marquesas',
-      name: 'Pacific/Marquesas',
       type: 'Canonical',
+      tzCode: 'Pacific/Marquesas',
       utc: '-09:30'
     },
     'Pacific/Midway': {
@@ -7189,9 +7189,9 @@ export default {
       label: 'Pacific/Midway (GMT-11:00)',
       location: 'Midway',
       locationLabel: 'Midway',
-      name: 'Pacific/Midway',
       parent: 'Pacific/Pago_Pago',
       type: 'Link',
+      tzCode: 'Pacific/Midway',
       utc: '-11:00'
     },
     'Pacific/Nauru': {
@@ -7202,8 +7202,8 @@ export default {
       label: 'Pacific/Nauru (GMT+12:00)',
       location: 'Nauru',
       locationLabel: 'Nauru',
-      name: 'Pacific/Nauru',
       type: 'Canonical',
+      tzCode: 'Pacific/Nauru',
       utc: '+12:00'
     },
     'Pacific/Niue': {
@@ -7214,8 +7214,8 @@ export default {
       label: 'Pacific/Niue (GMT-11:00)',
       location: 'Niue',
       locationLabel: 'Niue',
-      name: 'Pacific/Niue',
       type: 'Canonical',
+      tzCode: 'Pacific/Niue',
       utc: '-11:00'
     },
     'Pacific/Norfolk': {
@@ -7226,8 +7226,8 @@ export default {
       label: 'Pacific/Norfolk (GMT+11:00)',
       location: 'Norfolk',
       locationLabel: 'Norfolk',
-      name: 'Pacific/Norfolk',
       type: 'Canonical',
+      tzCode: 'Pacific/Norfolk',
       utc: '+11:00'
     },
     'Pacific/Noumea': {
@@ -7238,8 +7238,8 @@ export default {
       label: 'Pacific/Noumea (GMT+11:00)',
       location: 'Noumea',
       locationLabel: 'Noumea',
-      name: 'Pacific/Noumea',
       type: 'Canonical',
+      tzCode: 'Pacific/Noumea',
       utc: '+11:00'
     },
     'Pacific/Pago_Pago': {
@@ -7257,8 +7257,8 @@ export default {
       label: 'Pacific/Pago_Pago (GMT-11:00)',
       location: 'Pago_Pago',
       locationLabel: 'Pago Pago',
-      name: 'Pacific/Pago_Pago',
       type: 'Canonical',
+      tzCode: 'Pacific/Pago_Pago',
       utc: '-11:00'
     },
     'Pacific/Palau': {
@@ -7269,8 +7269,8 @@ export default {
       label: 'Pacific/Palau (GMT+09:00)',
       location: 'Palau',
       locationLabel: 'Palau',
-      name: 'Pacific/Palau',
       type: 'Canonical',
+      tzCode: 'Pacific/Palau',
       utc: '+09:00'
     },
     'Pacific/Pitcairn': {
@@ -7281,8 +7281,8 @@ export default {
       label: 'Pacific/Pitcairn (GMT-08:00)',
       location: 'Pitcairn',
       locationLabel: 'Pitcairn',
-      name: 'Pacific/Pitcairn',
       type: 'Canonical',
+      tzCode: 'Pacific/Pitcairn',
       utc: '-08:00'
     },
     'Pacific/Pohnpei': {
@@ -7294,9 +7294,9 @@ export default {
       label: 'Pacific/Pohnpei (GMT+11:00)',
       location: 'Pohnpei',
       locationLabel: 'Pohnpei',
-      name: 'Pacific/Pohnpei',
       parent: 'Pacific/Guadalcanal',
       type: 'Link',
+      tzCode: 'Pacific/Pohnpei',
       utc: '+11:00'
     },
     'Pacific/Ponape': {
@@ -7304,9 +7304,9 @@ export default {
       label: 'Pacific/Ponape (GMT+11:00)',
       location: 'Ponape',
       locationLabel: 'Ponape',
-      name: 'Pacific/Ponape',
       parent: 'Pacific/Guadalcanal',
       type: 'Link',
+      tzCode: 'Pacific/Ponape',
       utc: '+11:00'
     },
     'Pacific/Port_Moresby': {
@@ -7326,8 +7326,8 @@ export default {
       label: 'Pacific/Port_Moresby (GMT+10:00)',
       location: 'Port_Moresby',
       locationLabel: 'Port Moresby',
-      name: 'Pacific/Port_Moresby',
       type: 'Canonical',
+      tzCode: 'Pacific/Port_Moresby',
       utc: '+10:00'
     },
     'Pacific/Rarotonga': {
@@ -7338,8 +7338,8 @@ export default {
       label: 'Pacific/Rarotonga (GMT-10:00)',
       location: 'Rarotonga',
       locationLabel: 'Rarotonga',
-      name: 'Pacific/Rarotonga',
       type: 'Canonical',
+      tzCode: 'Pacific/Rarotonga',
       utc: '-10:00'
     },
     'Pacific/Saipan': {
@@ -7350,9 +7350,9 @@ export default {
       label: 'Pacific/Saipan (GMT+10:00)',
       location: 'Saipan',
       locationLabel: 'Saipan',
-      name: 'Pacific/Saipan',
       parent: 'Pacific/Guam',
       type: 'Link',
+      tzCode: 'Pacific/Saipan',
       utc: '+10:00'
     },
     'Pacific/Samoa': {
@@ -7360,9 +7360,9 @@ export default {
       label: 'Pacific/Samoa (GMT-11:00)',
       location: 'Samoa',
       locationLabel: 'Samoa',
-      name: 'Pacific/Samoa',
       parent: 'Pacific/Pago_Pago',
       type: 'Link',
+      tzCode: 'Pacific/Samoa',
       utc: '-11:00'
     },
     'Pacific/Tahiti': {
@@ -7374,8 +7374,8 @@ export default {
       label: 'Pacific/Tahiti (GMT-10:00)',
       location: 'Tahiti',
       locationLabel: 'Tahiti',
-      name: 'Pacific/Tahiti',
       type: 'Canonical',
+      tzCode: 'Pacific/Tahiti',
       utc: '-10:00'
     },
     'Pacific/Tarawa': {
@@ -7397,8 +7397,8 @@ export default {
       label: 'Pacific/Tarawa (GMT+12:00)',
       location: 'Tarawa',
       locationLabel: 'Tarawa',
-      name: 'Pacific/Tarawa',
       type: 'Canonical',
+      tzCode: 'Pacific/Tarawa',
       utc: '+12:00'
     },
     'Pacific/Tongatapu': {
@@ -7409,8 +7409,8 @@ export default {
       label: 'Pacific/Tongatapu (GMT+13:00)',
       location: 'Tongatapu',
       locationLabel: 'Tongatapu',
-      name: 'Pacific/Tongatapu',
       type: 'Canonical',
+      tzCode: 'Pacific/Tongatapu',
       utc: '+13:00'
     },
     'Pacific/Truk': {
@@ -7418,9 +7418,9 @@ export default {
       label: 'Pacific/Truk (GMT+10:00)',
       location: 'Truk',
       locationLabel: 'Truk',
-      name: 'Pacific/Truk',
       parent: 'Pacific/Port_Moresby',
       type: 'Link',
+      tzCode: 'Pacific/Truk',
       utc: '+10:00'
     },
     'Pacific/Wake': {
@@ -7432,9 +7432,9 @@ export default {
       label: 'Pacific/Wake (GMT+12:00)',
       location: 'Wake',
       locationLabel: 'Wake',
-      name: 'Pacific/Wake',
       parent: 'Pacific/Tarawa',
       type: 'Link',
+      tzCode: 'Pacific/Wake',
       utc: '+12:00'
     },
     'Pacific/Wallis': {
@@ -7445,9 +7445,9 @@ export default {
       label: 'Pacific/Wallis (GMT+12:00)',
       location: 'Wallis',
       locationLabel: 'Wallis',
-      name: 'Pacific/Wallis',
       parent: 'Pacific/Tarawa',
       type: 'Link',
+      tzCode: 'Pacific/Wallis',
       utc: '+12:00'
     },
     'Pacific/Yap': {
@@ -7455,9 +7455,9 @@ export default {
       label: 'Pacific/Yap (GMT+10:00)',
       location: 'Yap',
       locationLabel: 'Yap',
-      name: 'Pacific/Yap',
       parent: 'Pacific/Port_Moresby',
       type: 'Link',
+      tzCode: 'Pacific/Yap',
       utc: '+10:00'
     },
     Poland: {
@@ -7465,9 +7465,9 @@ export default {
       label: 'Poland (GMT+02:00)',
       location: 'Poland',
       locationLabel: 'Poland',
-      name: 'Poland',
       parent: 'Europe/Warsaw',
       type: 'Link',
+      tzCode: 'Poland',
       utc: '+02:00'
     },
     Portugal: {
@@ -7475,9 +7475,9 @@ export default {
       label: 'Portugal (GMT+01:00)',
       location: 'Portugal',
       locationLabel: 'Portugal',
-      name: 'Portugal',
       parent: 'Europe/Lisbon',
       type: 'Link',
+      tzCode: 'Portugal',
       utc: '+01:00'
     },
     ROC: {
@@ -7485,9 +7485,9 @@ export default {
       label: 'ROC (GMT+08:00)',
       location: 'ROC',
       locationLabel: 'ROC',
-      name: 'ROC',
       parent: 'Asia/Taipei',
       type: 'Link',
+      tzCode: 'ROC',
       utc: '+08:00'
     },
     ROK: {
@@ -7495,9 +7495,9 @@ export default {
       label: 'ROK (GMT+09:00)',
       location: 'ROK',
       locationLabel: 'ROK',
-      name: 'ROK',
       parent: 'Asia/Seoul',
       type: 'Link',
+      tzCode: 'ROK',
       utc: '+09:00'
     },
     Singapore: {
@@ -7505,9 +7505,9 @@ export default {
       label: 'Singapore (GMT+08:00)',
       location: 'Singapore',
       locationLabel: 'Singapore',
-      name: 'Singapore',
       parent: 'Asia/Singapore',
       type: 'Link',
+      tzCode: 'Singapore',
       utc: '+08:00'
     },
     Turkey: {
@@ -7515,9 +7515,9 @@ export default {
       label: 'Turkey (GMT+03:00)',
       location: 'Turkey',
       locationLabel: 'Turkey',
-      name: 'Turkey',
       parent: 'Europe/Istanbul',
       type: 'Link',
+      tzCode: 'Turkey',
       utc: '+03:00'
     },
     UCT: {
@@ -7525,9 +7525,9 @@ export default {
       label: 'UCT (GMT+00:00)',
       location: 'UCT',
       locationLabel: 'UCT',
-      name: 'UCT',
       parent: 'Etc/UTC',
       type: 'Link',
+      tzCode: 'UCT',
       utc: '+00:00'
     },
     'US/Alaska': {
@@ -7535,9 +7535,9 @@ export default {
       label: 'US/Alaska (GMT-08:00)',
       location: 'Alaska',
       locationLabel: 'Alaska',
-      name: 'US/Alaska',
       parent: 'America/Anchorage',
       type: 'Link',
+      tzCode: 'US/Alaska',
       utc: '-08:00'
     },
     'US/Aleutian': {
@@ -7545,9 +7545,9 @@ export default {
       label: 'US/Aleutian (GMT-09:00)',
       location: 'Aleutian',
       locationLabel: 'Aleutian',
-      name: 'US/Aleutian',
       parent: 'America/Adak',
       type: 'Link',
+      tzCode: 'US/Aleutian',
       utc: '-09:00'
     },
     'US/Arizona': {
@@ -7555,9 +7555,9 @@ export default {
       label: 'US/Arizona (GMT-07:00)',
       location: 'Arizona',
       locationLabel: 'Arizona',
-      name: 'US/Arizona',
       parent: 'America/Phoenix',
       type: 'Link',
+      tzCode: 'US/Arizona',
       utc: '-07:00'
     },
     'US/Central': {
@@ -7565,9 +7565,9 @@ export default {
       label: 'US/Central (GMT-05:00)',
       location: 'Central',
       locationLabel: 'Central',
-      name: 'US/Central',
       parent: 'America/Chicago',
       type: 'Link',
+      tzCode: 'US/Central',
       utc: '-05:00'
     },
     'US/East-Indiana': {
@@ -7575,9 +7575,9 @@ export default {
       label: 'US/East-Indiana (GMT-04:00)',
       location: 'East-Indiana',
       locationLabel: 'East-Indiana',
-      name: 'US/East-Indiana',
       parent: 'America/Indiana/Indianapolis',
       type: 'Link',
+      tzCode: 'US/East-Indiana',
       utc: '-04:00'
     },
     'US/Eastern': {
@@ -7585,9 +7585,9 @@ export default {
       label: 'US/Eastern (GMT-04:00)',
       location: 'Eastern',
       locationLabel: 'Eastern',
-      name: 'US/Eastern',
       parent: 'America/New_York',
       type: 'Link',
+      tzCode: 'US/Eastern',
       utc: '-04:00'
     },
     'US/Hawaii': {
@@ -7595,9 +7595,9 @@ export default {
       label: 'US/Hawaii (GMT-10:00)',
       location: 'Hawaii',
       locationLabel: 'Hawaii',
-      name: 'US/Hawaii',
       parent: 'Pacific/Honolulu',
       type: 'Link',
+      tzCode: 'US/Hawaii',
       utc: '-10:00'
     },
     'US/Indiana-Starke': {
@@ -7605,9 +7605,9 @@ export default {
       label: 'US/Indiana-Starke (GMT-05:00)',
       location: 'Indiana-Starke',
       locationLabel: 'Indiana-Starke',
-      name: 'US/Indiana-Starke',
       parent: 'America/Indiana/Knox',
       type: 'Link',
+      tzCode: 'US/Indiana-Starke',
       utc: '-05:00'
     },
     'US/Michigan': {
@@ -7615,9 +7615,9 @@ export default {
       label: 'US/Michigan (GMT-04:00)',
       location: 'Michigan',
       locationLabel: 'Michigan',
-      name: 'US/Michigan',
       parent: 'America/Detroit',
       type: 'Link',
+      tzCode: 'US/Michigan',
       utc: '-04:00'
     },
     'US/Mountain': {
@@ -7625,9 +7625,9 @@ export default {
       label: 'US/Mountain (GMT-06:00)',
       location: 'Mountain',
       locationLabel: 'Mountain',
-      name: 'US/Mountain',
       parent: 'America/Denver',
       type: 'Link',
+      tzCode: 'US/Mountain',
       utc: '-06:00'
     },
     'US/Pacific': {
@@ -7635,9 +7635,9 @@ export default {
       label: 'US/Pacific (GMT-07:00)',
       location: 'Pacific',
       locationLabel: 'Pacific',
-      name: 'US/Pacific',
       parent: 'America/Los_Angeles',
       type: 'Link',
+      tzCode: 'US/Pacific',
       utc: '-07:00'
     },
     'US/Samoa': {
@@ -7645,9 +7645,9 @@ export default {
       label: 'US/Samoa (GMT-11:00)',
       location: 'Samoa',
       locationLabel: 'Samoa',
-      name: 'US/Samoa',
       parent: 'Pacific/Pago_Pago',
       type: 'Link',
+      tzCode: 'US/Samoa',
       utc: '-11:00'
     },
     UTC: {
@@ -7655,9 +7655,9 @@ export default {
       label: 'UTC (GMT+00:00)',
       location: 'UTC',
       locationLabel: 'UTC',
-      name: 'UTC',
       parent: 'Etc/UTC',
       type: 'Link',
+      tzCode: 'UTC',
       utc: '+00:00'
     },
     Universal: {
@@ -7665,9 +7665,9 @@ export default {
       label: 'Universal (GMT+00:00)',
       location: 'Universal',
       locationLabel: 'Universal',
-      name: 'Universal',
       parent: 'Etc/UTC',
       type: 'Link',
+      tzCode: 'Universal',
       utc: '+00:00'
     },
     'W-SU': {
@@ -7675,9 +7675,9 @@ export default {
       label: 'W-SU (GMT+03:00)',
       location: 'W-SU',
       locationLabel: 'W-SU',
-      name: 'W-SU',
       parent: 'Europe/Moscow',
       type: 'Link',
+      tzCode: 'W-SU',
       utc: '+03:00'
     },
     WET: {
@@ -7685,9 +7685,9 @@ export default {
       label: 'WET (GMT+01:00)',
       location: 'WET',
       locationLabel: 'WET',
-      name: 'WET',
       parent: 'Europe/Lisbon',
       type: 'Link',
+      tzCode: 'WET',
       utc: '+01:00'
     },
     Zulu: {
@@ -7695,9 +7695,9 @@ export default {
       label: 'Zulu (GMT+00:00)',
       location: 'Zulu',
       locationLabel: 'Zulu',
-      name: 'Zulu',
       parent: 'Etc/UTC',
       type: 'Link',
+      tzCode: 'Zulu',
       utc: '+00:00'
     }
   }

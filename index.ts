@@ -3,14 +3,15 @@ import timezones from './timezones.js';
 import type { CanonicalTimezone, LinkTimezone } from './src/types';
 export * from './src/types.js';
 export type Timezone = CanonicalTimezone | LinkTimezone;
-export type TimezoneName = keyof typeof timezones.zones;
+export type TimezoneCode = keyof typeof timezones.zones;
 
-const es6map = new Map<TimezoneName, Timezone>(Object.entries(timezones.zones) as [TimezoneName, Timezone][]);
+const es6map = new Map<TimezoneCode, Timezone>(Object.entries(timezones.zones) as [TimezoneCode, Timezone][]);
 
-const getZone = (zone: TimezoneName) => es6map.get(zone) ?? null;
-const getZoneUTC = (zone: TimezoneName) => es6map.get(zone)?.utc ?? null;
-const getZoneISODate = (zone: TimezoneName): string | null => {
-  const offset = getZoneUTC(zone);
+const getZone = (tzCode: TimezoneCode) => es6map.get(tzCode) ?? null;
+const getZoneUTC = (tzCode: TimezoneCode) => es6map.get(tzCode)?.utc ?? null;
+
+const getZoneISODate = (tzCode: TimezoneCode): string | null => {
+  const offset = getZoneUTC(tzCode);
   if (!offset) return null;
 
   const match = offset.match(/^([+-])(\d{2}):(\d{2})$/);
@@ -25,12 +26,17 @@ const getZoneISODate = (zone: TimezoneName): string | null => {
   return `${iso}${offset}`;
 };
 
+const getZoneDate = (tzCode: TimezoneCode): Date | null => {
+  const date = getZoneISODate(tzCode);
+  return date ? new Date(date) : null;
+};
+
 export default {
-  zones: timezones.zones as Record<TimezoneName, Timezone>, // using the ts cast to reduce the final bundled d.ts file size
-  map: es6map as Map<TimezoneName, Timezone>, // using the ts cast to reduce the final bundled d.ts file size
+  zones: timezones.zones as Record<TimezoneCode, Timezone>, // using the ts cast to reduce the final bundled d.ts file size
+  map: es6map as Map<TimezoneCode, Timezone>, // using the ts cast to reduce the final bundled d.ts file size
   /**
-   * Returns zone by zone name
-   * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
+   * Returns zone by timezone tzCode
+   * @param {TimezoneCode} tzCode The tz tzCode of the timezone (e.g., 'Europe/Sofia')
    * @example
    * ```js
    * getZone('Europe/Sofia')
@@ -40,7 +46,7 @@ export default {
    * //   geographicArea: 'Europe',
    * //   location: 'Sofia',
    * //   locationLabel: 'Sofia',
-   * //   name: 'Europe/Sofia',
+   * //   tzCode: 'Europe/Sofia',
    * //   type: 'Canonical'
    * // }
    * ```
@@ -48,13 +54,19 @@ export default {
   getZone,
   /**
    * Returns the current offset for a timezone
-   * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
+   * @param {TimezoneCode} tzCode The tzCode of the timezone (e.g., 'Europe/Sofia')
    * @example getZoneUTC('Europe/Sofia') //=> '+03:00'
    */
   getZoneUTC,
   /**
+   * Returns the current date-time adjusted to the timezone offset.
+   * @param {TimezoneCode} tzCode The tzCode of the timezone (e.g., 'Europe/Sofia')
+   * @example getZoneDate('Europe/Sofia') //=> 'Tue May 13 2025 09:18:45 GMT+0300 (Eastern European Summer Time)'
+   */
+  getZoneDate,
+  /**
    * Returns the current ISO date-time adjusted to the timezone offset.
-   * @param {TimezoneName} zone The name of the timezone (e.g., 'Europe/Sofia')
+   * @param {TimezoneCode} tzCode The tzCode of the timezone (e.g., 'Europe/Sofia')
    * @example getZoneISODate('Europe/Sofia') //=> '2025-05-12T08:25:49.322+03:00'
    */
   getZoneISODate,
