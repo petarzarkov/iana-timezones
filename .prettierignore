@@ -7,4 +7,5 @@ coverage
 .env*
 README.md
 timezones.ts
+timezones.json
 previous.json

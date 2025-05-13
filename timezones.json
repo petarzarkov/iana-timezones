@@ -1,9 +1,14 @@
 {
   "version": "2025b",
   "lastModified": "Sat, 22 Mar 2025 21:45:31 GMT",
-  "updatedAt": "Tue, 13 May 2025 12:23:03 GMT",
+  "updatedAt": "Tue, 13 May 2025 12:29:46 GMT",
   "numberOfZones": 597,
-  "filesUsed": ["zone.tab", "zone1970.tab", "etcetera", "backward"],
+  "filesUsed": [
+    "zone.tab",
+    "zone1970.tab",
+    "etcetera",
+    "backward"
+  ],
   "zones": {
     "Africa/Abidjan": {
       "children": [
@@ -21,7 +26,20 @@
         "Atlantic/St_Helena",
         "Iceland"
       ],
-      "countryCodes": ["BF", "CI", "GH", "GM", "GN", "IS", "ML", "MR", "SH", "SL", "SN", "TG"],
+      "countryCodes": [
+        "BF",
+        "CI",
+        "GH",
+        "GM",
+        "GN",
+        "IS",
+        "ML",
+        "MR",
+        "SH",
+        "SL",
+        "SN",
+        "TG"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Abidjan (GMT+00:00)",
       "location": "Abidjan",
@@ -31,7 +49,9 @@
       "utc": "+00:00"
     },
     "Africa/Accra": {
-      "countryCodes": ["GH"],
+      "countryCodes": [
+        "GH"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Accra (GMT+00:00)",
       "location": "Accra",
@@ -42,7 +62,9 @@
       "utc": "+00:00"
     },
     "Africa/Addis_Ababa": {
-      "countryCodes": ["ET"],
+      "countryCodes": [
+        "ET"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Addis_Ababa (GMT+03:00)",
       "location": "Addis_Ababa",
@@ -53,7 +75,9 @@
       "utc": "+03:00"
     },
     "Africa/Algiers": {
-      "countryCodes": ["DZ"],
+      "countryCodes": [
+        "DZ"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Algiers (GMT+01:00)",
       "location": "Algiers",
@@ -63,7 +87,9 @@
       "utc": "+01:00"
     },
     "Africa/Asmara": {
-      "countryCodes": ["ER"],
+      "countryCodes": [
+        "ER"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Asmara (GMT+03:00)",
       "location": "Asmara",
@@ -84,7 +110,9 @@
       "utc": "+03:00"
     },
     "Africa/Bamako": {
-      "countryCodes": ["ML"],
+      "countryCodes": [
+        "ML"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Bamako (GMT+00:00)",
       "location": "Bamako",
@@ -95,7 +123,9 @@
       "utc": "+00:00"
     },
     "Africa/Bangui": {
-      "countryCodes": ["CF"],
+      "countryCodes": [
+        "CF"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Bangui (GMT+01:00)",
       "location": "Bangui",
@@ -106,7 +136,9 @@
       "utc": "+01:00"
     },
     "Africa/Banjul": {
-      "countryCodes": ["GM"],
+      "countryCodes": [
+        "GM"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Banjul (GMT+00:00)",
       "location": "Banjul",
@@ -117,7 +149,9 @@
       "utc": "+00:00"
     },
     "Africa/Bissau": {
-      "countryCodes": ["GW"],
+      "countryCodes": [
+        "GW"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Bissau (GMT+00:00)",
       "location": "Bissau",
@@ -127,7 +161,9 @@
       "utc": "+00:00"
     },
     "Africa/Blantyre": {
-      "countryCodes": ["MW"],
+      "countryCodes": [
+        "MW"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Blantyre (GMT+02:00)",
       "location": "Blantyre",
@@ -138,7 +174,9 @@
       "utc": "+02:00"
     },
     "Africa/Brazzaville": {
-      "countryCodes": ["CG"],
+      "countryCodes": [
+        "CG"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Brazzaville (GMT+01:00)",
       "location": "Brazzaville",
@@ -149,7 +187,9 @@
       "utc": "+01:00"
     },
     "Africa/Bujumbura": {
-      "countryCodes": ["BI"],
+      "countryCodes": [
+        "BI"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Bujumbura (GMT+02:00)",
       "location": "Bujumbura",
@@ -160,8 +200,12 @@
       "utc": "+02:00"
     },
     "Africa/Cairo": {
-      "children": ["Egypt"],
-      "countryCodes": ["EG"],
+      "children": [
+        "Egypt"
+      ],
+      "countryCodes": [
+        "EG"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Cairo (GMT+03:00)",
       "location": "Cairo",
@@ -171,7 +215,9 @@
       "utc": "+03:00"
     },
     "Africa/Casablanca": {
-      "countryCodes": ["MA"],
+      "countryCodes": [
+        "MA"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Casablanca (GMT+01:00)",
       "location": "Casablanca",
@@ -182,7 +228,9 @@
     },
     "Africa/Ceuta": {
       "comments": "Ceuta, Melilla",
-      "countryCodes": ["ES"],
+      "countryCodes": [
+        "ES"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Ceuta (GMT+02:00)",
       "location": "Ceuta",
@@ -192,7 +240,9 @@
       "utc": "+02:00"
     },
     "Africa/Conakry": {
-      "countryCodes": ["GN"],
+      "countryCodes": [
+        "GN"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Conakry (GMT+00:00)",
       "location": "Conakry",
@@ -203,7 +253,9 @@
       "utc": "+00:00"
     },
     "Africa/Dakar": {
-      "countryCodes": ["SN"],
+      "countryCodes": [
+        "SN"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Dakar (GMT+00:00)",
       "location": "Dakar",
@@ -214,7 +266,9 @@
       "utc": "+00:00"
     },
     "Africa/Dar_es_Salaam": {
-      "countryCodes": ["TZ"],
+      "countryCodes": [
+        "TZ"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Dar_es_Salaam (GMT+03:00)",
       "location": "Dar_es_Salaam",
@@ -225,7 +279,9 @@
       "utc": "+03:00"
     },
     "Africa/Djibouti": {
-      "countryCodes": ["DJ"],
+      "countryCodes": [
+        "DJ"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Djibouti (GMT+03:00)",
       "location": "Djibouti",
@@ -236,7 +292,9 @@
       "utc": "+03:00"
     },
     "Africa/Douala": {
-      "countryCodes": ["CM"],
+      "countryCodes": [
+        "CM"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Douala (GMT+01:00)",
       "location": "Douala",
@@ -247,7 +305,9 @@
       "utc": "+01:00"
     },
     "Africa/El_Aaiun": {
-      "countryCodes": ["EH"],
+      "countryCodes": [
+        "EH"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/El_Aaiun (GMT+01:00)",
       "location": "El_Aaiun",
@@ -257,7 +317,9 @@
       "utc": "+01:00"
     },
     "Africa/Freetown": {
-      "countryCodes": ["SL"],
+      "countryCodes": [
+        "SL"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Freetown (GMT+00:00)",
       "location": "Freetown",
@@ -268,7 +330,9 @@
       "utc": "+00:00"
     },
     "Africa/Gaborone": {
-      "countryCodes": ["BW"],
+      "countryCodes": [
+        "BW"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Gaborone (GMT+02:00)",
       "location": "Gaborone",
@@ -279,7 +343,9 @@
       "utc": "+02:00"
     },
     "Africa/Harare": {
-      "countryCodes": ["ZW"],
+      "countryCodes": [
+        "ZW"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Harare (GMT+02:00)",
       "location": "Harare",
@@ -290,8 +356,15 @@
       "utc": "+02:00"
     },
     "Africa/Johannesburg": {
-      "children": ["Africa/Maseru", "Africa/Mbabane"],
-      "countryCodes": ["LS", "SZ", "ZA"],
+      "children": [
+        "Africa/Maseru",
+        "Africa/Mbabane"
+      ],
+      "countryCodes": [
+        "LS",
+        "SZ",
+        "ZA"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Johannesburg (GMT+02:00)",
       "location": "Johannesburg",
@@ -301,7 +374,9 @@
       "utc": "+02:00"
     },
     "Africa/Juba": {
-      "countryCodes": ["SS"],
+      "countryCodes": [
+        "SS"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Juba (GMT+02:00)",
       "location": "Juba",
@@ -311,7 +386,9 @@
       "utc": "+02:00"
     },
     "Africa/Kampala": {
-      "countryCodes": ["UG"],
+      "countryCodes": [
+        "UG"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Kampala (GMT+03:00)",
       "location": "Kampala",
@@ -322,7 +399,9 @@
       "utc": "+03:00"
     },
     "Africa/Khartoum": {
-      "countryCodes": ["SD"],
+      "countryCodes": [
+        "SD"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Khartoum (GMT+02:00)",
       "location": "Khartoum",
@@ -332,7 +411,9 @@
       "utc": "+02:00"
     },
     "Africa/Kigali": {
-      "countryCodes": ["RW"],
+      "countryCodes": [
+        "RW"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Kigali (GMT+02:00)",
       "location": "Kigali",
@@ -344,7 +425,9 @@
     },
     "Africa/Kinshasa": {
       "comments": "Dem. Rep. of Congo (west)",
-      "countryCodes": ["CD"],
+      "countryCodes": [
+        "CD"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Kinshasa (GMT+01:00)",
       "location": "Kinshasa",
@@ -367,7 +450,18 @@
         "Africa/Porto-Novo"
       ],
       "comments": "West Africa Time",
-      "countryCodes": ["AO", "BJ", "CD", "CF", "CG", "CM", "GA", "GQ", "NE", "NG"],
+      "countryCodes": [
+        "AO",
+        "BJ",
+        "CD",
+        "CF",
+        "CG",
+        "CM",
+        "GA",
+        "GQ",
+        "NE",
+        "NG"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Lagos (GMT+01:00)",
       "location": "Lagos",
@@ -377,7 +471,9 @@
       "utc": "+01:00"
     },
     "Africa/Libreville": {
-      "countryCodes": ["GA"],
+      "countryCodes": [
+        "GA"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Libreville (GMT+01:00)",
       "location": "Libreville",
@@ -388,7 +484,9 @@
       "utc": "+01:00"
     },
     "Africa/Lome": {
-      "countryCodes": ["TG"],
+      "countryCodes": [
+        "TG"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Lome (GMT+00:00)",
       "location": "Lome",
@@ -399,7 +497,9 @@
       "utc": "+00:00"
     },
     "Africa/Luanda": {
-      "countryCodes": ["AO"],
+      "countryCodes": [
+        "AO"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Luanda (GMT+01:00)",
       "location": "Luanda",
@@ -411,7 +511,9 @@
     },
     "Africa/Lubumbashi": {
       "comments": "Dem. Rep. of Congo (east)",
-      "countryCodes": ["CD"],
+      "countryCodes": [
+        "CD"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Lubumbashi (GMT+02:00)",
       "location": "Lubumbashi",
@@ -422,7 +524,9 @@
       "utc": "+02:00"
     },
     "Africa/Lusaka": {
-      "countryCodes": ["ZM"],
+      "countryCodes": [
+        "ZM"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Lusaka (GMT+02:00)",
       "location": "Lusaka",
@@ -433,7 +537,9 @@
       "utc": "+02:00"
     },
     "Africa/Malabo": {
-      "countryCodes": ["GQ"],
+      "countryCodes": [
+        "GQ"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Malabo (GMT+01:00)",
       "location": "Malabo",
@@ -454,7 +560,16 @@
         "Africa/Lusaka"
       ],
       "comments": "Central Africa Time",
-      "countryCodes": ["BI", "BW", "CD", "MW", "MZ", "RW", "ZM", "ZW"],
+      "countryCodes": [
+        "BI",
+        "BW",
+        "CD",
+        "MW",
+        "MZ",
+        "RW",
+        "ZM",
+        "ZW"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Maputo (GMT+02:00)",
       "location": "Maputo",
@@ -464,7 +579,9 @@
       "utc": "+02:00"
     },
     "Africa/Maseru": {
-      "countryCodes": ["LS"],
+      "countryCodes": [
+        "LS"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Maseru (GMT+02:00)",
       "location": "Maseru",
@@ -475,7 +592,9 @@
       "utc": "+02:00"
     },
     "Africa/Mbabane": {
-      "countryCodes": ["SZ"],
+      "countryCodes": [
+        "SZ"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Mbabane (GMT+02:00)",
       "location": "Mbabane",
@@ -486,7 +605,9 @@
       "utc": "+02:00"
     },
     "Africa/Mogadishu": {
-      "countryCodes": ["SO"],
+      "countryCodes": [
+        "SO"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Mogadishu (GMT+03:00)",
       "location": "Mogadishu",
@@ -497,7 +618,9 @@
       "utc": "+03:00"
     },
     "Africa/Monrovia": {
-      "countryCodes": ["LR"],
+      "countryCodes": [
+        "LR"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Monrovia (GMT+00:00)",
       "location": "Monrovia",
@@ -519,7 +642,18 @@
         "Indian/Comoro",
         "Indian/Mayotte"
       ],
-      "countryCodes": ["DJ", "ER", "ET", "KE", "KM", "MG", "SO", "TZ", "UG", "YT"],
+      "countryCodes": [
+        "DJ",
+        "ER",
+        "ET",
+        "KE",
+        "KM",
+        "MG",
+        "SO",
+        "TZ",
+        "UG",
+        "YT"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Nairobi (GMT+03:00)",
       "location": "Nairobi",
@@ -529,7 +663,9 @@
       "utc": "+03:00"
     },
     "Africa/Ndjamena": {
-      "countryCodes": ["TD"],
+      "countryCodes": [
+        "TD"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Ndjamena (GMT+01:00)",
       "location": "Ndjamena",
@@ -539,7 +675,9 @@
       "utc": "+01:00"
     },
     "Africa/Niamey": {
-      "countryCodes": ["NE"],
+      "countryCodes": [
+        "NE"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Niamey (GMT+01:00)",
       "location": "Niamey",
@@ -550,7 +688,9 @@
       "utc": "+01:00"
     },
     "Africa/Nouakchott": {
-      "countryCodes": ["MR"],
+      "countryCodes": [
+        "MR"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Nouakchott (GMT+00:00)",
       "location": "Nouakchott",
@@ -561,7 +701,9 @@
       "utc": "+00:00"
     },
     "Africa/Ouagadougou": {
-      "countryCodes": ["BF"],
+      "countryCodes": [
+        "BF"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Ouagadougou (GMT+00:00)",
       "location": "Ouagadougou",
@@ -572,7 +714,9 @@
       "utc": "+00:00"
     },
     "Africa/Porto-Novo": {
-      "countryCodes": ["BJ"],
+      "countryCodes": [
+        "BJ"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Porto-Novo (GMT+01:00)",
       "location": "Porto-Novo",
@@ -583,7 +727,9 @@
       "utc": "+01:00"
     },
     "Africa/Sao_Tome": {
-      "countryCodes": ["ST"],
+      "countryCodes": [
+        "ST"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Sao_Tome (GMT+00:00)",
       "location": "Sao_Tome",
@@ -603,8 +749,12 @@
       "utc": "+00:00"
     },
     "Africa/Tripoli": {
-      "children": ["Libya"],
-      "countryCodes": ["LY"],
+      "children": [
+        "Libya"
+      ],
+      "countryCodes": [
+        "LY"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Tripoli (GMT+02:00)",
       "location": "Tripoli",
@@ -614,7 +764,9 @@
       "utc": "+02:00"
     },
     "Africa/Tunis": {
-      "countryCodes": ["TN"],
+      "countryCodes": [
+        "TN"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Tunis (GMT+01:00)",
       "location": "Tunis",
@@ -624,7 +776,9 @@
       "utc": "+01:00"
     },
     "Africa/Windhoek": {
-      "countryCodes": ["NA"],
+      "countryCodes": [
+        "NA"
+      ],
       "geographicArea": "Africa",
       "label": "Africa/Windhoek (GMT+02:00)",
       "location": "Windhoek",
@@ -634,9 +788,14 @@
       "utc": "+02:00"
     },
     "America/Adak": {
-      "children": ["America/Atka", "US/Aleutian"],
+      "children": [
+        "America/Atka",
+        "US/Aleutian"
+      ],
       "comments": "Alaska - western Aleutians",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Adak (GMT-09:00)",
       "location": "Adak",
@@ -646,9 +805,13 @@
       "utc": "-09:00"
     },
     "America/Anchorage": {
-      "children": ["US/Alaska"],
+      "children": [
+        "US/Alaska"
+      ],
       "comments": "Alaska (most areas)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Anchorage (GMT-08:00)",
       "location": "Anchorage",
@@ -658,7 +821,9 @@
       "utc": "-08:00"
     },
     "America/Anguilla": {
-      "countryCodes": ["AI"],
+      "countryCodes": [
+        "AI"
+      ],
       "geographicArea": "America",
       "label": "America/Anguilla (GMT-04:00)",
       "location": "Anguilla",
@@ -669,7 +834,9 @@
       "utc": "-04:00"
     },
     "America/Antigua": {
-      "countryCodes": ["AG"],
+      "countryCodes": [
+        "AG"
+      ],
       "geographicArea": "America",
       "label": "America/Antigua (GMT-04:00)",
       "location": "Antigua",
@@ -681,7 +848,9 @@
     },
     "America/Araguaina": {
       "comments": "Tocantins",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Araguaina (GMT-03:00)",
       "location": "Araguaina",
@@ -691,9 +860,13 @@
       "utc": "-03:00"
     },
     "America/Argentina/Buenos_Aires": {
-      "children": ["America/Buenos_Aires"],
+      "children": [
+        "America/Buenos_Aires"
+      ],
       "comments": "Buenos Aires (BA, CF)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Buenos_Aires (GMT-03:00)",
       "location": "Argentina/Buenos_Aires",
@@ -703,9 +876,14 @@
       "utc": "-03:00"
     },
     "America/Argentina/Catamarca": {
-      "children": ["America/Argentina/ComodRivadavia", "America/Catamarca"],
+      "children": [
+        "America/Argentina/ComodRivadavia",
+        "America/Catamarca"
+      ],
       "comments": "Catamarca (CT), Chubut (CH)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Catamarca (GMT-03:00)",
       "location": "Argentina/Catamarca",
@@ -725,9 +903,14 @@
       "utc": "-03:00"
     },
     "America/Argentina/Cordoba": {
-      "children": ["America/Cordoba", "America/Rosario"],
+      "children": [
+        "America/Cordoba",
+        "America/Rosario"
+      ],
       "comments": "most areas: CB, CC, CN, ER, FM, MN, SE, SF",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Cordoba (GMT-03:00)",
       "location": "Argentina/Cordoba",
@@ -737,9 +920,13 @@
       "utc": "-03:00"
     },
     "America/Argentina/Jujuy": {
-      "children": ["America/Jujuy"],
+      "children": [
+        "America/Jujuy"
+      ],
       "comments": "Jujuy (JY)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Jujuy (GMT-03:00)",
       "location": "Argentina/Jujuy",
@@ -750,7 +937,9 @@
     },
     "America/Argentina/La_Rioja": {
       "comments": "La Rioja (LR)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/La_Rioja (GMT-03:00)",
       "location": "Argentina/La_Rioja",
@@ -760,9 +949,13 @@
       "utc": "-03:00"
     },
     "America/Argentina/Mendoza": {
-      "children": ["America/Mendoza"],
+      "children": [
+        "America/Mendoza"
+      ],
       "comments": "Mendoza (MZ)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Mendoza (GMT-03:00)",
       "location": "Argentina/Mendoza",
@@ -773,7 +966,9 @@
     },
     "America/Argentina/Rio_Gallegos": {
       "comments": "Santa Cruz (SC)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Rio_Gallegos (GMT-03:00)",
       "location": "Argentina/Rio_Gallegos",
@@ -784,7 +979,9 @@
     },
     "America/Argentina/Salta": {
       "comments": "Salta (SA, LP, NQ, RN)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Salta (GMT-03:00)",
       "location": "Argentina/Salta",
@@ -795,7 +992,9 @@
     },
     "America/Argentina/San_Juan": {
       "comments": "San Juan (SJ)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/San_Juan (GMT-03:00)",
       "location": "Argentina/San_Juan",
@@ -806,7 +1005,9 @@
     },
     "America/Argentina/San_Luis": {
       "comments": "San Luis (SL)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/San_Luis (GMT-03:00)",
       "location": "Argentina/San_Luis",
@@ -817,7 +1018,9 @@
     },
     "America/Argentina/Tucuman": {
       "comments": "Tucumán (TM)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Tucuman (GMT-03:00)",
       "location": "Argentina/Tucuman",
@@ -828,7 +1031,9 @@
     },
     "America/Argentina/Ushuaia": {
       "comments": "Tierra del Fuego (TF)",
-      "countryCodes": ["AR"],
+      "countryCodes": [
+        "AR"
+      ],
       "geographicArea": "America",
       "label": "America/Argentina/Ushuaia (GMT-03:00)",
       "location": "Argentina/Ushuaia",
@@ -838,7 +1043,9 @@
       "utc": "-03:00"
     },
     "America/Aruba": {
-      "countryCodes": ["AW"],
+      "countryCodes": [
+        "AW"
+      ],
       "geographicArea": "America",
       "label": "America/Aruba (GMT-04:00)",
       "location": "Aruba",
@@ -849,7 +1056,9 @@
       "utc": "-04:00"
     },
     "America/Asuncion": {
-      "countryCodes": ["PY"],
+      "countryCodes": [
+        "PY"
+      ],
       "geographicArea": "America",
       "label": "America/Asuncion (GMT-03:00)",
       "location": "Asuncion",
@@ -860,7 +1069,9 @@
     },
     "America/Atikokan": {
       "comments": "EST - ON (Atikokan), NU (Coral H)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Atikokan (GMT-05:00)",
       "location": "Atikokan",
@@ -882,7 +1093,9 @@
     },
     "America/Bahia": {
       "comments": "Bahia",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Bahia (GMT-03:00)",
       "location": "Bahia",
@@ -893,7 +1106,9 @@
     },
     "America/Bahia_Banderas": {
       "comments": "Bahía de Banderas",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Bahia_Banderas (GMT-06:00)",
       "location": "Bahia_Banderas",
@@ -903,7 +1118,9 @@
       "utc": "-06:00"
     },
     "America/Barbados": {
-      "countryCodes": ["BB"],
+      "countryCodes": [
+        "BB"
+      ],
       "geographicArea": "America",
       "label": "America/Barbados (GMT-04:00)",
       "location": "Barbados",
@@ -914,7 +1131,9 @@
     },
     "America/Belem": {
       "comments": "Pará (east), Amapá",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Belem (GMT-03:00)",
       "location": "Belem",
@@ -924,7 +1143,9 @@
       "utc": "-03:00"
     },
     "America/Belize": {
-      "countryCodes": ["BZ"],
+      "countryCodes": [
+        "BZ"
+      ],
       "geographicArea": "America",
       "label": "America/Belize (GMT-06:00)",
       "location": "Belize",
@@ -935,7 +1156,9 @@
     },
     "America/Blanc-Sablon": {
       "comments": "AST - QC (Lower North Shore)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Blanc-Sablon (GMT-04:00)",
       "location": "Blanc-Sablon",
@@ -947,7 +1170,9 @@
     },
     "America/Boa_Vista": {
       "comments": "Roraima",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Boa_Vista (GMT-04:00)",
       "location": "Boa_Vista",
@@ -957,7 +1182,9 @@
       "utc": "-04:00"
     },
     "America/Bogota": {
-      "countryCodes": ["CO"],
+      "countryCodes": [
+        "CO"
+      ],
       "geographicArea": "America",
       "label": "America/Bogota (GMT-05:00)",
       "location": "Bogota",
@@ -968,7 +1195,9 @@
     },
     "America/Boise": {
       "comments": "Mountain - ID (south), OR (east)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Boise (GMT-06:00)",
       "location": "Boise",
@@ -989,7 +1218,9 @@
     },
     "America/Cambridge_Bay": {
       "comments": "Mountain - NU (west)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Cambridge_Bay (GMT-06:00)",
       "location": "Cambridge_Bay",
@@ -1000,7 +1231,9 @@
     },
     "America/Campo_Grande": {
       "comments": "Mato Grosso do Sul",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Campo_Grande (GMT-04:00)",
       "location": "Campo_Grande",
@@ -1011,7 +1244,9 @@
     },
     "America/Cancun": {
       "comments": "Quintana Roo",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Cancun (GMT-05:00)",
       "location": "Cancun",
@@ -1021,7 +1256,9 @@
       "utc": "-05:00"
     },
     "America/Caracas": {
-      "countryCodes": ["VE"],
+      "countryCodes": [
+        "VE"
+      ],
       "geographicArea": "America",
       "label": "America/Caracas (GMT-04:00)",
       "location": "Caracas",
@@ -1041,7 +1278,9 @@
       "utc": "-03:00"
     },
     "America/Cayenne": {
-      "countryCodes": ["GF"],
+      "countryCodes": [
+        "GF"
+      ],
       "geographicArea": "America",
       "label": "America/Cayenne (GMT-03:00)",
       "location": "Cayenne",
@@ -1051,7 +1290,9 @@
       "utc": "-03:00"
     },
     "America/Cayman": {
-      "countryCodes": ["KY"],
+      "countryCodes": [
+        "KY"
+      ],
       "geographicArea": "America",
       "label": "America/Cayman (GMT-05:00)",
       "location": "Cayman",
@@ -1062,9 +1303,14 @@
       "utc": "-05:00"
     },
     "America/Chicago": {
-      "children": ["CST6CDT", "US/Central"],
+      "children": [
+        "CST6CDT",
+        "US/Central"
+      ],
       "comments": "Central (most areas)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Chicago (GMT-05:00)",
       "location": "Chicago",
@@ -1075,7 +1321,9 @@
     },
     "America/Chihuahua": {
       "comments": "Chihuahua (most areas)",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Chihuahua (GMT-06:00)",
       "location": "Chihuahua",
@@ -1086,7 +1334,9 @@
     },
     "America/Ciudad_Juarez": {
       "comments": "Chihuahua (US border - west)",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Ciudad_Juarez (GMT-06:00)",
       "location": "Ciudad_Juarez",
@@ -1116,7 +1366,9 @@
       "utc": "-03:00"
     },
     "America/Costa_Rica": {
-      "countryCodes": ["CR"],
+      "countryCodes": [
+        "CR"
+      ],
       "geographicArea": "America",
       "label": "America/Costa_Rica (GMT-06:00)",
       "location": "Costa_Rica",
@@ -1127,7 +1379,9 @@
     },
     "America/Coyhaique": {
       "comments": "Aysén Region",
-      "countryCodes": ["CL"],
+      "countryCodes": [
+        "CL"
+      ],
       "geographicArea": "America",
       "label": "America/Coyhaique (GMT-03:00)",
       "location": "Coyhaique",
@@ -1138,7 +1392,9 @@
     },
     "America/Creston": {
       "comments": "MST - BC (Creston)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Creston (GMT-07:00)",
       "location": "Creston",
@@ -1150,7 +1406,9 @@
     },
     "America/Cuiaba": {
       "comments": "Mato Grosso",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Cuiaba (GMT-04:00)",
       "location": "Cuiaba",
@@ -1160,7 +1418,9 @@
       "utc": "-04:00"
     },
     "America/Curacao": {
-      "countryCodes": ["CW"],
+      "countryCodes": [
+        "CW"
+      ],
       "geographicArea": "America",
       "label": "America/Curacao (GMT-04:00)",
       "location": "Curacao",
@@ -1172,7 +1432,9 @@
     },
     "America/Danmarkshavn": {
       "comments": "National Park (east coast)",
-      "countryCodes": ["GL"],
+      "countryCodes": [
+        "GL"
+      ],
       "geographicArea": "America",
       "label": "America/Danmarkshavn (GMT+00:00)",
       "location": "Danmarkshavn",
@@ -1183,7 +1445,9 @@
     },
     "America/Dawson": {
       "comments": "MST - Yukon (west)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Dawson (GMT-07:00)",
       "location": "Dawson",
@@ -1194,7 +1458,9 @@
     },
     "America/Dawson_Creek": {
       "comments": "MST - BC (Dawson Cr, Ft St John)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Dawson_Creek (GMT-07:00)",
       "location": "Dawson_Creek",
@@ -1204,9 +1470,16 @@
       "utc": "-07:00"
     },
     "America/Denver": {
-      "children": ["America/Shiprock", "MST7MDT", "Navajo", "US/Mountain"],
+      "children": [
+        "America/Shiprock",
+        "MST7MDT",
+        "Navajo",
+        "US/Mountain"
+      ],
       "comments": "Mountain (most areas)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Denver (GMT-06:00)",
       "location": "Denver",
@@ -1216,9 +1489,13 @@
       "utc": "-06:00"
     },
     "America/Detroit": {
-      "children": ["US/Michigan"],
+      "children": [
+        "US/Michigan"
+      ],
       "comments": "Eastern - MI (most areas)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Detroit (GMT-04:00)",
       "location": "Detroit",
@@ -1228,7 +1505,9 @@
       "utc": "-04:00"
     },
     "America/Dominica": {
-      "countryCodes": ["DM"],
+      "countryCodes": [
+        "DM"
+      ],
       "geographicArea": "America",
       "label": "America/Dominica (GMT-04:00)",
       "location": "Dominica",
@@ -1239,9 +1518,14 @@
       "utc": "-04:00"
     },
     "America/Edmonton": {
-      "children": ["America/Yellowknife", "Canada/Mountain"],
+      "children": [
+        "America/Yellowknife",
+        "Canada/Mountain"
+      ],
       "comments": "Mountain - AB, BC(E), NT(E), SK(W)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Edmonton (GMT-06:00)",
       "location": "Edmonton",
@@ -1252,7 +1536,9 @@
     },
     "America/Eirunepe": {
       "comments": "Amazonas (west)",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Eirunepe (GMT-05:00)",
       "location": "Eirunepe",
@@ -1262,7 +1548,9 @@
       "utc": "-05:00"
     },
     "America/El_Salvador": {
-      "countryCodes": ["SV"],
+      "countryCodes": [
+        "SV"
+      ],
       "geographicArea": "America",
       "label": "America/El_Salvador (GMT-06:00)",
       "location": "El_Salvador",
@@ -1283,7 +1571,9 @@
     },
     "America/Fort_Nelson": {
       "comments": "MST - BC (Ft Nelson)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Fort_Nelson (GMT-07:00)",
       "location": "Fort_Nelson",
@@ -1304,7 +1594,9 @@
     },
     "America/Fortaleza": {
       "comments": "Brazil (northeast: MA, PI, CE, RN, PB)",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Fortaleza (GMT-03:00)",
       "location": "Fortaleza",
@@ -1315,7 +1607,9 @@
     },
     "America/Glace_Bay": {
       "comments": "Atlantic - NS (Cape Breton)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Glace_Bay (GMT-03:00)",
       "location": "Glace_Bay",
@@ -1336,7 +1630,9 @@
     },
     "America/Goose_Bay": {
       "comments": "Atlantic - Labrador (most areas)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Goose_Bay (GMT-03:00)",
       "location": "Goose_Bay",
@@ -1346,7 +1642,9 @@
       "utc": "-03:00"
     },
     "America/Grand_Turk": {
-      "countryCodes": ["TC"],
+      "countryCodes": [
+        "TC"
+      ],
       "geographicArea": "America",
       "label": "America/Grand_Turk (GMT-04:00)",
       "location": "Grand_Turk",
@@ -1356,7 +1654,9 @@
       "utc": "-04:00"
     },
     "America/Grenada": {
-      "countryCodes": ["GD"],
+      "countryCodes": [
+        "GD"
+      ],
       "geographicArea": "America",
       "label": "America/Grenada (GMT-04:00)",
       "location": "Grenada",
@@ -1367,7 +1667,9 @@
       "utc": "-04:00"
     },
     "America/Guadeloupe": {
-      "countryCodes": ["GP"],
+      "countryCodes": [
+        "GP"
+      ],
       "geographicArea": "America",
       "label": "America/Guadeloupe (GMT-04:00)",
       "location": "Guadeloupe",
@@ -1378,7 +1680,9 @@
       "utc": "-04:00"
     },
     "America/Guatemala": {
-      "countryCodes": ["GT"],
+      "countryCodes": [
+        "GT"
+      ],
       "geographicArea": "America",
       "label": "America/Guatemala (GMT-06:00)",
       "location": "Guatemala",
@@ -1389,7 +1693,9 @@
     },
     "America/Guayaquil": {
       "comments": "Ecuador (mainland)",
-      "countryCodes": ["EC"],
+      "countryCodes": [
+        "EC"
+      ],
       "geographicArea": "America",
       "label": "America/Guayaquil (GMT-05:00)",
       "location": "Guayaquil",
@@ -1399,7 +1705,9 @@
       "utc": "-05:00"
     },
     "America/Guyana": {
-      "countryCodes": ["GY"],
+      "countryCodes": [
+        "GY"
+      ],
       "geographicArea": "America",
       "label": "America/Guyana (GMT-04:00)",
       "location": "Guyana",
@@ -1409,9 +1717,13 @@
       "utc": "-04:00"
     },
     "America/Halifax": {
-      "children": ["Canada/Atlantic"],
+      "children": [
+        "Canada/Atlantic"
+      ],
       "comments": "Atlantic - NS (most areas), PE",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Halifax (GMT-03:00)",
       "location": "Halifax",
@@ -1421,8 +1733,12 @@
       "utc": "-03:00"
     },
     "America/Havana": {
-      "children": ["Cuba"],
-      "countryCodes": ["CU"],
+      "children": [
+        "Cuba"
+      ],
+      "countryCodes": [
+        "CU"
+      ],
       "geographicArea": "America",
       "label": "America/Havana (GMT-04:00)",
       "location": "Havana",
@@ -1433,7 +1749,9 @@
     },
     "America/Hermosillo": {
       "comments": "Sonora",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Hermosillo (GMT-07:00)",
       "location": "Hermosillo",
@@ -1443,9 +1761,15 @@
       "utc": "-07:00"
     },
     "America/Indiana/Indianapolis": {
-      "children": ["America/Fort_Wayne", "America/Indianapolis", "US/East-Indiana"],
+      "children": [
+        "America/Fort_Wayne",
+        "America/Indianapolis",
+        "US/East-Indiana"
+      ],
       "comments": "Eastern - IN (most areas)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Indiana/Indianapolis (GMT-04:00)",
       "location": "Indiana/Indianapolis",
@@ -1455,9 +1779,14 @@
       "utc": "-04:00"
     },
     "America/Indiana/Knox": {
-      "children": ["America/Knox_IN", "US/Indiana-Starke"],
+      "children": [
+        "America/Knox_IN",
+        "US/Indiana-Starke"
+      ],
       "comments": "Central - IN (Starke)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Indiana/Knox (GMT-05:00)",
       "location": "Indiana/Knox",
@@ -1468,7 +1797,9 @@
     },
     "America/Indiana/Marengo": {
       "comments": "Eastern - IN (Crawford)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Indiana/Marengo (GMT-04:00)",
       "location": "Indiana/Marengo",
@@ -1479,7 +1810,9 @@
     },
     "America/Indiana/Petersburg": {
       "comments": "Eastern - IN (Pike)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Indiana/Petersburg (GMT-04:00)",
       "location": "Indiana/Petersburg",
@@ -1490,7 +1823,9 @@
     },
     "America/Indiana/Tell_City": {
       "comments": "Central - IN (Perry)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Indiana/Tell_City (GMT-05:00)",
       "location": "Indiana/Tell_City",
@@ -1501,7 +1836,9 @@
     },
     "America/Indiana/Vevay": {
       "comments": "Eastern - IN (Switzerland)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Indiana/Vevay (GMT-04:00)",
       "location": "Indiana/Vevay",
@@ -1512,7 +1849,9 @@
     },
     "America/Indiana/Vincennes": {
       "comments": "Eastern - IN (Da, Du, K, Mn)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Indiana/Vincennes (GMT-04:00)",
       "location": "Indiana/Vincennes",
@@ -1523,7 +1862,9 @@
     },
     "America/Indiana/Winamac": {
       "comments": "Eastern - IN (Pulaski)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Indiana/Winamac (GMT-04:00)",
       "location": "Indiana/Winamac",
@@ -1544,7 +1885,9 @@
     },
     "America/Inuvik": {
       "comments": "Mountain - NT (west)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Inuvik (GMT-06:00)",
       "location": "Inuvik",
@@ -1554,9 +1897,13 @@
       "utc": "-06:00"
     },
     "America/Iqaluit": {
-      "children": ["America/Pangnirtung"],
+      "children": [
+        "America/Pangnirtung"
+      ],
       "comments": "Eastern - NU (most areas)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Iqaluit (GMT-04:00)",
       "location": "Iqaluit",
@@ -1566,8 +1913,12 @@
       "utc": "-04:00"
     },
     "America/Jamaica": {
-      "children": ["Jamaica"],
-      "countryCodes": ["JM"],
+      "children": [
+        "Jamaica"
+      ],
+      "countryCodes": [
+        "JM"
+      ],
       "geographicArea": "America",
       "label": "America/Jamaica (GMT-05:00)",
       "location": "Jamaica",
@@ -1588,7 +1939,9 @@
     },
     "America/Juneau": {
       "comments": "Alaska - Juneau area",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Juneau (GMT-08:00)",
       "location": "Juneau",
@@ -1598,9 +1951,13 @@
       "utc": "-08:00"
     },
     "America/Kentucky/Louisville": {
-      "children": ["America/Louisville"],
+      "children": [
+        "America/Louisville"
+      ],
       "comments": "Eastern - KY (Louisville area)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Kentucky/Louisville (GMT-04:00)",
       "location": "Kentucky/Louisville",
@@ -1611,7 +1968,9 @@
     },
     "America/Kentucky/Monticello": {
       "comments": "Eastern - KY (Wayne)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Kentucky/Monticello (GMT-04:00)",
       "location": "Kentucky/Monticello",
@@ -1631,7 +1990,9 @@
       "utc": "-05:00"
     },
     "America/Kralendijk": {
-      "countryCodes": ["BQ"],
+      "countryCodes": [
+        "BQ"
+      ],
       "geographicArea": "America",
       "label": "America/Kralendijk (GMT-04:00)",
       "location": "Kralendijk",
@@ -1642,7 +2003,9 @@
       "utc": "-04:00"
     },
     "America/La_Paz": {
-      "countryCodes": ["BO"],
+      "countryCodes": [
+        "BO"
+      ],
       "geographicArea": "America",
       "label": "America/La_Paz (GMT-04:00)",
       "location": "La_Paz",
@@ -1652,7 +2015,9 @@
       "utc": "-04:00"
     },
     "America/Lima": {
-      "countryCodes": ["PE"],
+      "countryCodes": [
+        "PE"
+      ],
       "geographicArea": "America",
       "label": "America/Lima (GMT-05:00)",
       "location": "Lima",
@@ -1662,9 +2027,14 @@
       "utc": "-05:00"
     },
     "America/Los_Angeles": {
-      "children": ["PST8PDT", "US/Pacific"],
+      "children": [
+        "PST8PDT",
+        "US/Pacific"
+      ],
       "comments": "Pacific",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Los_Angeles (GMT-07:00)",
       "location": "Los_Angeles",
@@ -1684,7 +2054,9 @@
       "utc": "-04:00"
     },
     "America/Lower_Princes": {
-      "countryCodes": ["SX"],
+      "countryCodes": [
+        "SX"
+      ],
       "geographicArea": "America",
       "label": "America/Lower_Princes (GMT-04:00)",
       "location": "Lower_Princes",
@@ -1696,7 +2068,9 @@
     },
     "America/Maceio": {
       "comments": "Alagoas, Sergipe",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Maceio (GMT-03:00)",
       "location": "Maceio",
@@ -1706,7 +2080,9 @@
       "utc": "-03:00"
     },
     "America/Managua": {
-      "countryCodes": ["NI"],
+      "countryCodes": [
+        "NI"
+      ],
       "geographicArea": "America",
       "label": "America/Managua (GMT-06:00)",
       "location": "Managua",
@@ -1716,9 +2092,13 @@
       "utc": "-06:00"
     },
     "America/Manaus": {
-      "children": ["Brazil/West"],
+      "children": [
+        "Brazil/West"
+      ],
       "comments": "Amazonas (east)",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Manaus (GMT-04:00)",
       "location": "Manaus",
@@ -1728,7 +2108,9 @@
       "utc": "-04:00"
     },
     "America/Marigot": {
-      "countryCodes": ["MF"],
+      "countryCodes": [
+        "MF"
+      ],
       "geographicArea": "America",
       "label": "America/Marigot (GMT-04:00)",
       "location": "Marigot",
@@ -1739,7 +2121,9 @@
       "utc": "-04:00"
     },
     "America/Martinique": {
-      "countryCodes": ["MQ"],
+      "countryCodes": [
+        "MQ"
+      ],
       "geographicArea": "America",
       "label": "America/Martinique (GMT-04:00)",
       "location": "Martinique",
@@ -1750,7 +2134,9 @@
     },
     "America/Matamoros": {
       "comments": "Coahuila, Nuevo León, Tamaulipas (US border)",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Matamoros (GMT-05:00)",
       "location": "Matamoros",
@@ -1760,9 +2146,13 @@
       "utc": "-05:00"
     },
     "America/Mazatlan": {
-      "children": ["Mexico/BajaSur"],
+      "children": [
+        "Mexico/BajaSur"
+      ],
       "comments": "Baja California Sur, Nayarit (most areas), Sinaloa",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Mazatlan (GMT-07:00)",
       "location": "Mazatlan",
@@ -1783,7 +2173,9 @@
     },
     "America/Menominee": {
       "comments": "Central - MI (Wisconsin border)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Menominee (GMT-05:00)",
       "location": "Menominee",
@@ -1794,7 +2186,9 @@
     },
     "America/Merida": {
       "comments": "Campeche, Yucatán",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Merida (GMT-06:00)",
       "location": "Merida",
@@ -1805,7 +2199,9 @@
     },
     "America/Metlakatla": {
       "comments": "Alaska - Annette Island",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Metlakatla (GMT-08:00)",
       "location": "Metlakatla",
@@ -1815,9 +2211,13 @@
       "utc": "-08:00"
     },
     "America/Mexico_City": {
-      "children": ["Mexico/General"],
+      "children": [
+        "Mexico/General"
+      ],
       "comments": "Central Mexico",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Mexico_City (GMT-06:00)",
       "location": "Mexico_City",
@@ -1827,7 +2227,9 @@
       "utc": "-06:00"
     },
     "America/Miquelon": {
-      "countryCodes": ["PM"],
+      "countryCodes": [
+        "PM"
+      ],
       "geographicArea": "America",
       "label": "America/Miquelon (GMT-02:00)",
       "location": "Miquelon",
@@ -1838,7 +2240,9 @@
     },
     "America/Moncton": {
       "comments": "Atlantic - New Brunswick",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Moncton (GMT-03:00)",
       "location": "Moncton",
@@ -1849,7 +2253,9 @@
     },
     "America/Monterrey": {
       "comments": "Durango; Coahuila, Nuevo León, Tamaulipas (most areas)",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Monterrey (GMT-06:00)",
       "location": "Monterrey",
@@ -1859,7 +2265,9 @@
       "utc": "-06:00"
     },
     "America/Montevideo": {
-      "countryCodes": ["UY"],
+      "countryCodes": [
+        "UY"
+      ],
       "geographicArea": "America",
       "label": "America/Montevideo (GMT-03:00)",
       "location": "Montevideo",
@@ -1879,7 +2287,9 @@
       "utc": "-04:00"
     },
     "America/Montserrat": {
-      "countryCodes": ["MS"],
+      "countryCodes": [
+        "MS"
+      ],
       "geographicArea": "America",
       "label": "America/Montserrat (GMT-04:00)",
       "location": "Montserrat",
@@ -1890,7 +2300,9 @@
       "utc": "-04:00"
     },
     "America/Nassau": {
-      "countryCodes": ["BS"],
+      "countryCodes": [
+        "BS"
+      ],
       "geographicArea": "America",
       "label": "America/Nassau (GMT-04:00)",
       "location": "Nassau",
@@ -1901,9 +2313,14 @@
       "utc": "-04:00"
     },
     "America/New_York": {
-      "children": ["EST5EDT", "US/Eastern"],
+      "children": [
+        "EST5EDT",
+        "US/Eastern"
+      ],
       "comments": "Eastern (most areas)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/New_York (GMT-04:00)",
       "location": "New_York",
@@ -1924,7 +2341,9 @@
     },
     "America/Nome": {
       "comments": "Alaska (west)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Nome (GMT-08:00)",
       "location": "Nome",
@@ -1934,9 +2353,13 @@
       "utc": "-08:00"
     },
     "America/Noronha": {
-      "children": ["Brazil/DeNoronha"],
+      "children": [
+        "Brazil/DeNoronha"
+      ],
       "comments": "Atlantic islands",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Noronha (GMT-02:00)",
       "location": "Noronha",
@@ -1947,7 +2370,9 @@
     },
     "America/North_Dakota/Beulah": {
       "comments": "Central - ND (Mercer)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/North_Dakota/Beulah (GMT-05:00)",
       "location": "North_Dakota/Beulah",
@@ -1958,7 +2383,9 @@
     },
     "America/North_Dakota/Center": {
       "comments": "Central - ND (Oliver)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/North_Dakota/Center (GMT-05:00)",
       "location": "North_Dakota/Center",
@@ -1969,7 +2396,9 @@
     },
     "America/North_Dakota/New_Salem": {
       "comments": "Central - ND (Morton rural)",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/North_Dakota/New_Salem (GMT-05:00)",
       "location": "North_Dakota/New_Salem",
@@ -1979,9 +2408,13 @@
       "utc": "-05:00"
     },
     "America/Nuuk": {
-      "children": ["America/Godthab"],
+      "children": [
+        "America/Godthab"
+      ],
       "comments": "most of Greenland",
-      "countryCodes": ["GL"],
+      "countryCodes": [
+        "GL"
+      ],
       "geographicArea": "America",
       "label": "America/Nuuk (GMT-01:00)",
       "location": "Nuuk",
@@ -1992,7 +2425,9 @@
     },
     "America/Ojinaga": {
       "comments": "Chihuahua (US border - east)",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Ojinaga (GMT-05:00)",
       "location": "Ojinaga",
@@ -2002,9 +2437,18 @@
       "utc": "-05:00"
     },
     "America/Panama": {
-      "children": ["America/Atikokan", "America/Cayman", "America/Coral_Harbour", "EST"],
+      "children": [
+        "America/Atikokan",
+        "America/Cayman",
+        "America/Coral_Harbour",
+        "EST"
+      ],
       "comments": "EST - ON (Atikokan), NU (Coral H)",
-      "countryCodes": ["CA", "KY", "PA"],
+      "countryCodes": [
+        "CA",
+        "KY",
+        "PA"
+      ],
       "geographicArea": "America",
       "label": "America/Panama (GMT-05:00)",
       "location": "Panama",
@@ -2024,7 +2468,9 @@
       "utc": "-04:00"
     },
     "America/Paramaribo": {
-      "countryCodes": ["SR"],
+      "countryCodes": [
+        "SR"
+      ],
       "geographicArea": "America",
       "label": "America/Paramaribo (GMT-03:00)",
       "location": "Paramaribo",
@@ -2034,9 +2480,16 @@
       "utc": "-03:00"
     },
     "America/Phoenix": {
-      "children": ["America/Creston", "MST", "US/Arizona"],
+      "children": [
+        "America/Creston",
+        "MST",
+        "US/Arizona"
+      ],
       "comments": "MST - AZ (most areas), Creston BC",
-      "countryCodes": ["CA", "US"],
+      "countryCodes": [
+        "CA",
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Phoenix (GMT-07:00)",
       "location": "Phoenix",
@@ -2046,7 +2499,9 @@
       "utc": "-07:00"
     },
     "America/Port-au-Prince": {
-      "countryCodes": ["HT"],
+      "countryCodes": [
+        "HT"
+      ],
       "geographicArea": "America",
       "label": "America/Port-au-Prince (GMT-04:00)",
       "location": "Port-au-Prince",
@@ -2056,7 +2511,9 @@
       "utc": "-04:00"
     },
     "America/Port_of_Spain": {
-      "countryCodes": ["TT"],
+      "countryCodes": [
+        "TT"
+      ],
       "geographicArea": "America",
       "label": "America/Port_of_Spain (GMT-04:00)",
       "location": "Port_of_Spain",
@@ -2078,7 +2535,9 @@
     },
     "America/Porto_Velho": {
       "comments": "Rondônia",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Porto_Velho (GMT-04:00)",
       "location": "Porto_Velho",
@@ -2143,7 +2602,9 @@
     },
     "America/Punta_Arenas": {
       "comments": "Magallanes Region",
-      "countryCodes": ["CL"],
+      "countryCodes": [
+        "CL"
+      ],
       "geographicArea": "America",
       "label": "America/Punta_Arenas (GMT-03:00)",
       "location": "Punta_Arenas",
@@ -2164,7 +2625,9 @@
     },
     "America/Rankin_Inlet": {
       "comments": "Central - NU (central)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Rankin_Inlet (GMT-05:00)",
       "location": "Rankin_Inlet",
@@ -2175,7 +2638,9 @@
     },
     "America/Recife": {
       "comments": "Pernambuco",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Recife (GMT-03:00)",
       "location": "Recife",
@@ -2185,9 +2650,13 @@
       "utc": "-03:00"
     },
     "America/Regina": {
-      "children": ["Canada/Saskatchewan"],
+      "children": [
+        "Canada/Saskatchewan"
+      ],
       "comments": "CST - SK (most areas)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Regina (GMT-06:00)",
       "location": "Regina",
@@ -2198,7 +2667,9 @@
     },
     "America/Resolute": {
       "comments": "Central - NU (Resolute)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Resolute (GMT-05:00)",
       "location": "Resolute",
@@ -2208,9 +2679,14 @@
       "utc": "-05:00"
     },
     "America/Rio_Branco": {
-      "children": ["America/Porto_Acre", "Brazil/Acre"],
+      "children": [
+        "America/Porto_Acre",
+        "Brazil/Acre"
+      ],
       "comments": "Acre",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Rio_Branco (GMT-05:00)",
       "location": "Rio_Branco",
@@ -2241,7 +2717,9 @@
     },
     "America/Santarem": {
       "comments": "Pará (west)",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Santarem (GMT-03:00)",
       "location": "Santarem",
@@ -2251,9 +2729,13 @@
       "utc": "-03:00"
     },
     "America/Santiago": {
-      "children": ["Chile/Continental"],
+      "children": [
+        "Chile/Continental"
+      ],
       "comments": "most of Chile",
-      "countryCodes": ["CL"],
+      "countryCodes": [
+        "CL"
+      ],
       "geographicArea": "America",
       "label": "America/Santiago (GMT-04:00)",
       "location": "Santiago",
@@ -2263,7 +2745,9 @@
       "utc": "-04:00"
     },
     "America/Santo_Domingo": {
-      "countryCodes": ["DO"],
+      "countryCodes": [
+        "DO"
+      ],
       "geographicArea": "America",
       "label": "America/Santo_Domingo (GMT-04:00)",
       "location": "Santo_Domingo",
@@ -2273,9 +2757,13 @@
       "utc": "-04:00"
     },
     "America/Sao_Paulo": {
-      "children": ["Brazil/East"],
+      "children": [
+        "Brazil/East"
+      ],
       "comments": "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)",
-      "countryCodes": ["BR"],
+      "countryCodes": [
+        "BR"
+      ],
       "geographicArea": "America",
       "label": "America/Sao_Paulo (GMT-03:00)",
       "location": "Sao_Paulo",
@@ -2286,7 +2774,9 @@
     },
     "America/Scoresbysund": {
       "comments": "Scoresbysund/Ittoqqortoormiit",
-      "countryCodes": ["GL"],
+      "countryCodes": [
+        "GL"
+      ],
       "geographicArea": "America",
       "label": "America/Scoresbysund (GMT-01:00)",
       "location": "Scoresbysund",
@@ -2307,7 +2797,9 @@
     },
     "America/Sitka": {
       "comments": "Alaska - Sitka area",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Sitka (GMT-08:00)",
       "location": "Sitka",
@@ -2317,7 +2809,9 @@
       "utc": "-08:00"
     },
     "America/St_Barthelemy": {
-      "countryCodes": ["BL"],
+      "countryCodes": [
+        "BL"
+      ],
       "geographicArea": "America",
       "label": "America/St_Barthelemy (GMT-04:00)",
       "location": "St_Barthelemy",
@@ -2328,9 +2822,13 @@
       "utc": "-04:00"
     },
     "America/St_Johns": {
-      "children": ["Canada/Newfoundland"],
+      "children": [
+        "Canada/Newfoundland"
+      ],
       "comments": "Newfoundland, Labrador (SE)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/St_Johns (GMT-02:30)",
       "location": "St_Johns",
@@ -2340,7 +2838,9 @@
       "utc": "-02:30"
     },
     "America/St_Kitts": {
-      "countryCodes": ["KN"],
+      "countryCodes": [
+        "KN"
+      ],
       "geographicArea": "America",
       "label": "America/St_Kitts (GMT-04:00)",
       "location": "St_Kitts",
@@ -2351,7 +2851,9 @@
       "utc": "-04:00"
     },
     "America/St_Lucia": {
-      "countryCodes": ["LC"],
+      "countryCodes": [
+        "LC"
+      ],
       "geographicArea": "America",
       "label": "America/St_Lucia (GMT-04:00)",
       "location": "St_Lucia",
@@ -2362,7 +2864,9 @@
       "utc": "-04:00"
     },
     "America/St_Thomas": {
-      "countryCodes": ["VI"],
+      "countryCodes": [
+        "VI"
+      ],
       "geographicArea": "America",
       "label": "America/St_Thomas (GMT-04:00)",
       "location": "St_Thomas",
@@ -2373,7 +2877,9 @@
       "utc": "-04:00"
     },
     "America/St_Vincent": {
-      "countryCodes": ["VC"],
+      "countryCodes": [
+        "VC"
+      ],
       "geographicArea": "America",
       "label": "America/St_Vincent (GMT-04:00)",
       "location": "St_Vincent",
@@ -2385,7 +2891,9 @@
     },
     "America/Swift_Current": {
       "comments": "CST - SK (midwest)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Swift_Current (GMT-06:00)",
       "location": "Swift_Current",
@@ -2395,7 +2903,9 @@
       "utc": "-06:00"
     },
     "America/Tegucigalpa": {
-      "countryCodes": ["HN"],
+      "countryCodes": [
+        "HN"
+      ],
       "geographicArea": "America",
       "label": "America/Tegucigalpa (GMT-06:00)",
       "location": "Tegucigalpa",
@@ -2406,7 +2916,9 @@
     },
     "America/Thule": {
       "comments": "Thule/Pituffik",
-      "countryCodes": ["GL"],
+      "countryCodes": [
+        "GL"
+      ],
       "geographicArea": "America",
       "label": "America/Thule (GMT-03:00)",
       "location": "Thule",
@@ -2426,9 +2938,15 @@
       "utc": "-04:00"
     },
     "America/Tijuana": {
-      "children": ["America/Ensenada", "America/Santa_Isabel", "Mexico/BajaNorte"],
+      "children": [
+        "America/Ensenada",
+        "America/Santa_Isabel",
+        "Mexico/BajaNorte"
+      ],
       "comments": "Baja California",
-      "countryCodes": ["MX"],
+      "countryCodes": [
+        "MX"
+      ],
       "geographicArea": "America",
       "label": "America/Tijuana (GMT-07:00)",
       "location": "Tijuana",
@@ -2438,9 +2956,18 @@
       "utc": "-07:00"
     },
     "America/Toronto": {
-      "children": ["America/Montreal", "America/Nassau", "America/Nipigon", "America/Thunder_Bay", "Canada/Eastern"],
+      "children": [
+        "America/Montreal",
+        "America/Nassau",
+        "America/Nipigon",
+        "America/Thunder_Bay",
+        "Canada/Eastern"
+      ],
       "comments": "Eastern - ON & QC (most areas)",
-      "countryCodes": ["BS", "CA"],
+      "countryCodes": [
+        "BS",
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Toronto (GMT-04:00)",
       "location": "Toronto",
@@ -2450,7 +2977,9 @@
       "utc": "-04:00"
     },
     "America/Tortola": {
-      "countryCodes": ["VG"],
+      "countryCodes": [
+        "VG"
+      ],
       "geographicArea": "America",
       "label": "America/Tortola (GMT-04:00)",
       "location": "Tortola",
@@ -2461,9 +2990,13 @@
       "utc": "-04:00"
     },
     "America/Vancouver": {
-      "children": ["Canada/Pacific"],
+      "children": [
+        "Canada/Pacific"
+      ],
       "comments": "Pacific - BC (most areas)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Vancouver (GMT-07:00)",
       "location": "Vancouver",
@@ -2483,9 +3016,13 @@
       "utc": "-04:00"
     },
     "America/Whitehorse": {
-      "children": ["Canada/Yukon"],
+      "children": [
+        "Canada/Yukon"
+      ],
       "comments": "MST - Yukon (east)",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Whitehorse (GMT-07:00)",
       "location": "Whitehorse",
@@ -2495,9 +3032,14 @@
       "utc": "-07:00"
     },
     "America/Winnipeg": {
-      "children": ["America/Rainy_River", "Canada/Central"],
+      "children": [
+        "America/Rainy_River",
+        "Canada/Central"
+      ],
       "comments": "Central - ON (west), Manitoba",
-      "countryCodes": ["CA"],
+      "countryCodes": [
+        "CA"
+      ],
       "geographicArea": "America",
       "label": "America/Winnipeg (GMT-05:00)",
       "location": "Winnipeg",
@@ -2508,7 +3050,9 @@
     },
     "America/Yakutat": {
       "comments": "Alaska - Yakutat",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "America",
       "label": "America/Yakutat (GMT-08:00)",
       "location": "Yakutat",
@@ -2529,7 +3073,9 @@
     },
     "Antarctica/Casey": {
       "comments": "Casey",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Casey (GMT+08:00)",
       "location": "Casey",
@@ -2540,7 +3086,9 @@
     },
     "Antarctica/Davis": {
       "comments": "Davis",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Davis (GMT+07:00)",
       "location": "Davis",
@@ -2551,7 +3099,9 @@
     },
     "Antarctica/DumontDUrville": {
       "comments": "Dumont-d'Urville",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/DumontDUrville (GMT+10:00)",
       "location": "DumontDUrville",
@@ -2563,7 +3113,9 @@
     },
     "Antarctica/Macquarie": {
       "comments": "Macquarie Island",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Macquarie (GMT+10:00)",
       "location": "Macquarie",
@@ -2574,7 +3126,9 @@
     },
     "Antarctica/Mawson": {
       "comments": "Mawson",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Mawson (GMT+05:00)",
       "location": "Mawson",
@@ -2585,7 +3139,9 @@
     },
     "Antarctica/McMurdo": {
       "comments": "New Zealand time - McMurdo, South Pole",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/McMurdo (GMT+12:00)",
       "location": "McMurdo",
@@ -2597,7 +3153,9 @@
     },
     "Antarctica/Palmer": {
       "comments": "Palmer",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Palmer (GMT-03:00)",
       "location": "Palmer",
@@ -2608,7 +3166,9 @@
     },
     "Antarctica/Rothera": {
       "comments": "Rothera",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Rothera (GMT-03:00)",
       "location": "Rothera",
@@ -2629,7 +3189,9 @@
     },
     "Antarctica/Syowa": {
       "comments": "Syowa",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Syowa (GMT+03:00)",
       "location": "Syowa",
@@ -2641,7 +3203,9 @@
     },
     "Antarctica/Troll": {
       "comments": "Troll",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Troll (GMT+02:00)",
       "location": "Troll",
@@ -2652,7 +3216,9 @@
     },
     "Antarctica/Vostok": {
       "comments": "Vostok",
-      "countryCodes": ["AQ"],
+      "countryCodes": [
+        "AQ"
+      ],
       "geographicArea": "Antarctica",
       "label": "Antarctica/Vostok (GMT+05:00)",
       "location": "Vostok",
@@ -2662,7 +3228,9 @@
       "utc": "+05:00"
     },
     "Arctic/Longyearbyen": {
-      "countryCodes": ["SJ"],
+      "countryCodes": [
+        "SJ"
+      ],
       "geographicArea": "Arctic",
       "label": "Arctic/Longyearbyen (GMT+02:00)",
       "location": "Longyearbyen",
@@ -2673,7 +3241,9 @@
       "utc": "+02:00"
     },
     "Asia/Aden": {
-      "countryCodes": ["YE"],
+      "countryCodes": [
+        "YE"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Aden (GMT+03:00)",
       "location": "Aden",
@@ -2685,7 +3255,9 @@
     },
     "Asia/Almaty": {
       "comments": "most of Kazakhstan",
-      "countryCodes": ["KZ"],
+      "countryCodes": [
+        "KZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Almaty (GMT+05:00)",
       "location": "Almaty",
@@ -2695,7 +3267,9 @@
       "utc": "+05:00"
     },
     "Asia/Amman": {
-      "countryCodes": ["JO"],
+      "countryCodes": [
+        "JO"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Amman (GMT+03:00)",
       "location": "Amman",
@@ -2706,7 +3280,9 @@
     },
     "Asia/Anadyr": {
       "comments": "MSK+09 - Bering Sea",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Anadyr (GMT+12:00)",
       "location": "Anadyr",
@@ -2717,7 +3293,9 @@
     },
     "Asia/Aqtau": {
       "comments": "Mangghystaū/Mankistau",
-      "countryCodes": ["KZ"],
+      "countryCodes": [
+        "KZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Aqtau (GMT+05:00)",
       "location": "Aqtau",
@@ -2728,7 +3306,9 @@
     },
     "Asia/Aqtobe": {
       "comments": "Aqtöbe/Aktobe",
-      "countryCodes": ["KZ"],
+      "countryCodes": [
+        "KZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Aqtobe (GMT+05:00)",
       "location": "Aqtobe",
@@ -2738,8 +3318,12 @@
       "utc": "+05:00"
     },
     "Asia/Ashgabat": {
-      "children": ["Asia/Ashkhabad"],
-      "countryCodes": ["TM"],
+      "children": [
+        "Asia/Ashkhabad"
+      ],
+      "countryCodes": [
+        "TM"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Ashgabat (GMT+05:00)",
       "location": "Ashgabat",
@@ -2760,7 +3344,9 @@
     },
     "Asia/Atyrau": {
       "comments": "Atyraū/Atirau/Gur'yev",
-      "countryCodes": ["KZ"],
+      "countryCodes": [
+        "KZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Atyrau (GMT+05:00)",
       "location": "Atyrau",
@@ -2770,7 +3356,9 @@
       "utc": "+05:00"
     },
     "Asia/Baghdad": {
-      "countryCodes": ["IQ"],
+      "countryCodes": [
+        "IQ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Baghdad (GMT+03:00)",
       "location": "Baghdad",
@@ -2780,7 +3368,9 @@
       "utc": "+03:00"
     },
     "Asia/Bahrain": {
-      "countryCodes": ["BH"],
+      "countryCodes": [
+        "BH"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Bahrain (GMT+03:00)",
       "location": "Bahrain",
@@ -2791,7 +3381,9 @@
       "utc": "+03:00"
     },
     "Asia/Baku": {
-      "countryCodes": ["AZ"],
+      "countryCodes": [
+        "AZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Baku (GMT+04:00)",
       "location": "Baku",
@@ -2801,9 +3393,19 @@
       "utc": "+04:00"
     },
     "Asia/Bangkok": {
-      "children": ["Asia/Phnom_Penh", "Asia/Vientiane", "Indian/Christmas"],
+      "children": [
+        "Asia/Phnom_Penh",
+        "Asia/Vientiane",
+        "Indian/Christmas"
+      ],
       "comments": "north Vietnam",
-      "countryCodes": ["CX", "KH", "LA", "TH", "VN"],
+      "countryCodes": [
+        "CX",
+        "KH",
+        "LA",
+        "TH",
+        "VN"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Bangkok (GMT+07:00)",
       "location": "Bangkok",
@@ -2814,7 +3416,9 @@
     },
     "Asia/Barnaul": {
       "comments": "MSK+04 - Altai",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Barnaul (GMT+07:00)",
       "location": "Barnaul",
@@ -2824,7 +3428,9 @@
       "utc": "+07:00"
     },
     "Asia/Beirut": {
-      "countryCodes": ["LB"],
+      "countryCodes": [
+        "LB"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Beirut (GMT+03:00)",
       "location": "Beirut",
@@ -2834,7 +3440,9 @@
       "utc": "+03:00"
     },
     "Asia/Bishkek": {
-      "countryCodes": ["KG"],
+      "countryCodes": [
+        "KG"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Bishkek (GMT+06:00)",
       "location": "Bishkek",
@@ -2844,7 +3452,9 @@
       "utc": "+06:00"
     },
     "Asia/Brunei": {
-      "countryCodes": ["BN"],
+      "countryCodes": [
+        "BN"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Brunei (GMT+08:00)",
       "location": "Brunei",
@@ -2866,7 +3476,9 @@
     },
     "Asia/Chita": {
       "comments": "MSK+06 - Zabaykalsky",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Chita (GMT+09:00)",
       "location": "Chita",
@@ -2906,7 +3518,9 @@
       "utc": "+08:00"
     },
     "Asia/Colombo": {
-      "countryCodes": ["LK"],
+      "countryCodes": [
+        "LK"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Colombo (GMT+05:30)",
       "location": "Colombo",
@@ -2926,7 +3540,9 @@
       "utc": "+06:00"
     },
     "Asia/Damascus": {
-      "countryCodes": ["SY"],
+      "countryCodes": [
+        "SY"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Damascus (GMT+03:00)",
       "location": "Damascus",
@@ -2936,8 +3552,12 @@
       "utc": "+03:00"
     },
     "Asia/Dhaka": {
-      "children": ["Asia/Dacca"],
-      "countryCodes": ["BD"],
+      "children": [
+        "Asia/Dacca"
+      ],
+      "countryCodes": [
+        "BD"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Dhaka (GMT+06:00)",
       "location": "Dhaka",
@@ -2947,7 +3567,9 @@
       "utc": "+06:00"
     },
     "Asia/Dili": {
-      "countryCodes": ["TL"],
+      "countryCodes": [
+        "TL"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Dili (GMT+09:00)",
       "location": "Dili",
@@ -2957,9 +3579,19 @@
       "utc": "+09:00"
     },
     "Asia/Dubai": {
-      "children": ["Asia/Muscat", "Indian/Mahe", "Indian/Reunion"],
+      "children": [
+        "Asia/Muscat",
+        "Indian/Mahe",
+        "Indian/Reunion"
+      ],
       "comments": "Crozet",
-      "countryCodes": ["AE", "OM", "RE", "SC", "TF"],
+      "countryCodes": [
+        "AE",
+        "OM",
+        "RE",
+        "SC",
+        "TF"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Dubai (GMT+04:00)",
       "location": "Dubai",
@@ -2969,7 +3601,9 @@
       "utc": "+04:00"
     },
     "Asia/Dushanbe": {
-      "countryCodes": ["TJ"],
+      "countryCodes": [
+        "TJ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Dushanbe (GMT+05:00)",
       "location": "Dushanbe",
@@ -2980,7 +3614,9 @@
     },
     "Asia/Famagusta": {
       "comments": "Northern Cyprus",
-      "countryCodes": ["CY"],
+      "countryCodes": [
+        "CY"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Famagusta (GMT+03:00)",
       "location": "Famagusta",
@@ -2991,7 +3627,9 @@
     },
     "Asia/Gaza": {
       "comments": "Gaza Strip",
-      "countryCodes": ["PS"],
+      "countryCodes": [
+        "PS"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Gaza (GMT+03:00)",
       "location": "Gaza",
@@ -3012,7 +3650,9 @@
     },
     "Asia/Hebron": {
       "comments": "West Bank",
-      "countryCodes": ["PS"],
+      "countryCodes": [
+        "PS"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Hebron (GMT+03:00)",
       "location": "Hebron",
@@ -3022,9 +3662,13 @@
       "utc": "+03:00"
     },
     "Asia/Ho_Chi_Minh": {
-      "children": ["Asia/Saigon"],
+      "children": [
+        "Asia/Saigon"
+      ],
       "comments": "south Vietnam",
-      "countryCodes": ["VN"],
+      "countryCodes": [
+        "VN"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Ho_Chi_Minh (GMT+07:00)",
       "location": "Ho_Chi_Minh",
@@ -3034,8 +3678,12 @@
       "utc": "+07:00"
     },
     "Asia/Hong_Kong": {
-      "children": ["Hongkong"],
-      "countryCodes": ["HK"],
+      "children": [
+        "Hongkong"
+      ],
+      "countryCodes": [
+        "HK"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Hong_Kong (GMT+08:00)",
       "location": "Hong_Kong",
@@ -3046,7 +3694,9 @@
     },
     "Asia/Hovd": {
       "comments": "Bayan-Ölgii, Hovd, Uvs",
-      "countryCodes": ["MN"],
+      "countryCodes": [
+        "MN"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Hovd (GMT+07:00)",
       "location": "Hovd",
@@ -3057,7 +3707,9 @@
     },
     "Asia/Irkutsk": {
       "comments": "MSK+05 - Irkutsk, Buryatia",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Irkutsk (GMT+08:00)",
       "location": "Irkutsk",
@@ -3078,7 +3730,9 @@
     },
     "Asia/Jakarta": {
       "comments": "Java, Sumatra",
-      "countryCodes": ["ID"],
+      "countryCodes": [
+        "ID"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Jakarta (GMT+07:00)",
       "location": "Jakarta",
@@ -3089,7 +3743,9 @@
     },
     "Asia/Jayapura": {
       "comments": "New Guinea (West Papua / Irian Jaya), Malukus/Moluccas",
-      "countryCodes": ["ID"],
+      "countryCodes": [
+        "ID"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Jayapura (GMT+09:00)",
       "location": "Jayapura",
@@ -3099,8 +3755,13 @@
       "utc": "+09:00"
     },
     "Asia/Jerusalem": {
-      "children": ["Asia/Tel_Aviv", "Israel"],
-      "countryCodes": ["IL"],
+      "children": [
+        "Asia/Tel_Aviv",
+        "Israel"
+      ],
+      "countryCodes": [
+        "IL"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Jerusalem (GMT+03:00)",
       "location": "Jerusalem",
@@ -3110,7 +3771,9 @@
       "utc": "+03:00"
     },
     "Asia/Kabul": {
-      "countryCodes": ["AF"],
+      "countryCodes": [
+        "AF"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Kabul (GMT+04:30)",
       "location": "Kabul",
@@ -3121,7 +3784,9 @@
     },
     "Asia/Kamchatka": {
       "comments": "MSK+09 - Kamchatka",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Kamchatka (GMT+12:00)",
       "location": "Kamchatka",
@@ -3131,7 +3796,9 @@
       "utc": "+12:00"
     },
     "Asia/Karachi": {
-      "countryCodes": ["PK"],
+      "countryCodes": [
+        "PK"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Karachi (GMT+05:00)",
       "location": "Karachi",
@@ -3151,8 +3818,12 @@
       "utc": "+06:00"
     },
     "Asia/Kathmandu": {
-      "children": ["Asia/Katmandu"],
-      "countryCodes": ["NP"],
+      "children": [
+        "Asia/Katmandu"
+      ],
+      "countryCodes": [
+        "NP"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Kathmandu (GMT+05:45)",
       "location": "Kathmandu",
@@ -3173,7 +3844,9 @@
     },
     "Asia/Khandyga": {
       "comments": "MSK+06 - Tomponsky, Ust-Maysky",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Khandyga (GMT+09:00)",
       "location": "Khandyga",
@@ -3183,8 +3856,12 @@
       "utc": "+09:00"
     },
     "Asia/Kolkata": {
-      "children": ["Asia/Calcutta"],
-      "countryCodes": ["IN"],
+      "children": [
+        "Asia/Calcutta"
+      ],
+      "countryCodes": [
+        "IN"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Kolkata (GMT+05:30)",
       "location": "Kolkata",
@@ -3195,7 +3872,9 @@
     },
     "Asia/Krasnoyarsk": {
       "comments": "MSK+04 - Krasnoyarsk area",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Krasnoyarsk (GMT+07:00)",
       "location": "Krasnoyarsk",
@@ -3206,7 +3885,9 @@
     },
     "Asia/Kuala_Lumpur": {
       "comments": "Malaysia (peninsula)",
-      "countryCodes": ["MY"],
+      "countryCodes": [
+        "MY"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Kuala_Lumpur (GMT+08:00)",
       "location": "Kuala_Lumpur",
@@ -3217,9 +3898,14 @@
       "utc": "+08:00"
     },
     "Asia/Kuching": {
-      "children": ["Asia/Brunei"],
+      "children": [
+        "Asia/Brunei"
+      ],
       "comments": "Sabah, Sarawak",
-      "countryCodes": ["BN", "MY"],
+      "countryCodes": [
+        "BN",
+        "MY"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Kuching (GMT+08:00)",
       "location": "Kuching",
@@ -3229,7 +3915,9 @@
       "utc": "+08:00"
     },
     "Asia/Kuwait": {
-      "countryCodes": ["KW"],
+      "countryCodes": [
+        "KW"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Kuwait (GMT+03:00)",
       "location": "Kuwait",
@@ -3250,8 +3938,12 @@
       "utc": "+08:00"
     },
     "Asia/Macau": {
-      "children": ["Asia/Macao"],
-      "countryCodes": ["MO"],
+      "children": [
+        "Asia/Macao"
+      ],
+      "countryCodes": [
+        "MO"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Macau (GMT+08:00)",
       "location": "Macau",
@@ -3262,7 +3954,9 @@
     },
     "Asia/Magadan": {
       "comments": "MSK+08 - Magadan",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Magadan (GMT+11:00)",
       "location": "Magadan",
@@ -3272,9 +3966,13 @@
       "utc": "+11:00"
     },
     "Asia/Makassar": {
-      "children": ["Asia/Ujung_Pandang"],
+      "children": [
+        "Asia/Ujung_Pandang"
+      ],
       "comments": "Borneo (east, south), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (west)",
-      "countryCodes": ["ID"],
+      "countryCodes": [
+        "ID"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Makassar (GMT+08:00)",
       "location": "Makassar",
@@ -3284,7 +3982,9 @@
       "utc": "+08:00"
     },
     "Asia/Manila": {
-      "countryCodes": ["PH"],
+      "countryCodes": [
+        "PH"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Manila (GMT+08:00)",
       "location": "Manila",
@@ -3294,7 +3994,9 @@
       "utc": "+08:00"
     },
     "Asia/Muscat": {
-      "countryCodes": ["OM"],
+      "countryCodes": [
+        "OM"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Muscat (GMT+04:00)",
       "location": "Muscat",
@@ -3305,9 +4007,13 @@
       "utc": "+04:00"
     },
     "Asia/Nicosia": {
-      "children": ["Europe/Nicosia"],
+      "children": [
+        "Europe/Nicosia"
+      ],
       "comments": "most of Cyprus",
-      "countryCodes": ["CY"],
+      "countryCodes": [
+        "CY"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Nicosia (GMT+03:00)",
       "location": "Nicosia",
@@ -3318,7 +4024,9 @@
     },
     "Asia/Novokuznetsk": {
       "comments": "MSK+04 - Kemerovo",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Novokuznetsk (GMT+07:00)",
       "location": "Novokuznetsk",
@@ -3329,7 +4037,9 @@
     },
     "Asia/Novosibirsk": {
       "comments": "MSK+04 - Novosibirsk",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Novosibirsk (GMT+07:00)",
       "location": "Novosibirsk",
@@ -3340,7 +4050,9 @@
     },
     "Asia/Omsk": {
       "comments": "MSK+03 - Omsk",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Omsk (GMT+06:00)",
       "location": "Omsk",
@@ -3351,7 +4063,9 @@
     },
     "Asia/Oral": {
       "comments": "West Kazakhstan",
-      "countryCodes": ["KZ"],
+      "countryCodes": [
+        "KZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Oral (GMT+05:00)",
       "location": "Oral",
@@ -3361,7 +4075,9 @@
       "utc": "+05:00"
     },
     "Asia/Phnom_Penh": {
-      "countryCodes": ["KH"],
+      "countryCodes": [
+        "KH"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Phnom_Penh (GMT+07:00)",
       "location": "Phnom_Penh",
@@ -3373,7 +4089,9 @@
     },
     "Asia/Pontianak": {
       "comments": "Borneo (west, central)",
-      "countryCodes": ["ID"],
+      "countryCodes": [
+        "ID"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Pontianak (GMT+07:00)",
       "location": "Pontianak",
@@ -3383,7 +4101,9 @@
       "utc": "+07:00"
     },
     "Asia/Pyongyang": {
-      "countryCodes": ["KP"],
+      "countryCodes": [
+        "KP"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Pyongyang (GMT+09:00)",
       "location": "Pyongyang",
@@ -3393,8 +4113,13 @@
       "utc": "+09:00"
     },
     "Asia/Qatar": {
-      "children": ["Asia/Bahrain"],
-      "countryCodes": ["BH", "QA"],
+      "children": [
+        "Asia/Bahrain"
+      ],
+      "countryCodes": [
+        "BH",
+        "QA"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Qatar (GMT+03:00)",
       "location": "Qatar",
@@ -3405,7 +4130,9 @@
     },
     "Asia/Qostanay": {
       "comments": "Qostanay/Kostanay/Kustanay",
-      "countryCodes": ["KZ"],
+      "countryCodes": [
+        "KZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Qostanay (GMT+05:00)",
       "location": "Qostanay",
@@ -3416,7 +4143,9 @@
     },
     "Asia/Qyzylorda": {
       "comments": "Qyzylorda/Kyzylorda/Kzyl-Orda",
-      "countryCodes": ["KZ"],
+      "countryCodes": [
+        "KZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Qyzylorda (GMT+05:00)",
       "location": "Qyzylorda",
@@ -3436,9 +4165,18 @@
       "utc": "+06:30"
     },
     "Asia/Riyadh": {
-      "children": ["Antarctica/Syowa", "Asia/Aden", "Asia/Kuwait"],
+      "children": [
+        "Antarctica/Syowa",
+        "Asia/Aden",
+        "Asia/Kuwait"
+      ],
       "comments": "Syowa",
-      "countryCodes": ["AQ", "KW", "SA", "YE"],
+      "countryCodes": [
+        "AQ",
+        "KW",
+        "SA",
+        "YE"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Riyadh (GMT+03:00)",
       "location": "Riyadh",
@@ -3459,7 +4197,9 @@
     },
     "Asia/Sakhalin": {
       "comments": "MSK+08 - Sakhalin Island",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Sakhalin (GMT+11:00)",
       "location": "Sakhalin",
@@ -3470,7 +4210,9 @@
     },
     "Asia/Samarkand": {
       "comments": "Uzbekistan (west)",
-      "countryCodes": ["UZ"],
+      "countryCodes": [
+        "UZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Samarkand (GMT+05:00)",
       "location": "Samarkand",
@@ -3480,8 +4222,12 @@
       "utc": "+05:00"
     },
     "Asia/Seoul": {
-      "children": ["ROK"],
-      "countryCodes": ["KR"],
+      "children": [
+        "ROK"
+      ],
+      "countryCodes": [
+        "KR"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Seoul (GMT+09:00)",
       "location": "Seoul",
@@ -3491,9 +4237,16 @@
       "utc": "+09:00"
     },
     "Asia/Shanghai": {
-      "children": ["Asia/Chongqing", "Asia/Chungking", "Asia/Harbin", "PRC"],
+      "children": [
+        "Asia/Chongqing",
+        "Asia/Chungking",
+        "Asia/Harbin",
+        "PRC"
+      ],
       "comments": "Beijing Time",
-      "countryCodes": ["CN"],
+      "countryCodes": [
+        "CN"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Shanghai (GMT+08:00)",
       "location": "Shanghai",
@@ -3503,9 +4256,16 @@
       "utc": "+08:00"
     },
     "Asia/Singapore": {
-      "children": ["Asia/Kuala_Lumpur", "Singapore"],
+      "children": [
+        "Asia/Kuala_Lumpur",
+        "Singapore"
+      ],
       "comments": "peninsular Malaysia, Concordia",
-      "countryCodes": ["AQ", "MY", "SG"],
+      "countryCodes": [
+        "AQ",
+        "MY",
+        "SG"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Singapore (GMT+08:00)",
       "location": "Singapore",
@@ -3516,7 +4276,9 @@
     },
     "Asia/Srednekolymsk": {
       "comments": "MSK+08 - Sakha (E), N Kuril Is",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Srednekolymsk (GMT+11:00)",
       "location": "Srednekolymsk",
@@ -3526,8 +4288,12 @@
       "utc": "+11:00"
     },
     "Asia/Taipei": {
-      "children": ["ROC"],
-      "countryCodes": ["TW"],
+      "children": [
+        "ROC"
+      ],
+      "countryCodes": [
+        "TW"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Taipei (GMT+08:00)",
       "location": "Taipei",
@@ -3538,7 +4304,9 @@
     },
     "Asia/Tashkent": {
       "comments": "Uzbekistan (east)",
-      "countryCodes": ["UZ"],
+      "countryCodes": [
+        "UZ"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Tashkent (GMT+05:00)",
       "location": "Tashkent",
@@ -3548,7 +4316,9 @@
       "utc": "+05:00"
     },
     "Asia/Tbilisi": {
-      "countryCodes": ["GE"],
+      "countryCodes": [
+        "GE"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Tbilisi (GMT+04:00)",
       "location": "Tbilisi",
@@ -3558,8 +4328,12 @@
       "utc": "+04:00"
     },
     "Asia/Tehran": {
-      "children": ["Iran"],
-      "countryCodes": ["IR"],
+      "children": [
+        "Iran"
+      ],
+      "countryCodes": [
+        "IR"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Tehran (GMT+03:30)",
       "location": "Tehran",
@@ -3589,8 +4363,12 @@
       "utc": "+06:00"
     },
     "Asia/Thimphu": {
-      "children": ["Asia/Thimbu"],
-      "countryCodes": ["BT"],
+      "children": [
+        "Asia/Thimbu"
+      ],
+      "countryCodes": [
+        "BT"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Thimphu (GMT+06:00)",
       "location": "Thimphu",
@@ -3600,9 +4378,14 @@
       "utc": "+06:00"
     },
     "Asia/Tokyo": {
-      "children": ["Japan"],
+      "children": [
+        "Japan"
+      ],
       "comments": "Eyre Bird Observatory",
-      "countryCodes": ["AU", "JP"],
+      "countryCodes": [
+        "AU",
+        "JP"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Tokyo (GMT+09:00)",
       "location": "Tokyo",
@@ -3613,7 +4396,9 @@
     },
     "Asia/Tomsk": {
       "comments": "MSK+04 - Tomsk",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Tomsk (GMT+07:00)",
       "location": "Tomsk",
@@ -3633,9 +4418,14 @@
       "utc": "+08:00"
     },
     "Asia/Ulaanbaatar": {
-      "children": ["Asia/Choibalsan", "Asia/Ulan_Bator"],
+      "children": [
+        "Asia/Choibalsan",
+        "Asia/Ulan_Bator"
+      ],
       "comments": "most of Mongolia",
-      "countryCodes": ["MN"],
+      "countryCodes": [
+        "MN"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Ulaanbaatar (GMT+08:00)",
       "location": "Ulaanbaatar",
@@ -3655,9 +4445,13 @@
       "utc": "+08:00"
     },
     "Asia/Urumqi": {
-      "children": ["Asia/Kashgar"],
+      "children": [
+        "Asia/Kashgar"
+      ],
       "comments": "Xinjiang Time",
-      "countryCodes": ["CN"],
+      "countryCodes": [
+        "CN"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Urumqi (GMT+06:00)",
       "location": "Urumqi",
@@ -3668,7 +4462,9 @@
     },
     "Asia/Ust-Nera": {
       "comments": "MSK+07 - Oymyakonsky",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Ust-Nera (GMT+10:00)",
       "location": "Ust-Nera",
@@ -3678,7 +4474,9 @@
       "utc": "+10:00"
     },
     "Asia/Vientiane": {
-      "countryCodes": ["LA"],
+      "countryCodes": [
+        "LA"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Vientiane (GMT+07:00)",
       "location": "Vientiane",
@@ -3690,7 +4488,9 @@
     },
     "Asia/Vladivostok": {
       "comments": "MSK+07 - Amur River",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Vladivostok (GMT+10:00)",
       "location": "Vladivostok",
@@ -3701,7 +4501,9 @@
     },
     "Asia/Yakutsk": {
       "comments": "MSK+06 - Lena River",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Yakutsk (GMT+09:00)",
       "location": "Yakutsk",
@@ -3711,8 +4513,14 @@
       "utc": "+09:00"
     },
     "Asia/Yangon": {
-      "children": ["Asia/Rangoon", "Indian/Cocos"],
-      "countryCodes": ["CC", "MM"],
+      "children": [
+        "Asia/Rangoon",
+        "Indian/Cocos"
+      ],
+      "countryCodes": [
+        "CC",
+        "MM"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Yangon (GMT+06:30)",
       "location": "Yangon",
@@ -3723,7 +4531,9 @@
     },
     "Asia/Yekaterinburg": {
       "comments": "MSK+02 - Urals",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Yekaterinburg (GMT+05:00)",
       "location": "Yekaterinburg",
@@ -3733,7 +4543,9 @@
       "utc": "+05:00"
     },
     "Asia/Yerevan": {
-      "countryCodes": ["AM"],
+      "countryCodes": [
+        "AM"
+      ],
       "geographicArea": "Asia",
       "label": "Asia/Yerevan (GMT+04:00)",
       "location": "Yerevan",
@@ -3744,7 +4556,9 @@
     },
     "Atlantic/Azores": {
       "comments": "Azores",
-      "countryCodes": ["PT"],
+      "countryCodes": [
+        "PT"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/Azores (GMT+00:00)",
       "location": "Azores",
@@ -3754,7 +4568,9 @@
       "utc": "+00:00"
     },
     "Atlantic/Bermuda": {
-      "countryCodes": ["BM"],
+      "countryCodes": [
+        "BM"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/Bermuda (GMT-03:00)",
       "location": "Bermuda",
@@ -3765,7 +4581,9 @@
     },
     "Atlantic/Canary": {
       "comments": "Canary Islands",
-      "countryCodes": ["ES"],
+      "countryCodes": [
+        "ES"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/Canary (GMT+01:00)",
       "location": "Canary",
@@ -3775,7 +4593,9 @@
       "utc": "+01:00"
     },
     "Atlantic/Cape_Verde": {
-      "countryCodes": ["CV"],
+      "countryCodes": [
+        "CV"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/Cape_Verde (GMT-01:00)",
       "location": "Cape_Verde",
@@ -3795,8 +4615,12 @@
       "utc": "+01:00"
     },
     "Atlantic/Faroe": {
-      "children": ["Atlantic/Faeroe"],
-      "countryCodes": ["FO"],
+      "children": [
+        "Atlantic/Faeroe"
+      ],
+      "countryCodes": [
+        "FO"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/Faroe (GMT+01:00)",
       "location": "Faroe",
@@ -3817,7 +4641,9 @@
     },
     "Atlantic/Madeira": {
       "comments": "Madeira Islands",
-      "countryCodes": ["PT"],
+      "countryCodes": [
+        "PT"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/Madeira (GMT+01:00)",
       "location": "Madeira",
@@ -3827,7 +4653,9 @@
       "utc": "+01:00"
     },
     "Atlantic/Reykjavik": {
-      "countryCodes": ["IS"],
+      "countryCodes": [
+        "IS"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/Reykjavik (GMT+00:00)",
       "location": "Reykjavik",
@@ -3838,7 +4666,9 @@
       "utc": "+00:00"
     },
     "Atlantic/South_Georgia": {
-      "countryCodes": ["GS"],
+      "countryCodes": [
+        "GS"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/South_Georgia (GMT-02:00)",
       "location": "South_Georgia",
@@ -3848,7 +4678,9 @@
       "utc": "-02:00"
     },
     "Atlantic/St_Helena": {
-      "countryCodes": ["SH"],
+      "countryCodes": [
+        "SH"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/St_Helena (GMT+00:00)",
       "location": "St_Helena",
@@ -3859,7 +4691,9 @@
       "utc": "+00:00"
     },
     "Atlantic/Stanley": {
-      "countryCodes": ["FK"],
+      "countryCodes": [
+        "FK"
+      ],
       "geographicArea": "Atlantic",
       "label": "Atlantic/Stanley (GMT-03:00)",
       "location": "Stanley",
@@ -3879,9 +4713,13 @@
       "utc": "+10:00"
     },
     "Australia/Adelaide": {
-      "children": ["Australia/South"],
+      "children": [
+        "Australia/South"
+      ],
       "comments": "South Australia",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Adelaide (GMT+09:30)",
       "location": "Adelaide",
@@ -3891,9 +4729,13 @@
       "utc": "+09:30"
     },
     "Australia/Brisbane": {
-      "children": ["Australia/Queensland"],
+      "children": [
+        "Australia/Queensland"
+      ],
       "comments": "Queensland (most areas)",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Brisbane (GMT+10:00)",
       "location": "Brisbane",
@@ -3903,9 +4745,13 @@
       "utc": "+10:00"
     },
     "Australia/Broken_Hill": {
-      "children": ["Australia/Yancowinna"],
+      "children": [
+        "Australia/Yancowinna"
+      ],
       "comments": "New South Wales (Yancowinna)",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Broken_Hill (GMT+09:30)",
       "location": "Broken_Hill",
@@ -3935,9 +4781,13 @@
       "utc": "+10:00"
     },
     "Australia/Darwin": {
-      "children": ["Australia/North"],
+      "children": [
+        "Australia/North"
+      ],
       "comments": "Northern Territory",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Darwin (GMT+09:30)",
       "location": "Darwin",
@@ -3948,7 +4798,9 @@
     },
     "Australia/Eucla": {
       "comments": "Western Australia (Eucla)",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Eucla (GMT+08:45)",
       "location": "Eucla",
@@ -3958,9 +4810,14 @@
       "utc": "+08:45"
     },
     "Australia/Hobart": {
-      "children": ["Australia/Currie", "Australia/Tasmania"],
+      "children": [
+        "Australia/Currie",
+        "Australia/Tasmania"
+      ],
       "comments": "Tasmania",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Hobart (GMT+10:00)",
       "location": "Hobart",
@@ -3981,7 +4838,9 @@
     },
     "Australia/Lindeman": {
       "comments": "Queensland (Whitsunday Islands)",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Lindeman (GMT+10:00)",
       "location": "Lindeman",
@@ -3991,9 +4850,13 @@
       "utc": "+10:00"
     },
     "Australia/Lord_Howe": {
-      "children": ["Australia/LHI"],
+      "children": [
+        "Australia/LHI"
+      ],
       "comments": "Lord Howe Island",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Lord_Howe (GMT+10:30)",
       "location": "Lord_Howe",
@@ -4003,9 +4866,13 @@
       "utc": "+10:30"
     },
     "Australia/Melbourne": {
-      "children": ["Australia/Victoria"],
+      "children": [
+        "Australia/Victoria"
+      ],
       "comments": "Victoria",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Melbourne (GMT+10:00)",
       "location": "Melbourne",
@@ -4035,9 +4902,13 @@
       "utc": "+09:30"
     },
     "Australia/Perth": {
-      "children": ["Australia/West"],
+      "children": [
+        "Australia/West"
+      ],
       "comments": "Western Australia (most areas)",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Perth (GMT+08:00)",
       "location": "Perth",
@@ -4067,9 +4938,15 @@
       "utc": "+09:30"
     },
     "Australia/Sydney": {
-      "children": ["Australia/ACT", "Australia/Canberra", "Australia/NSW"],
+      "children": [
+        "Australia/ACT",
+        "Australia/Canberra",
+        "Australia/NSW"
+      ],
       "comments": "New South Wales (most areas)",
-      "countryCodes": ["AU"],
+      "countryCodes": [
+        "AU"
+      ],
       "geographicArea": "Australia",
       "label": "Australia/Sydney (GMT+10:00)",
       "location": "Sydney",
@@ -4339,7 +5216,17 @@
       "utc": "+01:00"
     },
     "Etc/GMT": {
-      "children": ["Etc/GMT-0", "Etc/GMT+0", "Etc/GMT0", "Etc/Greenwich", "GMT", "GMT-0", "GMT+0", "GMT0", "Greenwich"],
+      "children": [
+        "Etc/GMT-0",
+        "Etc/GMT+0",
+        "Etc/GMT0",
+        "Etc/Greenwich",
+        "GMT",
+        "GMT-0",
+        "GMT+0",
+        "GMT0",
+        "Greenwich"
+      ],
       "geographicArea": null,
       "label": "Etc/GMT (GMT+00:00)",
       "location": null,
@@ -4633,7 +5520,15 @@
       "utc": "+00:00"
     },
     "Etc/UTC": {
-      "children": ["Etc/UCT", "Etc/Universal", "Etc/Zulu", "UCT", "Universal", "UTC", "Zulu"],
+      "children": [
+        "Etc/UCT",
+        "Etc/Universal",
+        "Etc/Zulu",
+        "UCT",
+        "Universal",
+        "UTC",
+        "Zulu"
+      ],
       "geographicArea": null,
       "label": "Etc/UTC (GMT+00:00)",
       "location": null,
@@ -4663,7 +5558,9 @@
       "utc": "+00:00"
     },
     "Europe/Amsterdam": {
-      "countryCodes": ["NL"],
+      "countryCodes": [
+        "NL"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Amsterdam (GMT+02:00)",
       "location": "Amsterdam",
@@ -4674,7 +5571,9 @@
       "utc": "+02:00"
     },
     "Europe/Andorra": {
-      "countryCodes": ["AD"],
+      "countryCodes": [
+        "AD"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Andorra (GMT+02:00)",
       "location": "Andorra",
@@ -4685,7 +5584,9 @@
     },
     "Europe/Astrakhan": {
       "comments": "MSK+01 - Astrakhan",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Astrakhan (GMT+04:00)",
       "location": "Astrakhan",
@@ -4695,8 +5596,12 @@
       "utc": "+04:00"
     },
     "Europe/Athens": {
-      "children": ["EET"],
-      "countryCodes": ["GR"],
+      "children": [
+        "EET"
+      ],
+      "countryCodes": [
+        "GR"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Athens (GMT+03:00)",
       "location": "Athens",
@@ -4716,8 +5621,21 @@
       "utc": "+01:00"
     },
     "Europe/Belgrade": {
-      "children": ["Europe/Ljubljana", "Europe/Podgorica", "Europe/Sarajevo", "Europe/Skopje", "Europe/Zagreb"],
-      "countryCodes": ["BA", "HR", "ME", "MK", "RS", "SI"],
+      "children": [
+        "Europe/Ljubljana",
+        "Europe/Podgorica",
+        "Europe/Sarajevo",
+        "Europe/Skopje",
+        "Europe/Zagreb"
+      ],
+      "countryCodes": [
+        "BA",
+        "HR",
+        "ME",
+        "MK",
+        "RS",
+        "SI"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Belgrade (GMT+02:00)",
       "location": "Belgrade",
@@ -4727,9 +5645,21 @@
       "utc": "+02:00"
     },
     "Europe/Berlin": {
-      "children": ["Arctic/Longyearbyen", "Atlantic/Jan_Mayen", "Europe/Copenhagen", "Europe/Oslo", "Europe/Stockholm"],
+      "children": [
+        "Arctic/Longyearbyen",
+        "Atlantic/Jan_Mayen",
+        "Europe/Copenhagen",
+        "Europe/Oslo",
+        "Europe/Stockholm"
+      ],
       "comments": "most of Germany",
-      "countryCodes": ["DE", "DK", "NO", "SE", "SJ"],
+      "countryCodes": [
+        "DE",
+        "DK",
+        "NO",
+        "SE",
+        "SJ"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Berlin (GMT+02:00)",
       "location": "Berlin",
@@ -4739,7 +5669,9 @@
       "utc": "+02:00"
     },
     "Europe/Bratislava": {
-      "countryCodes": ["SK"],
+      "countryCodes": [
+        "SK"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Bratislava (GMT+02:00)",
       "location": "Bratislava",
@@ -4750,8 +5682,17 @@
       "utc": "+02:00"
     },
     "Europe/Brussels": {
-      "children": ["CET", "Europe/Amsterdam", "Europe/Luxembourg", "MET"],
-      "countryCodes": ["BE", "LU", "NL"],
+      "children": [
+        "CET",
+        "Europe/Amsterdam",
+        "Europe/Luxembourg",
+        "MET"
+      ],
+      "countryCodes": [
+        "BE",
+        "LU",
+        "NL"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Brussels (GMT+02:00)",
       "location": "Brussels",
@@ -4761,7 +5702,9 @@
       "utc": "+02:00"
     },
     "Europe/Bucharest": {
-      "countryCodes": ["RO"],
+      "countryCodes": [
+        "RO"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Bucharest (GMT+03:00)",
       "location": "Bucharest",
@@ -4771,7 +5714,9 @@
       "utc": "+03:00"
     },
     "Europe/Budapest": {
-      "countryCodes": ["HU"],
+      "countryCodes": [
+        "HU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Budapest (GMT+02:00)",
       "location": "Budapest",
@@ -4782,7 +5727,9 @@
     },
     "Europe/Busingen": {
       "comments": "Busingen",
-      "countryCodes": ["DE"],
+      "countryCodes": [
+        "DE"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Busingen (GMT+02:00)",
       "location": "Busingen",
@@ -4793,8 +5740,12 @@
       "utc": "+02:00"
     },
     "Europe/Chisinau": {
-      "children": ["Europe/Tiraspol"],
-      "countryCodes": ["MD"],
+      "children": [
+        "Europe/Tiraspol"
+      ],
+      "countryCodes": [
+        "MD"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Chisinau (GMT+03:00)",
       "location": "Chisinau",
@@ -4804,7 +5755,9 @@
       "utc": "+03:00"
     },
     "Europe/Copenhagen": {
-      "countryCodes": ["DK"],
+      "countryCodes": [
+        "DK"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Copenhagen (GMT+02:00)",
       "location": "Copenhagen",
@@ -4815,8 +5768,12 @@
       "utc": "+02:00"
     },
     "Europe/Dublin": {
-      "children": ["Eire"],
-      "countryCodes": ["IE"],
+      "children": [
+        "Eire"
+      ],
+      "countryCodes": [
+        "IE"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Dublin (GMT+01:00)",
       "location": "Dublin",
@@ -4826,7 +5783,9 @@
       "utc": "+01:00"
     },
     "Europe/Gibraltar": {
-      "countryCodes": ["GI"],
+      "countryCodes": [
+        "GI"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Gibraltar (GMT+02:00)",
       "location": "Gibraltar",
@@ -4836,7 +5795,9 @@
       "utc": "+02:00"
     },
     "Europe/Guernsey": {
-      "countryCodes": ["GG"],
+      "countryCodes": [
+        "GG"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Guernsey (GMT+01:00)",
       "location": "Guernsey",
@@ -4847,8 +5808,13 @@
       "utc": "+01:00"
     },
     "Europe/Helsinki": {
-      "children": ["Europe/Mariehamn"],
-      "countryCodes": ["AX", "FI"],
+      "children": [
+        "Europe/Mariehamn"
+      ],
+      "countryCodes": [
+        "AX",
+        "FI"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Helsinki (GMT+03:00)",
       "location": "Helsinki",
@@ -4858,7 +5824,9 @@
       "utc": "+03:00"
     },
     "Europe/Isle_of_Man": {
-      "countryCodes": ["IM"],
+      "countryCodes": [
+        "IM"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Isle_of_Man (GMT+01:00)",
       "location": "Isle_of_Man",
@@ -4869,8 +5837,13 @@
       "utc": "+01:00"
     },
     "Europe/Istanbul": {
-      "children": ["Asia/Istanbul", "Turkey"],
-      "countryCodes": ["TR"],
+      "children": [
+        "Asia/Istanbul",
+        "Turkey"
+      ],
+      "countryCodes": [
+        "TR"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Istanbul (GMT+03:00)",
       "location": "Istanbul",
@@ -4880,7 +5853,9 @@
       "utc": "+03:00"
     },
     "Europe/Jersey": {
-      "countryCodes": ["JE"],
+      "countryCodes": [
+        "JE"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Jersey (GMT+01:00)",
       "location": "Jersey",
@@ -4892,7 +5867,9 @@
     },
     "Europe/Kaliningrad": {
       "comments": "MSK-01 - Kaliningrad",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Kaliningrad (GMT+02:00)",
       "location": "Kaliningrad",
@@ -4913,7 +5890,9 @@
     },
     "Europe/Kirov": {
       "comments": "MSK+00 - Kirov",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Kirov (GMT+03:00)",
       "location": "Kirov",
@@ -4923,9 +5902,15 @@
       "utc": "+03:00"
     },
     "Europe/Kyiv": {
-      "children": ["Europe/Kiev", "Europe/Uzhgorod", "Europe/Zaporozhye"],
+      "children": [
+        "Europe/Kiev",
+        "Europe/Uzhgorod",
+        "Europe/Zaporozhye"
+      ],
       "comments": "most of Ukraine",
-      "countryCodes": ["UA"],
+      "countryCodes": [
+        "UA"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Kyiv (GMT+03:00)",
       "location": "Kyiv",
@@ -4935,9 +5920,14 @@
       "utc": "+03:00"
     },
     "Europe/Lisbon": {
-      "children": ["Portugal", "WET"],
+      "children": [
+        "Portugal",
+        "WET"
+      ],
       "comments": "Portugal (mainland)",
-      "countryCodes": ["PT"],
+      "countryCodes": [
+        "PT"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Lisbon (GMT+01:00)",
       "location": "Lisbon",
@@ -4947,7 +5937,9 @@
       "utc": "+01:00"
     },
     "Europe/Ljubljana": {
-      "countryCodes": ["SI"],
+      "countryCodes": [
+        "SI"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Ljubljana (GMT+02:00)",
       "location": "Ljubljana",
@@ -4958,8 +5950,20 @@
       "utc": "+02:00"
     },
     "Europe/London": {
-      "children": ["Europe/Belfast", "Europe/Guernsey", "Europe/Isle_of_Man", "Europe/Jersey", "GB", "GB-Eire"],
-      "countryCodes": ["GB", "GG", "IM", "JE"],
+      "children": [
+        "Europe/Belfast",
+        "Europe/Guernsey",
+        "Europe/Isle_of_Man",
+        "Europe/Jersey",
+        "GB",
+        "GB-Eire"
+      ],
+      "countryCodes": [
+        "GB",
+        "GG",
+        "IM",
+        "JE"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/London (GMT+01:00)",
       "location": "London",
@@ -4969,7 +5973,9 @@
       "utc": "+01:00"
     },
     "Europe/Luxembourg": {
-      "countryCodes": ["LU"],
+      "countryCodes": [
+        "LU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Luxembourg (GMT+02:00)",
       "location": "Luxembourg",
@@ -4981,7 +5987,9 @@
     },
     "Europe/Madrid": {
       "comments": "Spain (mainland)",
-      "countryCodes": ["ES"],
+      "countryCodes": [
+        "ES"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Madrid (GMT+02:00)",
       "location": "Madrid",
@@ -4991,7 +5999,9 @@
       "utc": "+02:00"
     },
     "Europe/Malta": {
-      "countryCodes": ["MT"],
+      "countryCodes": [
+        "MT"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Malta (GMT+02:00)",
       "location": "Malta",
@@ -5001,7 +6011,9 @@
       "utc": "+02:00"
     },
     "Europe/Mariehamn": {
-      "countryCodes": ["AX"],
+      "countryCodes": [
+        "AX"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Mariehamn (GMT+03:00)",
       "location": "Mariehamn",
@@ -5012,7 +6024,9 @@
       "utc": "+03:00"
     },
     "Europe/Minsk": {
-      "countryCodes": ["BY"],
+      "countryCodes": [
+        "BY"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Minsk (GMT+03:00)",
       "location": "Minsk",
@@ -5022,7 +6036,9 @@
       "utc": "+03:00"
     },
     "Europe/Monaco": {
-      "countryCodes": ["MC"],
+      "countryCodes": [
+        "MC"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Monaco (GMT+02:00)",
       "location": "Monaco",
@@ -5033,9 +6049,13 @@
       "utc": "+02:00"
     },
     "Europe/Moscow": {
-      "children": ["W-SU"],
+      "children": [
+        "W-SU"
+      ],
       "comments": "MSK+00 - Moscow area",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Moscow (GMT+03:00)",
       "location": "Moscow",
@@ -5055,7 +6075,9 @@
       "utc": "+03:00"
     },
     "Europe/Oslo": {
-      "countryCodes": ["NO"],
+      "countryCodes": [
+        "NO"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Oslo (GMT+02:00)",
       "location": "Oslo",
@@ -5066,8 +6088,13 @@
       "utc": "+02:00"
     },
     "Europe/Paris": {
-      "children": ["Europe/Monaco"],
-      "countryCodes": ["FR", "MC"],
+      "children": [
+        "Europe/Monaco"
+      ],
+      "countryCodes": [
+        "FR",
+        "MC"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Paris (GMT+02:00)",
       "location": "Paris",
@@ -5077,7 +6104,9 @@
       "utc": "+02:00"
     },
     "Europe/Podgorica": {
-      "countryCodes": ["ME"],
+      "countryCodes": [
+        "ME"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Podgorica (GMT+02:00)",
       "location": "Podgorica",
@@ -5088,8 +6117,13 @@
       "utc": "+02:00"
     },
     "Europe/Prague": {
-      "children": ["Europe/Bratislava"],
-      "countryCodes": ["CZ", "SK"],
+      "children": [
+        "Europe/Bratislava"
+      ],
+      "countryCodes": [
+        "CZ",
+        "SK"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Prague (GMT+02:00)",
       "location": "Prague",
@@ -5099,7 +6133,9 @@
       "utc": "+02:00"
     },
     "Europe/Riga": {
-      "countryCodes": ["LV"],
+      "countryCodes": [
+        "LV"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Riga (GMT+03:00)",
       "location": "Riga",
@@ -5109,8 +6145,15 @@
       "utc": "+03:00"
     },
     "Europe/Rome": {
-      "children": ["Europe/San_Marino", "Europe/Vatican"],
-      "countryCodes": ["IT", "SM", "VA"],
+      "children": [
+        "Europe/San_Marino",
+        "Europe/Vatican"
+      ],
+      "countryCodes": [
+        "IT",
+        "SM",
+        "VA"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Rome (GMT+02:00)",
       "location": "Rome",
@@ -5121,7 +6164,9 @@
     },
     "Europe/Samara": {
       "comments": "MSK+01 - Samara, Udmurtia",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Samara (GMT+04:00)",
       "location": "Samara",
@@ -5131,7 +6176,9 @@
       "utc": "+04:00"
     },
     "Europe/San_Marino": {
-      "countryCodes": ["SM"],
+      "countryCodes": [
+        "SM"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/San_Marino (GMT+02:00)",
       "location": "San_Marino",
@@ -5142,7 +6189,9 @@
       "utc": "+02:00"
     },
     "Europe/Sarajevo": {
-      "countryCodes": ["BA"],
+      "countryCodes": [
+        "BA"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Sarajevo (GMT+02:00)",
       "location": "Sarajevo",
@@ -5154,7 +6203,9 @@
     },
     "Europe/Saratov": {
       "comments": "MSK+01 - Saratov",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Saratov (GMT+04:00)",
       "location": "Saratov",
@@ -5165,7 +6216,10 @@
     },
     "Europe/Simferopol": {
       "comments": "Crimea",
-      "countryCodes": ["RU", "UA"],
+      "countryCodes": [
+        "RU",
+        "UA"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Simferopol (GMT+03:00)",
       "location": "Simferopol",
@@ -5175,7 +6229,9 @@
       "utc": "+03:00"
     },
     "Europe/Skopje": {
-      "countryCodes": ["MK"],
+      "countryCodes": [
+        "MK"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Skopje (GMT+02:00)",
       "location": "Skopje",
@@ -5186,7 +6242,9 @@
       "utc": "+02:00"
     },
     "Europe/Sofia": {
-      "countryCodes": ["BG"],
+      "countryCodes": [
+        "BG"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Sofia (GMT+03:00)",
       "location": "Sofia",
@@ -5196,7 +6254,9 @@
       "utc": "+03:00"
     },
     "Europe/Stockholm": {
-      "countryCodes": ["SE"],
+      "countryCodes": [
+        "SE"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Stockholm (GMT+02:00)",
       "location": "Stockholm",
@@ -5207,7 +6267,9 @@
       "utc": "+02:00"
     },
     "Europe/Tallinn": {
-      "countryCodes": ["EE"],
+      "countryCodes": [
+        "EE"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Tallinn (GMT+03:00)",
       "location": "Tallinn",
@@ -5217,7 +6279,9 @@
       "utc": "+03:00"
     },
     "Europe/Tirane": {
-      "countryCodes": ["AL"],
+      "countryCodes": [
+        "AL"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Tirane (GMT+02:00)",
       "location": "Tirane",
@@ -5238,7 +6302,9 @@
     },
     "Europe/Ulyanovsk": {
       "comments": "MSK+01 - Ulyanovsk",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Ulyanovsk (GMT+04:00)",
       "location": "Ulyanovsk",
@@ -5258,7 +6324,9 @@
       "utc": "+03:00"
     },
     "Europe/Vaduz": {
-      "countryCodes": ["LI"],
+      "countryCodes": [
+        "LI"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Vaduz (GMT+02:00)",
       "location": "Vaduz",
@@ -5269,7 +6337,9 @@
       "utc": "+02:00"
     },
     "Europe/Vatican": {
-      "countryCodes": ["VA"],
+      "countryCodes": [
+        "VA"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Vatican (GMT+02:00)",
       "location": "Vatican",
@@ -5280,7 +6350,9 @@
       "utc": "+02:00"
     },
     "Europe/Vienna": {
-      "countryCodes": ["AT"],
+      "countryCodes": [
+        "AT"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Vienna (GMT+02:00)",
       "location": "Vienna",
@@ -5290,7 +6362,9 @@
       "utc": "+02:00"
     },
     "Europe/Vilnius": {
-      "countryCodes": ["LT"],
+      "countryCodes": [
+        "LT"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Vilnius (GMT+03:00)",
       "location": "Vilnius",
@@ -5301,7 +6375,9 @@
     },
     "Europe/Volgograd": {
       "comments": "MSK+00 - Volgograd",
-      "countryCodes": ["RU"],
+      "countryCodes": [
+        "RU"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Volgograd (GMT+03:00)",
       "location": "Volgograd",
@@ -5311,8 +6387,12 @@
       "utc": "+03:00"
     },
     "Europe/Warsaw": {
-      "children": ["Poland"],
-      "countryCodes": ["PL"],
+      "children": [
+        "Poland"
+      ],
+      "countryCodes": [
+        "PL"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Warsaw (GMT+02:00)",
       "location": "Warsaw",
@@ -5322,7 +6402,9 @@
       "utc": "+02:00"
     },
     "Europe/Zagreb": {
-      "countryCodes": ["HR"],
+      "countryCodes": [
+        "HR"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Zagreb (GMT+02:00)",
       "location": "Zagreb",
@@ -5343,9 +6425,16 @@
       "utc": "+03:00"
     },
     "Europe/Zurich": {
-      "children": ["Europe/Busingen", "Europe/Vaduz"],
+      "children": [
+        "Europe/Busingen",
+        "Europe/Vaduz"
+      ],
       "comments": "Büsingen",
-      "countryCodes": ["CH", "DE", "LI"],
+      "countryCodes": [
+        "CH",
+        "DE",
+        "LI"
+      ],
       "geographicArea": "Europe",
       "label": "Europe/Zurich (GMT+02:00)",
       "location": "Zurich",
@@ -5455,7 +6544,9 @@
       "utc": "+00:00"
     },
     "Indian/Antananarivo": {
-      "countryCodes": ["MG"],
+      "countryCodes": [
+        "MG"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Antananarivo (GMT+03:00)",
       "location": "Antananarivo",
@@ -5466,7 +6557,9 @@
       "utc": "+03:00"
     },
     "Indian/Chagos": {
-      "countryCodes": ["IO"],
+      "countryCodes": [
+        "IO"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Chagos (GMT+06:00)",
       "location": "Chagos",
@@ -5476,7 +6569,9 @@
       "utc": "+06:00"
     },
     "Indian/Christmas": {
-      "countryCodes": ["CX"],
+      "countryCodes": [
+        "CX"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Christmas (GMT+07:00)",
       "location": "Christmas",
@@ -5487,7 +6582,9 @@
       "utc": "+07:00"
     },
     "Indian/Cocos": {
-      "countryCodes": ["CC"],
+      "countryCodes": [
+        "CC"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Cocos (GMT+06:30)",
       "location": "Cocos",
@@ -5498,7 +6595,9 @@
       "utc": "+06:30"
     },
     "Indian/Comoro": {
-      "countryCodes": ["KM"],
+      "countryCodes": [
+        "KM"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Comoro (GMT+03:00)",
       "location": "Comoro",
@@ -5509,7 +6608,9 @@
       "utc": "+03:00"
     },
     "Indian/Kerguelen": {
-      "countryCodes": ["TF"],
+      "countryCodes": [
+        "TF"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Kerguelen (GMT+05:00)",
       "location": "Kerguelen",
@@ -5520,7 +6621,9 @@
       "utc": "+05:00"
     },
     "Indian/Mahe": {
-      "countryCodes": ["SC"],
+      "countryCodes": [
+        "SC"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Mahe (GMT+04:00)",
       "location": "Mahe",
@@ -5531,9 +6634,14 @@
       "utc": "+04:00"
     },
     "Indian/Maldives": {
-      "children": ["Indian/Kerguelen"],
+      "children": [
+        "Indian/Kerguelen"
+      ],
       "comments": "Kerguelen, St Paul I, Amsterdam I",
-      "countryCodes": ["MV", "TF"],
+      "countryCodes": [
+        "MV",
+        "TF"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Maldives (GMT+05:00)",
       "location": "Maldives",
@@ -5543,7 +6651,9 @@
       "utc": "+05:00"
     },
     "Indian/Mauritius": {
-      "countryCodes": ["MU"],
+      "countryCodes": [
+        "MU"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Mauritius (GMT+04:00)",
       "location": "Mauritius",
@@ -5553,7 +6663,9 @@
       "utc": "+04:00"
     },
     "Indian/Mayotte": {
-      "countryCodes": ["YT"],
+      "countryCodes": [
+        "YT"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Mayotte (GMT+03:00)",
       "location": "Mayotte",
@@ -5564,7 +6676,9 @@
       "utc": "+03:00"
     },
     "Indian/Reunion": {
-      "countryCodes": ["RE"],
+      "countryCodes": [
+        "RE"
+      ],
       "geographicArea": "Indian",
       "label": "Indian/Reunion (GMT+04:00)",
       "location": "Reunion",
@@ -5745,7 +6859,9 @@
       "utc": "-07:00"
     },
     "Pacific/Apia": {
-      "countryCodes": ["WS"],
+      "countryCodes": [
+        "WS"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Apia (GMT+13:00)",
       "location": "Apia",
@@ -5755,9 +6871,16 @@
       "utc": "+13:00"
     },
     "Pacific/Auckland": {
-      "children": ["Antarctica/McMurdo", "Antarctica/South_Pole", "NZ"],
+      "children": [
+        "Antarctica/McMurdo",
+        "Antarctica/South_Pole",
+        "NZ"
+      ],
       "comments": "New Zealand time",
-      "countryCodes": ["AQ", "NZ"],
+      "countryCodes": [
+        "AQ",
+        "NZ"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Auckland (GMT+12:00)",
       "location": "Auckland",
@@ -5768,7 +6891,9 @@
     },
     "Pacific/Bougainville": {
       "comments": "Bougainville",
-      "countryCodes": ["PG"],
+      "countryCodes": [
+        "PG"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Bougainville (GMT+11:00)",
       "location": "Bougainville",
@@ -5778,9 +6903,13 @@
       "utc": "+11:00"
     },
     "Pacific/Chatham": {
-      "children": ["NZ-CHAT"],
+      "children": [
+        "NZ-CHAT"
+      ],
       "comments": "Chatham Islands",
-      "countryCodes": ["NZ"],
+      "countryCodes": [
+        "NZ"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Chatham (GMT+12:45)",
       "location": "Chatham",
@@ -5791,7 +6920,9 @@
     },
     "Pacific/Chuuk": {
       "comments": "Chuuk/Truk, Yap",
-      "countryCodes": ["FM"],
+      "countryCodes": [
+        "FM"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Chuuk (GMT+10:00)",
       "location": "Chuuk",
@@ -5802,9 +6933,13 @@
       "utc": "+10:00"
     },
     "Pacific/Easter": {
-      "children": ["Chile/EasterIsland"],
+      "children": [
+        "Chile/EasterIsland"
+      ],
       "comments": "Easter Island",
-      "countryCodes": ["CL"],
+      "countryCodes": [
+        "CL"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Easter (GMT-06:00)",
       "location": "Easter",
@@ -5814,7 +6949,9 @@
       "utc": "-06:00"
     },
     "Pacific/Efate": {
-      "countryCodes": ["VU"],
+      "countryCodes": [
+        "VU"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Efate (GMT+11:00)",
       "location": "Efate",
@@ -5834,7 +6971,9 @@
       "utc": "+13:00"
     },
     "Pacific/Fakaofo": {
-      "countryCodes": ["TK"],
+      "countryCodes": [
+        "TK"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Fakaofo (GMT+13:00)",
       "location": "Fakaofo",
@@ -5844,7 +6983,9 @@
       "utc": "+13:00"
     },
     "Pacific/Fiji": {
-      "countryCodes": ["FJ"],
+      "countryCodes": [
+        "FJ"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Fiji (GMT+12:00)",
       "location": "Fiji",
@@ -5854,7 +6995,9 @@
       "utc": "+12:00"
     },
     "Pacific/Funafuti": {
-      "countryCodes": ["TV"],
+      "countryCodes": [
+        "TV"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Funafuti (GMT+12:00)",
       "location": "Funafuti",
@@ -5866,7 +7009,9 @@
     },
     "Pacific/Galapagos": {
       "comments": "Galápagos Islands",
-      "countryCodes": ["EC"],
+      "countryCodes": [
+        "EC"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Galapagos (GMT-06:00)",
       "location": "Galapagos",
@@ -5877,7 +7022,9 @@
     },
     "Pacific/Gambier": {
       "comments": "Gambier Islands",
-      "countryCodes": ["PF"],
+      "countryCodes": [
+        "PF"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Gambier (GMT-09:00)",
       "location": "Gambier",
@@ -5887,9 +7034,15 @@
       "utc": "-09:00"
     },
     "Pacific/Guadalcanal": {
-      "children": ["Pacific/Pohnpei", "Pacific/Ponape"],
+      "children": [
+        "Pacific/Pohnpei",
+        "Pacific/Ponape"
+      ],
       "comments": "Pohnpei",
-      "countryCodes": ["FM", "SB"],
+      "countryCodes": [
+        "FM",
+        "SB"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Guadalcanal (GMT+11:00)",
       "location": "Guadalcanal",
@@ -5899,8 +7052,13 @@
       "utc": "+11:00"
     },
     "Pacific/Guam": {
-      "children": ["Pacific/Saipan"],
-      "countryCodes": ["GU", "MP"],
+      "children": [
+        "Pacific/Saipan"
+      ],
+      "countryCodes": [
+        "GU",
+        "MP"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Guam (GMT+10:00)",
       "location": "Guam",
@@ -5910,9 +7068,15 @@
       "utc": "+10:00"
     },
     "Pacific/Honolulu": {
-      "children": ["HST", "Pacific/Johnston", "US/Hawaii"],
+      "children": [
+        "HST",
+        "Pacific/Johnston",
+        "US/Hawaii"
+      ],
       "comments": "Hawaii",
-      "countryCodes": ["US"],
+      "countryCodes": [
+        "US"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Honolulu (GMT-10:00)",
       "location": "Honolulu",
@@ -5932,9 +7096,13 @@
       "utc": "-10:00"
     },
     "Pacific/Kanton": {
-      "children": ["Pacific/Enderbury"],
+      "children": [
+        "Pacific/Enderbury"
+      ],
       "comments": "Phoenix Islands",
-      "countryCodes": ["KI"],
+      "countryCodes": [
+        "KI"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Kanton (GMT+13:00)",
       "location": "Kanton",
@@ -5945,7 +7113,9 @@
     },
     "Pacific/Kiritimati": {
       "comments": "Line Islands",
-      "countryCodes": ["KI"],
+      "countryCodes": [
+        "KI"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Kiritimati (GMT+14:00)",
       "location": "Kiritimati",
@@ -5956,7 +7126,9 @@
     },
     "Pacific/Kosrae": {
       "comments": "Kosrae",
-      "countryCodes": ["FM"],
+      "countryCodes": [
+        "FM"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Kosrae (GMT+11:00)",
       "location": "Kosrae",
@@ -5966,9 +7138,13 @@
       "utc": "+11:00"
     },
     "Pacific/Kwajalein": {
-      "children": ["Kwajalein"],
+      "children": [
+        "Kwajalein"
+      ],
       "comments": "Kwajalein",
-      "countryCodes": ["MH"],
+      "countryCodes": [
+        "MH"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Kwajalein (GMT+12:00)",
       "location": "Kwajalein",
@@ -5979,7 +7155,9 @@
     },
     "Pacific/Majuro": {
       "comments": "most of Marshall Islands",
-      "countryCodes": ["MH"],
+      "countryCodes": [
+        "MH"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Majuro (GMT+12:00)",
       "location": "Majuro",
@@ -5991,7 +7169,9 @@
     },
     "Pacific/Marquesas": {
       "comments": "Marquesas Islands",
-      "countryCodes": ["PF"],
+      "countryCodes": [
+        "PF"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Marquesas (GMT-09:30)",
       "location": "Marquesas",
@@ -6002,7 +7182,9 @@
     },
     "Pacific/Midway": {
       "comments": "Midway Islands",
-      "countryCodes": ["UM"],
+      "countryCodes": [
+        "UM"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Midway (GMT-11:00)",
       "location": "Midway",
@@ -6013,7 +7195,9 @@
       "utc": "-11:00"
     },
     "Pacific/Nauru": {
-      "countryCodes": ["NR"],
+      "countryCodes": [
+        "NR"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Nauru (GMT+12:00)",
       "location": "Nauru",
@@ -6023,7 +7207,9 @@
       "utc": "+12:00"
     },
     "Pacific/Niue": {
-      "countryCodes": ["NU"],
+      "countryCodes": [
+        "NU"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Niue (GMT-11:00)",
       "location": "Niue",
@@ -6033,7 +7219,9 @@
       "utc": "-11:00"
     },
     "Pacific/Norfolk": {
-      "countryCodes": ["NF"],
+      "countryCodes": [
+        "NF"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Norfolk (GMT+11:00)",
       "location": "Norfolk",
@@ -6043,7 +7231,9 @@
       "utc": "+11:00"
     },
     "Pacific/Noumea": {
-      "countryCodes": ["NC"],
+      "countryCodes": [
+        "NC"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Noumea (GMT+11:00)",
       "location": "Noumea",
@@ -6053,9 +7243,16 @@
       "utc": "+11:00"
     },
     "Pacific/Pago_Pago": {
-      "children": ["Pacific/Midway", "Pacific/Samoa", "US/Samoa"],
+      "children": [
+        "Pacific/Midway",
+        "Pacific/Samoa",
+        "US/Samoa"
+      ],
       "comments": "Midway",
-      "countryCodes": ["AS", "UM"],
+      "countryCodes": [
+        "AS",
+        "UM"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Pago_Pago (GMT-11:00)",
       "location": "Pago_Pago",
@@ -6065,7 +7262,9 @@
       "utc": "-11:00"
     },
     "Pacific/Palau": {
-      "countryCodes": ["PW"],
+      "countryCodes": [
+        "PW"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Palau (GMT+09:00)",
       "location": "Palau",
@@ -6075,7 +7274,9 @@
       "utc": "+09:00"
     },
     "Pacific/Pitcairn": {
-      "countryCodes": ["PN"],
+      "countryCodes": [
+        "PN"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Pitcairn (GMT-08:00)",
       "location": "Pitcairn",
@@ -6086,7 +7287,9 @@
     },
     "Pacific/Pohnpei": {
       "comments": "Pohnpei/Ponape",
-      "countryCodes": ["FM"],
+      "countryCodes": [
+        "FM"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Pohnpei (GMT+11:00)",
       "location": "Pohnpei",
@@ -6107,9 +7310,18 @@
       "utc": "+11:00"
     },
     "Pacific/Port_Moresby": {
-      "children": ["Antarctica/DumontDUrville", "Pacific/Chuuk", "Pacific/Truk", "Pacific/Yap"],
+      "children": [
+        "Antarctica/DumontDUrville",
+        "Pacific/Chuuk",
+        "Pacific/Truk",
+        "Pacific/Yap"
+      ],
       "comments": "Papua New Guinea (most areas), Chuuk, Yap, Dumont d'Urville",
-      "countryCodes": ["AQ", "FM", "PG"],
+      "countryCodes": [
+        "AQ",
+        "FM",
+        "PG"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Port_Moresby (GMT+10:00)",
       "location": "Port_Moresby",
@@ -6119,7 +7331,9 @@
       "utc": "+10:00"
     },
     "Pacific/Rarotonga": {
-      "countryCodes": ["CK"],
+      "countryCodes": [
+        "CK"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Rarotonga (GMT-10:00)",
       "location": "Rarotonga",
@@ -6129,7 +7343,9 @@
       "utc": "-10:00"
     },
     "Pacific/Saipan": {
-      "countryCodes": ["MP"],
+      "countryCodes": [
+        "MP"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Saipan (GMT+10:00)",
       "location": "Saipan",
@@ -6151,7 +7367,9 @@
     },
     "Pacific/Tahiti": {
       "comments": "Society Islands",
-      "countryCodes": ["PF"],
+      "countryCodes": [
+        "PF"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Tahiti (GMT-10:00)",
       "location": "Tahiti",
@@ -6161,9 +7379,20 @@
       "utc": "-10:00"
     },
     "Pacific/Tarawa": {
-      "children": ["Pacific/Funafuti", "Pacific/Majuro", "Pacific/Wake", "Pacific/Wallis"],
+      "children": [
+        "Pacific/Funafuti",
+        "Pacific/Majuro",
+        "Pacific/Wake",
+        "Pacific/Wallis"
+      ],
       "comments": "Gilberts, Marshalls, Wake",
-      "countryCodes": ["KI", "MH", "TV", "UM", "WF"],
+      "countryCodes": [
+        "KI",
+        "MH",
+        "TV",
+        "UM",
+        "WF"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Tarawa (GMT+12:00)",
       "location": "Tarawa",
@@ -6173,7 +7402,9 @@
       "utc": "+12:00"
     },
     "Pacific/Tongatapu": {
-      "countryCodes": ["TO"],
+      "countryCodes": [
+        "TO"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Tongatapu (GMT+13:00)",
       "location": "Tongatapu",
@@ -6194,7 +7425,9 @@
     },
     "Pacific/Wake": {
       "comments": "Wake Island",
-      "countryCodes": ["UM"],
+      "countryCodes": [
+        "UM"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Wake (GMT+12:00)",
       "location": "Wake",
@@ -6205,7 +7438,9 @@
       "utc": "+12:00"
     },
     "Pacific/Wallis": {
-      "countryCodes": ["WF"],
+      "countryCodes": [
+        "WF"
+      ],
       "geographicArea": "Pacific",
       "label": "Pacific/Wallis (GMT+12:00)",
       "location": "Wallis",
