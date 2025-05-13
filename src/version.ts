@@ -109,4 +109,5 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
   return 'SUCCESS';
 };
 
-await genVersion();
+const resultToStdout = await genVersion();
+console.log(resultToStdout);
