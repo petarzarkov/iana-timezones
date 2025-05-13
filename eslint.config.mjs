@@ -12,7 +12,7 @@ const config = tseslint.config(
 
 export default [
   {
-    ignores: ['**/*.js', '**/*.d.ts', 'node_modules', 'build', 'tests', '**/*.md', '**/*.json', 'dist'],
+    ignores: ['**/*.js', '**/*.d.ts', 'node_modules', 'build', 'tests', '**/*.md', '**/*.json', 'dist', 'timezones.ts'],
   },
   ...config,
   {

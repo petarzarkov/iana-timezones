@@ -16,27 +16,26 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 The fields for each timezone object are as follows:
   | Field Name     | Description                                                                                                | Example Value             |
   |----------------|------------------------------------------------------------------------------------------------------------|---------------------------|
-  | `tzCode`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | `MET`            |
-  | `label`        | A display string combining the `tzCode` and the current UTC offset.                                        | `MET (GMT+02:00)`           |
+  | `tzCode`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | `Europe/Zagreb`            |
+  | `label`        | A display string combining the `tzCode` and the current UTC offset.                                        | `Europe/Zagreb (GMT+02:00)`           |
   | `utc`          | The current static UTC offset from UTC in `+HH:MM` or `-HH:MM` format. Reflects current DST.         | `+02:00`             |
-  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `MET`   |
-  | `countryCodes` | An array of `ISO 3166-1 alpha-2` country codes associated with this timezone.                            | `['US']` or `['KI', ...]` |
+  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `Zagreb`   |
+  | `countryCodes` | An array of `ISO 3166-1 alpha-2` country codes associated with this timezone.                            | `['KI', ...]` |
   | `geographicArea`| The continent or ocean region the timezone is located in.                                                  | `Europe`  |
   | `type`         | Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.             | `Canonical` or `Link` |
   | `parent`       | (Present for `Link` types) The `tzCode` of the canonical timezone that this link points to.              | `Europe/London`         |
   | `comments`     | (Optional) Additional notes from the IANA database.                                                      | `'Mountain (most areas)'`         |
   | `children`     | (Present for `Canonical` types) An array of `tzCode` values for the zones that are links pointing to this. | `['EST5EDT', ...]`      |
-  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `tzCode` before underscores).    | `MET`        |
+  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `tzCode` before underscores).    | `Zagreb`        |
   
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
 - **IANA DB Version**: 2025b
-- **Updated**: Tue, 13 May 2025 06:45:52 GMT
+- **Updated**: Tue, 13 May 2025 08:18:07 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Number of zones**: 597
-- **Zones Data File**: [timezones.ts](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.ts)
-- **Zones MD**: [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
+- **Zones**: [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
 - **Tests Coverage**: [coverage](https://petarzarkov.github.io/iana-timezones)
 - **Files used from IANA DB**: `zone.tab, zone1970.tab, etcetera, backward`
 
@@ -44,7 +43,7 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 
 ## Overview
 
-`iana-db-timezones` provides up-to-date information about timezones based on the IANA Time Zone Database. Unlike some other packages, this package provides richer details about each timezone, including its type (`Canonical` or `Link`), children/parent, current UTC offset, associated country codes, geographic area, location, and display name.
+`iana-db-timezones` provides up-to-date information about timezones based on the IANA Time Zone Database. Unlike some other packages, this package provides richer details about each timezone, including its type (`Canonical` or `Link`), children/parent, current UTC offset, associated country codes, geographic area, location, and label.
 
 Whenever new data is available, a new version of this package is automatically generated, tested, and published to npm. This ensures you always have the latest timezone information. The library is using semantic versioning.
 
@@ -79,7 +78,7 @@ The package exports several utilities and the raw timezone data.
 **ES Modules (ESM):**
 
 ```javascript
-import tzdb, { TimezoneName, Timezone } from 'iana-db-timezones';
+import tzdb, { TimezoneCode, Timezone } from 'iana-db-timezones';
 ```
 
 **CommonJS (CJS):**
@@ -101,13 +100,13 @@ const allZones = tzdb.zones;
 console.log(allZones['Europe/Sofia']);
 /*
 // => {
-//   countryCodes: [ 'BG' ],
-//   geographicArea: 'Europe',
+//   tzCode: 'Europe/Sofia',
+//   type: 'Canonical',
 //   label: 'Europe/Sofia (GMT+03:00)',
+//   countryCodes: [ 'BG' ],
 //   location: 'Sofia',
 //   locationLabel: 'Sofia',
-//   name: 'Europe/Sofia',
-//   type: 'Canonical',
+//   geographicArea: 'Europe',
 //   utc: '+03:00'
 // }
 */
@@ -115,7 +114,7 @@ console.log(allZones['Europe/Sofia']);
 
 **ES6 Map (`map`):**
 
-The data is also available as an ES6 Map for potentially better performance when looking up zones by name.
+The data is also available as an ES6 Map for potentially better performance when looking up zones by tzCode.
 
 ```javascript
 import tzdb from 'iana-db-timezones';
@@ -131,7 +130,7 @@ console.log(zoneMap.get('America/New_York'));
 //   label: 'America/New_York (GMT-04:00)',
 //   location: 'New_York',
 //   locationLabel: 'New York',
-//   name: 'America/New_York',
+//   tzCode: 'America/New_York',
 //   type: 'Canonical',
 //   utc: '-04:00'
 // }
@@ -142,9 +141,9 @@ console.log(zoneMap.get('America/New_York'));
 
 The package provides helper functions for common tasks.
 
-#### `getZone(zoneName: TimezoneName): Timezone | null`
+#### `getZone(zoneName: TimezoneCode): Timezone | null`
 
-Returns the timezone object for a given zone name, or `null` if not found.
+Returns the timezone object for a given tzCode, or `null` if not found.
 
 ```javascript
 import { getZone } from 'iana-db-timezones';
@@ -158,7 +157,7 @@ console.log(unknownZone);
 // => null
 ```
 
-#### `getZoneUTC(zoneName: TimezoneName): string | null`
+#### `getZoneUTC(zoneName: TimezoneCode): string | null`
 
 Returns the current UTC offset for a timezone in `+HH:MM` or `-HH:MM` format, or `null` if the zone or offset is not available.
 
@@ -175,7 +174,7 @@ console.log(getZoneUTC('Invalid/Timezone'));
 // => null
 ```
 
-#### `getZoneISODate(zoneName: TimezoneName): string | null`
+#### `getZoneISODate(zoneName: TimezoneCode): string | null`
 
 Returns the current ISO 8601 date-time string adjusted to the timezone's current offset, or `null` if the zone or offset is not available or invalid. The format is `YYYY-MM-DDTHH:mm:ss.sss+HH:MM` or `YYYY-MM-DDTHH:mm:ss.sss-HH:MM`.
 
@@ -183,10 +182,7 @@ Returns the current ISO 8601 date-time string adjusted to the timezone's current
 import { getZoneISODate } from 'iana-db-timezones';
 
 console.log(getZoneISODate('Europe/Sofia'));
-// => '2025-05-12T08:25:49.322+03:00' (example output)
-
-console.log(getZoneISODate('America/New_York'));
-// => '2025-05-12T01:25:49.322-04:00' (example output, adjusted for offset)
+// => '2025-05-12T08:25:49.322+03:00'
 
 console.log(getZoneISODate('Invalid/Timezone'));
 // => null
@@ -197,7 +193,7 @@ console.log(getZoneISODate('Invalid/Timezone'));
 The package is written in TypeScript and includes full type definitions. You can import the types directly:
 
 ```typescript
-import type { CanonicalTimezone, LinkTimezone, Timezone, TimezoneName } from 'iana-db-timezones';
+import type { CanonicalTimezone, LinkTimezone, Timezone, TimezoneCode } from 'iana-db-timezones';
 
 const zone: Timezone | null = ianatz.getZone('Europe/London');
 

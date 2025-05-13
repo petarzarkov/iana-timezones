@@ -21,7 +21,7 @@ export async function generateTimezones() {
     const parsedData = await parseData(latestData);
 
     writeFileSync('previous.json', JSON.stringify({ lastModified: parsedData.lastModified }, null, 2));
-    const jsObjectLiteralString = inspect(parsedData, { depth: null, compact: false, breakLength: 140 });
+    const jsObjectLiteralString = inspect(parsedData.zones, { depth: null, compact: true, breakLength: undefined });
 
     logger.debug('Generating timezones.ts file...');
     writeFileSync('timezones.ts', `export default ${jsObjectLiteralString};`);

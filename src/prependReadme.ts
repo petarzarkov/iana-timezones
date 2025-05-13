@@ -14,7 +14,7 @@ export function prependReadme(parsedData: ParsedData): void {
   | \`label\`        | A display string combining the \`tzCode\` and the current UTC offset.                                        | \`${rz.label}\`           |
   | \`utc\`          | The current static UTC offset from UTC in \`+HH:MM\` or \`-HH:MM\` format. Reflects current DST.         | \`${rz.utc}\`             |
   | \`locationLabel\`| A human-readable name for the primary city or location associated with the timezone.                         | \`${rz.locationLabel}\`   |
-  | \`countryCodes\` | An array of \`ISO 3166-1 alpha-2\` country codes associated with this timezone.                            | \`['US']\` or \`['KI', ...]\` |
+  | \`countryCodes\` | An array of \`ISO 3166-1 alpha-2\` country codes associated with this timezone.                            | \`['KI', ...]\` |
   | \`geographicArea\`| The continent or ocean region the timezone is located in.                                                  | \`${rz.geographicArea}\`  |
   | \`type\`         | Indicates if the entry is a \`Canonical\` timezone or a \`Link\` (an alias) to another timezone.             | \`Canonical\` or \`Link\` |
   | \`parent\`       | (Present for \`Link\` types) The \`tzCode\` of the canonical timezone that this link points to.              | \`Europe/London\`         |
@@ -39,8 +39,7 @@ Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/Li
 - **Updated**: ${parsedData.updatedAt}
 - **Last Modified**: ${parsedData.lastModified}
 - **Number of zones**: ${parsedData.numberOfZones}
-- **Zones Data File**: [timezones.ts](https://github.com/petarzarkov/iana-timezones/blob/main/timezones.ts)
-- **Zones MD**: [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
+- **Zones**: [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
 - **Tests Coverage**: [coverage](https://petarzarkov.github.io/iana-timezones)
 - **Files used from IANA DB**: \`${parsedData.filesUsed.join(', ')}\`
 
