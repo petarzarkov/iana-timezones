@@ -75,7 +75,7 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          OUTPUT=$(pnpm run versioning)
+          OUTPUT=$(pnpm run versioning | tail -n 1)
           echo "result=$OUTPUT" >> "$GITHUB_OUTPUT"
       - name: Build
         if: steps.versioning.outputs.result != 'SKIP'
