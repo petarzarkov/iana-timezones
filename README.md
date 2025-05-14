@@ -4,7 +4,7 @@
 [![build](https://github.com/petarzarkov/iana-timezones/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/petarzarkov/iana-timezones/actions)
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![version](https://img.shields.io/npm/v/iana-db-timezones?label=version)](https://www.npmjs.com/package/iana-db-timezones)
-[![npm](https://img.shields.io/npm/dt/iana-db-timezones?label=downloads)](https://www.npmjs.com/package/iana-db-timezones)
+[![npm](https://img.shields.io/npm/dt/iana-db-timezones?label=npm-downloads)](https://www.npmjs.com/package/iana-db-timezones)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/iana-db-timezones?label=size)](https://www.npmjs.com/package/iana-db-timezones)
 
 ******
@@ -19,23 +19,23 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 The fields for each timezone object are as follows:
   | Field Name     | Description                                                                                                | Example Value             |
   |----------------|------------------------------------------------------------------------------------------------------------|---------------------------|
-  | `tzCode`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | `Africa/Libreville`            |
-  | `label`        | A display string combining the `tzCode` and the current UTC offset.                                        | `Africa/Libreville (GMT+01:00)`           |
+  | `tzCode`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | `GB`            |
+  | `label`        | A display string combining the `tzCode` and the current UTC offset.                                        | `GB (GMT+01:00)`           |
   | `utc`          | The current static UTC offset from UTC in `+HH:MM` or `-HH:MM` format. Reflects current DST.         | `+01:00`             |
-  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `Libreville`   |
+  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `GB`   |
   | `countryCodes` | An array of `ISO 3166-1 alpha-2` country codes associated with this timezone.                            | `['KI', ...]` |
-  | `geographicArea`| The continent or ocean region the timezone is located in.                                                  | `Africa`  |
+  | `geographicArea`| The continent or ocean region the timezone is located in.                                                  | `Europe`  |
   | `type`         | Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.             | `Canonical` or `Link` |
   | `parent`       | (Present for `Link` types) The `tzCode` of the canonical timezone that this link points to.              | `Europe/London`         |
   | `comments`     | (Optional) Additional notes from the IANA database.                                                      | `'Mountain (most areas)'`         |
   | `children`     | (Present for `Canonical` types) An array of `tzCode` values for the zones that are links pointing to this. | `['EST5EDT', ...]`      |
-  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `tzCode` before underscores).    | `Libreville`        |
+  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `tzCode` before underscores).    | `GB`        |
   
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
 - **IANA DB Version**: 2025b
-- **Updated**: Tue, 13 May 2025 12:29:46 GMT
+- **Updated**: Wed, 14 May 2025 06:32:16 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Number of zones**: 597
 - **Zones**: [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
