@@ -24,7 +24,18 @@ export async function generateTimezones() {
     const jsObjectLiteralString = inspect(parsedData.zones, { depth: null, compact: true, breakLength: undefined });
 
     logger.debug('Generating timezones.ts file...');
-    writeFileSync('timezones.ts', `export default ${jsObjectLiteralString};`);
+    writeFileSync(
+      'timezones.ts',
+      `import { Timezone } from "./src/types";
+
+const timezoneCodes = [${Object.keys(parsedData.zones)
+        .map((tz) => `"${tz}"`)
+        .join(', ')}] as const;
+export type TimezoneCode = typeof timezoneCodes[number];
+const timezones: Record<TimezoneCode, Timezone> = ${jsObjectLiteralString};
+export default timezones;
+`,
+    );
     logger.debug('Generating TIMEZONES.md file...');
     generateTimezonesReadme(parsedData);
     logger.debug('Updating README.md file...');

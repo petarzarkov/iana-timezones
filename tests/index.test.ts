@@ -1,5 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import tzdb, { TimezoneCode, Timezone, CanonicalTimezone } from '../index.js';
+import tzdb, { Timezone, CanonicalTimezone } from '../index.js';
+import type { TimezoneCode } from '../timezones.js';
 
 describe('iana-db-timezones', () => {
   const zones = Object.keys(tzdb.zones) as TimezoneCode[];

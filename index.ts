@@ -1,9 +1,7 @@
-import timezones from './timezones.js';
+import timezones, { type TimezoneCode } from './timezones.js';
 
-import type { CanonicalTimezone, LinkTimezone } from './src/types';
+import type { Timezone } from './src/types';
 export * from './src/types.js';
-export type Timezone = CanonicalTimezone | LinkTimezone;
-export type TimezoneCode = keyof typeof timezones;
 
 const es6map = new Map<TimezoneCode, Timezone>(Object.entries(timezones) as [TimezoneCode, Timezone][]);
 

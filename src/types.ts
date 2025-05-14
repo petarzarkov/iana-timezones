@@ -66,6 +66,8 @@ export interface LinkTimezone extends BaseTimezone {
   parent: string | null;
 }
 
+export type Timezone = CanonicalTimezone | LinkTimezone;
+
 export interface ZoneFileRow {
   countryCodes: string;
   coordinates: string;
