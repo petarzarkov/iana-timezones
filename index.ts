@@ -1,4 +1,5 @@
 import timezones, { type TimezoneCode } from './timezones.js';
+export type { TimezoneCode } from './timezones.js';
 
 import type { Timezone } from './src/types';
 export * from './src/types.js';
@@ -22,11 +23,6 @@ const getZoneISODate = (tzCode: TimezoneCode): string | null => {
   const adjusted = new Date(Date.now() + offsetMillis);
   const iso = adjusted.toISOString().replace('Z', '');
   return `${iso}${offset}`;
-};
-
-const getZoneDate = (tzCode: TimezoneCode): Date | null => {
-  const date = getZoneISODate(tzCode);
-  return date ? new Date(date) : null;
 };
 
 export default {
@@ -56,12 +52,6 @@ export default {
    * @example getZoneUTC('Europe/Sofia') //=> '+03:00'
    */
   getZoneUTC,
-  /**
-   * Returns the current date-time adjusted to the timezone offset.
-   * @param {TimezoneCode} tzCode The tzCode of the timezone (e.g., 'Europe/Sofia')
-   * @example getZoneDate('Europe/Sofia') //=> 'Tue May 13 2025 09:18:45 GMT+0300 (Eastern European Summer Time)'
-   */
-  getZoneDate,
   /**
    * Returns the current ISO date-time adjusted to the timezone offset.
    *

@@ -19,23 +19,23 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 The fields for each timezone object are as follows:
   | Field Name     | Description                                                                                                | Example Value             |
   |----------------|------------------------------------------------------------------------------------------------------------|---------------------------|
-  | `tzCode`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | `Libya`            |
-  | `label`        | A display string combining the `tzCode` and the current UTC offset.                                        | `Libya (GMT+02:00)`           |
-  | `utc`          | The current static UTC offset from UTC in `+HH:MM` or `-HH:MM` format. Reflects current DST.         | `+02:00`             |
-  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `Libya`   |
+  | `tzCode`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | `Kwajalein`            |
+  | `label`        | A display string combining the `tzCode` and the current UTC offset.                                        | `Kwajalein (GMT+12:00)`           |
+  | `utc`          | The current static UTC offset from UTC in `+HH:MM` or `-HH:MM` format. Reflects current DST.         | `+12:00`             |
+  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `Kwajalein`   |
   | `countryCodes` | An array of `ISO 3166-1 alpha-2` country codes associated with this timezone.                            | `['KI', ...]` |
-  | `geographicArea`| The continent or ocean region the timezone is located in.                                                  | `Africa`  |
+  | `geographicArea`| The continent or ocean region the timezone is located in.                                                  | `Pacific`  |
   | `type`         | Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.             | `Canonical` or `Link` |
   | `parent`       | (Present for `Link` types) The `tzCode` of the canonical timezone that this link points to.              | `Europe/London`         |
   | `comments`     | (Optional) Additional notes from the IANA database.                                                      | `'Mountain (most areas)'`         |
   | `children`     | (Present for `Canonical` types) An array of `tzCode` values for the zones that are links pointing to this. | `['EST5EDT', ...]`      |
-  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `tzCode` before underscores).    | `Libya`        |
+  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `tzCode` before underscores).    | `Kwajalein`        |
   
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
 - **IANA DB Version**: 2025b
-- **Updated**: Wed, 14 May 2025 07:25:53 GMT
+- **Updated**: Thu, 15 May 2025 06:19:36 GMT
 - **Last Modified**: Sat, 22 Mar 2025 21:45:31 GMT
 - **Number of zones**: 597
 - **Zones**: [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)

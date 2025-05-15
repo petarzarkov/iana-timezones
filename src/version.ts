@@ -40,14 +40,21 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
   const checkDiffCmd = `git diff ${commitsToCompare} -- timezones.ts`;
   logger.debug(`[${packageName}] Checking for timezones.ts changes.`, { command: checkDiffCmd });
   const diffOutput = execSync(checkDiffCmd, { stdio: 'pipe' }).toString().trim() || null;
-  if (!diffOutput) {
+  const forceVersion = commitMessage.includes('[force]');
+  if (!diffOutput && !forceVersion) {
     logger.info(`[${packageName}] timezones.ts has no changes between ${commitsToCompare}. Skipping versioning.`);
     return 'SKIP';
   }
 
-  logger.info(`[${packageName}] timezones.ts has changes between ${commitsToCompare}. Proceeding with versioning.`, {
-    diffOutput,
-  });
+  if (diffOutput) {
+    logger.info(`[${packageName}] timezones.ts has changes between ${commitsToCompare}. Proceeding with versioning.`, {
+      diffOutput,
+    });
+  }
+
+  if (forceVersion) {
+    logger.info(`[${packageName}] Proceeding with force versioning.`);
+  }
 
   execSync(`npm version ${newVersion} --no-git-tag-version`).toString();
   logger.info(`[${packageName}] Bumped package.json version.`);
@@ -63,7 +70,8 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
     const addCmd = 'git add .';
     logger.debug(`[${packageName}] Staging changes.`, { command: addCmd });
     execSync(addCmd);
-    const commit = `Updated ${currentVersion} -> ${newVersion}, ${commitMessage}, ${commitSha}`;
+    const sanitizedCommitMessage = forceVersion ? commitMessage.replace('[force]', '') : commitMessage;
+    const commit = `Updated ${currentVersion} -> ${newVersion}, ${sanitizedCommitMessage}, ${commitSha}`;
     execSync(`git commit -m "${commit}"`);
     logger.info(`[${packageName}] Commit created successfully.`, { commit });
   } catch (error) {

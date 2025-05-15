@@ -8,7 +8,6 @@ describe('iana-db-timezones', () => {
   test('unknown zone', () => {
     expect(tzdb.getZone('unknown' as TimezoneCode)).toBeNull();
     expect(tzdb.getZoneISODate('unknown' as TimezoneCode)).toBeNull();
-    expect(tzdb.getZoneDate('unknown' as TimezoneCode)).toBeNull();
     expect(tzdb.getZoneUTC('unknown' as TimezoneCode)).toBeNull();
 
     tzdb.map.set('bad-offset' as TimezoneCode, {
@@ -49,9 +48,6 @@ describe('iana-db-timezones', () => {
     if (utc) {
       const now = Date.now();
       const isoDateString = tzdb.getZoneISODate(zoneName);
-      const isoDate = tzdb.getZoneDate(zoneName);
-
-      expect(isoDate).toBeDefined();
       expect(isoDateString).toBeDefined();
       const match = utc.match(/^([+-])(\d{2}):(\d{2})$/);
       expect(utc).toMatch(/^([+-])(\d{2}):(\d{2})$/);
@@ -68,7 +64,6 @@ describe('iana-db-timezones', () => {
       const adjusted = new Date(now + offsetMillis);
       const iso = adjusted.toISOString().replace('Z', '');
       expect(new Date(isoDateString!).getTime()).toBeGreaterThanOrEqual(new Date(`${iso}${utc}`).getTime());
-      expect(isoDate!.getTime()).toBeGreaterThanOrEqual(new Date(`${iso}${utc}`).getTime());
     } else {
       expect(utc).toBeNull();
     }
