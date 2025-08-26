@@ -6,6 +6,8 @@
 [![version](https://img.shields.io/npm/v/iana-db-timezones?label=version)](https://www.npmjs.com/package/iana-db-timezones)
 [![npm](https://img.shields.io/npm/dt/iana-db-timezones?label=npm-downloads)](https://www.npmjs.com/package/iana-db-timezones)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/iana-db-timezones?label=size)](https://www.npmjs.com/package/iana-db-timezones)
+[![Known Vulnerabilities](https://snyk.io/test/github/petarzarkov/iana-timezones/badge.svg)](https://snyk.io/test/github/petarzarkov/iana-timezones)
+
 
 ******
 
