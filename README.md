@@ -5,7 +5,7 @@
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![version](https://img.shields.io/npm/v/iana-db-timezones?label=version)](https://www.npmjs.com/package/iana-db-timezones)
 [![npm](https://img.shields.io/npm/dt/iana-db-timezones?label=npm-downloads)](https://www.npmjs.com/package/iana-db-timezones)
-[![npm bundle size](https://img.shields.io/bundlephobia/min/iana-db-timezones?label=size)](https://www.npmjs.com/package/iana-db-timezones)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/iana-db-timezones?label=size)](https://www.npmjs.com/package/iana-db-timezones)
 
 ******
 
