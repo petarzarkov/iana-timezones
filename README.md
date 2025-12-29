@@ -213,4 +213,3 @@ if (zone && zone.type === 'Canonical') {
 ## Full Timezone List
 
 A comprehensive list of all supported timezones, grouped by geographic area, can be found in [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md).
-
