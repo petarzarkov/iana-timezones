@@ -66,11 +66,6 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: '41898282+github-actions[bot]@users.noreply.github.com'
           commit_message: 'Deploy coverage report [skip ci]'
-      - name: Reset git state
-        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && success()
-        run: |
-          git reset --hard HEAD
-          git clean -fd
       - name: Version and generate timezones
         id: versioning
         env:
@@ -92,4 +87,4 @@ jobs:
         if: steps.versioning.outputs.result != 'SKIP'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: pnpm publish --access public
+        run: pnpm publish --access public --no-git-checks
