@@ -58,5 +58,3 @@ export default timezones;
     throw error;
   }
 }
-
-await generateTimezones();
