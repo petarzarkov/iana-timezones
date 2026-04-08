@@ -56,6 +56,24 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
     logger.info(`[${packageName}] Proceeding with force versioning.`);
   }
 
+  // Fetch remote tags so we can detect if this version was already tagged
+  // (e.g. a previous run versioned successfully but the publish step failed)
+  try {
+    execSync('git fetch --tags', { stdio: 'pipe' });
+  } catch {
+    // non-fatal — proceed without remote tag info
+  }
+
+  const tag = `${packageName}@${newVersion}`;
+  const tagAlreadyExists = execSync(`git tag -l "${tag}"`, { stdio: 'pipe' }).toString().trim();
+  if (tagAlreadyExists) {
+    logger.info(
+      `[${packageName}] Tag ${tag} already exists (previous run versioned but publish failed). Ensuring local version matches and proceeding to build/publish.`,
+    );
+    execSync(`npm version ${newVersion} --no-git-tag-version --allow-same-version`);
+    return 'SUCCESS';
+  }
+
   execSync(`npm version ${newVersion} --no-git-tag-version`).toString();
   logger.info(`[${packageName}] Bumped package.json version.`);
 
@@ -82,7 +100,6 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
     throw error;
   }
 
-  const tag = `${packageName}@${newVersion}`;
   const gitAnnotatedTagCmd = `git tag -a -m "Release version ${packageName}@${newVersion}" ${tag}`;
   try {
     execSync(gitAnnotatedTagCmd);

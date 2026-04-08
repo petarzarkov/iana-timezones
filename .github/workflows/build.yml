@@ -92,4 +92,6 @@ jobs:
         if: steps.versioning.outputs.result != 'SKIP'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: pnpm publish --access public --no-git-checks
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" >> ~/.npmrc
+          pnpm publish --access public --no-git-checks
