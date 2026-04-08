@@ -25,14 +25,14 @@ export async function parseData(data: IANATzDataFiles) {
     }
   }
 
-  const legacyZoneFileRows: ZoneFileRow[] = parseCsv(data[legacyZoneFileName]!, zoneFileOptions);
+  const legacyZoneFileRows = parseCsv(data[legacyZoneFileName]!, zoneFileOptions) as unknown as ZoneFileRow[];
 
   const legacyZoneRowsByZoneName: Record<string, ZoneFileRow> = {};
   for (const row of legacyZoneFileRows) {
     legacyZoneRowsByZoneName[row.tzCode] = row;
   }
 
-  const zoneFileRows: ZoneFileRow[] = parseCsv(data[zone1970FileName]!, zoneFileOptions);
+  const zoneFileRows = parseCsv(data[zone1970FileName]!, zoneFileOptions) as unknown as ZoneFileRow[];
   const etceteraRows: string[][] = parseCsv(data[etcFileName]!, { ...parseOptions, delimiter: ['\t', '\t\t'] });
   const linkFileRows: string[][] = parseCsv(data[backwardFileName]!, {
     ...parseOptions,
