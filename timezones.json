@@ -1,7 +1,7 @@
 {
-  "version": "2025b",
-  "lastModified": "Sat, 22 Mar 2025 21:45:31 GMT",
-  "updatedAt": "Thu, 15 May 2025 06:19:36 GMT",
+  "version": "2026a",
+  "lastModified": "Mon, 02 Mar 2026 15:21:37 GMT",
+  "updatedAt": "Wed, 08 Apr 2026 14:04:02 GMT",
   "numberOfZones": 597,
   "filesUsed": [
     "zone.tab",
@@ -207,12 +207,12 @@
         "EG"
       ],
       "geographicArea": "Africa",
-      "label": "Africa/Cairo (GMT+03:00)",
+      "label": "Africa/Cairo (GMT+02:00)",
       "location": "Cairo",
       "locationLabel": "Cairo",
       "type": "Canonical",
       "tzCode": "Africa/Cairo",
-      "utc": "+03:00"
+      "utc": "+02:00"
     },
     "Africa/Casablanca": {
       "countryCodes": [
@@ -3343,7 +3343,7 @@
       "utc": "+05:00"
     },
     "Asia/Atyrau": {
-      "comments": "Atyraū/Atirau/Gur'yev",
+      "comments": "Atyraū/Atirau/Gur’yev",
       "countryCodes": [
         "KZ"
       ],
@@ -5197,13 +5197,13 @@
     },
     "Egypt": {
       "geographicArea": "Africa",
-      "label": "Egypt (GMT+03:00)",
+      "label": "Egypt (GMT+02:00)",
       "location": "Egypt",
       "locationLabel": "Egypt",
       "parent": "Africa/Cairo",
       "type": "Link",
       "tzCode": "Egypt",
-      "utc": "+03:00"
+      "utc": "+02:00"
     },
     "Eire": {
       "geographicArea": "Europe",
@@ -7316,7 +7316,7 @@
         "Pacific/Truk",
         "Pacific/Yap"
       ],
-      "comments": "Papua New Guinea (most areas), Chuuk, Yap, Dumont d'Urville",
+      "comments": "Papua New Guinea (most areas), Chuuk, Yap, Dumont d’Urville",
       "countryCodes": [
         "AQ",
         "FM",
