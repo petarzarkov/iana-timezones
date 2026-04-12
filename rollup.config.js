@@ -1,4 +1,5 @@
 import typescript from '@rollup/plugin-typescript';
+import terser from '@rollup/plugin-terser';
 
 /**
  * @type {import('rollup').RollupOptions}
@@ -14,6 +15,7 @@ export default {
       manualChunks: {
         timezones: ['timezones.ts'],
       },
+      plugins: [terser()],
     },
     {
       dir: 'dist',
@@ -23,6 +25,7 @@ export default {
       manualChunks: {
         timezones: ['timezones.ts'],
       },
+      plugins: [terser()],
     },
   ],
   plugins: [

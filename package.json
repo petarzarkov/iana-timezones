@@ -1,6 +1,6 @@
 {
   "name": "iana-db-timezones",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Auto-generated IANA timezone data with rich metadata, no dependencies, full TypeScript support, and Node/browser compatibility.",
   "keywords": [
     "date",
@@ -66,6 +66,7 @@
     "versioning": "bun --env-file=.env src/version.ts"
   },
   "devDependencies": {
+    "@rollup/plugin-terser": "^1.0.0",
     "@rollup/plugin-typescript": "12.3.0",
     "@tsconfig/node22": "22.0.5",
     "@tsconfig/strictest": "2.0.8",
