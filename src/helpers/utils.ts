@@ -2,7 +2,10 @@ export function formatLocation(location: string) {
   return location.replace('/', ' - ').replace('_', ' ');
 }
 
-export function extractGeographicAreaAndLocation(input: string): { geographicArea: string | null; location: string } {
+export function extractGeographicAreaAndLocation(input: string): {
+  geographicArea: string | null;
+  location: string;
+} {
   const firstSlash = input.indexOf('/');
   if (firstSlash === -1) {
     return { geographicArea: null, location: input };

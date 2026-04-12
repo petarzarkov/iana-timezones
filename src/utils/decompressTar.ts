@@ -10,7 +10,9 @@ export interface FileResult {
   linkname?: string | null | undefined;
 }
 
-export async function decompressTar(input: Buffer | Readable): Promise<FileResult[]> {
+export async function decompressTar(
+  input: Buffer | Readable,
+): Promise<FileResult[]> {
   const extract = tarStream.extract();
   const files: FileResult[] = [];
 

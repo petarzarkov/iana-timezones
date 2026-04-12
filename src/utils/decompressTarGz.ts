@@ -5,7 +5,9 @@ import { decompressTar } from './decompressTar.js';
 
 export async function decompressTarGz(input: Buffer | Readable) {
   if (!(Buffer.isBuffer(input) || input instanceof Readable)) {
-    throw new TypeError(`Expected a Buffer or Readable stream, got ${typeof input}`);
+    throw new TypeError(
+      `Expected a Buffer or Readable stream, got ${typeof input}`,
+    );
   }
 
   const unzip = zlib.createGunzip();

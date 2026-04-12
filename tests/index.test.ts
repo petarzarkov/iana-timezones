@@ -36,7 +36,9 @@ describe('iana-db-timezones', () => {
     if ('parent' in zone) {
       expect(zone.parent).toBeDefined();
       expect(zone.type).toEqual('Link');
-      const parentZone = tzdb.getZone(zone.parent as TimezoneCode) as CanonicalTimezone;
+      const parentZone = tzdb.getZone(
+        zone.parent as TimezoneCode,
+      ) as CanonicalTimezone;
       expect(parentZone.type).toEqual('Canonical');
       if (parentZone.children) {
         expect(parentZone.children).toBeDefined();
@@ -63,7 +65,9 @@ describe('iana-db-timezones', () => {
       const offsetMillis = totalMinutes * 60 * 1000 * (sign === '+' ? 1 : -1);
       const adjusted = new Date(now + offsetMillis);
       const iso = adjusted.toISOString().replace('Z', '');
-      expect(new Date(isoDateString!).getTime()).toBeGreaterThanOrEqual(new Date(`${iso}${utc}`).getTime());
+      expect(new Date(isoDateString!).getTime()).toBeGreaterThanOrEqual(
+        new Date(`${iso}${utc}`).getTime(),
+      );
     } else {
       expect(utc).toBeNull();
     }

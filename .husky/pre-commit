@@ -3,4 +3,4 @@ if [[ "$CI" == "true" ]]; then
     exit 0
 fi
 
-pnpm exec lint-staged --concurrent false
+bun exec lint-staged --concurrent false

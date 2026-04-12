@@ -20,8 +20,15 @@ export async function generateTimezones() {
 
     const parsedData = await parseData(latestData);
 
-    writeFileSync('previous.json', JSON.stringify({ lastModified: parsedData.lastModified }, null, 2));
-    const jsObjectLiteralString = inspect(parsedData.zones, { depth: null, compact: true, breakLength: undefined });
+    writeFileSync(
+      'previous.json',
+      JSON.stringify({ lastModified: parsedData.lastModified }, null, 2),
+    );
+    const jsObjectLiteralString = inspect(parsedData.zones, {
+      depth: null,
+      compact: true,
+      breakLength: undefined,
+    });
 
     logger.debug('Generating timezones.ts file...');
     writeFileSync(
@@ -52,9 +59,14 @@ export default timezones;
       logger.debug('Size in kb for timezones.ts', { kb: stats.size / 1024 });
     });
 
-    logger.info('iana-db-timezones successfully generated', { elapsed: Date.now() - startTs });
+    logger.info('iana-db-timezones successfully generated', {
+      elapsed: Date.now() - startTs,
+    });
   } catch (error) {
-    logger.error('an error has occurred on processing tz data', { elapsed: Date.now() - startTs, error });
+    logger.error('an error has occurred on processing tz data', {
+      elapsed: Date.now() - startTs,
+      error,
+    });
     throw error;
   }
 }

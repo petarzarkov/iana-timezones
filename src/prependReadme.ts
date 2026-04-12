@@ -52,7 +52,10 @@ ${separator}`;
 
   // Find the index of the second '---' line, starting the search after the first one
   // Add separator.length to ensure we find the *next* separator
-  const secondSeparatorStart = currentReadmeContent.indexOf(separator, firstSeparatorStart + separator.length);
+  const secondSeparatorStart = currentReadmeContent.indexOf(
+    separator,
+    firstSeparatorStart + separator.length,
+  );
 
   // Default content: prepend the new header to the entire existing content (fallback)
   let newReadmeContent = `${dynamicHeader}${currentReadmeContent}`;
@@ -60,10 +63,15 @@ ${separator}`;
   // If both separators are found, perform the targeted replacement
   if (firstSeparatorStart !== -1 && secondSeparatorStart !== -1) {
     // Content before the first separator
-    const contentBefore = currentReadmeContent.substring(0, firstSeparatorStart);
+    const contentBefore = currentReadmeContent.substring(
+      0,
+      firstSeparatorStart,
+    );
 
     // Content after the second separator (including the newline after it if present)
-    const contentAfter = currentReadmeContent.substring(secondSeparatorStart + separator.length);
+    const contentAfter = currentReadmeContent.substring(
+      secondSeparatorStart + separator.length,
+    );
 
     // Combine: contentBefore + new dynamic header + contentAfter
     newReadmeContent = `${contentBefore}${dynamicHeader}${contentAfter}`;

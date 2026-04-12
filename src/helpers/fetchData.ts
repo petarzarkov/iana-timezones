@@ -4,7 +4,12 @@ import { IANATzDataFiles, IANATzDataParams } from '../types.js';
 import { removeLineBreaks } from './utils.js';
 import { logger } from '../utils/logger.js';
 
-const fetchWithRetry = async (url: string, init: RequestInit, retries = 5, baseDelay = 1000) => {
+const fetchWithRetry = async (
+  url: string,
+  init: RequestInit,
+  retries = 5,
+  baseDelay = 1000,
+) => {
   try {
     const res = await fetch(url, init);
     if (res.status === 304) {
@@ -32,10 +37,16 @@ const fetchWithRetry = async (url: string, init: RequestInit, retries = 5, baseD
   }
 };
 
-export async function fetchData(params?: IANATzDataParams): Promise<IANATzDataFiles | null> {
+export async function fetchData(
+  params?: IANATzDataParams,
+): Promise<IANATzDataFiles | null> {
   const opts = {
     url: params?.url ?? process.env.IANA_TZ_DB_URL,
-    filesToExtract: params?.filesToExtract ?? ['zone.tab', 'backward', 'etcetera'],
+    filesToExtract: params?.filesToExtract ?? [
+      'zone.tab',
+      'backward',
+      'etcetera',
+    ],
     fileEncoding: params?.fileEncoding ?? 'utf8',
   };
 
@@ -50,7 +61,9 @@ export async function fetchData(params?: IANATzDataParams): Promise<IANATzDataFi
   };
 
   if (process.env.FORCE_REVALIDATE === 'true') {
-    logger.debug('FORCE_REVALIDATE enabled, fetching clean slate data from iana db');
+    logger.debug(
+      'FORCE_REVALIDATE enabled, fetching clean slate data from iana db',
+    );
   }
 
   try {
@@ -67,7 +80,10 @@ export async function fetchData(params?: IANATzDataParams): Promise<IANATzDataFi
 
   const response = await fetchWithRetry(url, init);
   if (response.status === 304) {
-    logger.info('No IANA db timezone changes since last check, skipping data processing', { init });
+    logger.info(
+      'No IANA db timezone changes since last check, skipping data processing',
+      { init },
+    );
     return null;
   }
 
@@ -92,7 +108,10 @@ export async function fetchData(params?: IANATzDataParams): Promise<IANATzDataFi
       }
       return acc;
     },
-    { version: 'no version file found', lastModified: lastModified || 'no last modified date' },
+    {
+      version: 'no version file found',
+      lastModified: lastModified || 'no last modified date',
+    },
   );
 
   IANATzDataFiles.version = removeLineBreaks(IANATzDataFiles.version);

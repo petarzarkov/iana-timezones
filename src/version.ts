@@ -3,9 +3,15 @@ import { logger } from './utils/logger.js';
 import packageJson from '../package.json';
 import { generateTimezones } from './generateTimezones.js';
 
-export const getNewVersion = (currentVersion: string): `${string}.${string}.${string}` => {
+export const getNewVersion = (
+  currentVersion: string,
+): `${string}.${string}.${string}` => {
   const parts = currentVersion.split('.').map(Number);
-  if (parts.length !== 3 || parts.some(isNaN) || parts.some((part) => part < 0)) {
+  if (
+    parts.length !== 3 ||
+    parts.some(isNaN) ||
+    parts.some((part) => part < 0)
+  ) {
     throw new Error(
       `Invalid version string format: "${currentVersion}". Expected X.Y.Z where X, Y, Z are non-negative integers.`,
     );
@@ -26,30 +32,44 @@ export const getNewVersion = (currentVersion: string): `${string}.${string}.${st
 };
 
 const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
-  const commitSha = process.env.ORIGINAL_COMMIT_SHA || execSync('git rev-parse HEAD').toString().trim();
+  const commitSha =
+    process.env.ORIGINAL_COMMIT_SHA ||
+    execSync('git rev-parse HEAD').toString().trim();
   const commitMessage =
-    process.env.ORIGINAL_COMMIT_MESSAGE?.replace(/\n/g, ' ') || execSync('git log -1 --pretty=%B').toString().trim();
+    process.env.ORIGINAL_COMMIT_MESSAGE?.replace(/\n/g, ' ') ||
+    execSync('git log -1 --pretty=%B').toString().trim();
 
   const packageName = packageJson.name;
   const currentVersion = packageJson.version;
   const newVersion = getNewVersion(currentVersion);
 
-  logger.info(`[${packageName}] Starting versioning process.`, { currentVersion, newVersion });
+  logger.info(`[${packageName}] Starting versioning process.`, {
+    currentVersion,
+    newVersion,
+  });
 
   const commitsToCompare = `HEAD~1 HEAD`;
   const checkDiffCmd = `git diff ${commitsToCompare} -- timezones.ts`;
-  logger.debug(`[${packageName}] Checking for timezones.ts changes.`, { command: checkDiffCmd });
-  const diffOutput = execSync(checkDiffCmd, { stdio: 'pipe' }).toString().trim() || null;
+  logger.debug(`[${packageName}] Checking for timezones.ts changes.`, {
+    command: checkDiffCmd,
+  });
+  const diffOutput =
+    execSync(checkDiffCmd, { stdio: 'pipe' }).toString().trim() || null;
   const forceVersion = commitMessage.includes('[force]');
   if (!diffOutput && !forceVersion) {
-    logger.info(`[${packageName}] timezones.ts has no changes between ${commitsToCompare}. Skipping versioning.`);
+    logger.info(
+      `[${packageName}] timezones.ts has no changes between ${commitsToCompare}. Skipping versioning.`,
+    );
     return 'SKIP';
   }
 
   if (diffOutput) {
-    logger.info(`[${packageName}] timezones.ts has changes between ${commitsToCompare}. Proceeding with versioning.`, {
-      diffOutput,
-    });
+    logger.info(
+      `[${packageName}] timezones.ts has changes between ${commitsToCompare}. Proceeding with versioning.`,
+      {
+        diffOutput,
+      },
+    );
   }
 
   if (forceVersion) {
@@ -65,12 +85,16 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
   }
 
   const tag = `${packageName}@${newVersion}`;
-  const tagAlreadyExists = execSync(`git tag -l "${tag}"`, { stdio: 'pipe' }).toString().trim();
+  const tagAlreadyExists = execSync(`git tag -l "${tag}"`, { stdio: 'pipe' })
+    .toString()
+    .trim();
   if (tagAlreadyExists) {
     logger.info(
       `[${packageName}] Tag ${tag} already exists (previous run versioned but publish failed). Ensuring local version matches and proceeding to build/publish.`,
     );
-    execSync(`npm version ${newVersion} --no-git-tag-version --allow-same-version`);
+    execSync(
+      `npm version ${newVersion} --no-git-tag-version --allow-same-version`,
+    );
     return 'SUCCESS';
   }
 
@@ -80,7 +104,9 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
   await generateTimezones();
 
   if (!process.env.CI) {
-    logger.info(`[${packageName}] Running outside CI environment. Skipping git add, commit, tag, push.`);
+    logger.info(
+      `[${packageName}] Running outside CI environment. Skipping git add, commit, tag, push.`,
+    );
     return 'SKIP';
   }
 
@@ -88,7 +114,9 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
     const addCmd = 'git add .';
     logger.debug(`[${packageName}] Staging changes.`, { command: addCmd });
     execSync(addCmd);
-    const sanitizedCommitMessage = forceVersion ? commitMessage.replace('[force]', '') : commitMessage;
+    const sanitizedCommitMessage = forceVersion
+      ? commitMessage.replace('[force]', '')
+      : commitMessage;
     const commit = `Updated ${currentVersion} -> ${newVersion}, ${sanitizedCommitMessage}, ${commitSha}`;
     execSync(`git commit -m "${commit}"`);
     logger.info(`[${packageName}] Commit created successfully.`, { commit });
@@ -114,7 +142,9 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
 
   try {
     const pushCmd = 'git push origin HEAD --follow-tags --force-with-lease';
-    const pushBranch = execSync('git rev-parse --abbrev-ref HEAD').toString().trim();
+    const pushBranch = execSync('git rev-parse --abbrev-ref HEAD')
+      .toString()
+      .trim();
     logger.info(`[${packageName}] Pushing commit and tags.`, {
       branch: pushBranch,
       tags: true,
@@ -130,7 +160,9 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
     throw error;
   }
 
-  logger.debug(`[${packageName}] Versioning process completed.`, { finalVersion: newVersion });
+  logger.debug(`[${packageName}] Versioning process completed.`, {
+    finalVersion: newVersion,
+  });
   return 'SUCCESS';
 };
 

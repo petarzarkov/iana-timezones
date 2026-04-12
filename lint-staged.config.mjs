@@ -1,6 +1,6 @@
 const config = {
-  '*': ['prettier --write --cache --ignore-unknown .'],
-  'src/**/*.ts': ['eslint --cache --fix'],
+  'src/**/*.ts': ['oxlint --fix', 'oxfmt --write'],
+  '*.{ts,js,mjs,mts,cjs,cts,json}': ['oxfmt --write'],
 };
 
 export default config;

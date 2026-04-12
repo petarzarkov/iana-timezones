@@ -21,7 +21,9 @@ export function getCurrentOffset(tzCode: string): string | null {
         timeZoneName: 'longOffset',
       });
       const isoParts = isoFormatter.formatToParts(new Date());
-      const isoOffsetPart = isoParts.find((part) => part.type === 'timeZoneName');
+      const isoOffsetPart = isoParts.find(
+        (part) => part.type === 'timeZoneName',
+      );
       if (isoOffsetPart && isoOffsetPart.value.startsWith('GMT')) {
         const formattedPart = isoOffsetPart.value.substring(3); // Remove "GMT"
         return formattedPart !== '' ? formattedPart : '+00:00';

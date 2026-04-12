@@ -25,7 +25,8 @@
     "checkJs": false,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
-    "incremental": false
+    "incremental": false,
+    "types": ["node", "bun", "vitest"]
   },
   "include": ["src/**/*", "index.ts"]
 }

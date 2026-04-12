@@ -17,7 +17,11 @@ const colors = {
   cyanBright: colorIfAllowed((text) => `\x1B[96m${text}\x1B[39m`),
 };
 
-function step(message: string, color: keyof typeof colors = 'cyan', ctx?: unknown) {
+function step(
+  message: string,
+  color: keyof typeof colors = 'cyan',
+  ctx?: unknown,
+) {
   const coloredMessage = colors[color](`[${name}] ${message}`);
   if (ctx) {
     console.log(coloredMessage, ctx);

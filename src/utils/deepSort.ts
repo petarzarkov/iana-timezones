@@ -1,11 +1,12 @@
-export function deepSort<ToSort extends Record<string, unknown> | Record<string, unknown>[]>(obj: ToSort): ToSort {
+export function deepSort<
+  ToSort extends Record<string, unknown> | Record<string, unknown>[],
+>(obj: ToSort): ToSort {
   if (Array.isArray(obj)) {
-    return obj.map(deepSort).sort((a, b) => {
-      if (typeof a === 'object' && a !== null && typeof b === 'object' && b !== null) {
-        return JSON.stringify(a).localeCompare(JSON.stringify(b));
-      }
-      return String(a).localeCompare(String(b));
-    }) as ToSort;
+    return obj
+      .map(deepSort)
+      .sort((a, b) =>
+        JSON.stringify(a).localeCompare(JSON.stringify(b)),
+      ) as ToSort;
   }
   if (typeof obj === 'object' && obj !== null) {
     const sortedObj: Record<string, unknown> = {};

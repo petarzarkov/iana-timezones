@@ -4,7 +4,9 @@ export type { TimezoneCode } from './timezones.js';
 import type { Timezone } from './src/types';
 export * from './src/types.js';
 
-const es6map = new Map<TimezoneCode, Timezone>(Object.entries(timezones) as [TimezoneCode, Timezone][]);
+const es6map = new Map<TimezoneCode, Timezone>(
+  Object.entries(timezones) as [TimezoneCode, Timezone][],
+);
 
 const getZone = (tzCode: TimezoneCode) => es6map.get(tzCode) ?? null;
 const getZoneUTC = (tzCode: TimezoneCode) => es6map.get(tzCode)?.utc ?? null;

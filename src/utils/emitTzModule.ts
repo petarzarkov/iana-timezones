@@ -12,7 +12,9 @@ export function emitTzModule(zones: Record<string, ParsedZone>): string {
       zone.type === 'Canonical' && zone.children?.length
         ? `children: [${zone.children.map((c) => `"${c}"`).join(', ')}],`
         : null,
-      zone.countryCodes?.length ? `countryCodes: [${zone.countryCodes.map((cc) => `"${cc}"`).join(', ')}],` : null,
+      zone.countryCodes?.length
+        ? `countryCodes: [${zone.countryCodes.map((cc) => `"${cc}"`).join(', ')}],`
+        : null,
       zone.comments ? `comments: \`${zone.comments}\`,` : null,
       `get utc() { return getCurrentOffset("${tzCode}"); },`,
       `get label() { return \`${tzCode} (GMT\${getCurrentOffset("${tzCode}")})\`; },`,

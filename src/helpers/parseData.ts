@@ -1,6 +1,11 @@
 import { deepSort } from '../utils/deepSort.js';
 import { logger } from '../utils/logger.js';
-import type { CanonicalTimezone, IANATzDataFiles, LinkTimezone, ZoneFileRow } from '../types.js';
+import type {
+  CanonicalTimezone,
+  IANATzDataFiles,
+  LinkTimezone,
+  ZoneFileRow,
+} from '../types.js';
 import { extractGeographicAreaAndLocation, formatLocation } from './utils.js';
 
 import { parse as parseCsv, Options } from 'csv-parse/sync';
@@ -12,28 +17,47 @@ export async function parseData(data: IANATzDataFiles) {
   const etcFileName = 'etcetera';
   const backwardFileName = 'backward';
 
-  const parseOptions: Options = { delimiter: '\t', comment: '#', relax_column_count: true, skip_empty_lines: true };
+  const parseOptions: Options = {
+    delimiter: '\t',
+    comment: '#',
+    relax_column_count: true,
+    skip_empty_lines: true,
+  };
   const zoneFileOptions: Options = {
     bom: true,
     ...parseOptions,
     columns: ['countryCodes', 'coordinates', 'tzCode', 'comments'],
   };
 
-  for (const file of [legacyZoneFileName, zone1970FileName, etcFileName, backwardFileName]) {
+  for (const file of [
+    legacyZoneFileName,
+    zone1970FileName,
+    etcFileName,
+    backwardFileName,
+  ]) {
     if (!data[file]) {
       throw new Error(`Missing file: ${file}`);
     }
   }
 
-  const legacyZoneFileRows = parseCsv(data[legacyZoneFileName]!, zoneFileOptions) as unknown as ZoneFileRow[];
+  const legacyZoneFileRows = parseCsv(
+    data[legacyZoneFileName]!,
+    zoneFileOptions,
+  ) as unknown as ZoneFileRow[];
 
   const legacyZoneRowsByZoneName: Record<string, ZoneFileRow> = {};
   for (const row of legacyZoneFileRows) {
     legacyZoneRowsByZoneName[row.tzCode] = row;
   }
 
-  const zoneFileRows = parseCsv(data[zone1970FileName]!, zoneFileOptions) as unknown as ZoneFileRow[];
-  const etceteraRows: string[][] = parseCsv(data[etcFileName]!, { ...parseOptions, delimiter: ['\t', '\t\t'] });
+  const zoneFileRows = parseCsv(
+    data[zone1970FileName]!,
+    zoneFileOptions,
+  ) as unknown as ZoneFileRow[];
+  const etceteraRows: string[][] = parseCsv(data[etcFileName]!, {
+    ...parseOptions,
+    delimiter: ['\t', '\t\t'],
+  });
   const linkFileRows: string[][] = parseCsv(data[backwardFileName]!, {
     ...parseOptions,
     delimiter: ['\t', '\t\t'],
@@ -50,7 +74,8 @@ export async function parseData(data: IANATzDataFiles) {
       continue;
     }
 
-    const { geographicArea, location } = extractGeographicAreaAndLocation(tzCode);
+    const { geographicArea, location } =
+      extractGeographicAreaAndLocation(tzCode);
     const currentOffset = getCurrentOffset(tzCode);
     canonicalTimezones[tzCode] = {
       type: 'Canonical',
@@ -97,17 +122,23 @@ export async function parseData(data: IANATzDataFiles) {
     if (recordType === 'Link') {
       const [, canonicalTimezoneName, , , , linkCode] = etcZone;
       if (!canonicalTimezoneName) {
-        logger.warn('File etcetera. No canonical zone found for link', { etcZone });
+        logger.warn('File etcetera. No canonical zone found for link', {
+          etcZone,
+        });
         continue;
       }
       if (!linkCode) {
-        logger.warn('File etcetera. No link tzCode found for link', { etcZone });
+        logger.warn('File etcetera. No link tzCode found for link', {
+          etcZone,
+        });
         continue;
       }
 
       const parent = canonicalTimezones[canonicalTimezoneName];
       if (!parent) {
-        logger.warn(`File etcetera. No parent found for: ${linkCode}`, { etcZone });
+        logger.warn(`File etcetera. No parent found for: ${linkCode}`, {
+          etcZone,
+        });
         continue;
       }
 
@@ -139,16 +170,23 @@ export async function parseData(data: IANATzDataFiles) {
     const [, canonicalZoneName, linkCode] = filteredLinkRow;
 
     if (!canonicalZoneName) {
-      logger.warn(`File backward. No canonical zone for tzCode.`, { filteredLinkRow });
+      logger.warn(`File backward. No canonical zone for tzCode.`, {
+        filteredLinkRow,
+      });
       continue;
     }
     if (!linkCode) {
-      logger.warn(`File backward. No canonical link tzCode.`, { filteredLinkRow });
+      logger.warn(`File backward. No canonical link tzCode.`, {
+        filteredLinkRow,
+      });
       continue;
     }
     const canonicalZoneRecord = canonicalTimezones[canonicalZoneName];
     if (!canonicalZoneRecord) {
-      logger.warn(`File backward. No canonical zone for: ${canonicalZoneName}.`, { filteredLinkRow });
+      logger.warn(
+        `File backward. No canonical zone for: ${canonicalZoneName}.`,
+        { filteredLinkRow },
+      );
       continue;
     }
 
@@ -159,7 +197,8 @@ export async function parseData(data: IANATzDataFiles) {
       canonicalZoneRecord.children.push(linkCode);
     }
 
-    const { geographicArea, location } = extractGeographicAreaAndLocation(linkCode);
+    const { geographicArea, location } =
+      extractGeographicAreaAndLocation(linkCode);
 
     const legacyRow = legacyZoneRowsByZoneName[linkCode];
 
@@ -195,7 +234,12 @@ export async function parseData(data: IANATzDataFiles) {
     lastModified: data.lastModified,
     updatedAt: new Date().toUTCString(),
     numberOfZones: Object.keys(zones).length,
-    filesUsed: [legacyZoneFileName, zone1970FileName, etcFileName, backwardFileName],
+    filesUsed: [
+      legacyZoneFileName,
+      zone1970FileName,
+      etcFileName,
+      backwardFileName,
+    ],
     zones: Object.freeze(orderedZones),
   };
 }

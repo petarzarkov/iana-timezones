@@ -33,7 +33,10 @@ export function generateTimezonesReadme(parsedData: ParsedData): void {
             .toLowerCase()
             .replace(/[\/_]/g, '-')
             .replace(/[^a-z0-9-]/g, '');
-          const countryCodes = zone.countryCodes && zone.countryCodes.length > 0 ? zone.countryCodes.join(', ') : '-';
+          const countryCodes =
+            zone.countryCodes && zone.countryCodes.length > 0
+              ? zone.countryCodes.join(', ')
+              : '-';
           const offset = zone.utc || 'N/A';
 
           let linkText = '-';
@@ -51,5 +54,8 @@ export function generateTimezonesReadme(parsedData: ParsedData): void {
     })
     .join('\n');
 
-  writeFileSync('TIMEZONES.md', `## Full Timezone Data\n\n${timezoneTableContent}`);
+  writeFileSync(
+    'TIMEZONES.md',
+    `## Full Timezone Data\n\n${timezoneTableContent}`,
+  );
 }

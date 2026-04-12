@@ -16,40 +16,29 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [v22.15]
     name: Build
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Install pnpm
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
         with:
-          run_install: false
-        uses: pnpm/action-setup@v4
-      - name: Set node version to ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
-          cache: 'pnpm'
+          bun-version: 1.3.12
       - name: Install
-        run: pnpm install --frozen-lockfile
+        run: bun install --frozen-lockfile
       - name: Typecheck
-        run: pnpm run typecheck
+        run: bun run typecheck
       - name: Lint
-        run: pnpm run lint
+        run: bun run lint
       - name: Test Coverage
-        run: pnpm run test:cov
+        run: bun run test:cov
       - name: Install badgen-cli and Generate Coverage Badge
         run: |
-          # Install badgen-cli globally for ease of use in the next command
-          npm install -g badgen-cli
+          bun add -g badgen-cli
 
-          # Calculate coverage percentage from the summary report
-          COV=$(node -p 't=require(`./coverage/coverage-summary.json`).total,Math.min(...`lines|statements|functions|branches`.split(`|`).map(k=>t[k].pct))')
+          COV=$(bun -e 't=require(`./coverage/coverage-summary.json`).total,process.stdout.write(String(Math.min(...`lines|statements|functions|branches`.split(`|`).map(k=>t[k].pct))))')
 
           if [ "$COV" -ge 95 ]; then
             COLOR="green"
@@ -57,7 +46,6 @@ jobs:
             COLOR="orange"
           fi
 
-          # Generate the badge and save it in the coverage directory
           badgen -j coverage -s $COV% -c $COLOR > coverage/coverage.svg
       - name: Setup Pages
         if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && success()
@@ -80,18 +68,18 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          VERSIONING_OUTPUT=$(pnpm run versioning)
+          VERSIONING_OUTPUT=$(bun run versioning)
           echo "$VERSIONING_OUTPUT"
           OUTPUT=$(echo "$VERSIONING_OUTPUT" | tail -n 1)
           echo "result $OUTPUT"
           echo "result=$OUTPUT" >> "$GITHUB_OUTPUT"
       - name: Build
         if: steps.versioning.outputs.result != 'SKIP'
-        run: pnpm build
+        run: bun run build
       - name: Publish
         if: steps.versioning.outputs.result != 'SKIP'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" >> ~/.npmrc
-          pnpm publish --access public --no-git-checks
+          XDG_CONFIG_HOME=$HOME bun publish --access public --no-git-checks
