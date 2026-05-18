@@ -21,24 +21,24 @@ Automatically generated timezones from IANA DB [tzdata-latest.tar.gz](https://ww
 The fields for each timezone object are as follows:
   | Field Name     | Description                                                                                                | Example Value             |
   |----------------|------------------------------------------------------------------------------------------------------------|---------------------------|
-  | `tzCode`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | `Africa/Monrovia`            |
-  | `label`        | A display string combining the `tzCode` and the current UTC offset.                                        | `Africa/Monrovia (GMT+00:00)`           |
-  | `utc`          | The current static UTC offset from UTC in `+HH:MM` or `-HH:MM` format. Reflects current DST.         | `+00:00`             |
-  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `Monrovia`   |
+  | `tzCode`         | The standard IANA Time Zone Database identifier (tz tzCode).                                                 | `Europe/Luxembourg`            |
+  | `label`        | A display string combining the `tzCode` and the current UTC offset.                                        | `Europe/Luxembourg (GMT+02:00)`           |
+  | `utc`          | The current static UTC offset from UTC in `+HH:MM` or `-HH:MM` format. Reflects current DST.         | `+02:00`             |
+  | `locationLabel`| A human-readable name for the primary city or location associated with the timezone.                         | `Luxembourg`   |
   | `countryCodes` | An array of `ISO 3166-1 alpha-2` country codes associated with this timezone.                            | `['KI', ...]` |
-  | `geographicArea`| The continent or ocean region the timezone is located in.                                                  | `Africa`  |
+  | `geographicArea`| The continent or ocean region the timezone is located in.                                                  | `Europe`  |
   | `type`         | Indicates if the entry is a `Canonical` timezone or a `Link` (an alias) to another timezone.             | `Canonical` or `Link` |
   | `parent`       | (Present for `Link` types) The `tzCode` of the canonical timezone that this link points to.              | `Europe/London`         |
   | `comments`     | (Optional) Additional notes from the IANA database.                                                      | `'Mountain (most areas)'`         |
   | `children`     | (Present for `Canonical` types) An array of `tzCode` values for the zones that are links pointing to this. | `['EST5EDT', ...]`      |
-  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `tzCode` before underscores).    | `Monrovia`        |
+  | `location`     | The raw location name used in the IANA database (e.g., the last part of the `tzCode` before underscores).    | `Luxembourg`        |
   
 
 Inspired by: [list of tz database in wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
-- **IANA DB Version**: 2026a
-- **Updated**: Wed, 08 Apr 2026 14:04:02 GMT
-- **Last Modified**: Mon, 02 Mar 2026 15:21:37 GMT
+- **IANA DB Version**: 2026b
+- **Updated**: Mon, 18 May 2026 09:12:38 GMT
+- **Last Modified**: Thu, 23 Apr 2026 11:51:51 GMT
 - **Number of zones**: 597
 - **Zones**: [TIMEZONES.md](https://github.com/petarzarkov/iana-timezones/blob/main/TIMEZONES.md)
 - **Tests Coverage**: [coverage](https://petarzarkov.github.io/iana-timezones)

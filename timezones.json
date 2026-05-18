@@ -1,7 +1,7 @@
 {
-  "version": "2026a",
-  "lastModified": "Mon, 02 Mar 2026 15:21:37 GMT",
-  "updatedAt": "Wed, 08 Apr 2026 14:04:02 GMT",
+  "version": "2026b",
+  "lastModified": "Thu, 23 Apr 2026 11:51:51 GMT",
+  "updatedAt": "Mon, 18 May 2026 09:12:38 GMT",
   "numberOfZones": 597,
   "filesUsed": [
     "zone.tab",
@@ -207,12 +207,12 @@
         "EG"
       ],
       "geographicArea": "Africa",
-      "label": "Africa/Cairo (GMT+02:00)",
+      "label": "Africa/Cairo (GMT+03:00)",
       "location": "Cairo",
       "locationLabel": "Cairo",
       "type": "Canonical",
       "tzCode": "Africa/Cairo",
-      "utc": "+02:00"
+      "utc": "+03:00"
     },
     "Africa/Casablanca": {
       "countryCodes": [
@@ -1060,12 +1060,12 @@
         "PY"
       ],
       "geographicArea": "America",
-      "label": "America/Asuncion (GMT-03:00)",
+      "label": "America/Asuncion (GMT-04:00)",
       "location": "Asuncion",
       "locationLabel": "Asuncion",
       "type": "Canonical",
       "tzCode": "America/Asuncion",
-      "utc": "-03:00"
+      "utc": "-04:00"
     },
     "America/Atikokan": {
       "comments": "EST - ON (Atikokan), NU (Coral H)",
@@ -2993,7 +2993,7 @@
       "children": [
         "Canada/Pacific"
       ],
-      "comments": "Pacific - BC (most areas)",
+      "comments": "MST - BC (most areas)",
       "countryCodes": [
         "CA"
       ],
@@ -5197,13 +5197,13 @@
     },
     "Egypt": {
       "geographicArea": "Africa",
-      "label": "Egypt (GMT+02:00)",
+      "label": "Egypt (GMT+03:00)",
       "location": "Egypt",
       "locationLabel": "Egypt",
       "parent": "Africa/Cairo",
       "type": "Link",
       "tzCode": "Egypt",
-      "utc": "+02:00"
+      "utc": "+03:00"
     },
     "Eire": {
       "geographicArea": "Europe",
@@ -5221,8 +5221,8 @@
         "Etc/GMT+0",
         "Etc/GMT0",
         "Etc/Greenwich",
-        "GMT",
         "GMT-0",
+        "GMT",
         "GMT+0",
         "GMT0",
         "Greenwich"
@@ -5955,8 +5955,8 @@
         "Europe/Guernsey",
         "Europe/Isle_of_Man",
         "Europe/Jersey",
-        "GB",
-        "GB-Eire"
+        "GB-Eire",
+        "GB"
       ],
       "countryCodes": [
         "GB",
