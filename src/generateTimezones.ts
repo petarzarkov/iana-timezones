@@ -15,7 +15,7 @@ export async function generateTimezones() {
     });
 
     if (!latestData) {
-      return;
+      return null;
     }
 
     const parsedData = await parseData(latestData);
@@ -39,6 +39,7 @@ const timezoneCodes = [${Object.keys(parsedData.zones)
         .map((tz) => `"${tz}"`)
         .join(', ')}] as const;
 export type TimezoneCode = typeof timezoneCodes[number];
+export const IANA_TZDB_VERSION = ${JSON.stringify(parsedData.version)} as const;
 const timezones: Record<TimezoneCode, Timezone> = ${jsObjectLiteralString};
 export default timezones;
 `,
@@ -62,6 +63,8 @@ export default timezones;
     logger.info('iana-db-timezones successfully generated', {
       elapsed: Date.now() - startTs,
     });
+
+    return parsedData;
   } catch (error) {
     logger.error('an error has occurred on processing tz data', {
       elapsed: Date.now() - startTs,

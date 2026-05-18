@@ -1,5 +1,6 @@
 import timezones, { type TimezoneCode } from './timezones.js';
 export type { TimezoneCode } from './timezones.js';
+export { IANA_TZDB_VERSION } from './timezones.js';
 
 import type { Timezone } from './src/types';
 export * from './src/types.js';

@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sI -H \"If-Modified-Since: Mon, 02 Mar 2026 15:21:37 GMT\" \"https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz\")",
+      "Bash(curl -sIL -H \"If-Modified-Since: Mon, 02 Mar 2026 15:21:37 GMT\" \"https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz\")",
+      "Bash(gh run *)",
+      "Bash(git log *)",
+      "Bash(awk 'NR<=4 || NR>=$\\(awk \"END{print NR}\" timezones.ts\\)-2' timezones.ts)",
+      "Bash(awk 'NR<=4' timezones.ts)",
+      "Bash(bun install *)",
+      "Bash(bun run *)",
+      "Bash(node test-esm.mjs)",
+      "Bash(node test-cjs.cjs)"
+    ]
+  },
+  "hooks": {
+    "TaskCompleted": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bun run build && bun run test && bun run lint && bun run typecheck"
+          }
+        ]
+      }
+    ]
+  }
+}

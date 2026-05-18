@@ -42,33 +42,45 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
   const packageName = packageJson.name;
   const currentVersion = packageJson.version;
   const newVersion = getNewVersion(currentVersion);
+  const forceVersion = commitMessage.includes('[force]');
 
   logger.info(`[${packageName}] Starting versioning process.`, {
     currentVersion,
     newVersion,
+    forceVersion,
   });
 
-  const commitsToCompare = `HEAD~1 HEAD`;
-  const checkDiffCmd = `git diff ${commitsToCompare} -- timezones.ts`;
+  // Always fetch IANA data first; on schedule runs this is the only signal we
+  // get that a new tzdb release exists. fetchData honours If-Modified-Since via
+  // previous.json, so a 304 short-circuits without re-downloading the tarball.
+  const parsedData = await generateTimezones();
+
+  const checkDiffCmd = `git diff -- timezones.ts`;
   logger.debug(`[${packageName}] Checking for timezones.ts changes.`, {
     command: checkDiffCmd,
   });
   const diffOutput =
     execSync(checkDiffCmd, { stdio: 'pipe' }).toString().trim() || null;
-  const forceVersion = commitMessage.includes('[force]');
   if (!diffOutput && !forceVersion) {
     logger.info(
-      `[${packageName}] timezones.ts has no changes between ${commitsToCompare}. Skipping versioning.`,
+      `[${packageName}] timezones.ts has no changes vs HEAD (IANA tzdb ${parsedData?.version ?? 'cache-hit (304)'}). Skipping versioning.`,
     );
+    if (process.env.CI && parsedData) {
+      // generateTimezones rewrote previous.json / README.md / TIMEZONES.md /
+      // timezones.json with a fresh updatedAt timestamp even though the actual
+      // zone data is unchanged. Drop those incidental writes so the CI worktree
+      // ends clean.
+      execSync(
+        'git checkout -- previous.json timezones.json timezones.ts README.md TIMEZONES.md',
+        { stdio: 'pipe' },
+      );
+    }
     return 'SKIP';
   }
 
   if (diffOutput) {
     logger.info(
-      `[${packageName}] timezones.ts has changes between ${commitsToCompare}. Proceeding with versioning.`,
-      {
-        diffOutput,
-      },
+      `[${packageName}] timezones.ts has changes (IANA tzdb ${parsedData?.version ?? 'unknown'}). Proceeding with versioning.`,
     );
   }
 
@@ -100,8 +112,6 @@ const genVersion = async (): Promise<'SKIP' | 'SUCCESS'> => {
 
   execSync(`npm version ${newVersion} --no-git-tag-version`).toString();
   logger.info(`[${packageName}] Bumped package.json version.`);
-
-  await generateTimezones();
 
   if (!process.env.CI) {
     logger.info(
