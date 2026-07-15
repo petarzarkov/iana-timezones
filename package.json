@@ -1,6 +1,6 @@
 {
   "name": "iana-db-timezones",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Auto-generated IANA timezone data with rich metadata, no dependencies, full TypeScript support, and Node/browser compatibility.",
   "keywords": [
     "date",
