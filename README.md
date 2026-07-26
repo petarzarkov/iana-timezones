@@ -1,5 +1,24 @@
 # iana-db-timezones
 
+> [!WARNING]
+> **Deprecated — moved to [`@arkv/timezones`](https://www.npmjs.com/package/@arkv/timezones).**
+>
+> This package is no longer maintained and will not receive further IANA data updates.
+> Development continues in the [arkv monorepo](https://github.com/petarzarkov/arkv/tree/main/packages/timezones).
+>
+> ```bash
+> npm uninstall iana-db-timezones
+> npm install @arkv/timezones
+> ```
+>
+> The API is unchanged — only the package name differs, so updating your imports is
+> the entire migration:
+>
+> ```diff
+> - import tzdb from 'iana-db-timezones';
+> + import tzdb from '@arkv/timezones';
+> ```
+
 [![cov](https://petarzarkov.github.io/iana-timezones/coverage.svg)](https://petarzarkov.github.io/iana-timezones)
 [![build](https://github.com/petarzarkov/iana-timezones/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/petarzarkov/iana-timezones/actions)
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)

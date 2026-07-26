@@ -1,10 +1,12 @@
 name: Build CI
 
+# Deprecated: development moved to https://github.com/petarzarkov/arkv
+# (packages/timezones). The weekly IANA refresh and the npm publish steps that used
+# to live here now run in that repo, so this workflow only checks the code still
+# builds on push.
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: '0 0 */7 * *'
 
 permissions:
   contents: write
@@ -59,41 +61,5 @@ jobs:
         if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && success()
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Version and generate timezones
-        id: versioning
-        env:
-          ORIGINAL_COMMIT_SHA: ${{ github.sha }}
-          ORIGINAL_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          VERSIONING_OUTPUT=$(bun run versioning)
-          echo "$VERSIONING_OUTPUT"
-          OUTPUT=$(echo "$VERSIONING_OUTPUT" | tail -n 1)
-          echo "result $OUTPUT"
-          echo "result=$OUTPUT" >> "$GITHUB_OUTPUT"
       - name: Build
-        if: steps.versioning.outputs.result != 'SKIP'
         run: bun run build
-      - name: Publish
-        if: steps.versioning.outputs.result != 'SKIP'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" >> ~/.npmrc
-          XDG_CONFIG_HOME=$HOME bun publish --access public --no-git-checks
-      - name: Tag IANA tzdb release on npm
-        if: steps.versioning.outputs.result != 'SKIP'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          PKG_NAME=$(bun -e "process.stdout.write(require('./package.json').name)")
-          PKG_VERSION=$(bun -e "process.stdout.write(require('./package.json').version)")
-          TZDB_VERSION=$(bun -e "process.stdout.write(require('./timezones.json').version)")
-          if [ -z "$TZDB_VERSION" ]; then
-            echo "Could not read IANA tzdb version from timezones.json; skipping dist-tag."
-            exit 0
-          fi
-          echo "Adding npm dist-tag tzdb-${TZDB_VERSION} -> ${PKG_NAME}@${PKG_VERSION}"
-          npm dist-tag add "${PKG_NAME}@${PKG_VERSION}" "tzdb-${TZDB_VERSION}"
